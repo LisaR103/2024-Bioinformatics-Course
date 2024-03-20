@@ -126,11 +126,28 @@ one-to-many relationship *cannot* be represented in a single table:
 - if we have a table called `class` the information about `teacher` (name, room, email etc.) is repeated many times
   - there is a lot of redundant data -> redundancy has to be minimized as much as possible
 
-Solution: two tables!
-- a table `teacher` with `teacherID` as primary key (parent table/one-end)
-- a table `classes` with `classID` as primary key referencing `teacherID` as foreign key (child table/many-end)
+> Solution: two tables!
+> - a table `teacher` with `teacherID` as primary key (parent table/one-end)
+> - a table `classes` with `classID` as primary key referencing `teacherID` as foreign key (child table/many-end)
 
 The primary key of the parent table (where it is unique = one) becomes the foreign key in the child table (where it can occur multiple times = many)
+
+#### many-to-many
+
+> Example:
+> In a sales database a customers order may contain many products and a product may occur in many orders
+
+We start with two tables
+
+> - Products, containing e.g. ProductID, ProductName, Description and QuantityInStock
+> - Orders, containing e.g. OrderID, CustomerID, DateOrdered, DateRequired and Status (but not the actual products!)
+
+We then make a third table connecting the two main tables: a **junction table** or **relationship table**
+
+> - OrderDetails, containing ProductID, OrderID and e.g. Quantity
+> In this instance the two foreign keys (ProductID and OrderID) form a composite primary key
+
+The many-to-manyrelationship is thus established by two one-to-many relationships to the junction table
 
 ### Refine the database
 
@@ -304,5 +321,15 @@ Create a relational scheme for each of the relations described below:
 
 ER-diagram:
 ![One-to-Many](https://github.com/LisaR103/2024-Bioinformatics-Course/blob/main/Module2_Summaries/Module2_Exercises/Module2.3_Exercise3_ERdiagram_V1.png)
+
+Relational Scheme:
+![One-to-Many2](https://github.com/LisaR103/2024-Bioinformatics-Course/blob/main/Module2_Summaries/Module2_Exercises/Module2.3_Exercise3_RelationalDiagram_V2.png)
+
+## Exercise 4 - Many-to-Many
+
+Create a Relational scheme for each of the three databases described below:
+1. A database that collects information about proteins, organic cofactors (e.g. ATP) and inorganic cofactors (e.g. Ca ions)
+2. A database that collects information about proteins, organisms and the kingdoms of life
+3. A database that collects information about cell lines, chemicals used in experiments and the observation of these experiments
 
 # End of Script
