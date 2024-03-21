@@ -1,4 +1,62 @@
+---
+title: "Relational Databases"
+subtitle: "Bioinformatics Course 2024"
+date: March, 2024
+geometry: "left=2cm,right=2cm,top=2cm,bottom=2cm"
+---
+
 # Relational Databases
+
+## Table of content
+
+[Relational Databases](#Relational-Databases)
+
+[Summary of General Database Rules](#Summary-of-General-Database-Rules)
+
+[Links](#Links)
+
+1. [Some important terms](#Some-important-terms)
+2. [Problems that Databases have to solve](#Problems-that-Databases-have-to-solve)
+3. [Tables](#Tables)
+   1. [Primary Keys and Foreign Keys](#Primary-Keys-and-Foreign-Keys)
+5. [Visualizing Databases](#Visualizing-Databases)
+   1. [ER diagram](#ER-diagram)
+   2. [Relational Scheme](#Relational-Scheme)
+7. [Designing a Database](#Designing-a-Database)
+   1. [Gather information](#Gather-information)
+   2. [Design the tables](#Design-the-tables)
+   3. [Modell the Relations between the tables](#Modell-the-Relations-between-the-tables)
+      1. [one-to-many](#one-to-many)
+      2. [many-to-many](#many-to-many)
+      3. [one-to-one](#one-to-one)
+   5. [Refine the database](#Refine-the-database)
+      1. [Normalization Rules](#Normalization-Rules)
+
+
+[Exercises](#Exercises)
+1. [Exercise 1 - Design Tables](#Exercise-1---Design-Tables)
+2. [Exercise 2 - Table design](#Exercise-2---Table-design)
+3. [Exercise 3 - One-to-Many](#Exercise-3---One-to-Many)
+4. [Exercise 4 - Many-to-Many](#Exercise-3---Many-to-Many)
+
+# Relational Databases
+
+# Summary of General Database Rules
+
+1. Each Table needs a Primary Key at all time, to uniquely identify each row in it
+2. Make sure that the data in your table depends only on the primary key
+3. Reduce redundancy to a level of foreign key values
+4. Each field can contain only exact one value, even though this value could contain multiple words, e.g. homo sapiens
+5. Avoid empty fields as much as possible
+6. Model all relations before entering data into your database
+
+# Links
+
+Codd's 12 rules:     
+https://en.wikipedia.org/wiki/Codd%27s_12_rules
+
+Visualizing Databases:    
+https://erdplus.com/standalone
 
 ## Some important terms
 
@@ -61,20 +119,22 @@ A **foreign key (FK)** is a column or combination of columns in a table that ref
 
 Databases can be easily visualized on the following website:
 
-[https://erdplus.com/standalone]
+https://erdplus.com/standalone
 
 ### ER diagram
+
+ER = entity relationship diagram
 
 - Tabels are Rectangles
 - Columns are Circles
   - if the columns are underlined, they are the Primary Key(s)
 - Diamonds are the relations between tables
-- Connection line with one line and a bar: one-end relationship
-- Connection line with three lines: many-end relationship
+- Connection line with one line and a vertical bar represents a one-end 
+- Connection line with three lines represents a many-end
 
 ### Relational Scheme
 
-- Class diagramm representing the table
+- Class diagramms representing the tables
   - Name of table is writen above a rectangular box
   - inside the box are written the column names
   - Primary Key(s) in bold and underlined 
@@ -109,9 +169,15 @@ Gather the needed data into seperate tables
 ### Modell the Relations between the tables
 
 There are three (important for us) types of relations that exist between tables:
-- one-to-many
-- many-to-many
-- one-to-one
+1. one-to-many
+2. many-to-many
+3. one-to-one
+
+|Table 1 (T1)| Table 2 (T2)| Relationship|
+|:--|:--|:--|
+|Points to one entry in T2 |Points to one entry in T1| One-to-One|
+|Points to many entries to T2 |Points to one entry in T1 |One-to-Many||
+|Points to many entries to T2| Points to many entries to T1 |Many-to-Many|
 
 #### one-to-many
 
@@ -119,12 +185,15 @@ There are three (important for us) types of relations that exist between tables:
 > A teacher may teach 0 or more classes, but a class (one lesson at one time) is only taught by one teacher.
 
 one-to-many relationship *cannot* be represented in a single table:
-- if we have a table called `teacher`, we would need several columns for the classes (`class1`,`class2`, etc.)
-  - we don't know how many columns we might need at max
-  - we have a lot of emtpy fields
-    -> not a good solution
-- if we have a table called `class` the information about `teacher` (name, room, email etc.) is repeated many times
-  - there is a lot of redundant data -> redundancy has to be minimized as much as possible
+
+If we have a table called `teacher`, we would need several columns for the classes (`class1`,`class2`, etc.)
+- we don't know how many columns we might need at max
+- we have a lot of emtpy fields
+
+-> not a good solution
+
+If we have a table called `class` the information about `teacher` (name, room, email etc.) is repeated many times
+- there is a lot of redundant data -> redundancy has to be minimized as much as possible
 
 > Solution: two tables!
 > - a table `teacher` with `teacherID` as primary key (parent table/one-end)
@@ -139,17 +208,54 @@ The primary key of the parent table (where it is unique = one) becomes the forei
 
 We start with two tables
 
-> - Products, containing e.g. ProductID, ProductName, Description and QuantityInStock
-> - Orders, containing e.g. OrderID, CustomerID, DateOrdered, DateRequired and Status (but not the actual products!)
+> - `Products`, containing e.g. ProductID, ProductName, Description and QuantityInStock
+> - `Orders`, containing e.g. OrderID, CustomerID, DateOrdered, DateRequired and Status (but not the actual products!)
 
 We then make a third table connecting the two main tables: a **junction table** or **relationship table**
 
-> - OrderDetails, containing ProductID, OrderID and e.g. Quantity
+> - `OrderDetails`, containing ProductID, OrderID and e.g. Quantity
+>  
 > In this instance the two foreign keys (ProductID and OrderID) form a composite primary key
 
-The many-to-manyrelationship is thus established by two one-to-many relationships to the junction table
+- The many-to-many relationship is thus established by two one-to-many relationships to the junction table.
+- The primary key of the junction table is often a composite the foreign keys from the parent tables, but it *doesn't have to be*
+
+#### one-to-one
+
+> Example:
+> In a sales database you might have supplementary information for only some products (e.g. image, more description, comments). This would lead to many empty fields for the products that don't have this information. This would decrease the performance of the database
+>
+> Solution:
+> Have a child table (e.g. ProductDetails) that stores the optional data. One row in ProductDetails points to one row in Products.
+
+The primary key of the parent table is also the primary key of the child table. Not a hard rule, but try to do it that way...
+
+Uses:
+- optional data not present for all rows
+- splitting the table in two so it doesn't become too big (some databases don't allow more than x columns)
+- security: sensitive data is stored in an extra table while the main data is accessible to more/all people
 
 ### Refine the database
+
+Before adding data go through everything again and double check, e.g.
+- do I need more columns?
+- do I need to create a new table for optional data?
+- do I need to split an overly large table?
+
+Apply the *normalization rules* whether the database is structurally correct and optimal. 
+
+**Functionality always beats these rules!!**
+
+#### Normalization Rules
+
+1. A database in the first normal form has one table with columns containing atomic values (= split as much as possible) and a unique primary key is used
+   - This often contains a lot of redundancy
+2. A database is in it‘s second normal form if the first normal form is fulfilled and each non-key column is functionally fully dependent from the primary key
+3. A database is in it‘s third normal form if the second normal form is fulfilled and no non-key column depends transitively from a key column or no non-key column depends on another non-key column
+
+Try to keep redundancy to the level of foreign keys. If there is redundandy in a column that is not a foreign key cosider making an extra table
+
+
 
 # Exercises
 
