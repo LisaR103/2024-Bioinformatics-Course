@@ -27,7 +27,7 @@ INSERT INTO Experiments
 ('Protein-Seq', 300, 'Sequencing'),
 ('Protein-Con', 15, 'Concentration Measurement'),
 ('DNA-Con', 30, 'Concentration Measurement'),
-('RNA-Seq', 30, 'Concentration Measurement');
+('RNA-Con', 30, 'Concentration Measurement');
 
 INSERT INTO Results
 (Result_Name, Description) VALUES

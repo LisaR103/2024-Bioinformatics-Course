@@ -2,9 +2,13 @@
 
 USE laboratory;
 
+SET @var = (SELECT ID FROM Employees WHERE First_Name = "Gundolf" AND Last_Name = "Stoll");
+
 UPDATE Employees
 SET Salary = 3250
-WHERE ID = 5;
+WHERE ID = @var;
+
+SELECT * From Employees;
 
 UPDATE Tools
 SET Manufacturer = 'HelloResearch', Price_EUR = 0.9
