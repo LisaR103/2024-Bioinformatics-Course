@@ -1,0 +1,89 @@
+LOCUS       Z97730                  1776 bp    RNA     linear   VRL 24-JUL-2016
+DEFINITION  Hepatitis C virus NS5b gene.
+ACCESSION   Z97730
+VERSION     Z97730.1
+KEYWORDS    NS5b gene; RNA-dependent RNA-polymerase.
+SOURCE      Hepacivirus C
+  ORGANISM  Hepacivirus C
+            Viruses; Riboviria; Orthornavirae; Kitrinoviricota; Flasuviricetes;
+            Amarillovirales; Flaviviridae; Hepacivirus.
+REFERENCE   1
+  AUTHORS   Lohmann,V., Korner,F., Herian,U. and Bartenschlager,R.
+  TITLE     Biochemical properties of hepatitis C virus NS5B RNA-dependent RNA
+            polymerase and identification of amino acid sequence motifs
+            essential for enzymatic activity
+  JOURNAL   J. Virol. 71 (11), 8416-8428 (1997)
+   PUBMED   9343198
+REFERENCE   2  (bases 1 to 1776)
+  AUTHORS   Bartenschlager,R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-JUL-1997) Institute for Virology, Johannes
+            Gutenberg-University of Mainz, Obere Zahlbacher Stasse 67, Mainz
+            55101, Germany
+FEATURES             Location/Qualifiers
+     source          1..1776
+                     /organism="Hepacivirus C"
+                     /mol_type="genomic RNA"
+                     /isolate="RB01"
+                     /db_xref="taxon:11103"
+     gene            <1..1776
+                     /gene="NS5b"
+     CDS             <1..1776
+                     /gene="NS5b"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Author-given translation differs from the
+                     conceptual translation for reasons explained in citation"
+                     /codon_start=1
+                     /product="RNA-dependent RNA-polymerase"
+                     /protein_id="CAB10747.1"
+                     /db_xref="GOA:O39930"
+                     /db_xref="InterPro:IPR002166"
+                     /db_xref="InterPro:IPR007094"
+                     /db_xref="PDB:2JC0"
+                     /db_xref="PDB:2JC1"
+                     /db_xref="UniProtKB/TrEMBL:O39930"
+                     /translation="SMSYTWTGALITPCAAEESKLPINALSNSLLRHHNMVYATTSRS
+                     ASLRQKKVTFDRLQVLDDHYRDVLKEMKAKASTVKAKLLSVEEACKLTPPHSAKSKFG
+                     YGAKDVRNLSSKAVNHIRSVWKDLLEDTETPIDTTIMAKNEVFCVQPEKGGRKPARLI
+                     VFPDLGVRVCEKMALYDVVSTLPQAVMGSSYGFQYSPGQRVEFLVNTWKSKKCPMGFS
+                     YDTRCFDSTVTENDIRVEESIYQCCDLAPEARQAIRSLTERLYIGGPLTNSKGQNCGY
+                     RRCRASGVLTTSCGNTLTCYLKASAACRAAKLQDCTMLVCGDDLVVICESAGTQEDAA
+                     SLRAFTEAMTRYSAPPGDPPQPEYDLELITSCSSNVSVAHDASGKRVYYLTRDPTTPL
+                     ARAAWETARHTPVNSWLGNIIMYAPTLWARMILMTHFFSILLAQEQLEKALDCQIYGA
+                     CYSIEPLDLPQIIQRLHGLSAFSLHSYSPGEINRVASCLRKLGVPPLRVWRHRARSVR
+                     ARLLSQGGRAATCGKYLFNWAVRTKLKLTPIPAASQLDLSSWFVAGYSGGDIYHSLSR
+                     ARPRWFMWCLLLLSVGVGIYLLPNR"
+ORIGIN      
+        1 tcgatgtcct acacatggac aggcgccctg atcacgccat gcgctgcgga ggaatccaag
+       61 ctgcccatca atgcactgag caactctttg ctccgtcacc acaacatggt ctatgctaca
+      121 acatctcgca gcgcaagcct gcggcagaag aaggtcacct ttgacagact gcaggtcctg
+      181 gacgaccact accgggacgt gctcaaggag atgaaggcga aggcgtccac agttaaggct
+      241 aaacttctat ccgtggagga agcctgtaag ctgacgcccc cacattcggc caaatctaaa
+      301 tttggctatg gggcaaagga cgtccggaac ctatccagca aggccgttaa ccacatccgc
+      361 tccgtgtgga aggacttgct ggaagacact gagacaccaa ttgacaccac catcatggca
+      421 aaaaatgagg ttttctgcgt ccaaccagag aaggggggcc gcaagccagc tcgccttatc
+      481 gtattcccag atttgggggt tcgtgtgtgc gagaaaatgg ccctttacga tgtggtctcc
+      541 accctccctc aggccgtgat gggctcttca tacggattcc agtactctcc tggacagcgg
+      601 gtcgagttcc tggtgaatac ctggaaatcg aaaaaatgcc ctatgggctt ctcatatgac
+      661 acccgctgct ttgactcaac ggtcactgag aatgacatcc gtgttgagga gtcaatctac
+      721 caatgttgtg acttggcccc cgaagccaga caggccataa ggtcgctcac agagcggctt
+      781 tacatcgggg gccccctgac taattcaaag gggcagaact gcggctatcg ccggtgccgc
+      841 gcgagcggtg tactgacgac cagctgcggt aataccctca catgttactt gaaggcctct
+      901 gcggcctgtc gagctgcgaa gctccaggac tgcacgatgc tcgtgtgcgg agacgacctt
+      961 gtcgttatct gtgaaagcgc ggggacccaa gaggacgcgg cgagcctacg agccttcacg
+     1021 gaggctatga ctagatactc tgccccccct ggggacccgc cccaaccaga atacgacttg
+     1081 gagttgataa catcatgctc ctccaatgtg tctgtcgcgc acgatgcatc tggcaaaagg
+     1141 gtgtactatc tcacccgtga ccccaccacc ccccttgcgc gggctgcgtg ggagacagct
+     1201 agacacactc cagtcaattc ctggctaggc aacatcatca tgtatgcgcc caccttgtgg
+     1261 gcaaggatga tcctgatgac tcatttcttc tccatccttc tagctcagga acaacttgaa
+     1321 aaagccctag attgtcagat ctacggggcc tgttactcca ttgagccact tgacctacct
+     1381 cagatcattc aacgactcca tggccttagc gcattttcac tccatagtta ctctccaggt
+     1441 gagatcaata gggtggcttc atgcctcagg aaacttgggg taccgccctt gcgagtctgg
+     1501 agacatcggg ccagaagtgt ccgcgctagg ctactgtccc agggggggag ggctgccact
+     1561 tgtggcaagt acctcttcaa ctgggcagta aggaccaagc tcaaactcac tccaatcccg
+     1621 gctgcgtccc agttggattt atccagctgg ttcgttgctg gttacagcgg gggagacata
+     1681 tatcacagcc tgtctcgtgc ccgaccccgc tggttcatgt ggtgcctact cctactttct
+     1741 gtaggggtag gcatctacct gctccccaac cggtga
+//
+

@@ -1,0 +1,49 @@
+LOCUS       AAA92549                 467 aa            linear   BCT 19-MAR-1996
+DEFINITION  tms2 (plasmid) [Plasmid Ti].
+ACCESSION   AAA92549
+VERSION     AAA92549.1  GI:455373
+DBSOURCE    locus TIPMS1 accession K02553.1
+KEYWORDS    .
+SOURCE      Plasmid Ti
+  ORGANISM  Plasmid Ti hat noch weitere worte im namen
+            other sequences; plasmids.
+REFERENCE   1  (residues 1 to 467)
+  AUTHORS   Klee,H., Montoya,A., Horodyski,F., Lichtenstein,C., Garfinkel,D.,
+            Fuller,S., Flores,C., Peschon,J., Nester,E. and Gordon,M.
+  TITLE     Nucleotide sequence of the tms genes of the pTiA6NC octopine Ti
+            plasmid: two gene products involved in plant tumorigenesis
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 81 (6), 1728-1732 (1984)
+   PUBMED   6584906
+COMMENT     On Feb 17, 1994 this sequence version replaced gi:154749.
+FEATURES             Location/Qualifiers
+     source          1..467
+                     /organism="Plasmid Ti"
+                     /host="octopine"
+                     /db_xref="taxon:2512"
+                     /clone="pTiA6NC."
+                     /plasmid="Plasmid Ti"
+     Protein         1..467
+                     /name="tms2"
+     Region          1..464
+                     /region_name="PRK07488"
+                     /note="indole acetimide hydrolase; Validated"
+                     /db_xref="CDD:236030"
+     Region          23..447
+                     /region_name="Amidase"
+                     /note="Amidase; pfam01425"
+                     /db_xref="CDD:250610"
+     CDS             1..467
+                     /gene="tms2"
+                     /coded_by="complement(K02553.1:202..1605)"
+                     /transl_table=11
+ORIGIN      
+        1 mvaitslaqs lehlkrkdys clelvetlia rceaakslna llatdwdglr rsakkidrhg
+       61 nagvglcgip lcfkaniatg vfptsaatpa linhlpkips rvaerlfsag alpgasgnmh
+      121 elsfgitsnn yatgavrnpw npdlipggss ggvaaavasr lmlggigtdt gasvrlpaal
+      181 cgvvgfrptl grypgdriip vsptrdtpgi iaqcvadvvi ldriisgtpe rippvplkgl
+      241 riglpttyfy ddldadvala aettirllan kgvtfveani phldelnkga sfpvalyefp
+      301 halkqylddf vktvsfsdvi kgirspdvan ianaqidghq iskaeyelar hsfrprlqat
+      361 yrnyfklnrl dailfptapl varpigqdss vihngtmldt fkiyvrnvdp ssnaglpgls
+      421 ipvcltpdrl pvgmeidgla dsdqrllaig galeeaigfr yfaglpn
+//
+
