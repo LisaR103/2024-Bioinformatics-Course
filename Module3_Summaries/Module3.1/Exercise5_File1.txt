@@ -2,4 +2,4 @@ Today is Wednesday, 10th of April 2024
 This is File 1 of Exercise 5 in Module 3.1 of my Bioinformatics Course
 I have to add another couple of lines to this thing.
 Today the sun is shining. It is colder than it was on the weekend but still nice.
-I just ate a piece of bread with Momos fabulous abricot jam :-)
+I just ate a piece of bread with Momo's fabulous abricot jam :-)
