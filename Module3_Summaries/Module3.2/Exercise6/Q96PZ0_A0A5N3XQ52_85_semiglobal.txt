@@ -1,0 +1,101 @@
+########################################
+# Program: needle
+# Rundate: Fri 12 Apr 2024 20:31:52
+# Commandline: needle
+#    -auto
+#    -stdout
+#    -asequence emboss_needle-I20240412-203150-0259-19966091-p1m.asequence
+#    -bsequence emboss_needle-I20240412-203150-0259-19966091-p1m.bsequence
+#    -datafile EBLOSUM85
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -endopen 10.0
+#    -endextend 0.5
+#    -aformat3 pair
+#    -sprotein1
+#    -sprotein2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PUS7_HUMAN
+# 2: A0A5N3XQ52_MUNRE
+# Matrix: EBLOSUM85
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 715
+# Identity:     608/715 (85.0%)
+# Similarity:   625/715 (87.4%)
+# Gaps:          58/715 ( 8.1%)
+# Score: 3582.0
+# 
+#
+#=======================================
+
+PUS7_HUMAN         1 --------------------------------------------------      0
+                                                                       
+A0A5N3XQ52_MU      1 MLGRPRGWFFRVALTSAFLLRPEQRARLLVARPAPRARSQAPGSFRCFLG     50
+
+PUS7_HUMAN         1 ---MEMTEMTGVSLKRGALVVEDNDSGVPVEETKKQKLSECSLTKGQDGL     47
+                        |||||||.||||||:..:|||||....||.|:||.|||....|||||
+A0A5N3XQ52_MU     51 YLKMEMTEMTSVSLKRGSVAIEDNDSVASAEEAKRQKVSECCPATGQDGL    100
+
+PUS7_HUMAN        48 QNDFLSISEDVPRPPDTVSTGKGGKNSEAQLEDEEEEEEDGLSEEC-EEE     96
+                     :|..|..||.||.||:|  .|:|.||||  ...||||||||||||. |||
+A0A5N3XQ52_MU    101 ENSSLPSSEKVPGPPET--AGQGKKNSE--VPSEEEEEEDGLSEEGEEEE    146
+
+PUS7_HUMAN        97 ESESFADMMKHGLTEADVGITKFVSSHQGFSGILKERYSDFVVHEIGKDG    146
+                     |:|||||||||||:|.|||||||||||||||||||||||||||||||:||
+A0A5N3XQ52_MU    147 EAESFADMMKHGLSELDVGITKFVSSHQGFSGILKERYSDFVVHEIGRDG    196
+
+PUS7_HUMAN       147 RISHLNDLSIPVDEEDPSEDIFTVLTAEEKQRLEELQLFKNKETSVAIEV    196
+                     |||||.|||:||||||||||:|||||||||||||||||||||||||||||
+A0A5N3XQ52_MU    197 RISHLSDLSVPVDEEDPSEDVFTVLTAEEKQRLEELQLFKNKETSVAIEV    246
+
+PUS7_HUMAN       197 IEDTKEKRTIIHQAIKSLFPGLETKTEDREGKKYIVAYHAAGKKALANPR    246
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+A0A5N3XQ52_MU    247 IEDTKEKRTIIHQAIKSLFPGLETKTEDREGKKYIVAYHAAGKKALANPR    296
+
+PUS7_HUMAN       247 KHSWPKSRGSYCHFVLYKENKDTMDAINVLSKYLRVKPNIFSYMGTKDKR    296
+                     ||||||||||||||||||||||||||||.|||||||||||||||||||||
+A0A5N3XQ52_MU    297 KHSWPKSRGSYCHFVLYKENKDTMDAINLLSKYLRVKPNIFSYMGTKDKR    346
+
+PUS7_HUMAN       297 AITVQEIAVLKITAQRLAHLNKCLMNFKLGNFSYQKNPLKLGELQGNHFT    346
+                     |:||||||||||||||||||||||||||||||||||||||||||||||||
+A0A5N3XQ52_MU    347 AVTVQEIAVLKITAQRLAHLNKCLMNFKLGNFSYQKNPLKLGELQGNHFT    396
+
+PUS7_HUMAN       347 VVLRNITGTDDQVQQAMNSLKEIGFINYYGMQRFGTTAVPTYQVGRAILQ    396
+                     ||||||||||:||:||||||||||||||||||||||||||||||||||||
+A0A5N3XQ52_MU    397 VVLRNITGTDNQVEQAMNSLKEIGFINYYGMQRFGTTAVPTYQVGRAILQ    446
+
+PUS7_HUMAN       397 NSWTEVMDLILKPRSGAEKGYLVKCREEWAKTKDPTAALRKLPVKRCVEG    446
+                     |||.|||||||||||||||||||||||||||||||.||||||||||||||
+A0A5N3XQ52_MU    447 NSWAEVMDLILKPRSGAEKGYLVKCREEWAKTKDPAAALRKLPVKRCVEG    496
+
+PUS7_HUMAN       447 QLLRGLSKYGMKNIVSAFGIIPRNNRLMYIHSYQSYVWNNMVSKRIEDYG    496
+                     ||||||||||||||||||||||||||||||||||||||||||||||::||
+A0A5N3XQ52_MU    497 QLLRGLSKYGMKNIVSAFGIIPRNNRLMYIHSYQSYVWNNMVSKRIDEYG    546
+
+PUS7_HUMAN       497 LKPVPGDLVLKGATATYIEEDDVNNYSIHDVVMPLPGFDVIYPKHKIQEA    546
+                     ||||||||||||||||:||||||||||||||||||||||||||||||.||
+A0A5N3XQ52_MU    547 LKPVPGDLVLKGATATFIEEDDVNNYSIHDVVMPLPGFDVIYPKHKISEA    596
+
+PUS7_HUMAN       547 YREMLTADNLDIDNMRHKIRDYSLSGAYRKIIIRPQNVSWEVVAYDDPKI    596
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+A0A5N3XQ52_MU    597 YREMLTADNLDIDNMRHKIRDYSLSGAYRKIIIRPQNVSWEVVAYDDPKI    646
+
+PUS7_HUMAN       597 PLFNTDVDNLEGKTPPVFASEGKYRALKMDFSLPPSTYATMAIREVLKMD    646
+                     |||||||||||||.||||||||||||||||||||||||||||||||||||
+A0A5N3XQ52_MU    647 PLFNTDVDNLEGKPPPVFASEGKYRALKMDFSLPPSTYATMAIREVLKMD    696
+
+PUS7_HUMAN       647 TSIKNQTQLNTTWLR    661
+                     |||||||||||||||
+A0A5N3XQ52_MU    697 TSIKNQTQLNTTWLR    711
+
+
+#---------------------------------------
+#---------------------------------------

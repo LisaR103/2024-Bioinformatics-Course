@@ -1,0 +1,83 @@
+########################################
+# Program: water
+# Rundate: Fri 12 Apr 2024 20:37:52
+# Commandline: water
+#    -auto
+#    -stdout
+#    -asequence emboss_water-I20240412-203747-0927-68159272-p1m.asequence
+#    -bsequence emboss_water-I20240412-203747-0927-68159272-p1m.bsequence
+#    -datafile EBLOSUM62
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -aformat3 pair
+#    -sprotein1
+#    -sprotein2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PUS7_HUMAN
+# 2: M3Z3I3_MUSPF
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 529
+# Identity:     517/529 (97.7%)
+# Similarity:   526/529 (99.4%)
+# Gaps:           0/529 ( 0.0%)
+# Score: 2716.0
+# 
+#
+#=======================================
+
+PUS7_HUMAN       133 RYSDFVVHEIGKDGRISHLNDLSIPVDEEDPSEDIFTVLTAEEKQRLEEL    182
+                     ||||||||||||||:||||:|||:||||||||||:|||||||||||||||
+M3Z3I3_MUSPF       1 RYSDFVVHEIGKDGQISHLDDLSVPVDEEDPSEDVFTVLTAEEKQRLEEL     50
+
+PUS7_HUMAN       183 QLFKNKETSVAIEVIEDTKEKRTIIHQAIKSLFPGLETKTEDREGKKYIV    232
+                     |||||||||||||||||||||||:||||||||||||||||||||||||||
+M3Z3I3_MUSPF      51 QLFKNKETSVAIEVIEDTKEKRTVIHQAIKSLFPGLETKTEDREGKKYIV    100
+
+PUS7_HUMAN       233 AYHAAGKKALANPRKHSWPKSRGSYCHFVLYKENKDTMDAINVLSKYLRV    282
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+M3Z3I3_MUSPF     101 AYHAAGKKALANPRKHSWPKSRGSYCHFVLYKENKDTMDAINVLSKYLRV    150
+
+PUS7_HUMAN       283 KPNIFSYMGTKDKRAITVQEIAVLKITAQRLAHLNKCLMNFKLGNFSYQK    332
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+M3Z3I3_MUSPF     151 KPNIFSYMGTKDKRAITVQEIAVLKITAQRLAHLNKCLMNFKLGNFSYQK    200
+
+PUS7_HUMAN       333 NPLKLGELQGNHFTVVLRNITGTDDQVQQAMNSLKEIGFINYYGMQRFGT    382
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+M3Z3I3_MUSPF     201 NPLKLGELQGNHFTVVLRNITGTDDQVQQAMNSLKEIGFINYYGMQRFGT    250
+
+PUS7_HUMAN       383 TAVPTYQVGRAILQNSWTEVMDLILKPRSGAEKGYLVKCREEWAKTKDPT    432
+                     |||||||||||||||||||||||||||||||||||||||||||||||||.
+M3Z3I3_MUSPF     251 TAVPTYQVGRAILQNSWTEVMDLILKPRSGAEKGYLVKCREEWAKTKDPA    300
+
+PUS7_HUMAN       433 AALRKLPVKRCVEGQLLRGLSKYGMKNIVSAFGIIPRNNRLMYIHSYQSY    482
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+M3Z3I3_MUSPF     301 AALRKLPVKRCVEGQLLRGLSKYGMKNIVSAFGIIPRNNRLMYIHSYQSY    350
+
+PUS7_HUMAN       483 VWNNMVSKRIEDYGLKPVPGDLVLKGATATYIEEDDVNNYSIHDVVMPLP    532
+                     |||||||||||:||||||||||||||||||||:|:|||||||||||||||
+M3Z3I3_MUSPF     351 VWNNMVSKRIEEYGLKPVPGDLVLKGATATYIDEEDVNNYSIHDVVMPLP    400
+
+PUS7_HUMAN       533 GFDVIYPKHKIQEAYREMLTADNLDIDNMRHKIRDYSLSGAYRKIIIRPQ    582
+                     |||||||||||.:|||||||||||||||||||||||||||||||||||||
+M3Z3I3_MUSPF     401 GFDVIYPKHKISKAYREMLTADNLDIDNMRHKIRDYSLSGAYRKIIIRPQ    450
+
+PUS7_HUMAN       583 NVSWEVVAYDDPKIPLFNTDVDNLEGKTPPVFASEGKYRALKMDFSLPPS    632
+                     |||||||||||||||||||||||||||.||||||||||||||||||||||
+M3Z3I3_MUSPF     451 NVSWEVVAYDDPKIPLFNTDVDNLEGKPPPVFASEGKYRALKMDFSLPPS    500
+
+PUS7_HUMAN       633 TYATMAIREVLKMDTSIKNQTQLNTTWLR    661
+                     |||||||||||||||||||||||||||||
+M3Z3I3_MUSPF     501 TYATMAIREVLKMDTSIKNQTQLNTTWLR    529
+
+
+#---------------------------------------
+#---------------------------------------

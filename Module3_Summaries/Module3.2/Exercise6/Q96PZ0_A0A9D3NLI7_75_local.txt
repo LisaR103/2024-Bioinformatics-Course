@@ -1,0 +1,91 @@
+########################################
+# Program: water
+# Rundate: Fri 12 Apr 2024 20:42:08
+# Commandline: water
+#    -auto
+#    -stdout
+#    -asequence emboss_water-I20240412-204202-0603-96975275-p1m.asequence
+#    -bsequence emboss_water-I20240412-204202-0603-96975275-p1m.bsequence
+#    -datafile EBLOSUM75
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -aformat3 pair
+#    -sprotein1
+#    -sprotein2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PUS7_HUMAN
+# 2: A0A9D3NLI7_9TELE
+# Matrix: EBLOSUM75
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 612
+# Identity:     454/612 (74.2%)
+# Similarity:   529/612 (86.4%)
+# Gaps:          22/612 ( 3.6%)
+# Score: 2453.0
+# 
+#
+#=======================================
+
+PUS7_HUMAN        63 DTVSTGKGGKNSEAQLEDE----------EEEEEDGLSE---ECEEEESE     99
+                     |:..|.|     :|:|:||          ||:||:|..|   |.|:.|.|
+A0A9D3NLI7_9T     83 DSEHTAK-----KARLQDEANGSHVTKPAEEDEEEGGEEVPLEDEDGEGE    127
+
+PUS7_HUMAN       100 SFADMMKHGLTEADVGITKFVSSHQGFSGILKERYSDFVVHEIGKDGRIS    149
+                     ||||||||||||.||||.||||.|:||||||||||||||||||.|:|:|.
+A0A9D3NLI7_9T    128 SFADMMKHGLTEVDVGIHKFVSDHKGFSGILKERYSDFVVHEINKEGKIV    177
+
+PUS7_HUMAN       150 HLNDLSIPVDEEDPSEDIFTV----LTAEEKQRLEELQLFKNKETSVAIE    195
+                     .|.||||||:.|:.|.:...|    ||.|:||:|.:||||||||..||||
+A0A9D3NLI7_9T    178 RLHDLSIPVEPEETSAETEPVECQDLTEEQKQQLGDLQLFKNKEGNVAIE    227
+
+PUS7_HUMAN       196 VIEDTKEKRTIIHQAIKSLFPGLETKTEDREGKKYIVAYHAAGKKALANP    245
+                     |..|:|||||::|:|||:|:||||||||:||||::|||||||||||||.|
+A0A9D3NLI7_9T    228 VEGDSKEKRTLLHKAIKALYPGLETKTEEREGKRFIVAYHAAGKKALAAP    277
+
+PUS7_HUMAN       246 RKHSWPKSRGSYCHFVLYKENKDTMDAINVLSKYLRVKPNIFSYMGTKDK    295
+                     |||||||.|||:|||||||||||||||||||||:|||:||:|||||||||
+A0A9D3NLI7_9T    278 RKHSWPKNRGSFCHFVLYKENKDTMDAINVLSKFLRVRPNVFSYMGTKDK    327
+
+PUS7_HUMAN       296 RAITVQEIAVLKITAQRLAHLNKCLMNFKLGNFSYQKNPLKLGELQGNHF    345
+                     |||||||||||||:|:|||||||||||||||||||:|.||||||||||||
+A0A9D3NLI7_9T    328 RAITVQEIAVLKISAERLAHLNKCLMNFKLGNFSYKKHPLKLGELQGNHF    377
+
+PUS7_HUMAN       346 TVVLRNITGTDDQVQQAMNSLKEIGFINYYGMQRFGTTAVPTYQVGRAIL    395
+                     |||||||:|:::||:|||.||::.||||||||||||||||||:||||:||
+A0A9D3NLI7_9T    378 TVVLRNISGSEEQVEQAMTSLRDTGFINYYGMQRFGTTAVPTHQVGRSIL    427
+
+PUS7_HUMAN       396 QNSWTEVMDLILKPRSGAEKGYLVKCREEWAKTKDPTAALRKLPVKRCVE    445
+                     ||.||||||||||||.|||||||||||||||:|:||.|||:|||||||||
+A0A9D3NLI7_9T    428 QNNWTEVMDLILKPRPGAEKGYLVKCREEWAQTQDPEAALKKLPVKRCVE    477
+
+PUS7_HUMAN       446 GQLLRGLSKYGMKNIVSAFGIIPRNNRLMYIHSYQSYVWNNMVSKRIEDY    495
+                     |||||||||||.|||::|||:|||||||||||||||:|||.|||:|::.|
+A0A9D3NLI7_9T    478 GQLLRGLSKYGKKNIITAFGLIPRNNRLMYIHSYQSFVWNTMVSRRVDAY    527
+
+PUS7_HUMAN       496 GLKPVPGDLVLKGATATYIEEDDVNNYSIHDVVMPLPGFDVIYPKHKIQE    545
+                     |||.|.|||:|||.||..:..::.:.:||||:||||||||||||.|.:.:
+A0A9D3NLI7_9T    528 GLKAVEGDLILKGGTAHILTAEEADKHSIHDIVMPLPGFDVIYPTHDVGK    577
+
+PUS7_HUMAN       546 AYREMLTADNLDIDNMRHKIRDYSLSGAYRKIIIRPQNVSWEVVAYDDPK    595
+                     .||:||.||||||||||||:|||||:||||:|:|.|::||||::.|||||
+A0A9D3NLI7_9T    578 GYRDMLAADNLDIDNMRHKVRDYSLAGAYRRILICPKDVSWELIHYDDPK    627
+
+PUS7_HUMAN       596 IPLFNTDVDNLEGKTPPVFASEGKYRALKMDFSLPPSTYATMAIREVLKM    645
+                     :||..|||:.||.|..||:.:||||:||||:|||||||||||||||||||
+A0A9D3NLI7_9T    628 VPLVHTDVEKLENKPAPVYLTEGKYKALKMEFSLPPSTYATMAIREVLKM    677
+
+PUS7_HUMAN       646 DTSIKNQTQLNT    657
+                     ||||||||||||
+A0A9D3NLI7_9T    678 DTSIKNQTQLNT    689
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,93 @@
+########################################
+# Program: needle
+# Rundate: Fri 12 Apr 2024 21:23:05
+# Commandline: needle
+#    -auto
+#    -stdout
+#    -asequence emboss_needle-I20240412-212300-0687-89275071-p1m.asequence
+#    -bsequence emboss_needle-I20240412-212300-0687-89275071-p1m.bsequence
+#    -datafile EBLOSUM40
+#    -gapopen 1.0
+#    -gapextend 0.5
+#    -endopen 10.0
+#    -endextend 0.5
+#    -aformat3 pair
+#    -sprotein1
+#    -sprotein2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: XP_039961828.1
+# 2: CASP8_DROME
+# Matrix: EBLOSUM40
+# Gap_penalty: 1.0
+# Extend_penalty: 0.5
+#
+# Length: 608
+# Identity:     264/608 (43.4%)
+# Similarity:   357/608 (58.7%)
+# Gaps:         199/608 (32.7%)
+# Score: 2020.0
+# 
+#
+#=======================================
+
+XP_039961828.      1 MTASRHQGL-NLISKLNNIHVE--DLQ----YVEQDLCY-Y-ELVSLG--     39
+                     | |    |  ||   |  ||::  | |    |||:|:   : :.|  |  
+CASP8_DROME        1 M-A----G-SNL---L--IHLDTID-QNDLIYVERDM--NFAQKV--GLC     34
+
+XP_039961828.     40 FLLFGDERANAEFALQKLLILSNTHKGRSCGG----ADLLTKYI-SVNPR     84
+                     |||:||:.::|.:.|||||.:  |   ||       :|||.|:. | .|.
+CASP8_DROME       35 FLLYGDDHSDATYILQKLLAM--T---RS---DFPQSDLLIKFAKS-RPE     75
+
+XP_039961828.     85 NWRAQ-LVEALSIIGARRVLRKLGFDWNELHQ-HYLPHI-GELSVHVHPL    131
+                     .|| : |||||.|||||:|||:|||.|:|| : |||||| | :::|||||
+CASP8_DROME       76 TWR-RHLVEALCIIGARKVLRRLGFCWQEL-RMHYLPHIAG-ITLHVHPL    122
+
+XP_039961828.    132 LKALYRICERLKP-AQAGQLVL--R--VNE-QHKG-PGEHLRFYDF-AYL    173
+                     ||:|||:||.|.  .|:|:|:|  |  | | |..| |   |||||  |||
+CASP8_DROME      123 LKSLYRMCEELS-LVQSGRLLLDVREKV-ESQQAGDP---LRFYD-PAYL    166
+
+XP_039961828.    174 EIFLLDWLSRRIITLGDRVAN--GADVDVLLEF--FKFNDLDALK-TLLL    218
+                     ||||||||:||.|.||| : |  |:||. || .  :|.|.|.| : .||.
+CASP8_DROME      167 EIFLLDWLTRRSIKLGD-I-NAAGSDVQ-LL-VGHLKSNGLQA-QANLLK    211
+
+XP_039961828.    219 ETIVNNA---DSKRMRNNAHISADNATAS-SGNNN-KYSAEKNTTTMQSD    263
+                     :||::||   |       |   |  :||: :     | : |     ::||
+CASP8_DROME      212 DTIISNAPEPD-------A---A--GTAAMA----VK-Q-E-----IESD    238
+
+XP_039961828.    264 ANASTSVRS-CDLT-INE-RYQVRHESAGILLIINQLN-FH---EEPDPG    306
+                      | :   :| |. | |:. :. :| |:|||.||||| : ||   .. | .
+CASP8_DROME      239 -N-Q---QSYCS-TQIDALKL-TR-ENAGIALIINQ-QKFHRNVSR-D-N    277
+
+XP_039961828.    307 LKKLL-PKKSLSP---RHGSNMDKDRLK-DIF-SLFGYKPKVFE--D-LT    347
+                     : |:| |    .|   |.|:::||:||  ::| |: ||  .| |  | :.
+CASP8_DROME      278 M-KFLSP----DPLRRRDGTDVDKERL-IEVFSSM-GY--NV-EAYDNVD    317
+
+XP_039961828.    348 HL---ELMHRIRETV--KLSF-QFDSLIVCILSHGTEG-SVYGSNSIPVE    390
+                     |:   |   ||| :.  : |: : |||:|.|||||.|  :||:||||.::
+CASP8_DROME      318 HMGIIE---RIR-SACDR-SLVR-DSLVVFILSHGFE-EAVYASNSIAMK    360
+
+XP_039961828.    391 ISEIEHIM-TG-DTLVG--KPKLLIIQACQ-K---DESPINER--R-K-T    428
+                     |::||.:: :  |||    ||||||||||| |   .:.| ||   | . |
+CASP8_DROME      361 ITDIEDLLCS-YDTL--YYKPKLLIIQACQEKLVHKKKP-NE-LFRIDVT    405
+
+XP_039961828.    429 NVEP--HRFSDLVKAMSTVPGYSAMRHTLE-GTWFI-QELCDAVQRFGDR    474
+                     .|.|  | : |:::|||||.||:|:||| : |:||| : ||||:    ||
+CASP8_DROME      406 TVSPDQH-I-DMLRAMSTVNGYAALRHT-QTGSWFIGS-LCDAI----DR    447
+
+XP_039961828.    475 R----HIVDIL-IAV-NRKVSERRG-NKNEIMMP-ISSYTLRK-FFFLPP    515
+                     |    ||.||| | | | :||::|| | :|.|:| :.| |:|: .:| ||
+CASP8_DROME      448 RSASEHIADILTI-VTN-EVSKKRGSN-DESMVPNVKS-TFRQHVYF-PP    492
+
+XP_039961828.    516 RKSLLAAV    523
+                     |  |    
+CASP8_DROME      493 R--L----    494
+
+
+#---------------------------------------
+#---------------------------------------

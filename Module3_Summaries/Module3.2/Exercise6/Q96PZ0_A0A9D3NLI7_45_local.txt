@@ -1,0 +1,95 @@
+########################################
+# Program: water
+# Rundate: Fri 12 Apr 2024 20:47:51
+# Commandline: water
+#    -auto
+#    -stdout
+#    -asequence emboss_water-I20240412-204740-0563-85365837-p1m.asequence
+#    -bsequence emboss_water-I20240412-204740-0563-85365837-p1m.bsequence
+#    -datafile EBLOSUM45
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -aformat3 pair
+#    -sprotein1
+#    -sprotein2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PUS7_HUMAN
+# 2: A0A9D3NLI7_9TELE
+# Matrix: EBLOSUM45
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 661
+# Identity:     462/661 (69.9%)
+# Similarity:   550/661 (83.2%)
+# Gaps:          46/661 ( 7.0%)
+# Score: 2882.0
+# 
+#
+#=======================================
+
+PUS7_HUMAN        25 VPVEETKKQKLSECSLTKGQDGLQNDFLSISEDVPRP-PDTVSTGKGGKN     73
+                     ||:|:  |:..:|             ::.:.|....| .|:..|.|    
+A0A9D3NLI7_9T     59 VPMED--KEATTE-------------LIHLGEKRACPEEDSEHTAK----     89
+
+PUS7_HUMAN        74 SEAQLEDE----------EEEEEDGLSE---ECEEEESESFADMMKHGLT    110
+                      :|:|:||          ||:||:|..|   |.|:.|.||||||||||||
+A0A9D3NLI7_9T     90 -KARLQDEANGSHVTKPAEEDEEEGGEEVPLEDEDGEGESFADMMKHGLT    138
+
+PUS7_HUMAN       111 EADVGITKFVSSHQGFSGILKERYSDFVVHEIGKDGRISHLNDLSIPVDE    160
+                     |.||||.||||.|:||||||||||||||||||.|:|:|..|:||||||:.
+A0A9D3NLI7_9T    139 EVDVGIHKFVSDHKGFSGILKERYSDFVVHEINKEGKIVRLHDLSIPVEP    188
+
+PUS7_HUMAN       161 EDPSEDIFTV----LTAEEKQRLEELQLFKNKETSVAIEVIEDTKEKRTI    206
+                     |:.|.:...|    ||.|:||:|.:||||||||.:|||||..|:|||||:
+A0A9D3NLI7_9T    189 EETSAETEPVECQDLTEEQKQQLGDLQLFKNKEGNVAIEVEGDSKEKRTL    238
+
+PUS7_HUMAN       207 IHQAIKSLFPGLETKTEDREGKKYIVAYHAAGKKALANPRKHSWPKSRGS    256
+                     :|:|||:|:||||||||:||||::|||||||||||||.||||||||:|||
+A0A9D3NLI7_9T    239 LHKAIKALYPGLETKTEEREGKRFIVAYHAAGKKALAAPRKHSWPKNRGS    288
+
+PUS7_HUMAN       257 YCHFVLYKENKDTMDAINVLSKYLRVKPNIFSYMGTKDKRAITVQEIAVL    306
+                     :|||||||||||||||||||||:|||:||:||||||||||||||||||||
+A0A9D3NLI7_9T    289 FCHFVLYKENKDTMDAINVLSKFLRVRPNVFSYMGTKDKRAITVQEIAVL    338
+
+PUS7_HUMAN       307 KITAQRLAHLNKCLMNFKLGNFSYQKNPLKLGELQGNHFTVVLRNITGTD    356
+                     ||:|:|||||||||||||||||||:|:|||||||||||||||||||:|::
+A0A9D3NLI7_9T    339 KISAERLAHLNKCLMNFKLGNFSYKKHPLKLGELQGNHFTVVLRNISGSE    388
+
+PUS7_HUMAN       357 DQVQQAMNSLKEIGFINYYGMQRFGTTAVPTYQVGRAILQNSWTEVMDLI    406
+                     :||:|||.||::.||||||||||||||||||:||||:||||:||||||||
+A0A9D3NLI7_9T    389 EQVEQAMTSLRDTGFINYYGMQRFGTTAVPTHQVGRSILQNNWTEVMDLI    438
+
+PUS7_HUMAN       407 LKPRSGAEKGYLVKCREEWAKTKDPTAALRKLPVKRCVEGQLLRGLSKYG    456
+                     ||||.|||||||||||||||:|:||.|||:||||||||||||||||||||
+A0A9D3NLI7_9T    439 LKPRPGAEKGYLVKCREEWAQTQDPEAALKKLPVKRCVEGQLLRGLSKYG    488
+
+PUS7_HUMAN       457 MKNIVSAFGIIPRNNRLMYIHSYQSYVWNNMVSKRIEDYGLKPVPGDLVL    506
+                     .|||::|||:|||||||||||||||:|||.|||:|::.||||.|.|||:|
+A0A9D3NLI7_9T    489 KKNIITAFGLIPRNNRLMYIHSYQSFVWNTMVSRRVDAYGLKAVEGDLIL    538
+
+PUS7_HUMAN       507 KGATATYIEEDDVNNYSIHDVVMPLPGFDVIYPKHKIQEAYREMLTADNL    556
+                     ||.||..:..::.:.:||||:||||||||||||.|.:.:.||:||.||||
+A0A9D3NLI7_9T    539 KGGTAHILTAEEADKHSIHDIVMPLPGFDVIYPTHDVGKGYRDMLAADNL    588
+
+PUS7_HUMAN       557 DIDNMRHKIRDYSLSGAYRKIIIRPQNVSWEVVAYDDPKIPLFNTDVDNL    606
+                     ||||||||:|||||:||||:|:|.|::||||::.|||||:||.:|||:.|
+A0A9D3NLI7_9T    589 DIDNMRHKVRDYSLAGAYRRILICPKDVSWELIHYDDPKVPLVHTDVEKL    638
+
+PUS7_HUMAN       607 EGKTPPVFASEGKYRALKMDFSLPPSTYATMAIREVLKMDTSIKNQTQLN    656
+                     |.|..||:.:||||:||||:||||||||||||||||||||||||||||||
+A0A9D3NLI7_9T    639 ENKPAPVYLTEGKYKALKMEFSLPPSTYATMAIREVLKMDTSIKNQTQLN    688
+
+PUS7_HUMAN       657 T--------TW    659
+                     |        .|
+A0A9D3NLI7_9T    689 TQSESLLQPKW    699
+
+
+#---------------------------------------
+#---------------------------------------

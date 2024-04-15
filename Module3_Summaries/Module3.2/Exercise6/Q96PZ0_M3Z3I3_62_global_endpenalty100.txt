@@ -1,0 +1,98 @@
+########################################
+# Program: needle
+# Rundate: Mon 15 Apr 2024 08:41:57
+# Commandline: needle
+#    -auto
+#    -stdout
+#    -asequence emboss_needle-I20240415-084154-0760-86452649-p1m.asequence
+#    -bsequence emboss_needle-I20240415-084154-0760-86452649-p1m.bsequence
+#    -datafile EBLOSUM62
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -endweight
+#    -endopen 100.0
+#    -endextend 0.5
+#    -aformat3 pair
+#    -sprotein1
+#    -sprotein2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PUS7_HUMAN
+# 2: M3Z3I3_MUSPF
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 661
+# Identity:     516/661 (78.1%)
+# Similarity:   525/661 (79.4%)
+# Gaps:         132/661 (20.0%)
+# Score: 2634.5
+# 
+#
+#=======================================
+
+PUS7_HUMAN         1 MEMTEMTGVSLKRGALVVEDNDSGVPVEETKKQKLSECSLTKGQDGLQND     50
+                     .                                                 
+M3Z3I3_MUSPF       1 R-------------------------------------------------      1
+
+PUS7_HUMAN        51 FLSISEDVPRPPDTVSTGKGGKNSEAQLEDEEEEEEDGLSEECEEEESES    100
+                                                                       
+M3Z3I3_MUSPF       2 --------------------------------------------------      1
+
+PUS7_HUMAN       101 FADMMKHGLTEADVGITKFVSSHQGFSGILKERYSDFVVHEIGKDGRISH    150
+                                                      |||||||||||||:|||
+M3Z3I3_MUSPF       2 ---------------------------------YSDFVVHEIGKDGQISH     18
+
+PUS7_HUMAN       151 LNDLSIPVDEEDPSEDIFTVLTAEEKQRLEELQLFKNKETSVAIEVIEDT    200
+                     |:|||:||||||||||:|||||||||||||||||||||||||||||||||
+M3Z3I3_MUSPF      19 LDDLSVPVDEEDPSEDVFTVLTAEEKQRLEELQLFKNKETSVAIEVIEDT     68
+
+PUS7_HUMAN       201 KEKRTIIHQAIKSLFPGLETKTEDREGKKYIVAYHAAGKKALANPRKHSW    250
+                     |||||:||||||||||||||||||||||||||||||||||||||||||||
+M3Z3I3_MUSPF      69 KEKRTVIHQAIKSLFPGLETKTEDREGKKYIVAYHAAGKKALANPRKHSW    118
+
+PUS7_HUMAN       251 PKSRGSYCHFVLYKENKDTMDAINVLSKYLRVKPNIFSYMGTKDKRAITV    300
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+M3Z3I3_MUSPF     119 PKSRGSYCHFVLYKENKDTMDAINVLSKYLRVKPNIFSYMGTKDKRAITV    168
+
+PUS7_HUMAN       301 QEIAVLKITAQRLAHLNKCLMNFKLGNFSYQKNPLKLGELQGNHFTVVLR    350
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+M3Z3I3_MUSPF     169 QEIAVLKITAQRLAHLNKCLMNFKLGNFSYQKNPLKLGELQGNHFTVVLR    218
+
+PUS7_HUMAN       351 NITGTDDQVQQAMNSLKEIGFINYYGMQRFGTTAVPTYQVGRAILQNSWT    400
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+M3Z3I3_MUSPF     219 NITGTDDQVQQAMNSLKEIGFINYYGMQRFGTTAVPTYQVGRAILQNSWT    268
+
+PUS7_HUMAN       401 EVMDLILKPRSGAEKGYLVKCREEWAKTKDPTAALRKLPVKRCVEGQLLR    450
+                     |||||||||||||||||||||||||||||||.||||||||||||||||||
+M3Z3I3_MUSPF     269 EVMDLILKPRSGAEKGYLVKCREEWAKTKDPAAALRKLPVKRCVEGQLLR    318
+
+PUS7_HUMAN       451 GLSKYGMKNIVSAFGIIPRNNRLMYIHSYQSYVWNNMVSKRIEDYGLKPV    500
+                     |||||||||||||||||||||||||||||||||||||||||||:||||||
+M3Z3I3_MUSPF     319 GLSKYGMKNIVSAFGIIPRNNRLMYIHSYQSYVWNNMVSKRIEEYGLKPV    368
+
+PUS7_HUMAN       501 PGDLVLKGATATYIEEDDVNNYSIHDVVMPLPGFDVIYPKHKIQEAYREM    550
+                     ||||||||||||||:|:||||||||||||||||||||||||||.:|||||
+M3Z3I3_MUSPF     369 PGDLVLKGATATYIDEEDVNNYSIHDVVMPLPGFDVIYPKHKISKAYREM    418
+
+PUS7_HUMAN       551 LTADNLDIDNMRHKIRDYSLSGAYRKIIIRPQNVSWEVVAYDDPKIPLFN    600
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+M3Z3I3_MUSPF     419 LTADNLDIDNMRHKIRDYSLSGAYRKIIIRPQNVSWEVVAYDDPKIPLFN    468
+
+PUS7_HUMAN       601 TDVDNLEGKTPPVFASEGKYRALKMDFSLPPSTYATMAIREVLKMDTSIK    650
+                     |||||||||.||||||||||||||||||||||||||||||||||||||||
+M3Z3I3_MUSPF     469 TDVDNLEGKPPPVFASEGKYRALKMDFSLPPSTYATMAIREVLKMDTSIK    518
+
+PUS7_HUMAN       651 NQTQLNTTWLR    661
+                     |||||||||||
+M3Z3I3_MUSPF     519 NQTQLNTTWLR    529
+
+
+#---------------------------------------
+#---------------------------------------
