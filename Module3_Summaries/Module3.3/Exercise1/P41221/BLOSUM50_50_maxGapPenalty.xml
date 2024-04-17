@@ -1,0 +1,1133 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<EBIApplicationResult xmlns="http://www.ebi.ac.uk/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ebi.ac.uk/Tools/common/schema/ApplicationResult.xsd">
+ <Header>
+  <program name="fasta36" version="FASTA 36.3.8h May, 2020"/>
+  <commandLine command="cat fasta-I20240417-103303-0665-32702832-p1m.sequence | singularity exec -B $PWD:/output $APPBIN/singularity/fasta:36.3.8h /fasta/bin/fasta36 -l $DATA_CURRENT/fastacfg/fasta3db -L -T 32  -p -s BL50 -r +5/-4 -f -19 -g -16 -E &quot;10.0 -1.0&quot;  -F 0.0 -b 50 -d 50 -m &quot;F9B fasta-I20240417-103303-0665-32702832-p1m.m9&quot; -m &quot;F10 fasta-I20240417-103303-0665-32702832-p1m.m10&quot; -z 1 \@:1- +uniprotkb_swissprot+ 2"/>
+  <parameters>
+   <sequences total="1">
+    <sequence number="1" name="sp|P41221|WNT5A_HUMAN Protein Wnt-5a OS=Homo sapiens OX=9606 GN=WNT5A PE=1 SV=2" type="PROTEIN" length="380"/>
+   </sequences>
+   <databases total="1" sequences="694687" letters="280951894">
+    <database number="1" name="uniprotkb_swissprot" type="PROTEIN"/>
+   </databases>
+   <alignments>50</alignments>
+   <databaseRange>START-END</databaseRange>
+   <expectationLower>0.0</expectationLower>
+   <expectationUpper>10.0</expectationUpper>
+   <filter>none</filter>
+   <gapExtension>-16.0</gapExtension>
+   <gapOpen>-19.0</gapOpen>
+   <histogram>false</histogram>
+   <ktup>2</ktup>
+   <matrix>BL50</matrix>
+   <scores>50</scores>
+   <statistics>1</statistics>
+   <strand>none</strand>
+  </parameters>
+  <timeInfo start="2024-04-17T10:33:03+01:00" end="2024-04-17T10:33:45+01:00" search="P0Y0M0DT0H0M42.000S"/>
+ </Header>
+ <SequenceSimilaritySearchResult>
+  <hits total="50">
+   <hit number="1" database="SP" id="WNT5A_HUMAN" ac="P41221" length="380" description="Protein Wnt-5a OS=Homo sapiens OX=9606 GN=WNT5A PE=1 SV=2">
+    <alignments total="1">
+     <alignment number="1">
+      <score>2662</score>
+      <smithWatermanScore>2662</smithWatermanScore>
+      <initn>2662</initn>
+      <init1>2662</init1>
+      <opt>2662</opt>
+      <zScore>4774.2</zScore>
+      <bits>892.1</bits>
+      <expectation>0.0</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <overlap>380</overlap>
+      <strand>none/none</strand>
+      <frame>f/f</frame>
+      <querySeq start="1" end="380">MKKSIGILSPGVALGMAGSAMSSKFFLVALAIFFSFAQVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVDNTSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCSRAARPKDLPRDWLWGGCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAMRLNSRGKLVQVNSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK</querySeq>
+      <pattern>::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::</pattern>
+      <matchSeq start="1" end="380">MKKSIGILSPGVALGMAGSAMSSKFFLVALAIFFSFAQVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVDNTSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCSRAARPKDLPRDWLWGGCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAMRLNSRGKLVQVNSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="2" database="SP" id="WNT5A_RABIT" ac="Q27Q52" length="380" description="Protein Wnt-5a OS=Oryctolagus cuniculus OX=9986 GN=WNT5A PE=2 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>2645</score>
+      <smithWatermanScore>2645</smithWatermanScore>
+      <initn>2645</initn>
+      <init1>2645</init1>
+      <opt>2645</opt>
+      <zScore>4743.6</zScore>
+      <bits>886.4</bits>
+      <expectation>0.0</expectation>
+      <identity>98.9</identity>
+      <positives>99.7</positives>
+      <overlap>380</overlap>
+      <strand>none/none</strand>
+      <frame>f/f</frame>
+      <querySeq start="1" end="380">MKKSIGILSPGVALGMAGSAMSSKFFLVALAIFFSFAQVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVDNTSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCSRAARPKDLPRDWLWGGCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAMRLNSRGKLVQVNSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK</querySeq>
+      <pattern>::::::::::::::: ::::::::::..:::.::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::</pattern>
+      <matchSeq start="1" end="380">MKKSIGILSPGVALGTAGSAMSSKFFVMALAVFFSFAQVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVDNTSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCSRAARPKDLPRDWLWGGCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAMRLNSRGKLVQVNSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="3" database="SP" id="WNT5A_MOUSE" ac="P22725" length="380" description="Protein Wnt-5a OS=Mus musculus OX=10090 GN=Wnt5a PE=1 SV=2">
+    <alignments total="1">
+     <alignment number="1">
+      <score>2633</score>
+      <smithWatermanScore>2633</smithWatermanScore>
+      <initn>2633</initn>
+      <init1>2633</init1>
+      <opt>2633</opt>
+      <zScore>4721.9</zScore>
+      <bits>882.4</bits>
+      <expectation>0.0</expectation>
+      <identity>98.7</identity>
+      <positives>99.2</positives>
+      <overlap>380</overlap>
+      <strand>none/none</strand>
+      <frame>f/f</frame>
+      <querySeq start="1" end="380">MKKSIGILSPGVALGMAGSAMSSKFFLVALAIFFSFAQVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVDNTSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCSRAARPKDLPRDWLWGGCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAMRLNSRGKLVQVNSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK</querySeq>
+      <pattern>::: ::::::::::: ::.::::::::.::: ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::</pattern>
+      <matchSeq start="1" end="380">MKKPIGILSPGVALGTAGGAMSSKFFLMALATFFSFAQVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVDNTSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCSRAARPKDLPRDWLWGGCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAMRLNSRGKLVQVNSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="4" database="SP" id="WNT5A_RAT" ac="Q9QXQ7" length="380" description="Protein Wnt-5a OS=Rattus norvegicus OX=10116 GN=Wnt5a PE=2 SV=2">
+    <alignments total="1">
+     <alignment number="1">
+      <score>2627</score>
+      <smithWatermanScore>2627</smithWatermanScore>
+      <initn>2627</initn>
+      <init1>2627</init1>
+      <opt>2627</opt>
+      <zScore>4711.1</zScore>
+      <bits>880.4</bits>
+      <expectation>0.0</expectation>
+      <identity>98.4</identity>
+      <positives>99.2</positives>
+      <overlap>380</overlap>
+      <strand>none/none</strand>
+      <frame>f/f</frame>
+      <querySeq start="1" end="380">MKKSIGILSPGVALGMAGSAMSSKFFLVALAIFFSFAQVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVDNTSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCSRAARPKDLPRDWLWGGCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAMRLNSRGKLVQVNSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK</querySeq>
+      <pattern>::: ::::::::::: ::.::::::::.::: ::::::::::::::::::::::::::::.:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::</pattern>
+      <matchSeq start="1" end="380">MKKPIGILSPGVALGTAGGAMSSKFFLMALATFFSFAQVVIEANSWWSLGMNNPVQMSEVHIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVDNTSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCSRAARPKDLPRDWLWGGCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAMRLNSRGKLVQVNSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="5" database="SP" id="WNT5A_HUMAN" ac="P41221-2" length="365" description="Isoform 2 of Protein Wnt-5a OS=Homo sapiens OX=9606 GN=WNT5A">
+    <alignments total="1">
+     <alignment number="1">
+      <score>2569</score>
+      <smithWatermanScore>2569</smithWatermanScore>
+      <initn>2569</initn>
+      <init1>2569</init1>
+      <opt>2569</opt>
+      <zScore>4607.1</zScore>
+      <bits>861.1</bits>
+      <expectation>0.0</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <overlap>365</overlap>
+      <strand>none/none</strand>
+      <frame>f/f</frame>
+      <querySeq start="16" end="380">MKKSIGILSPGVALGMAGSAMSSKFFLVALAIFFSFAQVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVDNTSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCSRAARPKDLPRDWLWGGCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAMRLNSRGKLVQVNSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK</querySeq>
+      <pattern>               :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::</pattern>
+      <matchSeq start="1" end="365">---------------MAGSAMSSKFFLVALAIFFSFAQVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVDNTSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCSRAARPKDLPRDWLWGGCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAMRLNSRGKLVQVNSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="6" database="SP" id="WNT5A_HUMAN" ac="P41221-2" length="365" description="Isoform 2 of Protein Wnt-5a OS=Homo sapiens OX=9606 GN=WNT5A">
+    <alignments total="1">
+     <alignment number="1">
+      <score>2569</score>
+      <smithWatermanScore>2569</smithWatermanScore>
+      <initn>2569</initn>
+      <init1>2569</init1>
+      <opt>2569</opt>
+      <zScore>4607.1</zScore>
+      <bits>861.1</bits>
+      <expectation>0.0</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <overlap>365</overlap>
+      <strand>none/none</strand>
+      <frame>f/f</frame>
+      <querySeq start="16" end="380">MKKSIGILSPGVALGMAGSAMSSKFFLVALAIFFSFAQVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVDNTSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCSRAARPKDLPRDWLWGGCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAMRLNSRGKLVQVNSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK</querySeq>
+      <pattern>               :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::</pattern>
+      <matchSeq start="1" end="365">---------------MAGSAMSSKFFLVALAIFFSFAQVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVDNTSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCSRAARPKDLPRDWLWGGCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAMRLNSRGKLVQVNSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="7" database="SP" id="WNT5A_HUMAN" ac="P41221-2" length="365" description="Isoform 2 of Protein Wnt-5a OS=Homo sapiens OX=9606 GN=WNT5A">
+    <alignments total="1">
+     <alignment number="1">
+      <score>2569</score>
+      <smithWatermanScore>2569</smithWatermanScore>
+      <initn>2569</initn>
+      <init1>2569</init1>
+      <opt>2569</opt>
+      <zScore>4607.1</zScore>
+      <bits>861.1</bits>
+      <expectation>0.0</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <overlap>365</overlap>
+      <strand>none/none</strand>
+      <frame>f/f</frame>
+      <querySeq start="16" end="380">MKKSIGILSPGVALGMAGSAMSSKFFLVALAIFFSFAQVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVDNTSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCSRAARPKDLPRDWLWGGCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAMRLNSRGKLVQVNSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK</querySeq>
+      <pattern>               :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::</pattern>
+      <matchSeq start="1" end="365">---------------MAGSAMSSKFFLVALAIFFSFAQVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVDNTSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCSRAARPKDLPRDWLWGGCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAMRLNSRGKLVQVNSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="8" database="SP" id="WNT5A_MOUSE" ac="P22725-2" length="360" description="Isoform 2 of Protein Wnt-5a OS=Mus musculus OX=10090 GN=Wnt5a">
+    <alignments total="1">
+     <alignment number="1">
+      <score>2529</score>
+      <smithWatermanScore>2529</smithWatermanScore>
+      <initn>2529</initn>
+      <init1>2529</init1>
+      <opt>2529</opt>
+      <zScore>4535.1</zScore>
+      <bits>847.8</bits>
+      <expectation>0.0</expectation>
+      <identity>99.4</identity>
+      <positives>99.7</positives>
+      <overlap>360</overlap>
+      <strand>none/none</strand>
+      <frame>f/f</frame>
+      <querySeq start="21" end="380">MKKSIGILSPGVALGMAGSAMSSKFFLVALAIFFSFAQVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVDNTSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCSRAARPKDLPRDWLWGGCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAMRLNSRGKLVQVNSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK</querySeq>
+      <pattern>                    :::::::.::: ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::</pattern>
+      <matchSeq start="1" end="360">--------------------MSSKFFLMALATFFSFAQVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVDNTSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCSRAARPKDLPRDWLWGGCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAMRLNSRGKLVQVNSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="9" database="SP" id="WNT5A_MOUSE" ac="P22725-2" length="360" description="Isoform 2 of Protein Wnt-5a OS=Mus musculus OX=10090 GN=Wnt5a">
+    <alignments total="1">
+     <alignment number="1">
+      <score>2529</score>
+      <smithWatermanScore>2529</smithWatermanScore>
+      <initn>2529</initn>
+      <init1>2529</init1>
+      <opt>2529</opt>
+      <zScore>4535.1</zScore>
+      <bits>847.8</bits>
+      <expectation>0.0</expectation>
+      <identity>99.4</identity>
+      <positives>99.7</positives>
+      <overlap>360</overlap>
+      <strand>none/none</strand>
+      <frame>f/f</frame>
+      <querySeq start="21" end="380">MKKSIGILSPGVALGMAGSAMSSKFFLVALAIFFSFAQVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVDNTSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCSRAARPKDLPRDWLWGGCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAMRLNSRGKLVQVNSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK</querySeq>
+      <pattern>                    :::::::.::: ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::</pattern>
+      <matchSeq start="1" end="360">--------------------MSSKFFLMALATFFSFAQVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVDNTSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCSRAARPKDLPRDWLWGGCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAMRLNSRGKLVQVNSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="10" database="SP" id="WNT5A_MOUSE" ac="P22725-2" length="360" description="Isoform 2 of Protein Wnt-5a OS=Mus musculus OX=10090 GN=Wnt5a">
+    <alignments total="1">
+     <alignment number="1">
+      <score>2529</score>
+      <smithWatermanScore>2529</smithWatermanScore>
+      <initn>2529</initn>
+      <init1>2529</init1>
+      <opt>2529</opt>
+      <zScore>4535.1</zScore>
+      <bits>847.8</bits>
+      <expectation>0.0</expectation>
+      <identity>99.4</identity>
+      <positives>99.7</positives>
+      <overlap>360</overlap>
+      <strand>none/none</strand>
+      <frame>f/f</frame>
+      <querySeq start="21" end="380">MKKSIGILSPGVALGMAGSAMSSKFFLVALAIFFSFAQVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVDNTSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCSRAARPKDLPRDWLWGGCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAMRLNSRGKLVQVNSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK</querySeq>
+      <pattern>                    :::::::.::: ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::</pattern>
+      <matchSeq start="1" end="360">--------------------MSSKFFLMALATFFSFAQVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVDNTSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCSRAARPKDLPRDWLWGGCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAMRLNSRGKLVQVNSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="11" database="SP" id="WNT5A_XENLA" ac="P31286" length="380" description="Protein Wnt-5a OS=Xenopus laevis OX=8355 GN=wnt5a PE=2 SV=2">
+    <alignments total="1">
+     <alignment number="1">
+      <score>2313</score>
+      <smithWatermanScore>2313</smithWatermanScore>
+      <initn>2201</initn>
+      <init1>2201</init1>
+      <opt>2313</opt>
+      <zScore>4145.1</zScore>
+      <bits>775.7</bits>
+      <expectation>0.0</expectation>
+      <identity>87.3</identity>
+      <positives>95.9</positives>
+      <overlap>370</overlap>
+      <strand>none/none</strand>
+      <frame>f/f</frame>
+      <querySeq start="11" end="380">-MKKSIGILSPGVALGMAGSAMSSKFFLVALAIFFSFAQVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVDNTSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCSRAARPKDLPRDWLWGGCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAMRLNSRGKLVQVNSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK</querySeq>
+      <pattern>           : : :..:::: :. :.: :  .. ..: :.:..::::::::-:::: ::::::::::::::.::::::::::.:::::::.::.:::::::::::::::::::::::::::::::::::::::::::::.::::::::.:::::::::::::::::::::::::::::::::::.:::::::::::::::::.:: ::::::.::.:::::::::::.: .:::::::::::::::::::::::::::::::: ::::::::.::.::.::::::::..::::: .:::::::::::::.:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::.::::.::</pattern>
+      <matchSeq start="12" end="380">MRKNLWTFQFGGEASGLVGSAMVSQHFVVLLMSLYCLTQSVVESSSWWSLGMN-PVQMPEVYIIGAQPLCSQLSGLSQGQKKLCQLYQDHMQFIGDGAKTGIKECQYQFRHRRWNCSTVDNTSVFGRVMQIGSRETAFTYAISAAGVVNAVSRACREGELSTCGCSRAARPKDLPRDWLWGGCGDNLDYGYRFAKEFVDAREREKIHQKGSYESSRIMMNLHNNEAGRRAVSTLADVACKCHGVSGSCSLKTCWLQLADFRKVGDHLKEKYDSAGAMKLNTRGKLVQVNNKFNSPTMNDLVYIDPSPDYCVHNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEVVDQFACK</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="12" database="SP" id="WNT5A_PLEWA" ac="O13267" length="359" description="Protein Wnt-5a OS=Pleurodeles waltl OX=8319 GN=WNT5A PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>2286</score>
+      <smithWatermanScore>2286</smithWatermanScore>
+      <initn>2198</initn>
+      <init1>2198</init1>
+      <opt>2286</opt>
+      <zScore>4097.1</zScore>
+      <bits>766.7</bits>
+      <expectation>0.0</expectation>
+      <identity>89.2</identity>
+      <positives>95.6</positives>
+      <overlap>360</overlap>
+      <strand>none/none</strand>
+      <frame>f/f</frame>
+      <querySeq start="21" end="380">MKKSIGILSPGVALGMAGSAMSSKFFLVALAIFFSFAQVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVDNTSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCSRAARPKDLPRDWLWGGCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAMRLNSRGKLVQVNSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK</querySeq>
+      <pattern>                    :.:... .: :.. :: :: :::::::::.::-:::. :.::.::::::::::::: ::::::.:::::::::::::::::::::::::::::::::::: ::::::::::::::::::..::::::::.::::: ::::::::::: ::::: :::::::::::.:::::::::::::::::.:: ::::::.: :::::::::::::::::::::::::::::::::::::::::::::::: :::::::::.:.::::::::::::::: :::.::::.:::::::::::::::.::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::</pattern>
+      <matchSeq start="1" end="359">--------------------MASRYLTLAAALLASFLQVDIEANSWWSLAMN-PVQIPEAYIVGAQPLCSQLAGLSPGQKKLCQLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVDNISVFGRVMQIGSRETAFTYSISAAGVVNAVSRACRAGELSTCGCSRARRPKDLQRDWLWGGCGDNLDYGYRFAKEFVDAREREKIHQKGSYESSRTLMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDFLKEKYDSAASMKLNSRGKLVQVNSRFNPPTTNDLVYVDPSPDYCVRNESTGSMGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="13" database="SP" id="WNT5A_AMBME" ac="Q06442" length="359" description="Protein Wnt-5a OS=Ambystoma mexicanum OX=8296 GN=WNT-5A PE=2 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>2243</score>
+      <smithWatermanScore>2243</smithWatermanScore>
+      <initn>2177</initn>
+      <init1>2177</init1>
+      <opt>2243</opt>
+      <zScore>4019.6</zScore>
+      <bits>752.4</bits>
+      <expectation>3e-216</expectation>
+      <identity>87.5</identity>
+      <positives>95.6</positives>
+      <overlap>360</overlap>
+      <strand>none/none</strand>
+      <frame>f/f</frame>
+      <querySeq start="21" end="380">MKKSIGILSPGVALGMAGSAMSSKFFLVALAIFFSFAQVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVDNTSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCSRAARPKDLPRDWLWGGCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAMRLNSRGKLVQVNSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK</querySeq>
+      <pattern>                    :..  . .:::.. .. :: :::.:::::.::-:::. :.::.::::::::: ::: ::::::.:::::: :::::::::::::::::::::::::::::.::::::::::::::::::..::::::::.::::::::::::::::::::::: :::::::::::..::::::::::::::::.::.::::::.: :::.:::::::::::::::.:::::::::::::::::::::::::::: :::::::::.::::.:::::::::::: :::.::::.: ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::</pattern>
+      <matchSeq start="1" end="359">--------------------MATTHLTAALALLCALLQVDIEASSWWSLAMN-PVQIPEAYIVGAQPLCSQLPGLSPGQKKLCQLYQDHMPYIGEGAKTGIKECQYQFRHRRWNCSTVDNASVFGRVMQIGSRETAFTYSISAAGVVNAVSRACREGELSTCGCSRAARPKDLQRDWLWGGCGDNLEYGYRFAKEFVDAREREKIHTKGSYESSRTLMNIHNNEAGRRTVYNLADAACKCHGVSGSCSLKTCWLQLADFRKVGDFLKEKYDSAASMRLNARGKLVQVNSRFNPPTTNDLVYVDTSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="14" database="SP" id="WNT5B_DANRE" ac="Q92050" length="363" description="Protein Wnt-5b OS=Danio rerio OX=7955 GN=wnt5b PE=2 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>2120</score>
+      <smithWatermanScore>2120</smithWatermanScore>
+      <initn>2066</initn>
+      <init1>2066</init1>
+      <opt>2120</opt>
+      <zScore>3797.8</zScore>
+      <bits>711.4</bits>
+      <expectation>6.9e-204</expectation>
+      <identity>81.7</identity>
+      <positives>93.1</positives>
+      <overlap>360</overlap>
+      <strand>none/none</strand>
+      <frame>f/f</frame>
+      <querySeq start="21" end="380">MKKSIGILSPGVALGMAGSAMSSKFFLVALAIFFSFAQVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVDNTSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCSRAARPKDLPRDWLWGGCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAMRLNSRGKLVQVNSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK</querySeq>
+      <pattern>                    :..  .:.:....   .:... :::::::.::-:.:  :.::::::::::::.::::::.:::.:::::: ::::::::::::::::::.::::::::::::::::::.::::::::::::::::::::.::::::::::::::::::::.::::::::::::::..::::::.:::::::::. . .:: : :: ::::.:::::: .:::::.:::::::::::::::::::::::::.::. ::::::::::::.: ::::  ::.::: :: .::::::::::::.:::.::::::::::::::::::::::::::::::::::: . ::::::::::::::::.:: .:::::::</pattern>
+      <matchSeq start="5" end="363">----------------MDVRMNQGHLLLAVTLIVCNSQLLVVANSWWSLAMN-PIQRPEMYIIGAQPLCSQLTGLSQGQRKLCQLYQDHMVYIGEGAKTGIKECQYQFRQRRWNCSTVDNTSVFGRVMHIGSRETAFTYAVSAAGVVNAVSRACREGELSTCGCSRAARPRDLPRDWLWGGCGDNVNYGYRFAREFVDAREREKNYPRGSVEHARTLMNLQNNEAGRMAVYNLANVACKCHGVSGSCSLKTCWLQLADFRRVGEFLKEKYDSAAAMRINRRGKLELVNNRFNPPTGEDLVYIDPSPDYCLRNETTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTYKHERCHCKFHWCCYVKCKRCTSLVDQFVCK</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="15" database="SP" id="WNT5B_PONAB" ac="Q5NVK2" length="359" description="Protein Wnt-5b OS=Pongo abelii OX=9601 GN=WNT5B PE=2 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>2116</score>
+      <smithWatermanScore>2116</smithWatermanScore>
+      <initn>2084</initn>
+      <init1>2053</init1>
+      <opt>2116</opt>
+      <zScore>3790.7</zScore>
+      <bits>710.0</bits>
+      <expectation>1.7e-203</expectation>
+      <identity>81.1</identity>
+      <positives>94.4</positives>
+      <overlap>360</overlap>
+      <strand>none/none</strand>
+      <frame>f/f</frame>
+      <querySeq start="21" end="380">MKKSIGILSPGVALGMAGSAMSSKFFLVALAIFFSFAQVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVDNTSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCSRAARPKDLPRDWLWGGCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAMRLNSRGKLVQVNSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK</querySeq>
+      <pattern>                    : : ..: . :.. :.::.. .:::::::..:-:::  :..::::::.:::: ::: ::.:::.:::.:: ::::::::::::::.:::.::::::::::.::::::::::::::::::::::::::::.::::::::::::::::.::::::::::::::::::..::::::::::::::::.  :::: :..:.::::.:::::::.::..::::::::::::::::::::::::.:::::: ::::::::::::.. .:.:  :::::..:: .::::.:::::::.::::::::::::::::::::::::::::::::::.:::.::.:::::::::::.::::::::::::..::</pattern>
+      <matchSeq start="1" end="359">--------------------MPSLLLLFTAALLSSWAQLLTDANSWWSLALN-PVQRPEMFIIGAQPVCSQLPGLSPGQRKLCQLYQEHMAYIGEGAKTGIKECQHQFRQRRWNCSTVDNASVFGRVMQIGSRETAFTYAVSAAGVVNAISRACREGELSTCGCSRTARPKDLPRDWLWGGCGDNVEYGYRFAKEFVDAREREKNFAKGSEEQGRVLMNLQNNEAGRRAVYKMADVACKCHGVSGSCSLKTCWLQLAEFRKVGDRLKEKYDSAAAMRVTRKGRLELVNSRFTQPTPEDLVYVDPSPDYCLRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYNQFKSVQVERCHCKFHWCCFVKCKKCTEIVDQYICK</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="16" database="SP" id="WNT5B_MOUSE" ac="P22726" length="359" description="Protein Wnt-5b OS=Mus musculus OX=10090 GN=Wnt5b PE=1 SV=2">
+    <alignments total="1">
+     <alignment number="1">
+      <score>2116</score>
+      <smithWatermanScore>2116</smithWatermanScore>
+      <initn>2082</initn>
+      <init1>2051</init1>
+      <opt>2116</opt>
+      <zScore>3790.7</zScore>
+      <bits>710.0</bits>
+      <expectation>1.7e-203</expectation>
+      <identity>80.8</identity>
+      <positives>94.7</positives>
+      <overlap>360</overlap>
+      <strand>none/none</strand>
+      <frame>f/f</frame>
+      <querySeq start="21" end="380">MKKSIGILSPGVALGMAGSAMSSKFFLVALAIFFSFAQVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVDNTSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCSRAARPKDLPRDWLWGGCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAMRLNSRGKLVQVNSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK</querySeq>
+      <pattern>                    : : ...:. :.. :.::.. .:::::::..:-:::  :..::::::.:::: ::: ::.:::.:::.::.::::::::::.:::.:::.:::::::::::::::::::::::::::::::::::::::.:::::::::::::::::::::::::::::::::::..::::::::::::::::.  :::: :..: ::::.:::::::.::..::::::::::::::::::::::::.:::::: ::::::::::::.. .:::  .:::::.:: .::::.:::::::.:::.:::::::::::::::::::::::::::::::.::.::.:::::.:::::.:.::::::.:::.:::</pattern>
+      <matchSeq start="1" end="359">--------------------MPSLLLVVVAALLSSWAQLLTDANSWWSLALN-PVQRPEMFIIGAQPVCSQLPGLSPGQRKLCQLYQEHMSYIGEGAKTGIRECQHQFRQRRWNCSTVDNTSVFGRVMQIGSRETAFTYAVSAAGVVNAISRACREGELSTCGCSRAARPKDLPRDWLWGGCGDNVEYGYRFAKEFVDAREREKNFAKGSEEQGRALMNLQNNEAGRRAVYKMADVACKCHGVSGSCSLKTCWLQLAEFRKVGDRLKEKYDSAAAMRITRQGKLELANSRFNQPTPEDLVYVDPSPDYCLRNETTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDRFKSVQVERCHCRFHWCCFVRCKKCTEVVDQYVCK</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="17" database="SP" id="WNT5B_HUMAN" ac="Q9H1J7" length="359" description="Protein Wnt-5b OS=Homo sapiens OX=9606 GN=WNT5B PE=2 SV=2">
+    <alignments total="1">
+     <alignment number="1">
+      <score>2102</score>
+      <smithWatermanScore>2102</smithWatermanScore>
+      <initn>2039</initn>
+      <init1>2039</init1>
+      <opt>2102</opt>
+      <zScore>3765.5</zScore>
+      <bits>705.4</bits>
+      <expectation>4.3e-202</expectation>
+      <identity>80.3</identity>
+      <positives>94.4</positives>
+      <overlap>360</overlap>
+      <strand>none/none</strand>
+      <frame>f/f</frame>
+      <querySeq start="21" end="380">MKKSIGILSPGVALGMAGSAMSSKFFLVALAIFFSFAQVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVDNTSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCSRAARPKDLPRDWLWGGCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAMRLNSRGKLVQVNSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK</querySeq>
+      <pattern>                    : : ..: . :.. :.::.. .:::::::..:-:::  :..::::::.:::: ::: ::.:::.:::.:: ::::::::::::::.:::.:::::::.::.:::::::::::::::::.::::::::::.::::::::::::::::.::::::::::::::::::..::::::::::::::::.  :::: :..:.::::.:::::::.::..::::::::::::::::::::::::.:::::: ::::::::::::.. .:.:  :::::..:: .::::.:::::::.::::::::::::::::::::::::::::::::::.:::.::.:::::::::::.:.::::::::::..::</pattern>
+      <matchSeq start="1" end="359">--------------------MPSLLLLFTAALLSSWAQLLTDANSWWSLALN-PVQRPEMFIIGAQPVCSQLPGLSPGQRKLCQLYQEHMAYIGEGAKTGIKECQHQFRQRRWNCSTADNASVFGRVMQIGSRETAFTHAVSAAGVVNAISRACREGELSTCGCSRTARPKDLPRDWLWGGCGDNVEYGYRFAKEFVDAREREKNFAKGSEEQGRVLMNLQNNEAGRRAVYKMADVACKCHGVSGSCSLKTCWLQLAEFRKVGDRLKEKYDSAAAMRVTRKGRLELVNSRFTQPTPEDLVYVDPSPDYCLRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYNQFKSVQVERCHCKFHWCCFVRCKKCTEIVDQYICK</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="18" database="SP" id="WNT5B_AMBME" ac="Q06443" length="357" description="Protein Wnt-5b OS=Ambystoma mexicanum OX=8296 GN=WNT-5B PE=2 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>2069</score>
+      <smithWatermanScore>2069</smithWatermanScore>
+      <initn>2054</initn>
+      <init1>2054</init1>
+      <opt>2069</opt>
+      <zScore>3706.1</zScore>
+      <bits>694.4</bits>
+      <expectation>8.8e-199</expectation>
+      <identity>85.8</identity>
+      <positives>95.0</positives>
+      <overlap>338</overlap>
+      <strand>none/none</strand>
+      <frame>f/f</frame>
+      <querySeq start="43" end="380">ALGMAGSAMSSKFFLVALAIFFSFAQVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVDNTSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCSRAARPKDLPRDWLWGGCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAMRLNSRGKLVQVNSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK</querySeq>
+      <pattern>                              :.:::::..:-:::  :.:::::::.::::..:: ::::::.::::::.:::::::::::::::::..:::::::::::::::::::::::::::::::::::::::.::::::::::::::::..::::: :::::::::::.:::::::::::::::::. . ::: :.:: ::::.:::::::.::.:::.:::::::::::::::::::::::::::: ::::::::::::.: .:::  ::.::: ::..:::: : :::::.:::::::::: ::::::::::::::::::::::::::::::.:::::::::::.::::::::::::.:::</pattern>
+      <matchSeq start="21" end="357">----------MPGIRLLLAAALLCCPPPAGATSWWSLAQN-PVQRPEMYIIGAQPVCSQLSSLSPGQKKLCQLYQDHMMYIGEGAKTGIKECQYQFKQRRWNCSTVDNTSVFGRVMQIGSRETAFTYAVSAAGVVNAISRACREGELSTCGCSRTTRPKDLHRDWLWGGCGDNVDYGYRFAKEFVDAREREKNYPKGSEEQARTLMNLQNNEAGRRAVYKLADAACKCHGVSGSCSLKTCWLQLADFRKVGDHLKEKYDSAAAMRINRKGKLELVNNRFNLPTVEDLVYTDQSPDYCLRNESTGSLGTLGRLCNKTSEGMDGCELMCCGRGYDQFKTVQVERCHCKFHWCCFVKCKKCTEIVDQYVCK</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="19" database="SP" id="WNT5B_XENLA" ac="P33945" length="360" description="Protein Wnt-5b OS=Xenopus laevis OX=8355 GN=wnt5b PE=2 SV=2">
+    <alignments total="1">
+     <alignment number="1">
+      <score>2069</score>
+      <smithWatermanScore>2069</smithWatermanScore>
+      <initn>2031</initn>
+      <init1>2031</init1>
+      <opt>2069</opt>
+      <zScore>3706.0</zScore>
+      <bits>694.4</bits>
+      <expectation>9e-199</expectation>
+      <identity>80.8</identity>
+      <positives>93.2</positives>
+      <overlap>355</overlap>
+      <strand>none/none</strand>
+      <frame>f/f</frame>
+      <querySeq start="26" end="380">MKKSIGILSPGVALGMAGSAMSSKFFLVALAIFFSFAQVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVDNTSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCSRAARPKDLPRDWLWGGCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAMRLNSRGKLVQVNSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK</querySeq>
+      <pattern>                         .:.  ...  . : :. :::::::..:-:::  :..:::::::::::.::: ::.:::.:::::: .:::::::::::::.::.:::::::::::.:::::::::::::.:::::.:.::::::.::::::::::::::::. :::::::::::::::::..::::::::::::::::.   ::: :.:: ::::.:::::::.::.:::::::::::::::::::::::::::::::. .::::::::.::::.:.:: :::.::: :: .::::.:::::::. ::.::::::.:: :::::::::::::::::::::::::::.:::::::.:::.::::::::::::::::</pattern>
+      <matchSeq start="7" end="360">-------------------MTPILRLLLLSSLLSCWKQSVVGANSWWSLALN-PVQRPEMFIIGAQPLCSQLTGLSPGQRKLCQLYQDHMVHIGEGAKTGIKECQHQFKHRRWNCSTVDNNSVFGRVMQIGSREAAFTYAISSAGVVNAISRACREGELSTCGCSRTPRPKDLPRDWLWGGCGDNVEYGYRFAKEFVDAREREKNFPKGSEEQARSLMNLQNNEAGRRAVYKLADVACKCHGVSGSCSLKTCWLQLADFRKVGEYIKEKYDSAASMRLNKRNKLEQVNQRFNPPTGEDLVYLDPSPDYCLYNETTGSLGTHGRQCNKTSEGMDGCELMCCGRGYDQFKTVQVERCHCKFQWCCFVKCKKCTEIVDQFVCK</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="20" database="SP" id="WNT5B_ORYLA" ac="O42122" length="371" description="Protein Wnt-5b OS=Oryzias latipes OX=8090 GN=wnt5b PE=2 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>2045</score>
+      <smithWatermanScore>2045</smithWatermanScore>
+      <initn>2021</initn>
+      <init1>2004</init1>
+      <opt>2045</opt>
+      <zScore>3662.3</zScore>
+      <bits>686.3</bits>
+      <expectation>2.4e-196</expectation>
+      <identity>81.3</identity>
+      <positives>93.6</positives>
+      <overlap>342</overlap>
+      <strand>none/none</strand>
+      <frame>f/f</frame>
+      <querySeq start="39" end="380">SPGVALGMAGSAMSSKFFLVALAIFFSFAQVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVDNTSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCSRAARPKDLPRDWLWGGCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAMRLNSRGKLVQVNSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK</querySeq>
+      <pattern>                              ....::::::::..-:.:  :.::::::::::::.::::::.:::.:::::: :::.::::::::::::::.::::::::::::::::::::::::::::::.::::::::.::::::::::::::::.:::.::::::::::::::. :: :::.:::::::::. . .:: : :: :::::::::::..:::::::::::::::::::::::::::::::.::. ::::::::::::.. .:.:  ...::: :: .:::::: ::::: :::.:::::::::.:::::::::::::::::::::::.. . ::::::::::::::::.:. .:::::::</pattern>
+      <matchSeq start="31" end="371">MDNRSVQRRRTGDVRHLLLAAAFLTCNSQLLLVDANSWWSLGLT-PIQRPEMYIIGAQPLCSQLSGLSQGQRKLCQLYQDHMTYIGDGAKTGIKECQYQFRQRRWNCSTVDNTSVFGRVMQIGSRETAFTYAISAAGVVNAISRACREGELSTCGCSRTARPRDLPRDWLWGGCGDNVYYGKRFAQEFVDAREREKNYPRGSREHARTLMNLHNNEAGRQAVYNLADVACKCHGVSGSCSLKTCWLQLADFRRVGEFLKEKYDSAAAMRIGRKGRLELLDKRFNPPTPEDLVYIDLSPDYCHRNETTGSLGTQGRFCNKTSEGMDGCELMCCGRGYDQFRVYKHERCHCKFHWCCYVKCKRCSTLVDQFVCK</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="21" database="SP" id="WNT5_HALRO" ac="O15978" length="363" description="Protein Wnt-5 OS=Halocynthia roretzi OX=7729 GN=WNT5 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>1212</score>
+      <smithWatermanScore>1212</smithWatermanScore>
+      <initn>1173</initn>
+      <init1>1004</init1>
+      <opt>1212</opt>
+      <zScore>2161.1</zScore>
+      <bits>408.5</bits>
+      <expectation>1e-112</expectation>
+      <identity>51.1</identity>
+      <positives>76.8</positives>
+      <overlap>311</overlap>
+      <strand>none/none</strand>
+      <frame>f/f</frame>
+      <querySeq start="69" end="379">VVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVDNTSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCSRAARPKDLPRDWLWGGCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAMRLNSRGKLVQVNSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK</querySeq>
+      <pattern>                              :... :::..:..::. :.::: :.  :.: :..:::.::: .::::: ..:.: - ... .::.:::::::....:::....:::. :.: .::::.  ::  : .:: ::::::.:::.: ::.::.::.::.    .    ...  ::.::::::: .:   . ..:::::::::::.::::::  .:: .:: :...::.:  ::.. ::..    :   .:.. :::::: :::::  :.. : :::.:: :.  : .:::: ::::::::    .  .. :.:::.:::.:::..: : : . .:</pattern>
+      <matchSeq start="53" end="362">SSVLMQVKPQLWSVGIERKKLFGETNTSVHCDEIRGLSRNQRSLCRTYNDHMYYVESGSKQGVEECQWQFRGQRWNCSLASNASP-DKIIAVGSKETAFTYAITSGGVVQSIARACKSGNLMACGCSKRERPTGLGKDWNWGGCGDDIDYAYGFAHEFIDAQERDNSSPNDRRVKSHKAMNIHNNEAGRLSVVRASHTTCKCHGVSGSCSIKTCWLQTPQFRTIGDKLRQRYDDALEMRVTHRGQMKTRFSSDRNPSNIDLVYIDSSPDYCKVNHKLGILGTSGRECQLDSLAMDGCGLMCCGRGYTTKMVEVVKSCNCKFQWCCFVKCQQCKEKVLKHICN</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="22" database="SP" id="WNT2B_CHICK" ac="Q98SN7" length="385" description="Protein Wnt-2b OS=Gallus gallus OX=9031 GN=WNT2B PE=1 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>1109</score>
+      <smithWatermanScore>1109</smithWatermanScore>
+      <initn>991</initn>
+      <init1>460</init1>
+      <opt>1109</opt>
+      <zScore>1974.7</zScore>
+      <bits>374.1</bits>
+      <expectation>2.4e-102</expectation>
+      <identity>55.0</identity>
+      <positives>78.6</positives>
+      <overlap>322</overlap>
+      <strand>none/none</strand>
+      <frame>f/f</frame>
+      <querySeq start="63" end="380">FFSFAQVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVD-NTSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCS--RAARPKDLPRDWLWGGCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAMRLNSRGKLVQV-NSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK</querySeq>
+      <pattern>                              .::. .:... :: . :..::. : : :: .:::::  :.::::::::.::::::.:-. .::::::  .:::.::.::.:.:::: :..::: .:::..:::.--. .: ::   .. ::::.:::.:: :::: ::::.:..------- ..:: :::::::. :: .:  .  . ::::::::::.:.:::: ..::::.:: :..::..:  . .:. :    :-:. : .::  ::::.. :::::: ..:.::::: ::.:::.:.: ::::.::::::::  ..... .:.::::::: :.::.: . ::  .::</pattern>
+      <matchSeq start="60" end="374">GAAPRICLPFVLILLALTPRADSSWWYIGALGARVICDNIPGLVNKQRQLCQRYPDIMQSVGEGAKEWIRECQYQFRHHRWNCSTLDRDHTVFGRVMLRSSREAAFVYAISSAGVVYAITRACSQGELKACGCDPLKRGRAKDERGEFDWGGCSDNINYGIRFAKAFVDAKEKK-------VKDARALMNLHNNRCGRMAVKRFLKLECKCHGVSGSCTLRTCWLAMSDFRKTGDYLQKKYNGAIQVIMNQDGTGFTVANKNFRKPTKTDLVYFENSPDYCVMDKSAGSLGTAGRVCNKVSRGTDGCEVMCCGRGYDTTRVTRVTKCECKFHWCCAVRCKECEDTVDVHTCKAPKRAEWLDQT</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="23" database="SP" id="WN2BA_XENLA" ac="P87387" length="351" description="Protein Wnt-2b-A OS=Xenopus laevis OX=8355 GN=wnt2b-a PE=2 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>1065</score>
+      <smithWatermanScore>1065</smithWatermanScore>
+      <initn>1099</initn>
+      <init1>447</init1>
+      <opt>1065</opt>
+      <zScore>1896.6</zScore>
+      <bits>359.5</bits>
+      <expectation>5.5e-98</expectation>
+      <identity>52.5</identity>
+      <positives>78.3</positives>
+      <overlap>322</overlap>
+      <strand>none/none</strand>
+      <frame>f/f</frame>
+      <querySeq start="63" end="380">FFSFAQVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVD-NTSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCS--RAARPKDLPRDWLWGGCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAMRLNSRGKLVQV-NSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK</querySeq>
+      <pattern>                              .::. .:... :: . :..::. . : :: ::::::  :.:::.::::.::::::.:-. .::::::  .::::::.::.: :::: :..::: .:::..:.:.--. .: ::   .. ::::.:.::.: .: :.::::.:..------- ..:: :::::::. :: .:  . .. ::::::::::.:.:::  ..::::.:: :...:..:  . .:. :.   :-:. : . : .::::.. :::::: ....::::: ::.:.:.:.: ::::.::::::::  ....  .:.::::::: :.::.: : ::  .::</pattern>
+      <matchSeq start="26" end="340">-----MHFAYILILLILTPRVDSSWWYIGALGARVICDNIPGLVNKQRQLCQKHPDIMQAIGEGAKEWIRECQHQFRHHRWNCSTLDRDHTVFGRVMLRSSRETAFVYAISYAGVVYAITRACSQGELKSCNCDPKKRGRSKDERGEFDWGGCSDHIDFGIKFPKDFVDAKEKR-------LKDARALMNLHNNRCGRMAVKRFMNLECKCHGVSGSCTLRTCWRAMSDFRKTGDFLRRRYNGAIQVTMNQDGSGFAVANQNFRKATKKDLVYFENSPDYCVMDKTAGSLGTAGRVCDKVSRGTDGCEVMCCGRGYDTTRVTRITKCECKFHWCCAVRCKECEETVDVHTCKAPKRAEWLDQT</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="24" database="SP" id="WNT4_HUMAN" ac="P56705" length="351" description="Protein Wnt-4 OS=Homo sapiens OX=9606 GN=WNT4 PE=1 SV=4">
+    <alignments total="1">
+     <alignment number="1">
+      <score>1048</score>
+      <smithWatermanScore>1048</smithWatermanScore>
+      <initn>1042</initn>
+      <init1>441</init1>
+      <opt>1048</opt>
+      <zScore>1865.9</zScore>
+      <bits>353.9</bits>
+      <expectation>2.8e-96</expectation>
+      <identity>49.7</identity>
+      <positives>75.0</positives>
+      <overlap>328</overlap>
+      <strand>none/none</strand>
+      <frame>f/f</frame>
+      <querySeq start="56" end="380">FLVALAIFFSFAQVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVDNTSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCSRAARPKDLPRDWLWGGCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAM---RLNSRGKLVQVNSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK</querySeq>
+      <pattern>                              ..: :  :. .  : .: :: : : ..:.   . :. . .::. .:.:::::::.:::::::.:.  :::.:.  :.::.::.::.:.:::. :..:::  :::  :::.:...  .-:. . :.::.::: ::  :.. :::.::: .-----.  :.: :::::::::::... .   : :::::::::: .::::  .  ::.:: :::::.:.:. .---:..:   ::  :..:.  : .::::..::::.: ..  .: :::.:: :::::...:::::.:::::.   ..  .::: :::::::.:::..: ..:.  .:.</pattern>
+      <matchSeq start="30" end="351">-MSPRSCLRSLRLLVFAVFSAAASNWLYLAKLSSVGSISEEETCEKLKGLIQRQVQMCKRNLEVMDSVRRGAQLAIEECQYQFRNRRWNCSTLDSLPVFGKVVTQGTREAAFVYAISSAGVAFAVTRACSSGELEKCGCDRTVHGVS-PQGFQWSGCSDNIAYGVAFSQSFVDVRERSK-----GASSSRALMNLHNNEAGRKAILTHMRVECKCHGVSGSCEVKTCWRAVPPFRQVGHALKEKFDGATEVEPRRVGSSRALVPRNAQFKPHTDEDLVYLEPSPDFCEQDMRSGVLGTRGRTCNKTSKAIDGCELLCCGRGFHTAQVELAERCSCKFHWCCFVKCRQCQRLVELHTCR</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="25" database="SP" id="WNT4_MOUSE" ac="P22724" length="351" description="Protein Wnt-4 OS=Mus musculus OX=10090 GN=Wnt4 PE=1 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>1044</score>
+      <smithWatermanScore>1044</smithWatermanScore>
+      <initn>1038</initn>
+      <init1>437</init1>
+      <opt>1044</opt>
+      <zScore>1858.7</zScore>
+      <bits>352.5</bits>
+      <expectation>7e-96</expectation>
+      <identity>49.4</identity>
+      <positives>75.3</positives>
+      <overlap>328</overlap>
+      <strand>none/none</strand>
+      <frame>f/f</frame>
+      <querySeq start="56" end="380">FLVALAIFFSFAQVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVDNTSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCSRAARPKDLPRDWLWGGCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAM---RLNSRGKLVQVNSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK</querySeq>
+      <pattern>                              ..: :  :. .  : .: :: : : ..:.   . :. . .::. .:.:::::::.:::::::.:.  :::.:.  :.::.::.::.:.:::. :..:::  :::  :::.:...  .-:. . :.::.::: ::  :.. :::.::: .-----.  :.: :::::::::::... .   : :::::::::: .::::  .  ::.:: :::::.:.:. .---:..:   ::  :..:.  : .::::..::::.: ..  .: :::.:: :::::...:::::.:::::.   ..  .::: :.:::::.:::..: ..:.. .:.</pattern>
+      <matchSeq start="30" end="351">-MSPRSCLRSLRLLVFAVFSAAASNWLYLAKLSSVGSISEEETCEKLKGLIQRQVQMCKRNLEVMDSVRRGAQLAIEECQYQFRNRRWNCSTLDSLPVFGKVVTQGTREAAFVYAISSAGVAFAVTRACSSGELEKCGCDRTVHGVS-PQGFQWSGCSDNIAYGVAFSQSFVDVRERSK-----GASSSRALMNLHNNEAGRKAILTHMRVECKCHGVSGSCEVKTCWRAVPPFRQVGHALKEKFDGATEVEPRRVGSSRALVPRNAQFKPHTDEDLVYLEPSPDFCEQDIRSGVLGTRGRTCNKTSKAIDGCELLCCGRGFHTAQVELAERCGCRFHWCCFVKCRQCQRLVEMHTCR</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="26" database="SP" id="WNT2B_HUMAN" ac="Q93097-2" length="372" description="Isoform 1 of Protein Wnt-2b OS=Homo sapiens OX=9606 GN=WNT2B">
+    <alignments total="1">
+     <alignment number="1">
+      <score>1044</score>
+      <smithWatermanScore>1044</smithWatermanScore>
+      <initn>1088</initn>
+      <init1>436</init1>
+      <opt>1044</opt>
+      <zScore>1858.0</zScore>
+      <bits>352.5</bits>
+      <expectation>7.7e-96</expectation>
+      <identity>51.9</identity>
+      <positives>78.0</positives>
+      <overlap>322</overlap>
+      <strand>none/none</strand>
+      <frame>f/f</frame>
+      <querySeq start="63" end="380">FFSFAQVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVD-NTSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCSRAARPK--DLPRDWLWGGCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAMRLNSRG-KLVQVNSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK</querySeq>
+      <pattern>                              .::. .:... :: . :..::. : : :. .::::.  :.:::.::::.::::.:.:-. .::::::  .:::.::.::.:.::::.:..::: .::::.:.:.  .: .--:   :. ::::.::: :: :::: ::::.:..------- ..:: :::::::. :: .:  .  . ::::::::::.:.:::  :.:::..:: :...::.:. .  .. :-... . . .   :  ::::.: :::::: ....::::: ::.:.:::.: ::::.::::::::  ..... .:.::::::: :.::.: . ::  .::</pattern>
+      <matchSeq start="47" end="361">LKTEGSLRTAVPGIPTQSAFNKCLQRYIGALGARVICDNIPGLVSRQRQLCQRYPDIMRSVGEGAREWIRECQHQFRHHRWNCTTLDRDHTVFGRVMLRSSREAAFVYAISSAGVVHAITRACSQGELSVCSCDPYTRGRHHDQRGDFDWGGCSDNIHYGVRFAKAFVDAKEKR-------LKDARALMNLHNNRCGRTAVRRFLKLECKCHGVSGSCTLRTCWRALSDFRRTGDYLRRRYDGAVQVMATQDGANFTAARQGYRRATRTDLVYFDNSPDYCVLDKAAGSLGTAGRVCSKTSKGTDGCEIMCCGRGYDTTRVTRVTQCECKFHWCCAVRCKECRNTVDVHTCKAPKKAEWLDQT</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="27" database="SP" id="WNT2B_HUMAN" ac="Q93097-2" length="372" description="Isoform 1 of Protein Wnt-2b OS=Homo sapiens OX=9606 GN=WNT2B">
+    <alignments total="1">
+     <alignment number="1">
+      <score>1044</score>
+      <smithWatermanScore>1044</smithWatermanScore>
+      <initn>1088</initn>
+      <init1>436</init1>
+      <opt>1044</opt>
+      <zScore>1858.0</zScore>
+      <bits>352.5</bits>
+      <expectation>7.7e-96</expectation>
+      <identity>51.9</identity>
+      <positives>78.0</positives>
+      <overlap>322</overlap>
+      <strand>none/none</strand>
+      <frame>f/f</frame>
+      <querySeq start="63" end="380">FFSFAQVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVD-NTSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCSRAARPK--DLPRDWLWGGCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAMRLNSRG-KLVQVNSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK</querySeq>
+      <pattern>                              .::. .:... :: . :..::. : : :. .::::.  :.:::.::::.::::.:.:-. .::::::  .:::.::.::.:.::::.:..::: .::::.:.:.  .: .--:   :. ::::.::: :: :::: ::::.:..------- ..:: :::::::. :: .:  .  . ::::::::::.:.:::  :.:::..:: :...::.:. .  .. :-... . . .   :  ::::.: :::::: ....::::: ::.:.:::.: ::::.::::::::  ..... .:.::::::: :.::.: . ::  .::</pattern>
+      <matchSeq start="47" end="361">LKTEGSLRTAVPGIPTQSAFNKCLQRYIGALGARVICDNIPGLVSRQRQLCQRYPDIMRSVGEGAREWIRECQHQFRHHRWNCTTLDRDHTVFGRVMLRSSREAAFVYAISSAGVVHAITRACSQGELSVCSCDPYTRGRHHDQRGDFDWGGCSDNIHYGVRFAKAFVDAKEKR-------LKDARALMNLHNNRCGRTAVRRFLKLECKCHGVSGSCTLRTCWRALSDFRRTGDYLRRRYDGAVQVMATQDGANFTAARQGYRRATRTDLVYFDNSPDYCVLDKAAGSLGTAGRVCSKTSKGTDGCEIMCCGRGYDTTRVTRVTQCECKFHWCCAVRCKECRNTVDVHTCKAPKKAEWLDQT</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="28" database="SP" id="WNT2B_HUMAN" ac="Q93097-2" length="372" description="Isoform 1 of Protein Wnt-2b OS=Homo sapiens OX=9606 GN=WNT2B">
+    <alignments total="1">
+     <alignment number="1">
+      <score>1044</score>
+      <smithWatermanScore>1044</smithWatermanScore>
+      <initn>1088</initn>
+      <init1>436</init1>
+      <opt>1044</opt>
+      <zScore>1858.0</zScore>
+      <bits>352.5</bits>
+      <expectation>7.7e-96</expectation>
+      <identity>51.9</identity>
+      <positives>78.0</positives>
+      <overlap>322</overlap>
+      <strand>none/none</strand>
+      <frame>f/f</frame>
+      <querySeq start="63" end="380">FFSFAQVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVD-NTSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCSRAARPK--DLPRDWLWGGCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAMRLNSRG-KLVQVNSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK</querySeq>
+      <pattern>                              .::. .:... :: . :..::. : : :. .::::.  :.:::.::::.::::.:.:-. .::::::  .:::.::.::.:.::::.:..::: .::::.:.:.  .: .--:   :. ::::.::: :: :::: ::::.:..------- ..:: :::::::. :: .:  .  . ::::::::::.:.:::  :.:::..:: :...::.:. .  .. :-... . . .   :  ::::.: :::::: ....::::: ::.:.:::.: ::::.::::::::  ..... .:.::::::: :.::.: . ::  .::</pattern>
+      <matchSeq start="47" end="361">LKTEGSLRTAVPGIPTQSAFNKCLQRYIGALGARVICDNIPGLVSRQRQLCQRYPDIMRSVGEGAREWIRECQHQFRHHRWNCTTLDRDHTVFGRVMLRSSREAAFVYAISSAGVVHAITRACSQGELSVCSCDPYTRGRHHDQRGDFDWGGCSDNIHYGVRFAKAFVDAKEKR-------LKDARALMNLHNNRCGRTAVRRFLKLECKCHGVSGSCTLRTCWRALSDFRRTGDYLRRRYDGAVQVMATQDGANFTAARQGYRRATRTDLVYFDNSPDYCVLDKAAGSLGTAGRVCSKTSKGTDGCEIMCCGRGYDTTRVTRVTQCECKFHWCCAVRCKECRNTVDVHTCKAPKKAEWLDQT</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="29" database="SP" id="WNT2B_HUMAN" ac="Q93097" length="391" description="Protein Wnt-2b OS=Homo sapiens OX=9606 GN=WNT2B PE=1 SV=2">
+    <alignments total="1">
+     <alignment number="1">
+      <score>1044</score>
+      <smithWatermanScore>1044</smithWatermanScore>
+      <initn>1091</initn>
+      <init1>436</init1>
+      <opt>1044</opt>
+      <zScore>1857.4</zScore>
+      <bits>352.4</bits>
+      <expectation>8.3e-96</expectation>
+      <identity>51.9</identity>
+      <positives>78.0</positives>
+      <overlap>322</overlap>
+      <strand>none/none</strand>
+      <frame>f/f</frame>
+      <querySeq start="63" end="380">FFSFAQVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVD-NTSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCSRAARPK--DLPRDWLWGGCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAMRLNSRG-KLVQVNSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK</querySeq>
+      <pattern>                              .::. .:... :: . :..::. : : :. .::::.  :.:::.::::.::::.:.:-. .::::::  .:::.::.::.:.::::.:..::: .::::.:.:.  .: .--:   :. ::::.::: :: :::: ::::.:..------- ..:: :::::::. :: .:  .  . ::::::::::.:.:::  :.:::..:: :...::.:. .  .. :-... . . .   :  ::::.: :::::: ....::::: ::.:.:::.: ::::.::::::::  ..... .:.::::::: :.::.: . ::  .::</pattern>
+      <matchSeq start="66" end="380">SARLGLACLLLLLLLTLPARVDTSWWYIGALGARVICDNIPGLVSRQRQLCQRYPDIMRSVGEGAREWIRECQHQFRHHRWNCTTLDRDHTVFGRVMLRSSREAAFVYAISSAGVVHAITRACSQGELSVCSCDPYTRGRHHDQRGDFDWGGCSDNIHYGVRFAKAFVDAKEKR-------LKDARALMNLHNNRCGRTAVRRFLKLECKCHGVSGSCTLRTCWRALSDFRRTGDYLRRRYDGAVQVMATQDGANFTAARQGYRRATRTDLVYFDNSPDYCVLDKAAGSLGTAGRVCSKTSKGTDGCEIMCCGRGYDTTRVTRVTQCECKFHWCCAVRCKECRNTVDVHTCKAPKKAEWLDQT</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="30" database="SP" id="WNT4_RAT" ac="Q9QXQ5" length="351" description="Protein Wnt-4 OS=Rattus norvegicus OX=10116 GN=Wnt4 PE=2 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>1040</score>
+      <smithWatermanScore>1040</smithWatermanScore>
+      <initn>1034</initn>
+      <init1>437</init1>
+      <opt>1040</opt>
+      <zScore>1851.5</zScore>
+      <bits>351.2</bits>
+      <expectation>1.8e-95</expectation>
+      <identity>49.1</identity>
+      <positives>75.3</positives>
+      <overlap>328</overlap>
+      <strand>none/none</strand>
+      <frame>f/f</frame>
+      <querySeq start="56" end="380">FLVALAIFFSFAQVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVDNTSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCSRAARPKDLPRDWLWGGCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAM---RLNSRGKLVQVNSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK</querySeq>
+      <pattern>                              ..: :  :. .  : .: :: : : ..:.   . :. . .::. .:.:::::::.:::::::.:.  :::.:.  :.::.::.::.:.:::. :..:::  :.:  :::.:...  .-:. . :.::.::: ::  :.. :::.::: .-----.  :.: :::::::::::... .   : :::::::::: .::::  .  ::.:: :::::.:.:. .---:..:   ::  :..:.  : .::::..::::.: ..  .: :::.:: :::::...:::::.:::::.   ..  .::: :.:::::.:::..: ..:.. .:.</pattern>
+      <matchSeq start="30" end="351">-MSPRSCLRSLRLLVFAVFSAAASNWLYLAKLSSVGSISEEETCEKLKGLIQRQVQMCKRNLEVMDSVRHGAQLAIEECQYQFRNRRWNCSTLDSLPVFGKVVTQGTREAAFVYAISSAGVAFAVTRACSSGDLEKCGCDRTVHGVS-PQGFQWSGCSDNIAYGVAFSQSFVDVRERSK-----GASSSRALMNLHNNEAGRKAILTHMRVECKCHGVSGSCEVKTCWRAVPPFRQVGHALKEKFDGATEVEPRRVGSSRALVPRNAQFKPHTDEDLVYLEPSPDFCEQDMRSGVLGTRGRTCNKTSKAIDGCELLCCGRGFHTAHVELAERCGCRFHWCCFVKCRQCQRLVEMHTCR</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="31" database="SP" id="WNT2B_MOUSE" ac="O70283" length="389" description="Protein Wnt-2b OS=Mus musculus OX=10090 GN=Wnt2b PE=2 SV=3">
+    <alignments total="1">
+     <alignment number="1">
+      <score>1040</score>
+      <smithWatermanScore>1040</smithWatermanScore>
+      <initn>1075</initn>
+      <init1>436</init1>
+      <opt>1040</opt>
+      <zScore>1850.2</zScore>
+      <bits>351.1</bits>
+      <expectation>2.1e-95</expectation>
+      <identity>51.6</identity>
+      <positives>78.0</positives>
+      <overlap>322</overlap>
+      <strand>none/none</strand>
+      <frame>f/f</frame>
+      <querySeq start="63" end="380">FFSFAQVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVD-NTSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCSRAARPK--DLPRDWLWGGCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAMRLNSRG-KLVQVNSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK</querySeq>
+      <pattern>                              .::. .:... :: . :..::. : : :. .::::.  :.:::.::::.::::.:.:-. .::::.:  .:::.::.::.:.::::.:..::: .::::.:.:.  .: .--:   :. ::::.::: :: :::: ::::.:..------- ..:: :::::::. :: .:  .  . ::::::::::.:.:::  :.:::..:: :...::.:. .  .. :-... . . .   :  ::::.: :::::: ....::::: ::.:.:::.: ::::.::::::::  ..... .:.::::::: :.::.: . ::  .::</pattern>
+      <matchSeq start="64" end="378">SARLGLACLLLLLLLTLPARVDTSWWYIGALGARVICDNIPGLVSRQRQLCQRYPDIMRSVGEGAREWIRECQHQFRHHRWNCTTLDRDHTVFGRAMLRSSREAAFVYAISSAGVVHAITRACSQGELSVCSCDPYTRGRHHDQRGDFDWGGCSDNIHYGVRFAKAFVDAKEKR-------LKDARALMNLHNNRCGRTAVRRFLKLECKCHGVSGSCTLRTCWRALSDFRRTGDYLRRRYDGAVQVTATQDGANFTAARQGYRHATRTDLVYFDNSPDYCVLDKAAGSLGTAGRVCSKTSKGTDGCEIMCCGRGYDTTRVTRVTQCECKFHWCCAVRCKECRNTVDVHTCKAPKKAEWLDQT</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="32" database="SP" id="WNT4_CHICK" ac="P49337" length="351" description="Protein Wnt-4 OS=Gallus gallus OX=9031 GN=WNT4 PE=1 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>1039</score>
+      <smithWatermanScore>1039</smithWatermanScore>
+      <initn>1062</initn>
+      <init1>428</init1>
+      <opt>1039</opt>
+      <zScore>1849.7</zScore>
+      <bits>350.9</bits>
+      <expectation>2.2e-95</expectation>
+      <identity>50.6</identity>
+      <positives>74.7</positives>
+      <overlap>328</overlap>
+      <strand>none/none</strand>
+      <frame>f/f</frame>
+      <querySeq start="56" end="380">FLVALAIFFSFAQVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVDNTSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCSRAARPKDLPRDWLWGGCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAMRLNSRGK---LVQVNSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK</querySeq>
+      <pattern>                              ..: :  :. .  : .: :: : : ..:.   . :. . .::. .:.:::::::.:::::::.:.  :::.:.  :.::.::.::.:.:::. :..:::  :::. :::.:...  .-:. . :.::.::: ::  :.. :::.::: .-----.  : : :::::::::::... :   : :::::::::: .::::  .  :::::..::::.:.:. .. .  :.---::  ::.:.  : .::::.: :::.: .. ..: :::.:: :::::...:::::::::::.   ..  .::: ::::::: :::: : ..:.  .:.</pattern>
+      <matchSeq start="30" end="351">-MSPEYFLRSLLLIILATFSANASNWLYLAKLSSVGSISEEETCEKLKGLIQRQVQMCKRNLEVMDSVRRGAQLAIEECQYQFRNRRWNCSTLDTLPVFGKVVTQGTREAAFVYAISSAGVAFAVTRACSSGELDKCGCDRTVQGGS-PQGFQWSGCSDNIAYGVAFSQSFVDVRERSK-----GASSNRALMNLHNNEAGRKAILNNMRVECKCHGVSGSCEFKTCWKAMPPFRKVGNVLKEKFDGATEVEQSEIGSTKVLVPKNSQFKPHTDEDLVYLDSSPDFCDHDLKNGVLGTSGRQCNKTSKAIDGCELMCCGRGFHTDEVEVVERCSCKFHWCCSVKCKPCHRVVEIHTCR</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="33" database="SP" id="WNT4_XENLA" ac="P49338" length="351" description="Protein Wnt-4 OS=Xenopus laevis OX=8355 GN=wnt4 PE=2 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>1038</score>
+      <smithWatermanScore>1038</smithWatermanScore>
+      <initn>1015</initn>
+      <init1>442</init1>
+      <opt>1038</opt>
+      <zScore>1847.9</zScore>
+      <bits>350.5</bits>
+      <expectation>2.8e-95</expectation>
+      <identity>50.0</identity>
+      <positives>75.0</positives>
+      <overlap>328</overlap>
+      <strand>none/none</strand>
+      <frame>f/f</frame>
+      <querySeq start="56" end="380">FLVALAIFFSFAQVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVDNTSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCSRAARPKDLPRDWLWGGCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAM---RLNSRGKLVQVNSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK</querySeq>
+      <pattern>                              ..: :  :. .  : .: :  : : ..:.   . :. . .::. .:.:::::::.:::::::.:.  :::.:.  :.::.::.::.:.:::. :..:::  :.:  :::.:...  .-:. . :.::.::: ::  :.. :::.::: .-----.  :.: :::::::::::... :   : :::::::::: .::::  .  :::::..::::.:.:. .---...:   ::  ::.:.  : .::::.: :::.: .. ..: ::: :: :::::...:::::::::::.   ..  .::: :::::::.::::.: ..:.. .:.</pattern>
+      <matchSeq start="30" end="351">-MTPEYFLRSLLMMILAVFSANASNWLYLAKLSSVGSISEEETCEKLKGPIQRQVQMCKRNLEVMDSVRRGAQLAIEECQYQFRNRRWNCSTLDTLPVFGKVVTQGTREAAFVYAISSAGVAFAVTRACSSGDLEKCGCDRTVHGVS-PQGFQWSGCSDNILYGVAFSQSFVDVRERSK-----GGSSSRALMNLHNNEAGRKAILNNMRVECKCHGVSGSCEVKTCWKAMPTFRKVGNVLKEKFDGATEVEQKKIGSTKVLVPKNSQFKPHTDEDLVYLDSSPDFCDHDLKNGVLGTTGRQCNKTSKAIDGCELMCCGRGFHTEEVEIVERCSCKFHWCCFVKCKQCHKVVEMHTCR</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="34" database="SP" id="WNT4_XENLA" ac="P49338-2" length="367" description="Isoform 2 of Protein Wnt-4 OS=Xenopus laevis OX=8355 GN=wnt4">
+    <alignments total="1">
+     <alignment number="1">
+      <score>1038</score>
+      <smithWatermanScore>1038</smithWatermanScore>
+      <initn>1015</initn>
+      <init1>442</init1>
+      <opt>1038</opt>
+      <zScore>1847.3</zScore>
+      <bits>350.5</bits>
+      <expectation>3e-95</expectation>
+      <identity>50.0</identity>
+      <positives>75.0</positives>
+      <overlap>328</overlap>
+      <strand>none/none</strand>
+      <frame>f/f</frame>
+      <querySeq start="56" end="380">FLVALAIFFSFAQVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVDNTSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCSRAARPKDLPRDWLWGGCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAM---RLNSRGKLVQVNSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK</querySeq>
+      <pattern>                              ..: :  :. .  : .: :  : : ..:.   . :. . .::. .:.:::::::.:::::::.:.  :::.:.  :.::.::.::.:.:::. :..:::  :.:  :::.:...  .-:. . :.::.::: ::  :.. :::.::: .-----.  :.: :::::::::::... :   : :::::::::: .::::  .  :::::..::::.:.:. .---...:   ::  ::.:.  : .::::.: :::.: .. ..: ::: :: :::::...:::::::::::.   ..  .::: :::::::.::::.: ..:.. .:.</pattern>
+      <matchSeq start="46" end="367">SSKEEQLDCQPPCLQVFQIYAFSMKAWYLAKLSSVGSISEEETCEKLKGPIQRQVQMCKRNLEVMDSVRRGAQLAIEECQYQFRNRRWNCSTLDTLPVFGKVVTQGTREAAFVYAISSAGVAFAVTRACSSGDLEKCGCDRTVHGVS-PQGFQWSGCSDNILYGVAFSQSFVDVRERSK-----GGSSSRALMNLHNNEAGRKAILNNMRVECKCHGVSGSCEVKTCWKAMPTFRKVGNVLKEKFDGATEVEQKKIGSTKVLVPKNSQFKPHTDEDLVYLDSSPDFCDHDLKNGVLGTTGRQCNKTSKAIDGCELMCCGRGFHTEEVEIVERCSCKFHWCCFVKCKQCHKVVEMHTCR</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="35" database="SP" id="WNT4_XENLA" ac="P49338-2" length="367" description="Isoform 2 of Protein Wnt-4 OS=Xenopus laevis OX=8355 GN=wnt4">
+    <alignments total="1">
+     <alignment number="1">
+      <score>1038</score>
+      <smithWatermanScore>1038</smithWatermanScore>
+      <initn>1015</initn>
+      <init1>442</init1>
+      <opt>1038</opt>
+      <zScore>1847.3</zScore>
+      <bits>350.5</bits>
+      <expectation>3e-95</expectation>
+      <identity>50.0</identity>
+      <positives>75.0</positives>
+      <overlap>328</overlap>
+      <strand>none/none</strand>
+      <frame>f/f</frame>
+      <querySeq start="56" end="380">FLVALAIFFSFAQVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVDNTSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCSRAARPKDLPRDWLWGGCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAM---RLNSRGKLVQVNSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK</querySeq>
+      <pattern>                              ..: :  :. .  : .: :  : : ..:.   . :. . .::. .:.:::::::.:::::::.:.  :::.:.  :.::.::.::.:.:::. :..:::  :.:  :::.:...  .-:. . :.::.::: ::  :.. :::.::: .-----.  :.: :::::::::::... :   : :::::::::: .::::  .  :::::..::::.:.:. .---...:   ::  ::.:.  : .::::.: :::.: .. ..: ::: :: :::::...:::::::::::.   ..  .::: :::::::.::::.: ..:.. .:.</pattern>
+      <matchSeq start="46" end="367">SSKEEQLDCQPPCLQVFQIYAFSMKAWYLAKLSSVGSISEEETCEKLKGPIQRQVQMCKRNLEVMDSVRRGAQLAIEECQYQFRNRRWNCSTLDTLPVFGKVVTQGTREAAFVYAISSAGVAFAVTRACSSGDLEKCGCDRTVHGVS-PQGFQWSGCSDNILYGVAFSQSFVDVRERSK-----GGSSSRALMNLHNNEAGRKAILNNMRVECKCHGVSGSCEVKTCWKAMPTFRKVGNVLKEKFDGATEVEQKKIGSTKVLVPKNSQFKPHTDEDLVYLDSSPDFCDHDLKNGVLGTTGRQCNKTSKAIDGCELMCCGRGFHTEEVEIVERCSCKFHWCCFVKCKQCHKVVEMHTCR</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="36" database="SP" id="WNT4_XENLA" ac="P49338-2" length="367" description="Isoform 2 of Protein Wnt-4 OS=Xenopus laevis OX=8355 GN=wnt4">
+    <alignments total="1">
+     <alignment number="1">
+      <score>1038</score>
+      <smithWatermanScore>1038</smithWatermanScore>
+      <initn>1015</initn>
+      <init1>442</init1>
+      <opt>1038</opt>
+      <zScore>1847.3</zScore>
+      <bits>350.5</bits>
+      <expectation>3e-95</expectation>
+      <identity>50.0</identity>
+      <positives>75.0</positives>
+      <overlap>328</overlap>
+      <strand>none/none</strand>
+      <frame>f/f</frame>
+      <querySeq start="56" end="380">FLVALAIFFSFAQVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVDNTSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCSRAARPKDLPRDWLWGGCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAM---RLNSRGKLVQVNSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK</querySeq>
+      <pattern>                              ..: :  :. .  : .: :  : : ..:.   . :. . .::. .:.:::::::.:::::::.:.  :::.:.  :.::.::.::.:.:::. :..:::  :.:  :::.:...  .-:. . :.::.::: ::  :.. :::.::: .-----.  :.: :::::::::::... :   : :::::::::: .::::  .  :::::..::::.:.:. .---...:   ::  ::.:.  : .::::.: :::.: .. ..: ::: :: :::::...:::::::::::.   ..  .::: :::::::.::::.: ..:.. .:.</pattern>
+      <matchSeq start="46" end="367">SSKEEQLDCQPPCLQVFQIYAFSMKAWYLAKLSSVGSISEEETCEKLKGPIQRQVQMCKRNLEVMDSVRRGAQLAIEECQYQFRNRRWNCSTLDTLPVFGKVVTQGTREAAFVYAISSAGVAFAVTRACSSGDLEKCGCDRTVHGVS-PQGFQWSGCSDNILYGVAFSQSFVDVRERSK-----GGSSSRALMNLHNNEAGRKAILNNMRVECKCHGVSGSCEVKTCWKAMPTFRKVGNVLKEKFDGATEVEQKKIGSTKVLVPKNSQFKPHTDEDLVYLDSSPDFCDHDLKNGVLGTTGRQCNKTSKAIDGCELMCCGRGFHTEEVEIVERCSCKFHWCCFVKCKQCHKVVEMHTCR</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="37" database="SP" id="WNT2_CAEEL" ac="P34889" length="360" description="Protein Wnt-2 OS=Caenorhabditis elegans OX=6239 GN=cwn-2 PE=1 SV=2">
+    <alignments total="1">
+     <alignment number="1">
+      <score>1037</score>
+      <smithWatermanScore>1037</smithWatermanScore>
+      <initn>1054</initn>
+      <init1>557</init1>
+      <opt>1037</opt>
+      <zScore>1845.8</zScore>
+      <bits>350.2</bits>
+      <expectation>3.7e-95</expectation>
+      <identity>45.1</identity>
+      <positives>76.2</positives>
+      <overlap>315</overlap>
+      <strand>none/none</strand>
+      <frame>f/f</frame>
+      <querySeq start="71" end="380">IEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVDNTSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCSRAARPKDLPRDWLWGGCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAMRLNSRGKLVQVNS-----RFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK</querySeq>
+      <pattern>                              .: ::: :: ..:.:..:::  .. ::...:.::: ::  .::::::  .:...: . ....::.:::::. .:::.. ..: :..: :..::::  ..::..: :: :::::::..:::.:...:.: ::.:.-  : .....: ::: .::::::. .       ::::::::.:..::::.:: ....::  :..:::.:  ...:.::.:  . .-----: .     :::..: :::::  .. .:.:::.::.:.. : : .::. .::::::. .      .:.:::.::: : :. :.....  .::</pattern>
+      <matchSeq start="47" end="360">NVQSLLDASWWSTVAQLSTALAGHNVKPVCELPGLSPGQAQVCELFKDHMPAVSIGAQNAIQECQRQFTGHRWNCSTHYSTGMLGPIHKMATREAAFTYAILSAGVTHEIGRRCKQGLLTSCGCSDETKPKNVPTDWSWGGCGDNVEYGYKFSRDFIDIREKEH-DPKRNHDNGRSLMNRRNNEAGRKILKRHRKPKCKCHGVSGACNMKTCWMQLPSMEQVGKILRNKYDKAIRVQINDRGNLQLLADEATKERKTRALPTDLVFMDDSPDYCRFDRHSGTLGTEGRVCKRGSGGAEGCDSLCCGRGYNTYTQEVKSKCNCKFEWCCKVVCQTCNNVTQVDICK</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="38" database="SP" id="WNT2_AOTNA" ac="Q07DV4" length="360" description="Protein Wnt-2 OS=Aotus nancymaae OX=37293 GN=WNT2 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>1036</score>
+      <smithWatermanScore>1036</smithWatermanScore>
+      <initn>931</initn>
+      <init1>455</init1>
+      <opt>1036</opt>
+      <zScore>1844.0</zScore>
+      <bits>349.8</bits>
+      <expectation>4.6e-95</expectation>
+      <identity>52.8</identity>
+      <positives>76.9</positives>
+      <overlap>320</overlap>
+      <strand>none/none</strand>
+      <frame>f/f</frame>
+      <querySeq start="65" end="380">SFAQVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVD-NTSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCS--RAARPKDLPRDWLWGGCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAMRLNSRGKLVQV-NSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK</querySeq>
+      <pattern>                              :. .:... :: ..:..::: . : :. :: :.    .:::::::..::::.:.:-. :.::::.  .:::.::.::.:.:::: :..::: .::...:.:.--. .  ::    . ::::.:::::: .::. ::::.::. -------..:: :::::::.:::..:  .    ::::::::::::.:::: .:::::.:: : .::..:  . .:. :    :-: ::..:: .::::.. :::::.:.. :::::: ::.:: ::.:::.::.::::::::  ....  .: ::::::: :.:. : : .:  .::</pattern>
+      <matchSeq start="37" end="349">GIWLWLPLLLTWLTPEVSSSWWYMGATGGSARVMCDNVPGLVSSQRQLCHRHPDVMRAIGLGVTEWTSECQYQFRQHRWNCNTLDRDHSLFGRVLLRSSRESAFVYAISSAGVVFAITRACSQGEVKSCSCDPKKMGSGKDSKGVFDWGGCSDNIDYGIKFARAFVDAKERKG-------KDARALMNLHNNRAGRKSVKRFLKQECKCHGVSGSCSLRTCWLAMADFRKTGDYLWRKYNGAIQVVMNQDGTGFTVANERFKKPTKNDLVYFENSPDYCIRDRETGSLGTAGRVCNLTSRGMDSCEVMCCGRGYDTSHVTRMIKCGCKFHWCCAVRCQDCLEALDVHTCKAPKNADWTSPT</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="39" database="SP" id="WNT2_FELCA" ac="A0M8T2" length="360" description="Protein Wnt-2 OS=Felis catus OX=9685 GN=WNT2 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>1032</score>
+      <smithWatermanScore>1032</smithWatermanScore>
+      <initn>931</initn>
+      <init1>457</init1>
+      <opt>1032</opt>
+      <zScore>1836.8</zScore>
+      <bits>348.5</bits>
+      <expectation>1.2e-94</expectation>
+      <identity>52.7</identity>
+      <positives>77.6</positives>
+      <overlap>317</overlap>
+      <strand>none/none</strand>
+      <frame>f/f</frame>
+      <querySeq start="68" end="380">QVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVD-NTSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCS--RAARPKDLPRDWLWGGCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAMRLNSRGKLVQV-NSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK</querySeq>
+      <pattern>                              .:... :: . :..::: . : :. :: :.     :::.:::..::::.:.:-. :.::::.  .:::.::.::::.:::: :..::: .:::..:.:.--. .  ::   .. ::::.:::::: .::. ::::.::. -------..:: :::::::.:::..:  .    ::::::::::.:.:::: .:::::.:: : .::..:  . .:. :    :-:.::..:: .::::.. :::::.:....::::: ::.:: ::.:::.::.::::::::  ....  .:.::::::: :.:. : : .:  .::</pattern>
+      <matchSeq start="40" end="349">PWLPLLLTWLTPEVSSSWWYMRATGGSSRVMCDNVPGLVSRQRQLCHRHPDVMRAIGLGVAEWTAECQHQFRQHRWNCNTLDRDHSLFGRVLLRSSRESAFVYAVSSAGVVFAITRACSQGELKSCSCDPKKKGTAKDSKGNFDWGGCSDNIDYGIKFARAFVDAKERKG-------KDARALMNLHNNRAGRKAVKRFLKQECKCHGVSGSCTLRTCWLAMADFRKTGDYLWRKYNGAIQVVMNQDGTGFTVANKRFKKPTKNDLVYFENSPDYCIRDRDAGSLGTAGRVCNLTSRGMDSCEVMCCGRGYDTSHVTRMTKCECKFHWCCAVRCQDCLEALDVHTCKAPKSVDWAAPT</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="40" database="SP" id="WNT2_ATEGE" ac="Q09YK7" length="360" description="Protein Wnt-2 OS=Ateles geoffroyi OX=9509 GN=WNT2 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>1032</score>
+      <smithWatermanScore>1032</smithWatermanScore>
+      <initn>931</initn>
+      <init1>455</init1>
+      <opt>1032</opt>
+      <zScore>1836.8</zScore>
+      <bits>348.5</bits>
+      <expectation>1.2e-94</expectation>
+      <identity>53.0</identity>
+      <positives>76.7</positives>
+      <overlap>317</overlap>
+      <strand>none/none</strand>
+      <frame>f/f</frame>
+      <querySeq start="68" end="380">QVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVD-NTSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCS--RAARPKDLPRDWLWGGCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAMRLNSRGKLVQV-NSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK</querySeq>
+      <pattern>                              .:... :: ..:..::: . : :. :: :.     :::::::..::::.:.:-. :.::::.  .:::.::.::.:.:::: :..::: .::...:.:.--. .  ::    . ::::.:::::: .::. ::::.::. -------..:: :::::::.:::..:  .    ::::::::::::.:::: .:::::.:: : .::..:  . .:. :    :-: ::..:: .::::.. :::::.:.. :::::: ::.:: ::.:::.::.::::::::  ....  .: ::::::: :.:. : : .:  .::</pattern>
+      <matchSeq start="40" end="349">LWLPLLLTWLTPEVSSSWWYMGATGGSSRVMCDNVPGLVSSQRQLCHRHPDVMRAIGLGVTEWTAECQYQFRQHRWNCNTLDRDHSLFGRVLLRSSRESAFVYAISSAGVVFAITRACSQGEVKSCSCDPKKMGSGKDSKGVFDWGGCSDNIDYGIKFARAFVDAKERKG-------KDARALMNLHNNRAGRKSVKRFLKQECKCHGVSGSCSLRTCWLAMADFRKTGDYLWRKYNGAIQVVMNQDGTGFTVANERFKKPTKNDLVYFENSPDYCIRDRETGSLGTAGRVCNLTSRGMDSCEVMCCGRGYDTSHVTRMIKCGCKFHWCCAVRCQDCLEALDVHTCKAPKNADWTTPT</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="41" database="SP" id="WNT2_NEONE" ac="Q07E31" length="360" description="Protein Wnt-2 OS=Neofelis nebulosa OX=61452 GN=WNT2 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>1032</score>
+      <smithWatermanScore>1032</smithWatermanScore>
+      <initn>931</initn>
+      <init1>457</init1>
+      <opt>1032</opt>
+      <zScore>1836.8</zScore>
+      <bits>348.5</bits>
+      <expectation>1.2e-94</expectation>
+      <identity>52.7</identity>
+      <positives>77.6</positives>
+      <overlap>317</overlap>
+      <strand>none/none</strand>
+      <frame>f/f</frame>
+      <querySeq start="68" end="380">QVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVD-NTSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCS--RAARPKDLPRDWLWGGCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAMRLNSRGKLVQV-NSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK</querySeq>
+      <pattern>                              .:... :: . :..::: . : :. :: :.     :::.:::..::::.:.:-. :.::::.  .:::.::.::::.:::: :..::: .:::..:.:.--. .  ::   .. ::::.:::::: .::. ::::.::. -------..:: :::::::.:::..:  .    ::::::::::.:.:::: .:::::.:: : .::..:  . .:. :    :-:.::..:: .::::.. :::::.:....::::: ::.:: ::.:::.::.::::::::  ....  .:.::::::: :.:. : : .:  .::</pattern>
+      <matchSeq start="40" end="349">PWLPLLLTWLTPEVSSSWWYMRATGGSSRVMCDNVPGLVSRQRQLCHRHPDVMRAIGLGVAEWTAECQHQFRQHRWNCNTLDRDHSLFGRVLLRSSRESAFVYAVSSAGVVFAITRACSQGELKSCSCDPKKKGTAKDSKGNFDWGGCSDNIDYGIKFARAFVDAKERKG-------KDARALMNLHNNRAGRKAVKRFLKQECKCHGVSGSCTLRTCWLAMADFRKTGDYLWRKYNGAIQVVMNQDGTGFTVANKRFKKPTKNDLVYFENSPDYCIRDRDAGSLGTAGRVCNLTSRGMDSCEVMCCGRGYDTSHVTRMTKCECKFHWCCAVRCQDCLEALDVHTCKAPKSVDWAAPT</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="42" database="SP" id="WNT2_CALJA" ac="Q2QLG1" length="360" description="Protein Wnt-2 OS=Callithrix jacchus OX=9483 GN=WNT2 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>1032</score>
+      <smithWatermanScore>1032</smithWatermanScore>
+      <initn>930</initn>
+      <init1>455</init1>
+      <opt>1032</opt>
+      <zScore>1836.8</zScore>
+      <bits>348.5</bits>
+      <expectation>1.2e-94</expectation>
+      <identity>53.0</identity>
+      <positives>77.0</positives>
+      <overlap>317</overlap>
+      <strand>none/none</strand>
+      <frame>f/f</frame>
+      <querySeq start="68" end="380">QVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVD-NTSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCS--RAARPKDLPRDWLWGGCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAMRLNSRGKLVQV-NSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK</querySeq>
+      <pattern>                              .:... :: ..:..::: . : :. :: :.    .:::::::..::::.:.:-. :.::::.  .:::.::.::.:.:::: :..::: .::...:.:.--. .  ::    . ::::.:::::: .::. ::::.::. -------..:: :::::::.:::..:  .    ::::::::::::.:::: .:::::.:: : .::..:  . .:. :    :-: ::..:: .::::.. :::::.:.. :::::: ::.:: ::.:::.::.::::::::  ....  .: ::::::: :.:. : : .:  .::</pattern>
+      <matchSeq start="40" end="349">LWLPLLLTWLTPEVSSSWWYMGATGGSSRVMCDNVPGLVSSQRQLCHRHPDVMRAIGLGVTEWTSECQYQFRQHRWNCNTLDRDHSLFGRVLLRSSRESAFVYAISSAGVVFAVTRACSQGEVKSCSCDPKKMGSGKDSKGVFDWGGCSDNIDYGIKFARAFVDAKERKG-------KDARALMNLHNNRAGRKSVKRFLKQECKCHGVSGSCSLRTCWLAMADFRKTGDYLWRKYNGAIQVVMNQDGTGFTVANERFKKPTKNDLVYFENSPDYCIRDRETGSLGTAGRVCNLTSRGMDSCEVMCCGRGYDTSHVTRMIKCGCKFHWCCAVRCQDCLEALDVHTCKAPKNADWKSPT</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="43" database="SP" id="WNT2_PLEMO" ac="Q2QLB6" length="360" description="Protein Wnt-2 OS=Plecturocebus moloch OX=9523 GN=WNT2 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>1030</score>
+      <smithWatermanScore>1030</smithWatermanScore>
+      <initn>928</initn>
+      <init1>455</init1>
+      <opt>1030</opt>
+      <zScore>1833.2</zScore>
+      <bits>347.8</bits>
+      <expectation>1.9e-94</expectation>
+      <identity>52.7</identity>
+      <positives>77.0</positives>
+      <overlap>317</overlap>
+      <strand>none/none</strand>
+      <frame>f/f</frame>
+      <querySeq start="68" end="380">QVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVD-NTSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCS--RAARPKDLPRDWLWGGCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAMRLNSRGKLVQV-NSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK</querySeq>
+      <pattern>                              .:... :: ..:..::: . : :. :: :.    .:::::::..::::.:.:-. :.::::.  .:::.::.::.:.:::: :..::: .::...:.:.--. .  ::    . ::::.:::::: .::. ::::.::. -------..:: :::::::.:::..:  .    ::::::::::::.:::: .::::..:: : .::..:  . .:. :    :-: ::..:: .::::.. :::::.:.. :::::: ::.:: ::.:::.::.::::::::  ....  .: ::::::: :.:. : : .:  .::</pattern>
+      <matchSeq start="40" end="349">LWLPLLLTWRAPEVSSSWWYMGATGGSSRVMCDNVPGLVSSQRQLCHRHPDVMRAIGLGVTEWTSECQYQFRQHRWNCNTLDRDHSLFGRVLLRSSRESAFVYAISSAGVVFAITRACSQGEVKSCSCDPKKMGSGKDSKGVFDWGGCSDNIDYGIKFARAFVDAKERKG-------KDARALMNLHNNRAGRKSVKRFLKQECKCHGVSGSCSLRTCWLAMADFRRTGDYLWRKYNGAIQVVMNQDGTGFTVANERFKKPTKNDLVYFENSPDYCIRDRETGSLGTAGRVCNLTSRGMDSCEVMCCGRGYDTSHVTRMIKCGCKFHWCCAVRCQDCLEALDVHTCKAPKNADWTTPT</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="44" database="SP" id="WNT2_MOUSE" ac="P21552" length="360" description="Protein Wnt-2 OS=Mus musculus OX=10090 GN=Wnt2 PE=2 SV=2">
+    <alignments total="1">
+     <alignment number="1">
+      <score>1027</score>
+      <smithWatermanScore>1027</smithWatermanScore>
+      <initn>926</initn>
+      <init1>456</init1>
+      <opt>1027</opt>
+      <zScore>1827.7</zScore>
+      <bits>346.8</bits>
+      <expectation>3.7e-94</expectation>
+      <identity>52.4</identity>
+      <positives>77.0</positives>
+      <overlap>317</overlap>
+      <strand>none/none</strand>
+      <frame>f/f</frame>
+      <querySeq start="68" end="380">QVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVD-NTSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCS--RAARPKDLPRDWLWGGCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAMRLNSRGKLVQV-NSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK</querySeq>
+      <pattern>                              .:... :: . :..::: . : :. :: :.     :::.:::..::::.:.:-. :.::::.  .:::.::.::.:.:::: :..::: .:::..:.:.--. .  ::    . ::::.:::::: .::. ::::.::. -------..:: :::::::.:::..:  .    ::::::::::.:.:::: .:::::.:: : .::..:  . .:. :    :-:.::..:: .::::.. :::::.:.. .::::: ::.:: ::.:::.::.::::::::  ....  .:.::::::: :.:. : : .:  .::</pattern>
+      <matchSeq start="40" end="349">LWLPLLLTWLTPEVSSSWWYMRATGGSSRVMCDNVPGLVSRQRQLCHRHPDVMRAIGLGVAEWTAECQHQFRQHRWNCNTLDRDHSLFGRVLLRSSRESAFVYAISSAGVVFAITRACSQGELKSCSCDPKKKGSAKDSKGTFDWGGCSDNIDYGIKFARAFVDAKERKG-------KDARALMNLHNNRAGRKAVKRFLKQECKCHGVSGSCTLRTCWLAMADFRKTGDYLWRKYNGAIQVVMNQDGTGFTVANKRFKKPTKNDLVYFENSPDYCIRDREAGSLGTAGRVCNLTSRGMDSCEVMCCGRGYDTSHVTRMTKCECKFHWCCAVRCQDCLEALDVHTCKAPKSADWATPT</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="45" database="SP" id="WNT2_HORSE" ac="Q2QLA5" length="360" description="Protein Wnt-2 OS=Equus caballus OX=9796 GN=WNT2 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>1026</score>
+      <smithWatermanScore>1026</smithWatermanScore>
+      <initn>925</initn>
+      <init1>456</init1>
+      <opt>1026</opt>
+      <zScore>1825.9</zScore>
+      <bits>346.5</bits>
+      <expectation>4.7e-94</expectation>
+      <identity>52.1</identity>
+      <positives>77.0</positives>
+      <overlap>317</overlap>
+      <strand>none/none</strand>
+      <frame>f/f</frame>
+      <querySeq start="68" end="380">QVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVD-NTSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCS--RAARPKDLPRDWLWGGCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAMRLNSRGKLVQV-NSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK</querySeq>
+      <pattern>                              .:... :: . :..::: . : :. :: :.     :::.:::..::::.:.:-. :.::::.  .:::.::.::.:.:::: :..::: .::: .:.:.--. .  ::    . ::::.:::::: .::. ::::.::. -------..:: :::::::.:::..:  .    ::::::::::.:.:::: .:::::.:: : .::..:  . .:. :    :-:..:..:: .::::.. :::::.:....::::: ::.:: ::.:::.::.::::::::  ....  .:.::::::: :.:. : : .:  .::</pattern>
+      <matchSeq start="40" end="349">LWLPLLLTWLTPEVSSSWWYMRATGGASRVMCDNVPGLVSRQRQLCHRHPDVMRAIGLGVAEWTAECQHQFRQHRWNCNTLDRDHSLFGRVLLRSSRESAFVYAISSAGVVFAITRACSQGELRSCSCDPKKKGTAKDSKGTFDWGGCSDNIDYGIKFARAFVDAKERKG-------KDARALMNLHNNRAGRKAVKRFLKQECKCHGVSGSCTLRTCWLAMADFRKTGDYLWRKYNGAIQVVMNQDGTGFTVANKKFKKPTKNDLVYFENSPDYCIRDRDAGSLGTAGRVCNLTSRGMDSCEVMCCGRGYDTSRVTRMTKCECKFHWCCAVRCQDCLEALDVHTCKAPKSADWASPT</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="46" database="SP" id="WNT2_LOXAF" ac="Q108U2" length="360" description="Protein Wnt-2 OS=Loxodonta africana OX=9785 GN=WNT2 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>1025</score>
+      <smithWatermanScore>1025</smithWatermanScore>
+      <initn>924</initn>
+      <init1>450</init1>
+      <opt>1025</opt>
+      <zScore>1824.1</zScore>
+      <bits>346.2</bits>
+      <expectation>5.9e-94</expectation>
+      <identity>52.4</identity>
+      <positives>76.7</positives>
+      <overlap>317</overlap>
+      <strand>none/none</strand>
+      <frame>f/f</frame>
+      <querySeq start="68" end="380">QVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVD-NTSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCS--RAARPKDLPRDWLWGGCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAMRLNSRGKLVQV-NSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK</querySeq>
+      <pattern>                              .:... :: . :..::: . : :. :: :.     :::.:::..::::.:.:-. :.::::.  .:::.::.::.:.:::: :..::: .:::..:.:.--. .  ::    . ::::.:::::: :::. ::::.::. -------..:: :::::::.:::..:  .    ::::::::::.:.:::: .:::::.:: : .::..:  . .:. :    :-:.::..:: .::::.. :::::.:....:: :: ::.:: ::.:::.::.::::::::  . ..  .:.::::::: :.:. : : .:  .::</pattern>
+      <matchSeq start="40" end="349">PWLPLLLTWLAPEVSSSWWYMRATGGSSRVMCDNVPGLVSRQRQLCHRHPDVMRAIGLGVAEWTAECQHQFRQHRWNCNTLDRDHSLFGRVLLRSSRESAFVYAISSAGVVFAITRACSQGELKSCSCDPKKKGTAKDSKGTFDWGGCSDNIDYGIRFARAFVDAKERKG-------KDARALMNLHNNRAGRKAVKRFLKQECKCHGVSGSCTLRTCWLAMADFRKTGDYLWRKYNGAIQVVMNQDGTGFTVANKRFKKPTKNDLVYFENSPDYCIRDRDAGSPGTAGRVCNLTSRGMDSCEVMCCGRGYDTSRITRMTKCECKFHWCCAVRCQDCLEALDVHTCKAPKSADWAAPT</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="47" database="SP" id="WNT2_NOMLE" ac="Q07DX7" length="360" description="Protein Wnt-2 OS=Nomascus leucogenys OX=61853 GN=WNT2 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>1024</score>
+      <smithWatermanScore>1024</smithWatermanScore>
+      <initn>916</initn>
+      <init1>453</init1>
+      <opt>1024</opt>
+      <zScore>1822.3</zScore>
+      <bits>345.8</bits>
+      <expectation>7.4e-94</expectation>
+      <identity>49.1</identity>
+      <positives>75.3</positives>
+      <overlap>340</overlap>
+      <strand>none/none</strand>
+      <frame>f/f</frame>
+      <querySeq start="45" end="380">GMAGSAMSSKFFLVALAIFFSFAQVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVD-NTSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCS--RAARPKDLPRDWLWGGCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAMRLNSRGKLVQV-NSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK</querySeq>
+      <pattern>                              .: .  .:.   . ..   ... .:... :: ..:..::: . : :. :..:.     :::::::..::::.:.:-. :.::::.  .:::.::.::.:.:::: :..::: .::...:.:.--. .  ::    . ::::.:::::: .::. ::::.::. -------..:: :::::::.:::..:  .    ::::::::::.:.:::: .:::::.:: : .::..:  . .:. :    :-: ::..:: .::::.. :::::.:.. .::::: ::.:: ::.:::.::.::::::::  ....  .: ::::::: :.:. : : .:  .::</pattern>
+      <matchSeq start="17" end="349">--------------MNAPLGGIWLWLPLLLTWLTPEVNSSWWYMRATGGSSRVMCDNVPGLVSSQRQLCHRHPDVMRAISQGVAEWTAECQYQFRQHRWNCNTLDRDHSLFGRVLLRSSRESAFVYAISSAGVVFAITRACSQGEVKSCSCDPKKMGSAKDSKGIFDWGGCSDNIDYGIKFARAFVDAKERKG-------KDARALMNLHNNRAGRKAVKRFLKQECKCHGVSGSCTLRTCWLAMADFRKTGDYLWRKYNGAIQVVMNQDGTGFTVANERFKKPTKNDLVYFENSPDYCIRDREAGSLGTAGRVCNLTSRGMDSCEVMCCGRGYDTSHVTRMTKCGCKFHWCCAVRCQDCLEALDVHTCKAPKNADWTTPT</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="48" database="SP" id="WNT2_DIDVI" ac="Q2QL76" length="360" description="Protein Wnt-2 OS=Didelphis virginiana OX=9267 GN=WNT2 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>1023</score>
+      <smithWatermanScore>1023</smithWatermanScore>
+      <initn>931</initn>
+      <init1>469</init1>
+      <opt>1023</opt>
+      <zScore>1820.5</zScore>
+      <bits>345.5</bits>
+      <expectation>9.4e-94</expectation>
+      <identity>51.7</identity>
+      <positives>77.3</positives>
+      <overlap>317</overlap>
+      <strand>none/none</strand>
+      <frame>f/f</frame>
+      <querySeq start="68" end="380">QVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVD-NTSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCS--RAARPKDLPRDWLWGGCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAMRLNSRGKLVQV-NSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK</querySeq>
+      <pattern>                              .:... :: . :..::: . . :. :: :.     :::.:::..:::: :.:-. ..::.:.  .:::.::.::.:.:::: :..::: .:::..:.:.--. .  ::    . ::::.:::::: .::. ::::.::. -------..:: :::::::.:::..:  .    ::::::::::.:.:::: .:::::.:: : .::..:  . .:. :    :-:.::..:: .::::.. :::::.:....::::: ::.:: ::.:::.::.::::::::  ....  .:.::::::: :.:. : :.::  .::</pattern>
+      <matchSeq start="40" end="349">WLSVPLILSWVTPQVSSSWWYMRAVGSSRVMCDNVPGLVSRQRQLCHRHPEVMRSIGLGVAEWTAECQHQFRQHRWNCHTLDRDHNLFGKVLLRSSREAAFVYAISSAGVVFAITRACSQGELKSCSCDPKKKGTSKDSKGTFDWGGCSDNIDYGIKFARAFVDAKERKG-------KDARALMNLHNNRAGRKAVKRFLKQECKCHGVSGSCTLRTCWLAMADFRKTGDYLWKKYNGAIQVVMNQDGTGFTVANKRFKKPTKNDLVYFENSPDYCIRDRDAGSLGTAGRVCNLTSRGMDSCEVMCCGRGYDTSRVTRMTKCECKFHWCCAVRCQDCLEVVDVHTCKAPKSPDWVAPT</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="49" database="SP" id="WNT2_CARPS" ac="Q2QLC7" length="360" description="Protein Wnt-2 OS=Carollia perspicillata OX=40233 GN=WNT2 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>1023</score>
+      <smithWatermanScore>1023</smithWatermanScore>
+      <initn>927</initn>
+      <init1>460</init1>
+      <opt>1023</opt>
+      <zScore>1820.5</zScore>
+      <bits>345.5</bits>
+      <expectation>9.4e-94</expectation>
+      <identity>52.1</identity>
+      <positives>77.0</positives>
+      <overlap>317</overlap>
+      <strand>none/none</strand>
+      <frame>f/f</frame>
+      <querySeq start="68" end="380">QVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVD-NTSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCS--RAARPKDLPRDWLWGGCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAMRLNSRGKLVQV-NSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK</querySeq>
+      <pattern>                              .:... :: . :..:::   : :. :: :.     :::.:::..::::.:.:-. :.::::.  .:::.::.::.:.:::: :..::: .:::..:.:.--. .  .:    . ::::.:::::: .::. ::::.::. -------..:: :::::::.:::..:  .    ::::::::::.:.:::: .:::::.:: : .::..:  . .:. :    :-:.::..:: .::::.. :::::.:....::::: ::.:: ::.:::.::.::::::::  ....  .:.::::::: :.:. : : .:  .::</pattern>
+      <matchSeq start="40" end="349">LWLPLLLTWLSPEVSSSWWYMRATGGSSRVMCDNVPGLVSRQRQLCHRNPDVMRAIGLGVAEWTAECQHQFRQHRWNCNTLDRDHSLFGRVLLRSSRESAFVYAISSAGVVFAITRACSQGELKSCSCDPKKKGSSRDNKGTFDWGGCSDNIDYGIKFARAFVDAKERQG-------KDARALMNLHNNRAGRKAVKRFLKQECKCHGVSGSCTLRTCWLAMADFRKTGDYLWKKYSGAIQVVMNQDGTGFTVANKRFKKPTKNDLVYFENSPDYCIRDRDAGSLGTAGRVCNLTSRGMDSCEVMCCGRGYDTSRVTRMTKCECKFHWCCAVRCQDCLEALDVHTCKAPKSADWAAPT</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="50" database="SP" id="WNT2_MUSPF" ac="Q07E18" length="360" description="Protein Wnt-2 OS=Mustela putorius furo OX=9669 GN=WNT2 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>1023</score>
+      <smithWatermanScore>1023</smithWatermanScore>
+      <initn>922</initn>
+      <init1>451</init1>
+      <opt>1023</opt>
+      <zScore>1820.5</zScore>
+      <bits>345.5</bits>
+      <expectation>9.4e-94</expectation>
+      <identity>52.1</identity>
+      <positives>77.3</positives>
+      <overlap>317</overlap>
+      <strand>none/none</strand>
+      <frame>f/f</frame>
+      <querySeq start="68" end="380">QVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVD-NTSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCS--RAARPKDLPRDWLWGGCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAMRLNSRGKLVQV-NSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK</querySeq>
+      <pattern>                              .:... :: . :..::: . : :. :: :.     :::.:::..::::.:.:-. :.::::.  .:::.::.::::.:::: :..::: .:::..:.:.--. .  ::   .. ::::.:::::: .::. ::::.::. -------..:: :::::::.:::..:  .    ::::::::::.:.:::: .::::..:: : .::..:  . .:. :    :-:.::..:: .::::.. :::::.:....:: :: ::.:: ::.:::.::.::::::::  ....  .:.::::::: :.:. : : .:  .::</pattern>
+      <matchSeq start="40" end="349">LWLPLLLTWLTPEVSSSWWYMRATGGSSRVMCDNVPGLVSRQRQLCHRHPDVMRAIGLGVAEWTAECQHQFRQHRWNCNTLDRDHSLFGRVLLRSSRESAFVYAVSSAGVVFAITRACSQGELKSCSCDPKKKGTAKDSKGNFDWGGCSDNIDYGIKFARAFVDAKERKG-------KDARALMNLHNNRAGRKAVKRFLKQECKCHGVSGSCTLRTCWLAMADFRRTGDYLWRKYNGAIQVVMNQDGTGFTVANKRFKKPTKNDLVYFENSPDYCIRDRDAGSPGTAGRVCNLTSRGMDSCEVMCCGRGYDTSRVTRMTKCECKFHWCCAVRCQDCLEALDVHTCKAPKSADWAAPT</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+  </hits>
+ </SequenceSimilaritySearchResult>
+</EBIApplicationResult>

@@ -1,0 +1,2281 @@
+# /fasta/bin/fasta36 -l /nfs/public/ro/es_codon/newdata/prod/fastacfg/fasta3db -L -T 32 -p -s BL50 -r +5/-4 -f -19 -g -16 -E "10.0 -1.0" -F 0.0 -b 50 -d 50 -m "F9B fasta-I20240417-103303-0665-32702832-p1m.m9" -m "F10 fasta-I20240417-103303-0665-32702832-p1m.m10" -z 1 @:1- +uniprotkb_swissprot+ 2
+FASTA searches a protein or DNA sequence data bank
+ version 36.3.8h May, 2020
+Please cite:
+ W.R. Pearson & D.J. Lipman PNAS (1988) 85:2444-2448
+
+Query: @
+  1>>>sp|P41221|WNT5A_HUMAN Protein Wnt-5a OS=Homo sapiens OX=9606 GN=WNT5A PE=1 SV=2 - 380 aa
+Library: UniProtKB
+  280951894 residues in 694687 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 6.7103+/-0.000135; mu= 12.0451+/- 0.007
+ mean_var=30.7782+/- 5.220, 0's: 444 Z-trim(111.4): 682  B-trim: 934 in 1/64
+ Lambda= 0.231181
+ statistics sampled from 56810 (57156) to 56810 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: DNA matrix (15:-5), open/ext: -19/-16
+ ktup: 2, E-join: 1 (0.407), E-opt: 0.2 (0.0823), width:  16
+ Scan time: 28.540
+
+The best scores are:                                      opt bits E(694687)
+SP:P41221 WNT5A_HUMAN Protein Wnt-5a OS=Homo sapie ( 380) 2662 892.1       0
+SP:Q27Q52 WNT5A_RABIT Protein Wnt-5a OS=Oryctolagu ( 380) 2645 886.4       0
+SP:P22725 WNT5A_MOUSE Protein Wnt-5a OS=Mus muscul ( 380) 2633 882.4       0
+SP:Q9QXQ7 WNT5A_RAT Protein Wnt-5a OS=Rattus norve ( 380) 2627 880.4       0
+SP:P41221-2 WNT5A_HUMAN Isoform 2 of Protein Wnt-5 ( 365) 2569 861.1       0
+SP:P41221-2 WNT5A_HUMAN Isoform 2 of Protein Wnt-5 ( 365) 2569 861.1       0
+SP:P41221-2 WNT5A_HUMAN Isoform 2 of Protein Wnt-5 ( 365) 2569 861.1       0
+SP:P22725-2 WNT5A_MOUSE Isoform 2 of Protein Wnt-5 ( 360) 2529 847.8       0
+SP:P22725-2 WNT5A_MOUSE Isoform 2 of Protein Wnt-5 ( 360) 2529 847.8       0
+SP:P22725-2 WNT5A_MOUSE Isoform 2 of Protein Wnt-5 ( 360) 2529 847.8       0
+SP:P31286 WNT5A_XENLA Protein Wnt-5a OS=Xenopus la ( 380) 2313 775.7       0
+SP:O13267 WNT5A_PLEWA Protein Wnt-5a OS=Pleurodele ( 359) 2286 766.7       0
+SP:Q06442 WNT5A_AMBME Protein Wnt-5a OS=Ambystoma  ( 359) 2243 752.4  3e-216
+SP:Q92050 WNT5B_DANRE Protein Wnt-5b OS=Danio reri ( 363) 2120 711.4 6.9e-204
+SP:Q5NVK2 WNT5B_PONAB Protein Wnt-5b OS=Pongo abel ( 359) 2116 710.0 1.7e-203
+SP:P22726 WNT5B_MOUSE Protein Wnt-5b OS=Mus muscul ( 359) 2116 710.0 1.7e-203
+SP:Q9H1J7 WNT5B_HUMAN Protein Wnt-5b OS=Homo sapie ( 359) 2102 705.4 4.3e-202
+SP:Q06443 WNT5B_AMBME Protein Wnt-5b OS=Ambystoma  ( 357) 2069 694.4 8.8e-199
+SP:P33945 WNT5B_XENLA Protein Wnt-5b OS=Xenopus la ( 360) 2069 694.4  9e-199
+SP:O42122 WNT5B_ORYLA Protein Wnt-5b OS=Oryzias la ( 371) 2045 686.3 2.4e-196
+SP:O15978 WNT5_HALRO Protein Wnt-5 OS=Halocynthia  ( 363) 1212 408.5  1e-112
+SP:Q98SN7 WNT2B_CHICK Protein Wnt-2b OS=Gallus gal ( 385) 1109 374.1 2.4e-102
+SP:P87387 WN2BA_XENLA Protein Wnt-2b-A OS=Xenopus  ( 351) 1065 359.5 5.5e-98
+SP:P56705 WNT4_HUMAN Protein Wnt-4 OS=Homo sapiens ( 351) 1048 353.9 2.8e-96
+SP:P22724 WNT4_MOUSE Protein Wnt-4 OS=Mus musculus ( 351) 1044 352.5   7e-96
+SP:Q93097-2 WNT2B_HUMAN Isoform 1 of Protein Wnt-2 ( 372) 1044 352.5 7.7e-96
+SP:Q93097-2 WNT2B_HUMAN Isoform 1 of Protein Wnt-2 ( 372) 1044 352.5 7.7e-96
+SP:Q93097-2 WNT2B_HUMAN Isoform 1 of Protein Wnt-2 ( 372) 1044 352.5 7.7e-96
+SP:Q93097 WNT2B_HUMAN Protein Wnt-2b OS=Homo sapie ( 391) 1044 352.4 8.3e-96
+SP:Q9QXQ5 WNT4_RAT Protein Wnt-4 OS=Rattus norvegi ( 351) 1040 351.2 1.8e-95
+SP:O70283 WNT2B_MOUSE Protein Wnt-2b OS=Mus muscul ( 389) 1040 351.1 2.1e-95
+SP:P49337 WNT4_CHICK Protein Wnt-4 OS=Gallus gallu ( 351) 1039 350.9 2.2e-95
+SP:P49338 WNT4_XENLA Protein Wnt-4 OS=Xenopus laev ( 351) 1038 350.5 2.8e-95
+SP:P49338-2 WNT4_XENLA Isoform 2 of Protein Wnt-4  ( 367) 1038 350.5   3e-95
+SP:P49338-2 WNT4_XENLA Isoform 2 of Protein Wnt-4  ( 367) 1038 350.5   3e-95
+SP:P49338-2 WNT4_XENLA Isoform 2 of Protein Wnt-4  ( 367) 1038 350.5   3e-95
+SP:P34889 WNT2_CAEEL Protein Wnt-2 OS=Caenorhabdit ( 360) 1037 350.2 3.7e-95
+SP:Q07DV4 WNT2_AOTNA Protein Wnt-2 OS=Aotus nancym ( 360) 1036 349.8 4.6e-95
+SP:A0M8T2 WNT2_FELCA Protein Wnt-2 OS=Felis catus  ( 360) 1032 348.5 1.2e-94
+SP:Q09YK7 WNT2_ATEGE Protein Wnt-2 OS=Ateles geoff ( 360) 1032 348.5 1.2e-94
+SP:Q07E31 WNT2_NEONE Protein Wnt-2 OS=Neofelis neb ( 360) 1032 348.5 1.2e-94
+SP:Q2QLG1 WNT2_CALJA Protein Wnt-2 OS=Callithrix j ( 360) 1032 348.5 1.2e-94
+SP:Q2QLB6 WNT2_PLEMO Protein Wnt-2 OS=Plecturocebu ( 360) 1030 347.8 1.9e-94
+SP:P21552 WNT2_MOUSE Protein Wnt-2 OS=Mus musculus ( 360) 1027 346.8 3.7e-94
+SP:Q2QLA5 WNT2_HORSE Protein Wnt-2 OS=Equus caball ( 360) 1026 346.5 4.7e-94
+SP:Q108U2 WNT2_LOXAF Protein Wnt-2 OS=Loxodonta af ( 360) 1025 346.2 5.9e-94
+SP:Q07DX7 WNT2_NOMLE Protein Wnt-2 OS=Nomascus leu ( 360) 1024 345.8 7.4e-94
+SP:Q2QL76 WNT2_DIDVI Protein Wnt-2 OS=Didelphis vi ( 360) 1023 345.5 9.4e-94
+SP:Q2QLC7 WNT2_CARPS Protein Wnt-2 OS=Carollia per ( 360) 1023 345.5 9.4e-94
+SP:Q07E18 WNT2_MUSPF Protein Wnt-2 OS=Mustela puto ( 360) 1023 345.5 9.4e-94
+
+>>SP:P41221 WNT5A_HUMAN Protein Wnt-5a OS=Homo sapiens OX=9606
+GN=WNT5A PE=1 SV=2 (380 aa)
+ initn: 2662 init1: 2662 opt: 2662  Z-score: 4774.2  bits: 892.1 E(694687):    0
+Smith-Waterman score: 2662; 100.0% identity (100.0% similar) in 380 aa overlap (1-380:1-380)
+
+               10        20        30        40        50        60
+sp|P41 MKKSIGILSPGVALGMAGSAMSSKFFLVALAIFFSFAQVVIEANSWWSLGMNNPVQMSEV
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+SP:P41 MKKSIGILSPGVALGMAGSAMSSKFFLVALAIFFSFAQVVIEANSWWSLGMNNPVQMSEV
+               10        20        30        40        50        60
+
+               70        80        90       100       110       120
+sp|P41 YIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVDN
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+SP:P41 YIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVDN
+               70        80        90       100       110       120
+
+              130       140       150       160       170       180
+sp|P41 TSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCSRAARPKDLPRDWLWG
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+SP:P41 TSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCSRAARPKDLPRDWLWG
+              130       140       150       160       170       180
+
+              190       200       210       220       230       240
+sp|P41 GCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKC
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+SP:P41 GCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKC
+              190       200       210       220       230       240
+
+              250       260       270       280       290       300
+sp|P41 HGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAMRLNSRGKLVQVNSRFNSPTTQDLV
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+SP:P41 HGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAMRLNSRGKLVQVNSRFNSPTTQDLV
+              250       260       270       280       290       300
+
+              310       320       330       340       350       360
+sp|P41 YIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFH
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+SP:P41 YIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFH
+              310       320       330       340       350       360
+
+              370       380
+sp|P41 WCCYVKCKKCTEIVDQFVCK
+       ::::::::::::::::::::
+SP:P41 WCCYVKCKKCTEIVDQFVCK
+              370       380
+
+>>SP:Q27Q52 WNT5A_RABIT Protein Wnt-5a OS=Oryctolagus
+cuniculus OX=9986 GN=WNT5A PE=2 SV=1 (380 aa)
+ initn: 2645 init1: 2645 opt: 2645  Z-score: 4743.6  bits: 886.4 E(694687):    0
+Smith-Waterman score: 2645; 98.9% identity (99.7% similar) in 380 aa overlap (1-380:1-380)
+
+               10        20        30        40        50        60
+sp|P41 MKKSIGILSPGVALGMAGSAMSSKFFLVALAIFFSFAQVVIEANSWWSLGMNNPVQMSEV
+       ::::::::::::::: ::::::::::..:::.::::::::::::::::::::::::::::
+SP:Q27 MKKSIGILSPGVALGTAGSAMSSKFFVMALAVFFSFAQVVIEANSWWSLGMNNPVQMSEV
+               10        20        30        40        50        60
+
+               70        80        90       100       110       120
+sp|P41 YIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVDN
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+SP:Q27 YIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVDN
+               70        80        90       100       110       120
+
+              130       140       150       160       170       180
+sp|P41 TSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCSRAARPKDLPRDWLWG
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+SP:Q27 TSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCSRAARPKDLPRDWLWG
+              130       140       150       160       170       180
+
+              190       200       210       220       230       240
+sp|P41 GCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKC
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+SP:Q27 GCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKC
+              190       200       210       220       230       240
+
+              250       260       270       280       290       300
+sp|P41 HGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAMRLNSRGKLVQVNSRFNSPTTQDLV
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+SP:Q27 HGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAMRLNSRGKLVQVNSRFNSPTTQDLV
+              250       260       270       280       290       300
+
+              310       320       330       340       350       360
+sp|P41 YIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFH
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+SP:Q27 YIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFH
+              310       320       330       340       350       360
+
+              370       380
+sp|P41 WCCYVKCKKCTEIVDQFVCK
+       ::::::::::::::::::::
+SP:Q27 WCCYVKCKKCTEIVDQFVCK
+              370       380
+
+>>SP:P22725 WNT5A_MOUSE Protein Wnt-5a OS=Mus musculus
+OX=10090 GN=Wnt5a PE=1 SV=2 (380 aa)
+ initn: 2633 init1: 2633 opt: 2633  Z-score: 4721.9  bits: 882.4 E(694687):    0
+Smith-Waterman score: 2633; 98.7% identity (99.2% similar) in 380 aa overlap (1-380:1-380)
+
+               10        20        30        40        50        60
+sp|P41 MKKSIGILSPGVALGMAGSAMSSKFFLVALAIFFSFAQVVIEANSWWSLGMNNPVQMSEV
+       ::: ::::::::::: ::.::::::::.::: ::::::::::::::::::::::::::::
+SP:P22 MKKPIGILSPGVALGTAGGAMSSKFFLMALATFFSFAQVVIEANSWWSLGMNNPVQMSEV
+               10        20        30        40        50        60
+
+               70        80        90       100       110       120
+sp|P41 YIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVDN
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+SP:P22 YIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVDN
+               70        80        90       100       110       120
+
+              130       140       150       160       170       180
+sp|P41 TSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCSRAARPKDLPRDWLWG
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+SP:P22 TSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCSRAARPKDLPRDWLWG
+              130       140       150       160       170       180
+
+              190       200       210       220       230       240
+sp|P41 GCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKC
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+SP:P22 GCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKC
+              190       200       210       220       230       240
+
+              250       260       270       280       290       300
+sp|P41 HGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAMRLNSRGKLVQVNSRFNSPTTQDLV
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+SP:P22 HGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAMRLNSRGKLVQVNSRFNSPTTQDLV
+              250       260       270       280       290       300
+
+              310       320       330       340       350       360
+sp|P41 YIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFH
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+SP:P22 YIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFH
+              310       320       330       340       350       360
+
+              370       380
+sp|P41 WCCYVKCKKCTEIVDQFVCK
+       ::::::::::::::::::::
+SP:P22 WCCYVKCKKCTEIVDQFVCK
+              370       380
+
+>>SP:Q9QXQ7 WNT5A_RAT Protein Wnt-5a OS=Rattus norvegicus
+OX=10116 GN=Wnt5a PE=2 SV=2 (380 aa)
+ initn: 2627 init1: 2627 opt: 2627  Z-score: 4711.1  bits: 880.4 E(694687):    0
+Smith-Waterman score: 2627; 98.4% identity (99.2% similar) in 380 aa overlap (1-380:1-380)
+
+               10        20        30        40        50        60
+sp|P41 MKKSIGILSPGVALGMAGSAMSSKFFLVALAIFFSFAQVVIEANSWWSLGMNNPVQMSEV
+       ::: ::::::::::: ::.::::::::.::: ::::::::::::::::::::::::::::
+SP:Q9Q MKKPIGILSPGVALGTAGGAMSSKFFLMALATFFSFAQVVIEANSWWSLGMNNPVQMSEV
+               10        20        30        40        50        60
+
+               70        80        90       100       110       120
+sp|P41 YIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVDN
+       .:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+SP:Q9Q HIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVDN
+               70        80        90       100       110       120
+
+              130       140       150       160       170       180
+sp|P41 TSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCSRAARPKDLPRDWLWG
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+SP:Q9Q TSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCSRAARPKDLPRDWLWG
+              130       140       150       160       170       180
+
+              190       200       210       220       230       240
+sp|P41 GCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKC
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+SP:Q9Q GCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKC
+              190       200       210       220       230       240
+
+              250       260       270       280       290       300
+sp|P41 HGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAMRLNSRGKLVQVNSRFNSPTTQDLV
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+SP:Q9Q HGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAMRLNSRGKLVQVNSRFNSPTTQDLV
+              250       260       270       280       290       300
+
+              310       320       330       340       350       360
+sp|P41 YIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFH
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+SP:Q9Q YIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFH
+              310       320       330       340       350       360
+
+              370       380
+sp|P41 WCCYVKCKKCTEIVDQFVCK
+       ::::::::::::::::::::
+SP:Q9Q WCCYVKCKKCTEIVDQFVCK
+              370       380
+
+>>SP:P41221-2 WNT5A_HUMAN Isoform 2 of Protein Wnt-5a OS=Homo
+sapiens OX=9606 GN=WNT5A (365 aa)
+ initn: 2569 init1: 2569 opt: 2569  Z-score: 4607.1  bits: 861.1 E(694687):    0
+Smith-Waterman score: 2569; 100.0% identity (100.0% similar) in 365 aa overlap (16-380:1-365)
+
+               10        20        30        40        50        60
+sp|P41 MKKSIGILSPGVALGMAGSAMSSKFFLVALAIFFSFAQVVIEANSWWSLGMNNPVQMSEV
+                      :::::::::::::::::::::::::::::::::::::::::::::
+SP:P41                MAGSAMSSKFFLVALAIFFSFAQVVIEANSWWSLGMNNPVQMSEV
+                              10        20        30        40     
+
+               70        80        90       100       110       120
+sp|P41 YIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVDN
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+SP:P41 YIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVDN
+          50        60        70        80        90       100     
+
+              130       140       150       160       170       180
+sp|P41 TSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCSRAARPKDLPRDWLWG
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+SP:P41 TSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCSRAARPKDLPRDWLWG
+         110       120       130       140       150       160     
+
+              190       200       210       220       230       240
+sp|P41 GCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKC
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+SP:P41 GCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKC
+         170       180       190       200       210       220     
+
+              250       260       270       280       290       300
+sp|P41 HGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAMRLNSRGKLVQVNSRFNSPTTQDLV
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+SP:P41 HGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAMRLNSRGKLVQVNSRFNSPTTQDLV
+         230       240       250       260       270       280     
+
+              310       320       330       340       350       360
+sp|P41 YIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFH
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+SP:P41 YIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFH
+         290       300       310       320       330       340     
+
+              370       380
+sp|P41 WCCYVKCKKCTEIVDQFVCK
+       ::::::::::::::::::::
+SP:P41 WCCYVKCKKCTEIVDQFVCK
+         350       360     
+
+>>SP:P41221-2 WNT5A_HUMAN Isoform 2 of Protein Wnt-5a OS=Homo
+sapiens OX=9606 GN=WNT5A (365 aa)
+ initn: 2569 init1: 2569 opt: 2569  Z-score: 4607.1  bits: 861.1 E(694687):    0
+Smith-Waterman score: 2569; 100.0% identity (100.0% similar) in 365 aa overlap (16-380:1-365)
+
+               10        20        30        40        50        60
+sp|P41 MKKSIGILSPGVALGMAGSAMSSKFFLVALAIFFSFAQVVIEANSWWSLGMNNPVQMSEV
+                      :::::::::::::::::::::::::::::::::::::::::::::
+SP:P41                MAGSAMSSKFFLVALAIFFSFAQVVIEANSWWSLGMNNPVQMSEV
+                              10        20        30        40     
+
+               70        80        90       100       110       120
+sp|P41 YIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVDN
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+SP:P41 YIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVDN
+          50        60        70        80        90       100     
+
+              130       140       150       160       170       180
+sp|P41 TSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCSRAARPKDLPRDWLWG
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+SP:P41 TSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCSRAARPKDLPRDWLWG
+         110       120       130       140       150       160     
+
+              190       200       210       220       230       240
+sp|P41 GCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKC
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+SP:P41 GCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKC
+         170       180       190       200       210       220     
+
+              250       260       270       280       290       300
+sp|P41 HGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAMRLNSRGKLVQVNSRFNSPTTQDLV
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+SP:P41 HGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAMRLNSRGKLVQVNSRFNSPTTQDLV
+         230       240       250       260       270       280     
+
+              310       320       330       340       350       360
+sp|P41 YIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFH
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+SP:P41 YIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFH
+         290       300       310       320       330       340     
+
+              370       380
+sp|P41 WCCYVKCKKCTEIVDQFVCK
+       ::::::::::::::::::::
+SP:P41 WCCYVKCKKCTEIVDQFVCK
+         350       360     
+
+>>SP:P41221-2 WNT5A_HUMAN Isoform 2 of Protein Wnt-5a OS=Homo
+sapiens OX=9606 GN=WNT5A (365 aa)
+ initn: 2569 init1: 2569 opt: 2569  Z-score: 4607.1  bits: 861.1 E(694687):    0
+Smith-Waterman score: 2569; 100.0% identity (100.0% similar) in 365 aa overlap (16-380:1-365)
+
+               10        20        30        40        50        60
+sp|P41 MKKSIGILSPGVALGMAGSAMSSKFFLVALAIFFSFAQVVIEANSWWSLGMNNPVQMSEV
+                      :::::::::::::::::::::::::::::::::::::::::::::
+SP:P41                MAGSAMSSKFFLVALAIFFSFAQVVIEANSWWSLGMNNPVQMSEV
+                              10        20        30        40     
+
+               70        80        90       100       110       120
+sp|P41 YIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVDN
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+SP:P41 YIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVDN
+          50        60        70        80        90       100     
+
+              130       140       150       160       170       180
+sp|P41 TSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCSRAARPKDLPRDWLWG
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+SP:P41 TSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCSRAARPKDLPRDWLWG
+         110       120       130       140       150       160     
+
+              190       200       210       220       230       240
+sp|P41 GCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKC
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+SP:P41 GCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKC
+         170       180       190       200       210       220     
+
+              250       260       270       280       290       300
+sp|P41 HGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAMRLNSRGKLVQVNSRFNSPTTQDLV
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+SP:P41 HGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAMRLNSRGKLVQVNSRFNSPTTQDLV
+         230       240       250       260       270       280     
+
+              310       320       330       340       350       360
+sp|P41 YIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFH
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+SP:P41 YIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFH
+         290       300       310       320       330       340     
+
+              370       380
+sp|P41 WCCYVKCKKCTEIVDQFVCK
+       ::::::::::::::::::::
+SP:P41 WCCYVKCKKCTEIVDQFVCK
+         350       360     
+
+>>SP:P22725-2 WNT5A_MOUSE Isoform 2 of Protein Wnt-5a OS=Mus
+musculus OX=10090 GN=Wnt5a (360 aa)
+ initn: 2529 init1: 2529 opt: 2529  Z-score: 4535.1  bits: 847.8 E(694687):    0
+Smith-Waterman score: 2529; 99.4% identity (99.7% similar) in 360 aa overlap (21-380:1-360)
+
+               10        20        30        40        50        60
+sp|P41 MKKSIGILSPGVALGMAGSAMSSKFFLVALAIFFSFAQVVIEANSWWSLGMNNPVQMSEV
+                           :::::::.::: ::::::::::::::::::::::::::::
+SP:P22                     MSSKFFLMALATFFSFAQVVIEANSWWSLGMNNPVQMSEV
+                                   10        20        30        40
+
+               70        80        90       100       110       120
+sp|P41 YIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVDN
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+SP:P22 YIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVDN
+               50        60        70        80        90       100
+
+              130       140       150       160       170       180
+sp|P41 TSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCSRAARPKDLPRDWLWG
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+SP:P22 TSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCSRAARPKDLPRDWLWG
+              110       120       130       140       150       160
+
+              190       200       210       220       230       240
+sp|P41 GCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKC
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+SP:P22 GCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKC
+              170       180       190       200       210       220
+
+              250       260       270       280       290       300
+sp|P41 HGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAMRLNSRGKLVQVNSRFNSPTTQDLV
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+SP:P22 HGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAMRLNSRGKLVQVNSRFNSPTTQDLV
+              230       240       250       260       270       280
+
+              310       320       330       340       350       360
+sp|P41 YIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFH
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+SP:P22 YIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFH
+              290       300       310       320       330       340
+
+              370       380
+sp|P41 WCCYVKCKKCTEIVDQFVCK
+       ::::::::::::::::::::
+SP:P22 WCCYVKCKKCTEIVDQFVCK
+              350       360
+
+>>SP:P22725-2 WNT5A_MOUSE Isoform 2 of Protein Wnt-5a OS=Mus
+musculus OX=10090 GN=Wnt5a (360 aa)
+ initn: 2529 init1: 2529 opt: 2529  Z-score: 4535.1  bits: 847.8 E(694687):    0
+Smith-Waterman score: 2529; 99.4% identity (99.7% similar) in 360 aa overlap (21-380:1-360)
+
+               10        20        30        40        50        60
+sp|P41 MKKSIGILSPGVALGMAGSAMSSKFFLVALAIFFSFAQVVIEANSWWSLGMNNPVQMSEV
+                           :::::::.::: ::::::::::::::::::::::::::::
+SP:P22                     MSSKFFLMALATFFSFAQVVIEANSWWSLGMNNPVQMSEV
+                                   10        20        30        40
+
+               70        80        90       100       110       120
+sp|P41 YIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVDN
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+SP:P22 YIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVDN
+               50        60        70        80        90       100
+
+              130       140       150       160       170       180
+sp|P41 TSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCSRAARPKDLPRDWLWG
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+SP:P22 TSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCSRAARPKDLPRDWLWG
+              110       120       130       140       150       160
+
+              190       200       210       220       230       240
+sp|P41 GCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKC
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+SP:P22 GCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKC
+              170       180       190       200       210       220
+
+              250       260       270       280       290       300
+sp|P41 HGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAMRLNSRGKLVQVNSRFNSPTTQDLV
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+SP:P22 HGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAMRLNSRGKLVQVNSRFNSPTTQDLV
+              230       240       250       260       270       280
+
+              310       320       330       340       350       360
+sp|P41 YIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFH
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+SP:P22 YIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFH
+              290       300       310       320       330       340
+
+              370       380
+sp|P41 WCCYVKCKKCTEIVDQFVCK
+       ::::::::::::::::::::
+SP:P22 WCCYVKCKKCTEIVDQFVCK
+              350       360
+
+>>SP:P22725-2 WNT5A_MOUSE Isoform 2 of Protein Wnt-5a OS=Mus
+musculus OX=10090 GN=Wnt5a (360 aa)
+ initn: 2529 init1: 2529 opt: 2529  Z-score: 4535.1  bits: 847.8 E(694687):    0
+Smith-Waterman score: 2529; 99.4% identity (99.7% similar) in 360 aa overlap (21-380:1-360)
+
+               10        20        30        40        50        60
+sp|P41 MKKSIGILSPGVALGMAGSAMSSKFFLVALAIFFSFAQVVIEANSWWSLGMNNPVQMSEV
+                           :::::::.::: ::::::::::::::::::::::::::::
+SP:P22                     MSSKFFLMALATFFSFAQVVIEANSWWSLGMNNPVQMSEV
+                                   10        20        30        40
+
+               70        80        90       100       110       120
+sp|P41 YIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVDN
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+SP:P22 YIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVDN
+               50        60        70        80        90       100
+
+              130       140       150       160       170       180
+sp|P41 TSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCSRAARPKDLPRDWLWG
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+SP:P22 TSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCSRAARPKDLPRDWLWG
+              110       120       130       140       150       160
+
+              190       200       210       220       230       240
+sp|P41 GCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKC
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+SP:P22 GCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKC
+              170       180       190       200       210       220
+
+              250       260       270       280       290       300
+sp|P41 HGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAMRLNSRGKLVQVNSRFNSPTTQDLV
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+SP:P22 HGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAMRLNSRGKLVQVNSRFNSPTTQDLV
+              230       240       250       260       270       280
+
+              310       320       330       340       350       360
+sp|P41 YIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFH
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+SP:P22 YIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFH
+              290       300       310       320       330       340
+
+              370       380
+sp|P41 WCCYVKCKKCTEIVDQFVCK
+       ::::::::::::::::::::
+SP:P22 WCCYVKCKKCTEIVDQFVCK
+              350       360
+
+>>SP:P31286 WNT5A_XENLA Protein Wnt-5a OS=Xenopus laevis
+OX=8355 GN=wnt5a PE=2 SV=2 (380 aa)
+ initn: 2201 init1: 2201 opt: 2313  Z-score: 4145.1  bits: 775.7 E(694687):    0
+Smith-Waterman score: 2313; 87.3% identity (95.9% similar) in 370 aa overlap (11-380:12-380)
+
+                10        20        30        40        50         
+sp|P41  MKKSIGILSPGVALGMAGSAMSSKFFLVALAIFFSFAQVVIEANSWWSLGMNNPVQMSE
+                  : : :..:::: :. :.: :  .. ..: :.:..:::::::: :::: :
+SP:P31 MRKNLWTFQFGGEASGLVGSAMVSQHFVVLLMSLYCLTQSVVESSSWWSLGMN-PVQMPE
+               10        20        30        40        50          
+
+      60        70        80        90       100       110         
+sp|P41 VYIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVD
+       :::::::::::::.::::::::::.:::::::.::.::::::::::::::::::::::::
+SP:P31 VYIIGAQPLCSQLSGLSQGQKKLCQLYQDHMQFIGDGAKTGIKECQYQFRHRRWNCSTVD
+      60        70        80        90       100       110         
+
+     120       130       140       150       160       170         
+sp|P41 NTSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCSRAARPKDLPRDWLW
+       :::::::::::::::::::::.::::::::.:::::::::::::::::::::::::::::
+SP:P31 NTSVFGRVMQIGSRETAFTYAISAAGVVNAVSRACREGELSTCGCSRAARPKDLPRDWLW
+     120       130       140       150       160       170         
+
+     180       190       200       210       220       230         
+sp|P41 GGCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACK
+       ::::::.:::::::::::::::::.:: ::::::.::.:::::::::::.: .:::::::
+SP:P31 GGCGDNLDYGYRFAKEFVDAREREKIHQKGSYESSRIMMNLHNNEAGRRAVSTLADVACK
+     180       190       200       210       220       230         
+
+     240       250       260       270       280       290         
+sp|P41 CHGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAMRLNSRGKLVQVNSRFNSPTTQDL
+       ::::::::::::::::::::::::: ::::::::.::.::.::::::::..::::: .::
+SP:P31 CHGVSGSCSLKTCWLQLADFRKVGDHLKEKYDSAGAMKLNTRGKLVQVNNKFNSPTMNDL
+     240       250       260       270       280       290         
+
+     300       310       320       330       340       350         
+sp|P41 VYIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKF
+       :::::::::::.::::::::::::::::::::::::::::::::::::::::::::::::
+SP:P31 VYIDPSPDYCVHNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKF
+     300       310       320       330       340       350         
+
+     360       370       380
+sp|P41 HWCCYVKCKKCTEIVDQFVCK
+       :::::::::::::.::::.::
+SP:P31 HWCCYVKCKKCTEVVDQFACK
+     360       370       380
+
+>>SP:O13267 WNT5A_PLEWA Protein Wnt-5a OS=Pleurodeles waltl
+OX=8319 GN=WNT5A PE=3 SV=1 (359 aa)
+ initn: 2198 init1: 2198 opt: 2286  Z-score: 4097.1  bits: 766.7 E(694687):    0
+Smith-Waterman score: 2286; 89.2% identity (95.6% similar) in 360 aa overlap (21-380:1-359)
+
+               10        20        30        40        50        60
+sp|P41 MKKSIGILSPGVALGMAGSAMSSKFFLVALAIFFSFAQVVIEANSWWSLGMNNPVQMSEV
+                           :.:... .: :.. :: :: :::::::::.:: :::. :.
+SP:O13                     MASRYLTLAAALLASFLQVDIEANSWWSLAMN-PVQIPEA
+                                   10        20        30          
+
+               70        80        90       100       110       120
+sp|P41 YIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVDN
+       ::.::::::::::::: ::::::.::::::::::::::::::::::::::::::::::::
+SP:O13 YIVGAQPLCSQLAGLSPGQKKLCQLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVDN
+      40        50        60        70        80        90         
+
+              130       140       150       160       170       180
+sp|P41 TSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCSRAARPKDLPRDWLWG
+        ::::::::::::::::::..::::::::.::::: ::::::::::: ::::: ::::::
+SP:O13 ISVFGRVMQIGSRETAFTYSISAAGVVNAVSRACRAGELSTCGCSRARRPKDLQRDWLWG
+     100       110       120       130       140       150         
+
+              190       200       210       220       230       240
+sp|P41 GCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKC
+       :::::.:::::::::::::::::.:: ::::::.: ::::::::::::::::::::::::
+SP:O13 GCGDNLDYGYRFAKEFVDAREREKIHQKGSYESSRTLMNLHNNEAGRRTVYNLADVACKC
+     160       170       180       190       200       210         
+
+              250       260       270       280       290       300
+sp|P41 HGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAMRLNSRGKLVQVNSRFNSPTTQDLV
+       :::::::::::::::::::::::: :::::::::.:.::::::::::::::: :::.:::
+SP:O13 HGVSGSCSLKTCWLQLADFRKVGDFLKEKYDSAASMKLNSRGKLVQVNSRFNPPTTNDLV
+     220       230       240       250       260       270         
+
+              310       320       330       340       350       360
+sp|P41 YIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFH
+       :.:::::::::::::::.::::::::::::::::::::::::::::::::::::::::::
+SP:O13 YVDPSPDYCVRNESTGSMGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFH
+     280       290       300       310       320       330         
+
+              370       380
+sp|P41 WCCYVKCKKCTEIVDQFVCK
+       ::::::::::::::::::::
+SP:O13 WCCYVKCKKCTEIVDQFVCK
+     340       350         
+
+>>SP:Q06442 WNT5A_AMBME Protein Wnt-5a OS=Ambystoma mexicanum
+OX=8296 GN=WNT-5A PE=2 SV=1 (359 aa)
+ initn: 2177 init1: 2177 opt: 2243  Z-score: 4019.6  bits: 752.4 E(694687): 3e-216
+Smith-Waterman score: 2243; 87.5% identity (95.6% similar) in 360 aa overlap (21-380:1-359)
+
+               10        20        30        40        50        60
+sp|P41 MKKSIGILSPGVALGMAGSAMSSKFFLVALAIFFSFAQVVIEANSWWSLGMNNPVQMSEV
+                           :..  . .:::.. .. :: :::.:::::.:: :::. :.
+SP:Q06                     MATTHLTAALALLCALLQVDIEASSWWSLAMN-PVQIPEA
+                                   10        20        30          
+
+               70        80        90       100       110       120
+sp|P41 YIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVDN
+       ::.::::::::: ::: ::::::.:::::: :::::::::::::::::::::::::::::
+SP:Q06 YIVGAQPLCSQLPGLSPGQKKLCQLYQDHMPYIGEGAKTGIKECQYQFRHRRWNCSTVDN
+      40        50        60        70        80        90         
+
+              130       140       150       160       170       180
+sp|P41 TSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCSRAARPKDLPRDWLWG
+       .::::::::::::::::::..::::::::.::::::::::::::::::::::: ::::::
+SP:Q06 ASVFGRVMQIGSRETAFTYSISAAGVVNAVSRACREGELSTCGCSRAARPKDLQRDWLWG
+     100       110       120       130       140       150         
+
+              190       200       210       220       230       240
+sp|P41 GCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKC
+       :::::..::::::::::::::::.::.::::::.: :::.:::::::::::::::.::::
+SP:Q06 GCGDNLEYGYRFAKEFVDAREREKIHTKGSYESSRTLMNIHNNEAGRRTVYNLADAACKC
+     160       170       180       190       200       210         
+
+              250       260       270       280       290       300
+sp|P41 HGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAMRLNSRGKLVQVNSRFNSPTTQDLV
+       :::::::::::::::::::::::: :::::::::.::::.:::::::::::: :::.:::
+SP:Q06 HGVSGSCSLKTCWLQLADFRKVGDFLKEKYDSAASMRLNARGKLVQVNSRFNPPTTNDLV
+     220       230       240       250       260       270         
+
+              310       320       330       340       350       360
+sp|P41 YIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFH
+       :.: ::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+SP:Q06 YVDTSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFH
+     280       290       300       310       320       330         
+
+              370       380
+sp|P41 WCCYVKCKKCTEIVDQFVCK
+       ::::::::::::::::::::
+SP:Q06 WCCYVKCKKCTEIVDQFVCK
+     340       350         
+
+>>SP:Q92050 WNT5B_DANRE Protein Wnt-5b OS=Danio rerio OX=7955
+GN=wnt5b PE=2 SV=1 (363 aa)
+ initn: 2066 init1: 2066 opt: 2120  Z-score: 3797.8  bits: 711.4 E(694687): 6.9e-204
+Smith-Waterman score: 2120; 81.7% identity (93.1% similar) in 360 aa overlap (21-380:5-363)
+
+               10        20        30        40        50        60
+sp|P41 MKKSIGILSPGVALGMAGSAMSSKFFLVALAIFFSFAQVVIEANSWWSLGMNNPVQMSEV
+                           :..  .:.:....   .:... :::::::.:: :.:  :.
+SP:Q92                 MDVRMNQGHLLLAVTLIVCNSQLLVVANSWWSLAMN-PIQRPEM
+                               10        20        30         40   
+
+               70        80        90       100       110       120
+sp|P41 YIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVDN
+       ::::::::::::.::::::.:::.:::::: ::::::::::::::::::.::::::::::
+SP:Q92 YIIGAQPLCSQLTGLSQGQRKLCQLYQDHMVYIGEGAKTGIKECQYQFRQRRWNCSTVDN
+            50        60        70        80        90       100   
+
+              130       140       150       160       170       180
+sp|P41 TSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCSRAARPKDLPRDWLWG
+       ::::::::.::::::::::::::::::::.::::::::::::::::::::.:::::::::
+SP:Q92 TSVFGRVMHIGSRETAFTYAVSAAGVVNAVSRACREGELSTCGCSRAARPRDLPRDWLWG
+           110       120       130       140       150       160   
+
+              190       200       210       220       230       240
+sp|P41 GCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKC
+       :::::..::::::.:::::::::. . .:: : :: ::::.:::::: .:::::.:::::
+SP:Q92 GCGDNVNYGYRFAREFVDAREREKNYPRGSVEHARTLMNLQNNEAGRMAVYNLANVACKC
+           170       180       190       200       210       220   
+
+              250       260       270       280       290       300
+sp|P41 HGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAMRLNSRGKLVQVNSRFNSPTTQDLV
+       ::::::::::::::::::::.::. ::::::::::::.: ::::  ::.::: :: .:::
+SP:Q92 HGVSGSCSLKTCWLQLADFRRVGEFLKEKYDSAAAMRINRRGKLELVNNRFNPPTGEDLV
+           230       240       250       260       270       280   
+
+              310       320       330       340       350       360
+sp|P41 YIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFH
+       :::::::::.:::.::::::::::::::::::::::::::::::::::: . ::::::::
+SP:Q92 YIDPSPDYCLRNETTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTYKHERCHCKFH
+           290       300       310       320       330       340   
+
+              370       380
+sp|P41 WCCYVKCKKCTEIVDQFVCK
+       ::::::::.:: .:::::::
+SP:Q92 WCCYVKCKRCTSLVDQFVCK
+           350       360   
+
+>>SP:Q5NVK2 WNT5B_PONAB Protein Wnt-5b OS=Pongo abelii OX=9601
+GN=WNT5B PE=2 SV=1 (359 aa)
+ initn: 2084 init1: 2053 opt: 2116  Z-score: 3790.7  bits: 710.0 E(694687): 1.7e-203
+Smith-Waterman score: 2116; 81.1% identity (94.4% similar) in 360 aa overlap (21-380:1-359)
+
+               10        20        30        40        50        60
+sp|P41 MKKSIGILSPGVALGMAGSAMSSKFFLVALAIFFSFAQVVIEANSWWSLGMNNPVQMSEV
+                           : : ..: . :.. :.::.. .:::::::..: :::  :.
+SP:Q5N                     MPSLLLLFTAALLSSWAQLLTDANSWWSLALN-PVQRPEM
+                                   10        20        30          
+
+               70        80        90       100       110       120
+sp|P41 YIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVDN
+       .::::::.:::: ::: ::.:::.:::.:: ::::::::::::::.:::.::::::::::
+SP:Q5N FIIGAQPVCSQLPGLSPGQRKLCQLYQEHMAYIGEGAKTGIKECQHQFRQRRWNCSTVDN
+      40        50        60        70        80        90         
+
+              130       140       150       160       170       180
+sp|P41 TSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCSRAARPKDLPRDWLWG
+       .::::::::::::::::::::::::::::.::::::::::::::::.:::::::::::::
+SP:Q5N ASVFGRVMQIGSRETAFTYAVSAAGVVNAISRACREGELSTCGCSRTARPKDLPRDWLWG
+     100       110       120       130       140       150         
+
+              190       200       210       220       230       240
+sp|P41 GCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKC
+       :::::..::::::::::::::::.  :::: :..:.::::.:::::::.::..:::::::
+SP:Q5N GCGDNVEYGYRFAKEFVDAREREKNFAKGSEEQGRVLMNLQNNEAGRRAVYKMADVACKC
+     160       170       180       190       200       210         
+
+              250       260       270       280       290       300
+sp|P41 HGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAMRLNSRGKLVQVNSRFNSPTTQDLV
+       :::::::::::::::::.:::::: ::::::::::::.. .:.:  :::::..:: .:::
+SP:Q5N HGVSGSCSLKTCWLQLAEFRKVGDRLKEKYDSAAAMRVTRKGRLELVNSRFTQPTPEDLV
+     220       230       240       250       260       270         
+
+              310       320       330       340       350       360
+sp|P41 YIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFH
+       :.:::::::.::::::::::::::::::::::::::::::::::.:::.::.::::::::
+SP:Q5N YVDPSPDYCLRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYNQFKSVQVERCHCKFH
+     280       290       300       310       320       330         
+
+              370       380
+sp|P41 WCCYVKCKKCTEIVDQFVCK
+       :::.::::::::::::..::
+SP:Q5N WCCFVKCKKCTEIVDQYICK
+     340       350         
+
+>>SP:P22726 WNT5B_MOUSE Protein Wnt-5b OS=Mus musculus
+OX=10090 GN=Wnt5b PE=1 SV=2 (359 aa)
+ initn: 2082 init1: 2051 opt: 2116  Z-score: 3790.7  bits: 710.0 E(694687): 1.7e-203
+Smith-Waterman score: 2116; 80.8% identity (94.7% similar) in 360 aa overlap (21-380:1-359)
+
+               10        20        30        40        50        60
+sp|P41 MKKSIGILSPGVALGMAGSAMSSKFFLVALAIFFSFAQVVIEANSWWSLGMNNPVQMSEV
+                           : : ...:. :.. :.::.. .:::::::..: :::  :.
+SP:P22                     MPSLLLVVVAALLSSWAQLLTDANSWWSLALN-PVQRPEM
+                                   10        20        30          
+
+               70        80        90       100       110       120
+sp|P41 YIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVDN
+       .::::::.:::: ::: ::.:::.:::.::.::::::::::.:::.:::.::::::::::
+SP:P22 FIIGAQPVCSQLPGLSPGQRKLCQLYQEHMSYIGEGAKTGIRECQHQFRQRRWNCSTVDN
+      40        50        60        70        80        90         
+
+              130       140       150       160       170       180
+sp|P41 TSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCSRAARPKDLPRDWLWG
+       :::::::::::::::::::::::::::::.::::::::::::::::::::::::::::::
+SP:P22 TSVFGRVMQIGSRETAFTYAVSAAGVVNAISRACREGELSTCGCSRAARPKDLPRDWLWG
+     100       110       120       130       140       150         
+
+              190       200       210       220       230       240
+sp|P41 GCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKC
+       :::::..::::::::::::::::.  :::: :..: ::::.:::::::.::..:::::::
+SP:P22 GCGDNVEYGYRFAKEFVDAREREKNFAKGSEEQGRALMNLQNNEAGRRAVYKMADVACKC
+     160       170       180       190       200       210         
+
+              250       260       270       280       290       300
+sp|P41 HGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAMRLNSRGKLVQVNSRFNSPTTQDLV
+       :::::::::::::::::.:::::: ::::::::::::.. .:::  .:::::.:: .:::
+SP:P22 HGVSGSCSLKTCWLQLAEFRKVGDRLKEKYDSAAAMRITRQGKLELANSRFNQPTPEDLV
+     220       230       240       250       260       270         
+
+              310       320       330       340       350       360
+sp|P41 YIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFH
+       :.:::::::.:::.:::::::::::::::::::::::::::::::.::.::.:::::.::
+SP:P22 YVDPSPDYCLRNETTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDRFKSVQVERCHCRFH
+     280       290       300       310       320       330         
+
+              370       380
+sp|P41 WCCYVKCKKCTEIVDQFVCK
+       :::.:.::::::.:::.:::
+SP:P22 WCCFVRCKKCTEVVDQYVCK
+     340       350         
+
+>>SP:Q9H1J7 WNT5B_HUMAN Protein Wnt-5b OS=Homo sapiens OX=9606
+GN=WNT5B PE=2 SV=2 (359 aa)
+ initn: 2039 init1: 2039 opt: 2102  Z-score: 3765.5  bits: 705.4 E(694687): 4.3e-202
+Smith-Waterman score: 2102; 80.3% identity (94.4% similar) in 360 aa overlap (21-380:1-359)
+
+               10        20        30        40        50        60
+sp|P41 MKKSIGILSPGVALGMAGSAMSSKFFLVALAIFFSFAQVVIEANSWWSLGMNNPVQMSEV
+                           : : ..: . :.. :.::.. .:::::::..: :::  :.
+SP:Q9H                     MPSLLLLFTAALLSSWAQLLTDANSWWSLALN-PVQRPEM
+                                   10        20        30          
+
+               70        80        90       100       110       120
+sp|P41 YIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVDN
+       .::::::.:::: ::: ::.:::.:::.:: ::::::::::::::.:::.:::::::.::
+SP:Q9H FIIGAQPVCSQLPGLSPGQRKLCQLYQEHMAYIGEGAKTGIKECQHQFRQRRWNCSTADN
+      40        50        60        70        80        90         
+
+              130       140       150       160       170       180
+sp|P41 TSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCSRAARPKDLPRDWLWG
+       .:::::::::::::::::.::::::::::.::::::::::::::::.:::::::::::::
+SP:Q9H ASVFGRVMQIGSRETAFTHAVSAAGVVNAISRACREGELSTCGCSRTARPKDLPRDWLWG
+     100       110       120       130       140       150         
+
+              190       200       210       220       230       240
+sp|P41 GCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKC
+       :::::..::::::::::::::::.  :::: :..:.::::.:::::::.::..:::::::
+SP:Q9H GCGDNVEYGYRFAKEFVDAREREKNFAKGSEEQGRVLMNLQNNEAGRRAVYKMADVACKC
+     160       170       180       190       200       210         
+
+              250       260       270       280       290       300
+sp|P41 HGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAMRLNSRGKLVQVNSRFNSPTTQDLV
+       :::::::::::::::::.:::::: ::::::::::::.. .:.:  :::::..:: .:::
+SP:Q9H HGVSGSCSLKTCWLQLAEFRKVGDRLKEKYDSAAAMRVTRKGRLELVNSRFTQPTPEDLV
+     220       230       240       250       260       270         
+
+              310       320       330       340       350       360
+sp|P41 YIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFH
+       :.:::::::.::::::::::::::::::::::::::::::::::.:::.::.::::::::
+SP:Q9H YVDPSPDYCLRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYNQFKSVQVERCHCKFH
+     280       290       300       310       320       330         
+
+              370       380
+sp|P41 WCCYVKCKKCTEIVDQFVCK
+       :::.:.::::::::::..::
+SP:Q9H WCCFVRCKKCTEIVDQYICK
+     340       350         
+
+>>SP:Q06443 WNT5B_AMBME Protein Wnt-5b OS=Ambystoma mexicanum
+OX=8296 GN=WNT-5B PE=2 SV=1 (357 aa)
+ initn: 2054 init1: 2054 opt: 2069  Z-score: 3706.1  bits: 694.4 E(694687): 8.8e-199
+Smith-Waterman score: 2069; 85.8% identity (95.0% similar) in 338 aa overlap (43-380:21-357)
+
+             20        30        40        50        60        70  
+sp|P41 ALGMAGSAMSSKFFLVALAIFFSFAQVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQL
+                                     :.:::::..: :::  :.:::::::.::::
+SP:Q06           MPGIRLLLAAALLCCPPPAGATSWWSLAQN-PVQRPEMYIIGAQPVCSQL
+                         10        20        30         40         
+
+             80        90       100       110       120       130  
+sp|P41 AGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVDNTSVFGRVMQIGS
+       ..:: ::::::.::::::.:::::::::::::::::..::::::::::::::::::::::
+SP:Q06 SSLSPGQKKLCQLYQDHMMYIGEGAKTGIKECQYQFKQRRWNCSTVDNTSVFGRVMQIGS
+      50        60        70        80        90       100         
+
+            140       150       160       170       180       190  
+sp|P41 RETAFTYAVSAAGVVNAMSRACREGELSTCGCSRAARPKDLPRDWLWGGCGDNIDYGYRF
+       :::::::::::::::::.::::::::::::::::..::::: :::::::::::.::::::
+SP:Q06 RETAFTYAVSAAGVVNAISRACREGELSTCGCSRTTRPKDLHRDWLWGGCGDNVDYGYRF
+     110       120       130       140       150       160         
+
+            200       210       220       230       240       250  
+sp|P41 AKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTC
+       :::::::::::. . ::: :.:: ::::.:::::::.::.:::.::::::::::::::::
+SP:Q06 AKEFVDAREREKNYPKGSEEQARTLMNLQNNEAGRRAVYKLADAACKCHGVSGSCSLKTC
+     170       180       190       200       210       220         
+
+            260       270       280       290       300       310  
+sp|P41 WLQLADFRKVGDALKEKYDSAAAMRLNSRGKLVQVNSRFNSPTTQDLVYIDPSPDYCVRN
+       :::::::::::: ::::::::::::.: .:::  ::.::: ::..:::: : :::::.::
+SP:Q06 WLQLADFRKVGDHLKEKYDSAAAMRINRKGKLELVNNRFNLPTVEDLVYTDQSPDYCLRN
+     230       240       250       260       270       280         
+
+            320       330       340       350       360       370  
+sp|P41 ESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTE
+       :::::::: ::::::::::::::::::::::::::::::.:::::::::::.::::::::
+SP:Q06 ESTGSLGTLGRLCNKTSEGMDGCELMCCGRGYDQFKTVQVERCHCKFHWCCFVKCKKCTE
+     290       300       310       320       330       340         
+
+            380
+sp|P41 IVDQFVCK
+       ::::.:::
+SP:Q06 IVDQYVCK
+     350       
+
+>>SP:P33945 WNT5B_XENLA Protein Wnt-5b OS=Xenopus laevis
+OX=8355 GN=wnt5b PE=2 SV=2 (360 aa)
+ initn: 2031 init1: 2031 opt: 2069  Z-score: 3706.0  bits: 694.4 E(694687): 9e-199
+Smith-Waterman score: 2069; 80.8% identity (93.2% similar) in 355 aa overlap (26-380:7-360)
+
+               10        20        30        40        50        60
+sp|P41 MKKSIGILSPGVALGMAGSAMSSKFFLVALAIFFSFAQVVIEANSWWSLGMNNPVQMSEV
+                                .:.  ...  . : :. :::::::..: :::  :.
+SP:P33                    MTPILRLLLLSSLLSCWKQSVVGANSWWSLALN-PVQRPEM
+                                  10        20        30         40
+
+               70        80        90       100       110       120
+sp|P41 YIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVDN
+       .:::::::::::.::: ::.:::.:::::: .:::::::::::::.::.:::::::::::
+SP:P33 FIIGAQPLCSQLTGLSPGQRKLCQLYQDHMVHIGEGAKTGIKECQHQFKHRRWNCSTVDN
+               50        60        70        80        90       100
+
+              130       140       150       160       170       180
+sp|P41 TSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCSRAARPKDLPRDWLWG
+       .:::::::::::::.:::::.:.::::::.::::::::::::::::. ::::::::::::
+SP:P33 NSVFGRVMQIGSREAAFTYAISSAGVVNAISRACREGELSTCGCSRTPRPKDLPRDWLWG
+              110       120       130       140       150       160
+
+              190       200       210       220       230       240
+sp|P41 GCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKC
+       :::::..::::::::::::::::.   ::: :.:: ::::.:::::::.::.::::::::
+SP:P33 GCGDNVEYGYRFAKEFVDAREREKNFPKGSEEQARSLMNLQNNEAGRRAVYKLADVACKC
+              170       180       190       200       210       220
+
+              250       260       270       280       290       300
+sp|P41 HGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAMRLNSRGKLVQVNSRFNSPTTQDLV
+       :::::::::::::::::::::::. .::::::::.::::.:.:: :::.::: :: .:::
+SP:P33 HGVSGSCSLKTCWLQLADFRKVGEYIKEKYDSAASMRLNKRNKLEQVNQRFNPPTGEDLV
+              230       240       250       260       270       280
+
+              310       320       330       340       350       360
+sp|P41 YIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFH
+       :.:::::::. ::.::::::.:: :::::::::::::::::::::::::::.:::::::.
+SP:P33 YLDPSPDYCLYNETTGSLGTHGRQCNKTSEGMDGCELMCCGRGYDQFKTVQVERCHCKFQ
+              290       300       310       320       330       340
+
+              370       380
+sp|P41 WCCYVKCKKCTEIVDQFVCK
+       :::.::::::::::::::::
+SP:P33 WCCFVKCKKCTEIVDQFVCK
+              350       360
+
+>>SP:O42122 WNT5B_ORYLA Protein Wnt-5b OS=Oryzias latipes
+OX=8090 GN=wnt5b PE=2 SV=1 (371 aa)
+ initn: 2021 init1: 2004 opt: 2045  Z-score: 3662.3  bits: 686.3 E(694687): 2.4e-196
+Smith-Waterman score: 2045; 81.3% identity (93.6% similar) in 342 aa overlap (39-380:31-371)
+
+       10        20        30        40        50        60        
+sp|P41 SPGVALGMAGSAMSSKFFLVALAIFFSFAQVVIEANSWWSLGMNNPVQMSEVYIIGAQPL
+                                     ....::::::::.. :.:  :.::::::::
+SP:O42 MDNRSVQRRRTGDVRHLLLAAAFLTCNSQLLLVDANSWWSLGLT-PIQRPEMYIIGAQPL
+               10        20        30        40         50         
+
+       70        80        90       100       110       120        
+sp|P41 CSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVDNTSVFGRVM
+       ::::.::::::.:::.:::::: :::.::::::::::::::.::::::::::::::::::
+SP:O42 CSQLSGLSQGQRKLCQLYQDHMTYIGDGAKTGIKECQYQFRQRRWNCSTVDNTSVFGRVM
+      60        70        80        90       100       110         
+
+      130       140       150       160       170       180        
+sp|P41 QIGSRETAFTYAVSAAGVVNAMSRACREGELSTCGCSRAARPKDLPRDWLWGGCGDNIDY
+       ::::::::::::.::::::::.::::::::::::::::.:::.::::::::::::::. :
+SP:O42 QIGSRETAFTYAISAAGVVNAISRACREGELSTCGCSRTARPRDLPRDWLWGGCGDNVYY
+     120       130       140       150       160       170         
+
+      190       200       210       220       230       240        
+sp|P41 GYRFAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKCHGVSGSCS
+       : :::.:::::::::. . .:: : :: :::::::::::..:::::::::::::::::::
+SP:O42 GKRFAQEFVDAREREKNYPRGSREHARTLMNLHNNEAGRQAVYNLADVACKCHGVSGSCS
+     180       190       200       210       220       230         
+
+      250       260       270       280       290       300        
+sp|P41 LKTCWLQLADFRKVGDALKEKYDSAAAMRLNSRGKLVQVNSRFNSPTTQDLVYIDPSPDY
+       ::::::::::::.::. ::::::::::::.. .:.:  ...::: :: .:::::: ::::
+SP:O42 LKTCWLQLADFRRVGEFLKEKYDSAAAMRIGRKGRLELLDKRFNPPTPEDLVYIDLSPDY
+     240       250       260       270       280       290         
+
+      310       320       330       340       350       360        
+sp|P41 CVRNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCK
+       : :::.:::::::::.:::::::::::::::::::::::.. . ::::::::::::::::
+SP:O42 CHRNETTGSLGTQGRFCNKTSEGMDGCELMCCGRGYDQFRVYKHERCHCKFHWCCYVKCK
+     300       310       320       330       340       350         
+
+      370       380
+sp|P41 KCTEIVDQFVCK
+       .:. .:::::::
+SP:O42 RCSTLVDQFVCK
+     360       370 
+
+>>SP:O15978 WNT5_HALRO Protein Wnt-5 OS=Halocynthia roretzi
+OX=7729 GN=WNT5 PE=3 SV=1 (363 aa)
+ initn: 1173 init1: 1004 opt: 1212  Z-score: 2161.1  bits: 408.5 E(694687): 1e-112
+Smith-Waterman score: 1212; 51.1% identity (76.8% similar) in 311 aa overlap (69-379:53-362)
+
+       40        50        60        70        80        90        
+sp|P41 VVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAK
+                                     :... :::..:..::. :.::: :.  :.:
+SP:O15 SSVLMQVKPQLWSVGIERKKLFGETNTSVHCDEIRGLSRNQRSLCRTYNDHMYYVESGSK
+             30        40        50        60        70        80  
+
+      100       110       120       130       140       150        
+sp|P41 TGIKECQYQFRHRRWNCSTVDNTSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGE
+        :..:::.::: .::::: ..:.:   ... .::.:::::::....:::....:::. :.
+SP:O15 QGVEECQWQFRGQRWNCSLASNASP-DKIIAVGSKETAFTYAITSGGVVQSIARACKSGN
+             90       100        110       120       130       140 
+
+      160       170       180       190       200       210        
+sp|P41 LSTCGCSRAARPKDLPRDWLWGGCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILM
+       : .::::.  ::  : .:: ::::::.:::.: ::.::.::.::.    .    ...  :
+SP:O15 LMACGCSKRERPTGLGKDWNWGGCGDDIDYAYGFAHEFIDAQERDNSSPNDRRVKSHKAM
+             150       160       170       180       190       200 
+
+      220       230       240       250       260       270        
+sp|P41 NLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAMRL
+       :.::::::: .:   . ..:::::::::::.::::::  .:: .:: :...::.:  ::.
+SP:O15 NIHNNEAGRLSVVRASHTTCKCHGVSGSCSIKTCWLQTPQFRTIGDKLRQRYDDALEMRV
+             210       220       230       240       250       260 
+
+      280       290       300       310       320       330        
+sp|P41 NSRGKLVQVNSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGCELM
+       . ::..    :   .:.. :::::: :::::  :.. : :::.:: :.  : .:::: ::
+SP:O15 THRGQMKTRFSSDRNPSNIDLVYIDSSPDYCKVNHKLGILGTSGRECQLDSLAMDGCGLM
+             270       280       290       300       310       320 
+
+      340       350       360       370       380
+sp|P41 CCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK
+       ::::::    .  .. :.:::.:::.:::..: : : . .: 
+SP:O15 CCGRGYTTKMVEVVKSCNCKFQWCCFVKCQQCKEKVLKHICN
+             330       340       350       360   
+
+>>SP:Q98SN7 WNT2B_CHICK Protein Wnt-2b OS=Gallus gallus
+OX=9031 GN=WNT2B PE=1 SV=1 (385 aa)
+ initn: 991 init1: 460 opt: 1109  Z-score: 1974.7  bits: 374.1 E(694687): 2.4e-102
+Smith-Waterman score: 1109; 55.0% identity (78.6% similar) in 322 aa overlap (63-380:60-374)
+
+             40        50        60        70        80        90  
+sp|P41 FFSFAQVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQY
+                                     .::. .:... :: . :..::. : : :: 
+SP:Q98 GAAPRICLPFVLILLALTPRADSSWWYIGALGARVICDNIPGLVNKQRQLCQRYPDIMQS
+      30        40        50        60        70        80         
+
+            100       110        120       130       140       150 
+sp|P41 IGEGAKTGIKECQYQFRHRRWNCSTVD-NTSVFGRVMQIGSRETAFTYAVSAAGVVNAMS
+       .:::::  :.::::::::.::::::.: . .::::::  .:::.::.::.:.:::: :..
+SP:Q98 VGEGAKEWIRECQYQFRHHRWNCSTLDRDHTVFGRVMLRSSREAAFVYAISSAGVVYAIT
+      90       100       110       120       130       140         
+
+             160         170       180       190       200         
+sp|P41 RACREGELSTCGCS--RAARPKDLPRDWLWGGCGDNIDYGYRFAKEFVDARERERIHAKG
+       ::: .:::..:::.  . .: ::   .. ::::.:::.:: :::: ::::.:..      
+SP:Q98 RACSQGELKACGCDPLKRGRAKDERGEFDWGGCSDNINYGIRFAKAFVDAKEKK------
+     150       160       170       180       190       200         
+
+     210       220       230       240       250       260         
+sp|P41 SYESARILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDALKEK
+         ..:: :::::::. :: .:  .  . ::::::::::.:.:::: ..::::.:: :..:
+SP:Q98 -VKDARALMNLHNNRCGRMAVKRFLKLECKCHGVSGSCTLRTCWLAMSDFRKTGDYLQKK
+            210       220       230       240       250       260  
+
+     270       280        290       300       310       320        
+sp|P41 YDSAAAMRLNSRGKLVQV-NSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQGRLCNKT
+       :..:  . .:. :    : :. : .::  ::::.. :::::: ..:.::::: ::.:::.
+SP:Q98 YNGAIQVIMNQDGTGFTVANKNFRKPTKTDLVYFENSPDYCVMDKSAGSLGTAGRVCNKV
+            270       280       290       300       310       320  
+
+      330       340       350       360       370       380        
+sp|P41 SEGMDGCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK        
+       :.: ::::.::::::::  ..... .:.::::::: :.::.: . ::  .::        
+SP:Q98 SRGTDGCEVMCCGRGYDTTRVTRVTKCECKFHWCCAVRCKECEDTVDVHTCKAPKRAEWL
+            330       340       350       360       370       380  
+
+SP:Q98 DQT
+          
+
+>>SP:P87387 WN2BA_XENLA Protein Wnt-2b-A OS=Xenopus laevis
+OX=8355 GN=wnt2b-a PE=2 SV=1 (351 aa)
+ initn: 1099 init1: 447 opt: 1065  Z-score: 1896.6  bits: 359.5 E(694687): 5.5e-98
+Smith-Waterman score: 1065; 52.5% identity (78.3% similar) in 322 aa overlap (63-380:26-340)
+
+             40        50        60        70        80        90  
+sp|P41 FFSFAQVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQY
+                                     .::. .:... :: . :..::. . : :: 
+SP:P87      MHFAYILILLILTPRVDSSWWYIGALGARVICDNIPGLVNKQRQLCQKHPDIMQA
+                    10        20        30        40        50     
+
+            100       110        120       130       140       150 
+sp|P41 IGEGAKTGIKECQYQFRHRRWNCSTVD-NTSVFGRVMQIGSRETAFTYAVSAAGVVNAMS
+       ::::::  :.:::.::::.::::::.: . .::::::  .::::::.::.: :::: :..
+SP:P87 IGEGAKEWIRECQHQFRHHRWNCSTLDRDHTVFGRVMLRSSRETAFVYAISYAGVVYAIT
+          60        70        80        90       100       110     
+
+             160         170       180       190       200         
+sp|P41 RACREGELSTCGCS--RAARPKDLPRDWLWGGCGDNIDYGYRFAKEFVDARERERIHAKG
+       ::: .:::..:.:.  . .: ::   .. ::::.:.::.: .: :.::::.:..      
+SP:P87 RACSQGELKSCNCDPKKRGRSKDERGEFDWGGCSDHIDFGIKFPKDFVDAKEKR------
+         120       130       140       150       160               
+
+     210       220       230       240       250       260         
+sp|P41 SYESARILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDALKEK
+         ..:: :::::::. :: .:  . .. ::::::::::.:.:::  ..::::.:: :...
+SP:P87 -LKDARALMNLHNNRCGRMAVKRFMNLECKCHGVSGSCTLRTCWRAMSDFRKTGDFLRRR
+      170       180       190       200       210       220        
+
+     270       280        290       300       310       320        
+sp|P41 YDSAAAMRLNSRGKLVQV-NSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQGRLCNKT
+       :..:  . .:. :.   : :. : . : .::::.. :::::: ....::::: ::.:.:.
+SP:P87 YNGAIQVTMNQDGSGFAVANQNFRKATKKDLVYFENSPDYCVMDKTAGSLGTAGRVCDKV
+      230       240       250       260       270       280        
+
+      330       340       350       360       370       380        
+sp|P41 SEGMDGCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK        
+       :.: ::::.::::::::  ....  .:.::::::: :.::.: : ::  .::        
+SP:P87 SRGTDGCEVMCCGRGYDTTRVTRITKCECKFHWCCAVRCKECEETVDVHTCKAPKRAEWL
+      290       300       310       320       330       340        
+
+SP:P87 DQT
+      350 
+
+>>SP:P56705 WNT4_HUMAN Protein Wnt-4 OS=Homo sapiens OX=9606
+GN=WNT4 PE=1 SV=4 (351 aa)
+ initn: 1042 init1: 441 opt: 1048  Z-score: 1865.9  bits: 353.9 E(694687): 2.8e-96
+Smith-Waterman score: 1048; 49.7% identity (75.0% similar) in 328 aa overlap (56-380:30-351)
+
+          30        40        50        60        70        80     
+sp|P41 FLVALAIFFSFAQVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHL
+                                     ..: :  :. .  : .: :: : : ..:. 
+SP:P56  MSPRSCLRSLRLLVFAVFSAAASNWLYLAKLSSVGSISEEETCEKLKGLIQRQVQMCKR
+                10        20        30        40        50         
+
+          90       100       110       120       130       140     
+sp|P41 YQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVDNTSVFGRVMQIGSRETAFTYAVSAAG
+         . :. . .::. .:.:::::::.:::::::.:.  :::.:.  :.::.::.::.:.::
+SP:P56 NLEVMDSVRRGAQLAIEECQYQFRNRRWNCSTLDSLPVFGKVVTQGTREAAFVYAISSAG
+      60        70        80        90       100       110         
+
+         150       160       170       180       190       200     
+sp|P41 VVNAMSRACREGELSTCGCSRAARPKDLPRDWLWGGCGDNIDYGYRFAKEFVDARERERI
+       :. :..:::  :::  :::.:...  . :. . :.::.::: ::  :.. :::.::: . 
+SP:P56 VAFAVTRACSSGELEKCGCDRTVHGVS-PQGFQWSGCSDNIAYGVAFSQSFVDVRERSK-
+     120       130       140        150       160       170        
+
+         210       220       230       240       250       260     
+sp|P41 HAKGSYESARILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDA
+           .  :.: :::::::::::... .   : :::::::::: .::::  .  ::.:: :
+SP:P56 ----GASSSRALMNLHNNEAGRKAILTHMRVECKCHGVSGSCEVKTCWRAVPPFRQVGHA
+           180       190       200       210       220       230   
+
+         270          280       290       300       310       320  
+sp|P41 LKEKYDSAAAM---RLNSRGKLVQVNSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQG
+       ::::.:.:. .   :..:   ::  :..:.  : .::::..::::.: ..  .: :::.:
+SP:P56 LKEKFDGATEVEPRRVGSSRALVPRNAQFKPHTDEDLVYLEPSPDFCEQDMRSGVLGTRG
+           240       250       260       270       280       290   
+
+            330       340       350       360       370       380
+sp|P41 RLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK
+       : :::::...:::::.:::::.   ..  .::: :::::::.:::..: ..:.  .:.
+SP:P56 RTCNKTSKAIDGCELLCCGRGFHTAQVELAERCSCKFHWCCFVKCRQCQRLVELHTCR
+           300       310       320       330       340       350 
+
+>>SP:P22724 WNT4_MOUSE Protein Wnt-4 OS=Mus musculus OX=10090
+GN=Wnt4 PE=1 SV=1 (351 aa)
+ initn: 1038 init1: 437 opt: 1044  Z-score: 1858.7  bits: 352.5 E(694687): 7e-96
+Smith-Waterman score: 1044; 49.4% identity (75.3% similar) in 328 aa overlap (56-380:30-351)
+
+          30        40        50        60        70        80     
+sp|P41 FLVALAIFFSFAQVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHL
+                                     ..: :  :. .  : .: :: : : ..:. 
+SP:P22  MSPRSCLRSLRLLVFAVFSAAASNWLYLAKLSSVGSISEEETCEKLKGLIQRQVQMCKR
+                10        20        30        40        50         
+
+          90       100       110       120       130       140     
+sp|P41 YQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVDNTSVFGRVMQIGSRETAFTYAVSAAG
+         . :. . .::. .:.:::::::.:::::::.:.  :::.:.  :.::.::.::.:.::
+SP:P22 NLEVMDSVRRGAQLAIEECQYQFRNRRWNCSTLDSLPVFGKVVTQGTREAAFVYAISSAG
+      60        70        80        90       100       110         
+
+         150       160       170       180       190       200     
+sp|P41 VVNAMSRACREGELSTCGCSRAARPKDLPRDWLWGGCGDNIDYGYRFAKEFVDARERERI
+       :. :..:::  :::  :::.:...  . :. . :.::.::: ::  :.. :::.::: . 
+SP:P22 VAFAVTRACSSGELEKCGCDRTVHGVS-PQGFQWSGCSDNIAYGVAFSQSFVDVRERSK-
+     120       130       140        150       160       170        
+
+         210       220       230       240       250       260     
+sp|P41 HAKGSYESARILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDA
+           .  :.: :::::::::::... .   : :::::::::: .::::  .  ::.:: :
+SP:P22 ----GASSSRALMNLHNNEAGRKAILTHMRVECKCHGVSGSCEVKTCWRAVPPFRQVGHA
+           180       190       200       210       220       230   
+
+         270          280       290       300       310       320  
+sp|P41 LKEKYDSAAAM---RLNSRGKLVQVNSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQG
+       ::::.:.:. .   :..:   ::  :..:.  : .::::..::::.: ..  .: :::.:
+SP:P22 LKEKFDGATEVEPRRVGSSRALVPRNAQFKPHTDEDLVYLEPSPDFCEQDIRSGVLGTRG
+           240       250       260       270       280       290   
+
+            330       340       350       360       370       380
+sp|P41 RLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK
+       : :::::...:::::.:::::.   ..  .::: :.:::::.:::..: ..:.. .:.
+SP:P22 RTCNKTSKAIDGCELLCCGRGFHTAQVELAERCGCRFHWCCFVKCRQCQRLVEMHTCR
+           300       310       320       330       340       350 
+
+>>SP:Q93097-2 WNT2B_HUMAN Isoform 1 of Protein Wnt-2b OS=Homo
+sapiens OX=9606 GN=WNT2B (372 aa)
+ initn: 1088 init1: 436 opt: 1044  Z-score: 1858.0  bits: 352.5 E(694687): 7.7e-96
+Smith-Waterman score: 1044; 51.9% identity (78.0% similar) in 322 aa overlap (63-380:47-361)
+
+             40        50        60        70        80        90  
+sp|P41 FFSFAQVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQY
+                                     .::. .:... :: . :..::. : : :. 
+SP:Q93 LKTEGSLRTAVPGIPTQSAFNKCLQRYIGALGARVICDNIPGLVSRQRQLCQRYPDIMRS
+         20        30        40        50        60        70      
+
+            100       110        120       130       140       150 
+sp|P41 IGEGAKTGIKECQYQFRHRRWNCSTVD-NTSVFGRVMQIGSRETAFTYAVSAAGVVNAMS
+       .::::.  :.:::.::::.::::.:.: . .::::::  .:::.::.::.:.::::.:..
+SP:Q93 VGEGAREWIRECQHQFRHHRWNCTTLDRDHTVFGRVMLRSSREAAFVYAISSAGVVHAIT
+         80        90       100       110       120       130      
+
+             160       170         180       190       200         
+sp|P41 RACREGELSTCGCSRAARPK--DLPRDWLWGGCGDNIDYGYRFAKEFVDARERERIHAKG
+       ::: .::::.:.:.  .: .  :   :. ::::.::: :: :::: ::::.:..      
+SP:Q93 RACSQGELSVCSCDPYTRGRHHDQRGDFDWGGCSDNIHYGVRFAKAFVDAKEKR------
+        140       150       160       170       180       190      
+
+     210       220       230       240       250       260         
+sp|P41 SYESARILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDALKEK
+         ..:: :::::::. :: .:  .  . ::::::::::.:.:::  :.:::..:: :...
+SP:Q93 -LKDARALMNLHNNRCGRTAVRRFLKLECKCHGVSGSCTLRTCWRALSDFRRTGDYLRRR
+               200       210       220       230       240         
+
+     270       280        290       300       310       320        
+sp|P41 YDSAAAMRLNSRG-KLVQVNSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQGRLCNKT
+       ::.:. .  .. : ... . . .   :  ::::.: :::::: ....::::: ::.:.::
+SP:Q93 YDGAVQVMATQDGANFTAARQGYRRATRTDLVYFDNSPDYCVLDKAAGSLGTAGRVCSKT
+     250       260       270       280       290       300         
+
+      330       340       350       360       370       380        
+sp|P41 SEGMDGCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK        
+       :.: ::::.::::::::  ..... .:.::::::: :.::.: . ::  .::        
+SP:Q93 SKGTDGCEIMCCGRGYDTTRVTRVTQCECKFHWCCAVRCKECRNTVDVHTCKAPKKAEWL
+     310       320       330       340       350       360         
+
+SP:Q93 DQT
+     370  
+
+>>SP:Q93097-2 WNT2B_HUMAN Isoform 1 of Protein Wnt-2b OS=Homo
+sapiens OX=9606 GN=WNT2B (372 aa)
+ initn: 1088 init1: 436 opt: 1044  Z-score: 1858.0  bits: 352.5 E(694687): 7.7e-96
+Smith-Waterman score: 1044; 51.9% identity (78.0% similar) in 322 aa overlap (63-380:47-361)
+
+             40        50        60        70        80        90  
+sp|P41 FFSFAQVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQY
+                                     .::. .:... :: . :..::. : : :. 
+SP:Q93 LKTEGSLRTAVPGIPTQSAFNKCLQRYIGALGARVICDNIPGLVSRQRQLCQRYPDIMRS
+         20        30        40        50        60        70      
+
+            100       110        120       130       140       150 
+sp|P41 IGEGAKTGIKECQYQFRHRRWNCSTVD-NTSVFGRVMQIGSRETAFTYAVSAAGVVNAMS
+       .::::.  :.:::.::::.::::.:.: . .::::::  .:::.::.::.:.::::.:..
+SP:Q93 VGEGAREWIRECQHQFRHHRWNCTTLDRDHTVFGRVMLRSSREAAFVYAISSAGVVHAIT
+         80        90       100       110       120       130      
+
+             160       170         180       190       200         
+sp|P41 RACREGELSTCGCSRAARPK--DLPRDWLWGGCGDNIDYGYRFAKEFVDARERERIHAKG
+       ::: .::::.:.:.  .: .  :   :. ::::.::: :: :::: ::::.:..      
+SP:Q93 RACSQGELSVCSCDPYTRGRHHDQRGDFDWGGCSDNIHYGVRFAKAFVDAKEKR------
+        140       150       160       170       180       190      
+
+     210       220       230       240       250       260         
+sp|P41 SYESARILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDALKEK
+         ..:: :::::::. :: .:  .  . ::::::::::.:.:::  :.:::..:: :...
+SP:Q93 -LKDARALMNLHNNRCGRTAVRRFLKLECKCHGVSGSCTLRTCWRALSDFRRTGDYLRRR
+               200       210       220       230       240         
+
+     270       280        290       300       310       320        
+sp|P41 YDSAAAMRLNSRG-KLVQVNSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQGRLCNKT
+       ::.:. .  .. : ... . . .   :  ::::.: :::::: ....::::: ::.:.::
+SP:Q93 YDGAVQVMATQDGANFTAARQGYRRATRTDLVYFDNSPDYCVLDKAAGSLGTAGRVCSKT
+     250       260       270       280       290       300         
+
+      330       340       350       360       370       380        
+sp|P41 SEGMDGCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK        
+       :.: ::::.::::::::  ..... .:.::::::: :.::.: . ::  .::        
+SP:Q93 SKGTDGCEIMCCGRGYDTTRVTRVTQCECKFHWCCAVRCKECRNTVDVHTCKAPKKAEWL
+     310       320       330       340       350       360         
+
+SP:Q93 DQT
+     370  
+
+>>SP:Q93097-2 WNT2B_HUMAN Isoform 1 of Protein Wnt-2b OS=Homo
+sapiens OX=9606 GN=WNT2B (372 aa)
+ initn: 1088 init1: 436 opt: 1044  Z-score: 1858.0  bits: 352.5 E(694687): 7.7e-96
+Smith-Waterman score: 1044; 51.9% identity (78.0% similar) in 322 aa overlap (63-380:47-361)
+
+             40        50        60        70        80        90  
+sp|P41 FFSFAQVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQY
+                                     .::. .:... :: . :..::. : : :. 
+SP:Q93 LKTEGSLRTAVPGIPTQSAFNKCLQRYIGALGARVICDNIPGLVSRQRQLCQRYPDIMRS
+         20        30        40        50        60        70      
+
+            100       110        120       130       140       150 
+sp|P41 IGEGAKTGIKECQYQFRHRRWNCSTVD-NTSVFGRVMQIGSRETAFTYAVSAAGVVNAMS
+       .::::.  :.:::.::::.::::.:.: . .::::::  .:::.::.::.:.::::.:..
+SP:Q93 VGEGAREWIRECQHQFRHHRWNCTTLDRDHTVFGRVMLRSSREAAFVYAISSAGVVHAIT
+         80        90       100       110       120       130      
+
+             160       170         180       190       200         
+sp|P41 RACREGELSTCGCSRAARPK--DLPRDWLWGGCGDNIDYGYRFAKEFVDARERERIHAKG
+       ::: .::::.:.:.  .: .  :   :. ::::.::: :: :::: ::::.:..      
+SP:Q93 RACSQGELSVCSCDPYTRGRHHDQRGDFDWGGCSDNIHYGVRFAKAFVDAKEKR------
+        140       150       160       170       180       190      
+
+     210       220       230       240       250       260         
+sp|P41 SYESARILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDALKEK
+         ..:: :::::::. :: .:  .  . ::::::::::.:.:::  :.:::..:: :...
+SP:Q93 -LKDARALMNLHNNRCGRTAVRRFLKLECKCHGVSGSCTLRTCWRALSDFRRTGDYLRRR
+               200       210       220       230       240         
+
+     270       280        290       300       310       320        
+sp|P41 YDSAAAMRLNSRG-KLVQVNSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQGRLCNKT
+       ::.:. .  .. : ... . . .   :  ::::.: :::::: ....::::: ::.:.::
+SP:Q93 YDGAVQVMATQDGANFTAARQGYRRATRTDLVYFDNSPDYCVLDKAAGSLGTAGRVCSKT
+     250       260       270       280       290       300         
+
+      330       340       350       360       370       380        
+sp|P41 SEGMDGCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK        
+       :.: ::::.::::::::  ..... .:.::::::: :.::.: . ::  .::        
+SP:Q93 SKGTDGCEIMCCGRGYDTTRVTRVTQCECKFHWCCAVRCKECRNTVDVHTCKAPKKAEWL
+     310       320       330       340       350       360         
+
+SP:Q93 DQT
+     370  
+
+>>SP:Q93097 WNT2B_HUMAN Protein Wnt-2b OS=Homo sapiens OX=9606
+GN=WNT2B PE=1 SV=2 (391 aa)
+ initn: 1091 init1: 436 opt: 1044  Z-score: 1857.4  bits: 352.4 E(694687): 8.3e-96
+Smith-Waterman score: 1044; 51.9% identity (78.0% similar) in 322 aa overlap (63-380:66-380)
+
+             40        50        60        70        80        90  
+sp|P41 FFSFAQVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQY
+                                     .::. .:... :: . :..::. : : :. 
+SP:Q93 SARLGLACLLLLLLLTLPARVDTSWWYIGALGARVICDNIPGLVSRQRQLCQRYPDIMRS
+          40        50        60        70        80        90     
+
+            100       110        120       130       140       150 
+sp|P41 IGEGAKTGIKECQYQFRHRRWNCSTVD-NTSVFGRVMQIGSRETAFTYAVSAAGVVNAMS
+       .::::.  :.:::.::::.::::.:.: . .::::::  .:::.::.::.:.::::.:..
+SP:Q93 VGEGAREWIRECQHQFRHHRWNCTTLDRDHTVFGRVMLRSSREAAFVYAISSAGVVHAIT
+         100       110       120       130       140       150     
+
+             160       170         180       190       200         
+sp|P41 RACREGELSTCGCSRAARPK--DLPRDWLWGGCGDNIDYGYRFAKEFVDARERERIHAKG
+       ::: .::::.:.:.  .: .  :   :. ::::.::: :: :::: ::::.:..      
+SP:Q93 RACSQGELSVCSCDPYTRGRHHDQRGDFDWGGCSDNIHYGVRFAKAFVDAKEKR------
+         160       170       180       190       200               
+
+     210       220       230       240       250       260         
+sp|P41 SYESARILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDALKEK
+         ..:: :::::::. :: .:  .  . ::::::::::.:.:::  :.:::..:: :...
+SP:Q93 -LKDARALMNLHNNRCGRTAVRRFLKLECKCHGVSGSCTLRTCWRALSDFRRTGDYLRRR
+      210       220       230       240       250       260        
+
+     270       280        290       300       310       320        
+sp|P41 YDSAAAMRLNSRG-KLVQVNSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQGRLCNKT
+       ::.:. .  .. : ... . . .   :  ::::.: :::::: ....::::: ::.:.::
+SP:Q93 YDGAVQVMATQDGANFTAARQGYRRATRTDLVYFDNSPDYCVLDKAAGSLGTAGRVCSKT
+      270       280       290       300       310       320        
+
+      330       340       350       360       370       380        
+sp|P41 SEGMDGCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK        
+       :.: ::::.::::::::  ..... .:.::::::: :.::.: . ::  .::        
+SP:Q93 SKGTDGCEIMCCGRGYDTTRVTRVTQCECKFHWCCAVRCKECRNTVDVHTCKAPKKAEWL
+      330       340       350       360       370       380        
+
+SP:Q93 DQT
+      390 
+
+>>SP:Q9QXQ5 WNT4_RAT Protein Wnt-4 OS=Rattus norvegicus
+OX=10116 GN=Wnt4 PE=2 SV=1 (351 aa)
+ initn: 1034 init1: 437 opt: 1040  Z-score: 1851.5  bits: 351.2 E(694687): 1.8e-95
+Smith-Waterman score: 1040; 49.1% identity (75.3% similar) in 328 aa overlap (56-380:30-351)
+
+          30        40        50        60        70        80     
+sp|P41 FLVALAIFFSFAQVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHL
+                                     ..: :  :. .  : .: :: : : ..:. 
+SP:Q9Q  MSPRSCLRSLRLLVFAVFSAAASNWLYLAKLSSVGSISEEETCEKLKGLIQRQVQMCKR
+                10        20        30        40        50         
+
+          90       100       110       120       130       140     
+sp|P41 YQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVDNTSVFGRVMQIGSRETAFTYAVSAAG
+         . :. . .::. .:.:::::::.:::::::.:.  :::.:.  :.::.::.::.:.::
+SP:Q9Q NLEVMDSVRHGAQLAIEECQYQFRNRRWNCSTLDSLPVFGKVVTQGTREAAFVYAISSAG
+      60        70        80        90       100       110         
+
+         150       160       170       180       190       200     
+sp|P41 VVNAMSRACREGELSTCGCSRAARPKDLPRDWLWGGCGDNIDYGYRFAKEFVDARERERI
+       :. :..:::  :.:  :::.:...  . :. . :.::.::: ::  :.. :::.::: . 
+SP:Q9Q VAFAVTRACSSGDLEKCGCDRTVHGVS-PQGFQWSGCSDNIAYGVAFSQSFVDVRERSK-
+     120       130       140        150       160       170        
+
+         210       220       230       240       250       260     
+sp|P41 HAKGSYESARILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDA
+           .  :.: :::::::::::... .   : :::::::::: .::::  .  ::.:: :
+SP:Q9Q ----GASSSRALMNLHNNEAGRKAILTHMRVECKCHGVSGSCEVKTCWRAVPPFRQVGHA
+           180       190       200       210       220       230   
+
+         270          280       290       300       310       320  
+sp|P41 LKEKYDSAAAM---RLNSRGKLVQVNSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQG
+       ::::.:.:. .   :..:   ::  :..:.  : .::::..::::.: ..  .: :::.:
+SP:Q9Q LKEKFDGATEVEPRRVGSSRALVPRNAQFKPHTDEDLVYLEPSPDFCEQDMRSGVLGTRG
+           240       250       260       270       280       290   
+
+            330       340       350       360       370       380
+sp|P41 RLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK
+       : :::::...:::::.:::::.   ..  .::: :.:::::.:::..: ..:.. .:.
+SP:Q9Q RTCNKTSKAIDGCELLCCGRGFHTAHVELAERCGCRFHWCCFVKCRQCQRLVEMHTCR
+           300       310       320       330       340       350 
+
+>>SP:O70283 WNT2B_MOUSE Protein Wnt-2b OS=Mus musculus
+OX=10090 GN=Wnt2b PE=2 SV=3 (389 aa)
+ initn: 1075 init1: 436 opt: 1040  Z-score: 1850.2  bits: 351.1 E(694687): 2.1e-95
+Smith-Waterman score: 1040; 51.6% identity (78.0% similar) in 322 aa overlap (63-380:64-378)
+
+             40        50        60        70        80        90  
+sp|P41 FFSFAQVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQY
+                                     .::. .:... :: . :..::. : : :. 
+SP:O70 SARLGLACLLLLLLLTLPARVDTSWWYIGALGARVICDNIPGLVSRQRQLCQRYPDIMRS
+            40        50        60        70        80        90   
+
+            100       110        120       130       140       150 
+sp|P41 IGEGAKTGIKECQYQFRHRRWNCSTVD-NTSVFGRVMQIGSRETAFTYAVSAAGVVNAMS
+       .::::.  :.:::.::::.::::.:.: . .::::.:  .:::.::.::.:.::::.:..
+SP:O70 VGEGAREWIRECQHQFRHHRWNCTTLDRDHTVFGRAMLRSSREAAFVYAISSAGVVHAIT
+           100       110       120       130       140       150   
+
+             160       170         180       190       200         
+sp|P41 RACREGELSTCGCSRAARPK--DLPRDWLWGGCGDNIDYGYRFAKEFVDARERERIHAKG
+       ::: .::::.:.:.  .: .  :   :. ::::.::: :: :::: ::::.:..      
+SP:O70 RACSQGELSVCSCDPYTRGRHHDQRGDFDWGGCSDNIHYGVRFAKAFVDAKEKR------
+           160       170       180       190       200             
+
+     210       220       230       240       250       260         
+sp|P41 SYESARILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDALKEK
+         ..:: :::::::. :: .:  .  . ::::::::::.:.:::  :.:::..:: :...
+SP:O70 -LKDARALMNLHNNRCGRTAVRRFLKLECKCHGVSGSCTLRTCWRALSDFRRTGDYLRRR
+        210       220       230       240       250       260      
+
+     270       280        290       300       310       320        
+sp|P41 YDSAAAMRLNSRG-KLVQVNSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQGRLCNKT
+       ::.:. .  .. : ... . . .   :  ::::.: :::::: ....::::: ::.:.::
+SP:O70 YDGAVQVTATQDGANFTAARQGYRHATRTDLVYFDNSPDYCVLDKAAGSLGTAGRVCSKT
+        270       280       290       300       310       320      
+
+      330       340       350       360       370       380        
+sp|P41 SEGMDGCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK        
+       :.: ::::.::::::::  ..... .:.::::::: :.::.: . ::  .::        
+SP:O70 SKGTDGCEIMCCGRGYDTTRVTRVTQCECKFHWCCAVRCKECRNTVDVHTCKAPKKAEWL
+        330       340       350       360       370       380      
+
+SP:O70 DQT
+          
+
+>>SP:P49337 WNT4_CHICK Protein Wnt-4 OS=Gallus gallus OX=9031
+GN=WNT4 PE=1 SV=1 (351 aa)
+ initn: 1062 init1: 428 opt: 1039  Z-score: 1849.7  bits: 350.9 E(694687): 2.2e-95
+Smith-Waterman score: 1039; 50.6% identity (74.7% similar) in 328 aa overlap (56-380:30-351)
+
+          30        40        50        60        70        80     
+sp|P41 FLVALAIFFSFAQVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHL
+                                     ..: :  :. .  : .: :: : : ..:. 
+SP:P49  MSPEYFLRSLLLIILATFSANASNWLYLAKLSSVGSISEEETCEKLKGLIQRQVQMCKR
+                10        20        30        40        50         
+
+          90       100       110       120       130       140     
+sp|P41 YQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVDNTSVFGRVMQIGSRETAFTYAVSAAG
+         . :. . .::. .:.:::::::.:::::::.:.  :::.:.  :.::.::.::.:.::
+SP:P49 NLEVMDSVRRGAQLAIEECQYQFRNRRWNCSTLDTLPVFGKVVTQGTREAAFVYAISSAG
+      60        70        80        90       100       110         
+
+         150       160       170       180       190       200     
+sp|P41 VVNAMSRACREGELSTCGCSRAARPKDLPRDWLWGGCGDNIDYGYRFAKEFVDARERERI
+       :. :..:::  :::. :::.:...  . :. . :.::.::: ::  :.. :::.::: . 
+SP:P49 VAFAVTRACSSGELDKCGCDRTVQGGS-PQGFQWSGCSDNIAYGVAFSQSFVDVRERSK-
+     120       130       140        150       160       170        
+
+         210       220       230       240       250       260     
+sp|P41 HAKGSYESARILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDA
+           .  : : :::::::::::... :   : :::::::::: .::::  .  :::::..
+SP:P49 ----GASSNRALMNLHNNEAGRKAILNNMRVECKCHGVSGSCEFKTCWKAMPPFRKVGNV
+           180       190       200       210       220       230   
+
+         270       280          290       300       310       320  
+sp|P41 LKEKYDSAAAMRLNSRGK---LVQVNSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQG
+       ::::.:.:. .. .  :.   ::  ::.:.  : .::::.: :::.: .. ..: :::.:
+SP:P49 LKEKFDGATEVEQSEIGSTKVLVPKNSQFKPHTDEDLVYLDSSPDFCDHDLKNGVLGTSG
+           240       250       260       270       280       290   
+
+            330       340       350       360       370       380
+sp|P41 RLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK
+       : :::::...:::::::::::.   ..  .::: ::::::: :::: : ..:.  .:.
+SP:P49 RQCNKTSKAIDGCELMCCGRGFHTDEVEVVERCSCKFHWCCSVKCKPCHRVVEIHTCR
+           300       310       320       330       340       350 
+
+>>SP:P49338 WNT4_XENLA Protein Wnt-4 OS=Xenopus laevis OX=8355
+GN=wnt4 PE=2 SV=1 (351 aa)
+ initn: 1015 init1: 442 opt: 1038  Z-score: 1847.9  bits: 350.5 E(694687): 2.8e-95
+Smith-Waterman score: 1038; 50.0% identity (75.0% similar) in 328 aa overlap (56-380:30-351)
+
+          30        40        50        60        70        80     
+sp|P41 FLVALAIFFSFAQVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHL
+                                     ..: :  :. .  : .: :  : : ..:. 
+SP:P49  MTPEYFLRSLLMMILAVFSANASNWLYLAKLSSVGSISEEETCEKLKGPIQRQVQMCKR
+                10        20        30        40        50         
+
+          90       100       110       120       130       140     
+sp|P41 YQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVDNTSVFGRVMQIGSRETAFTYAVSAAG
+         . :. . .::. .:.:::::::.:::::::.:.  :::.:.  :.::.::.::.:.::
+SP:P49 NLEVMDSVRRGAQLAIEECQYQFRNRRWNCSTLDTLPVFGKVVTQGTREAAFVYAISSAG
+      60        70        80        90       100       110         
+
+         150       160       170       180       190       200     
+sp|P41 VVNAMSRACREGELSTCGCSRAARPKDLPRDWLWGGCGDNIDYGYRFAKEFVDARERERI
+       :. :..:::  :.:  :::.:...  . :. . :.::.::: ::  :.. :::.::: . 
+SP:P49 VAFAVTRACSSGDLEKCGCDRTVHGVS-PQGFQWSGCSDNILYGVAFSQSFVDVRERSK-
+     120       130       140        150       160       170        
+
+         210       220       230       240       250       260     
+sp|P41 HAKGSYESARILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDA
+           .  :.: :::::::::::... :   : :::::::::: .::::  .  :::::..
+SP:P49 ----GGSSSRALMNLHNNEAGRKAILNNMRVECKCHGVSGSCEVKTCWKAMPTFRKVGNV
+           180       190       200       210       220       230   
+
+         270          280       290       300       310       320  
+sp|P41 LKEKYDSAAAM---RLNSRGKLVQVNSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQG
+       ::::.:.:. .   ...:   ::  ::.:.  : .::::.: :::.: .. ..: ::: :
+SP:P49 LKEKFDGATEVEQKKIGSTKVLVPKNSQFKPHTDEDLVYLDSSPDFCDHDLKNGVLGTTG
+           240       250       260       270       280       290   
+
+            330       340       350       360       370       380
+sp|P41 RLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK
+       : :::::...:::::::::::.   ..  .::: :::::::.::::.: ..:.. .:.
+SP:P49 RQCNKTSKAIDGCELMCCGRGFHTEEVEIVERCSCKFHWCCFVKCKQCHKVVEMHTCR
+           300       310       320       330       340       350 
+
+>>SP:P49338-2 WNT4_XENLA Isoform 2 of Protein Wnt-4 OS=Xenopus
+laevis OX=8355 GN=wnt4 (367 aa)
+ initn: 1015 init1: 442 opt: 1038  Z-score: 1847.3  bits: 350.5 E(694687): 3e-95
+Smith-Waterman score: 1038; 50.0% identity (75.0% similar) in 328 aa overlap (56-380:46-367)
+
+          30        40        50        60        70        80     
+sp|P41 FLVALAIFFSFAQVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHL
+                                     ..: :  :. .  : .: :  : : ..:. 
+SP:P49 SSKEEQLDCQPPCLQVFQIYAFSMKAWYLAKLSSVGSISEEETCEKLKGPIQRQVQMCKR
+          20        30        40        50        60        70     
+
+          90       100       110       120       130       140     
+sp|P41 YQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVDNTSVFGRVMQIGSRETAFTYAVSAAG
+         . :. . .::. .:.:::::::.:::::::.:.  :::.:.  :.::.::.::.:.::
+SP:P49 NLEVMDSVRRGAQLAIEECQYQFRNRRWNCSTLDTLPVFGKVVTQGTREAAFVYAISSAG
+          80        90       100       110       120       130     
+
+         150       160       170       180       190       200     
+sp|P41 VVNAMSRACREGELSTCGCSRAARPKDLPRDWLWGGCGDNIDYGYRFAKEFVDARERERI
+       :. :..:::  :.:  :::.:...  . :. . :.::.::: ::  :.. :::.::: . 
+SP:P49 VAFAVTRACSSGDLEKCGCDRTVHGVS-PQGFQWSGCSDNILYGVAFSQSFVDVRERSK-
+         140       150       160        170       180       190    
+
+         210       220       230       240       250       260     
+sp|P41 HAKGSYESARILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDA
+           .  :.: :::::::::::... :   : :::::::::: .::::  .  :::::..
+SP:P49 ----GGSSSRALMNLHNNEAGRKAILNNMRVECKCHGVSGSCEVKTCWKAMPTFRKVGNV
+               200       210       220       230       240         
+
+         270          280       290       300       310       320  
+sp|P41 LKEKYDSAAAM---RLNSRGKLVQVNSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQG
+       ::::.:.:. .   ...:   ::  ::.:.  : .::::.: :::.: .. ..: ::: :
+SP:P49 LKEKFDGATEVEQKKIGSTKVLVPKNSQFKPHTDEDLVYLDSSPDFCDHDLKNGVLGTTG
+     250       260       270       280       290       300         
+
+            330       340       350       360       370       380
+sp|P41 RLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK
+       : :::::...:::::::::::.   ..  .::: :::::::.::::.: ..:.. .:.
+SP:P49 RQCNKTSKAIDGCELMCCGRGFHTEEVEIVERCSCKFHWCCFVKCKQCHKVVEMHTCR
+     310       320       330       340       350       360       
+
+>>SP:P49338-2 WNT4_XENLA Isoform 2 of Protein Wnt-4 OS=Xenopus
+laevis OX=8355 GN=wnt4 (367 aa)
+ initn: 1015 init1: 442 opt: 1038  Z-score: 1847.3  bits: 350.5 E(694687): 3e-95
+Smith-Waterman score: 1038; 50.0% identity (75.0% similar) in 328 aa overlap (56-380:46-367)
+
+          30        40        50        60        70        80     
+sp|P41 FLVALAIFFSFAQVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHL
+                                     ..: :  :. .  : .: :  : : ..:. 
+SP:P49 SSKEEQLDCQPPCLQVFQIYAFSMKAWYLAKLSSVGSISEEETCEKLKGPIQRQVQMCKR
+          20        30        40        50        60        70     
+
+          90       100       110       120       130       140     
+sp|P41 YQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVDNTSVFGRVMQIGSRETAFTYAVSAAG
+         . :. . .::. .:.:::::::.:::::::.:.  :::.:.  :.::.::.::.:.::
+SP:P49 NLEVMDSVRRGAQLAIEECQYQFRNRRWNCSTLDTLPVFGKVVTQGTREAAFVYAISSAG
+          80        90       100       110       120       130     
+
+         150       160       170       180       190       200     
+sp|P41 VVNAMSRACREGELSTCGCSRAARPKDLPRDWLWGGCGDNIDYGYRFAKEFVDARERERI
+       :. :..:::  :.:  :::.:...  . :. . :.::.::: ::  :.. :::.::: . 
+SP:P49 VAFAVTRACSSGDLEKCGCDRTVHGVS-PQGFQWSGCSDNILYGVAFSQSFVDVRERSK-
+         140       150       160        170       180       190    
+
+         210       220       230       240       250       260     
+sp|P41 HAKGSYESARILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDA
+           .  :.: :::::::::::... :   : :::::::::: .::::  .  :::::..
+SP:P49 ----GGSSSRALMNLHNNEAGRKAILNNMRVECKCHGVSGSCEVKTCWKAMPTFRKVGNV
+               200       210       220       230       240         
+
+         270          280       290       300       310       320  
+sp|P41 LKEKYDSAAAM---RLNSRGKLVQVNSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQG
+       ::::.:.:. .   ...:   ::  ::.:.  : .::::.: :::.: .. ..: ::: :
+SP:P49 LKEKFDGATEVEQKKIGSTKVLVPKNSQFKPHTDEDLVYLDSSPDFCDHDLKNGVLGTTG
+     250       260       270       280       290       300         
+
+            330       340       350       360       370       380
+sp|P41 RLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK
+       : :::::...:::::::::::.   ..  .::: :::::::.::::.: ..:.. .:.
+SP:P49 RQCNKTSKAIDGCELMCCGRGFHTEEVEIVERCSCKFHWCCFVKCKQCHKVVEMHTCR
+     310       320       330       340       350       360       
+
+>>SP:P49338-2 WNT4_XENLA Isoform 2 of Protein Wnt-4 OS=Xenopus
+laevis OX=8355 GN=wnt4 (367 aa)
+ initn: 1015 init1: 442 opt: 1038  Z-score: 1847.3  bits: 350.5 E(694687): 3e-95
+Smith-Waterman score: 1038; 50.0% identity (75.0% similar) in 328 aa overlap (56-380:46-367)
+
+          30        40        50        60        70        80     
+sp|P41 FLVALAIFFSFAQVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHL
+                                     ..: :  :. .  : .: :  : : ..:. 
+SP:P49 SSKEEQLDCQPPCLQVFQIYAFSMKAWYLAKLSSVGSISEEETCEKLKGPIQRQVQMCKR
+          20        30        40        50        60        70     
+
+          90       100       110       120       130       140     
+sp|P41 YQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVDNTSVFGRVMQIGSRETAFTYAVSAAG
+         . :. . .::. .:.:::::::.:::::::.:.  :::.:.  :.::.::.::.:.::
+SP:P49 NLEVMDSVRRGAQLAIEECQYQFRNRRWNCSTLDTLPVFGKVVTQGTREAAFVYAISSAG
+          80        90       100       110       120       130     
+
+         150       160       170       180       190       200     
+sp|P41 VVNAMSRACREGELSTCGCSRAARPKDLPRDWLWGGCGDNIDYGYRFAKEFVDARERERI
+       :. :..:::  :.:  :::.:...  . :. . :.::.::: ::  :.. :::.::: . 
+SP:P49 VAFAVTRACSSGDLEKCGCDRTVHGVS-PQGFQWSGCSDNILYGVAFSQSFVDVRERSK-
+         140       150       160        170       180       190    
+
+         210       220       230       240       250       260     
+sp|P41 HAKGSYESARILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDA
+           .  :.: :::::::::::... :   : :::::::::: .::::  .  :::::..
+SP:P49 ----GGSSSRALMNLHNNEAGRKAILNNMRVECKCHGVSGSCEVKTCWKAMPTFRKVGNV
+               200       210       220       230       240         
+
+         270          280       290       300       310       320  
+sp|P41 LKEKYDSAAAM---RLNSRGKLVQVNSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQG
+       ::::.:.:. .   ...:   ::  ::.:.  : .::::.: :::.: .. ..: ::: :
+SP:P49 LKEKFDGATEVEQKKIGSTKVLVPKNSQFKPHTDEDLVYLDSSPDFCDHDLKNGVLGTTG
+     250       260       270       280       290       300         
+
+            330       340       350       360       370       380
+sp|P41 RLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK
+       : :::::...:::::::::::.   ..  .::: :::::::.::::.: ..:.. .:.
+SP:P49 RQCNKTSKAIDGCELMCCGRGFHTEEVEIVERCSCKFHWCCFVKCKQCHKVVEMHTCR
+     310       320       330       340       350       360       
+
+>>SP:P34889 WNT2_CAEEL Protein Wnt-2 OS=Caenorhabditis elegans
+OX=6239 GN=cwn-2 PE=1 SV=2 (360 aa)
+ initn: 1054 init1: 557 opt: 1037  Z-score: 1845.8  bits: 350.2 E(694687): 3.7e-95
+Smith-Waterman score: 1037; 45.1% identity (76.2% similar) in 315 aa overlap (71-380:47-360)
+
+               50        60        70        80        90       100
+sp|P41 IEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGAKTG
+                                     .: ::: :: ..:.:..:::  .. ::...
+SP:P34 NVQSLLDASWWSTVAQLSTALAGHNVKPVCELPGLSPGQAQVCELFKDHMPAVSIGAQNA
+         20        30        40        50        60        70      
+
+              110       120       130       140       150       160
+sp|P41 IKECQYQFRHRRWNCSTVDNTSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACREGELS
+       :.::: ::  .::::::  .:...: . ....::.:::::. .:::.. ..: :..: :.
+SP:P34 IQECQRQFTGHRWNCSTHYSTGMLGPIHKMATREAAFTYAILSAGVTHEIGRRCKQGLLT
+         80        90       100       110       120       130      
+
+              170       180       190       200       210       220
+sp|P41 TCGCSRAARPKDLPRDWLWGGCGDNIDYGYRFAKEFVDARERERIHAKGSYESARILMNL
+       .::::  ..::..: :: :::::::..:::.:...:.: ::.:.   : .....: ::: 
+SP:P34 SCGCSDETKPKNVPTDWSWGGCGDNVEYGYKFSRDFIDIREKEH-DPKRNHDNGRSLMNR
+        140       150       160       170       180        190     
+
+              230       240       250       260       270       280
+sp|P41 HNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAAAMRLNS
+       .::::::. .       ::::::::.:..::::.:: ....::  :..:::.:  ...:.
+SP:P34 RNNEAGRKILKRHRKPKCKCHGVSGACNMKTCWMQLPSMEQVGKILRNKYDKAIRVQIND
+         200       210       220       230       240       250     
+
+                   290       300       310       320       330     
+sp|P41 RGKLVQVNS-----RFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMDGC
+       ::.:  . .     : .     :::..: :::::  .. .:.:::.::.:.. : : .::
+SP:P34 RGNLQLLADEATKERKTRALPTDLVFMDDSPDYCRFDRHSGTLGTEGRVCKRGSGGAEGC
+         260       270       280       290       300       310     
+
+         340       350       360       370       380
+sp|P41 ELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK
+       . .::::::. .      .:.:::.::: : :. :.....  .::
+SP:P34 DSLCCGRGYNTYTQEVKSKCNCKFEWCCKVVCQTCNNVTQVDICK
+         320       330       340       350       360
+
+>>SP:Q07DV4 WNT2_AOTNA Protein Wnt-2 OS=Aotus nancymaae
+OX=37293 GN=WNT2 PE=3 SV=1 (360 aa)
+ initn: 931 init1: 455 opt: 1036  Z-score: 1844.0  bits: 349.8 E(694687): 4.6e-95
+Smith-Waterman score: 1036; 52.8% identity (76.9% similar) in 320 aa overlap (65-380:37-349)
+
+           40        50        60        70        80        90    
+sp|P41 SFAQVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIG
+                                     :. .:... :: ..:..::: . : :. ::
+SP:Q07 GIWLWLPLLLTWLTPEVSSSWWYMGATGGSARVMCDNVPGLVSSQRQLCHRHPDVMRAIG
+         10        20        30        40        50        60      
+
+          100       110        120       130       140       150   
+sp|P41 EGAKTGIKECQYQFRHRRWNCSTVD-NTSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRA
+        :.    .:::::::..::::.:.: . :.::::.  .:::.::.::.:.:::: :..::
+SP:Q07 LGVTEWTSECQYQFRQHRWNCNTLDRDHSLFGRVLLRSSRESAFVYAISSAGVVFAITRA
+         70        80        90       100       110       120      
+
+           160         170       180       190       200       210 
+sp|P41 CREGELSTCGCS--RAARPKDLPRDWLWGGCGDNIDYGYRFAKEFVDARERERIHAKGSY
+       : .::...:.:.  . .  ::    . ::::.:::::: .::. ::::.::.        
+SP:Q07 CSQGEVKSCSCDPKKMGSGKDSKGVFDWGGCSDNIDYGIKFARAFVDAKERKG-------
+        130       140       150       160       170                
+
+             220       230       240       250       260       270 
+sp|P41 ESARILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDALKEKYD
+       ..:: :::::::.:::..:  .    ::::::::::::.:::: .:::::.:: : .::.
+SP:Q07 KDARALMNLHNNRAGRKSVKRFLKQECKCHGVSGSCSLRTCWLAMADFRKTGDYLWRKYN
+     180       190       200       210       220       230         
+
+             280        290       300       310       320       330
+sp|P41 SAAAMRLNSRGKLVQV-NSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQGRLCNKTSE
+       .:  . .:. :    : : ::..:: .::::.. :::::.:.. :::::: ::.:: ::.
+SP:Q07 GAIQVVMNQDGTGFTVANERFKKPTKNDLVYFENSPDYCIRDRETGSLGTAGRVCNLTSR
+     240       250       260       270       280       290         
+
+              340       350       360       370       380          
+sp|P41 GMDGCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK          
+       :::.::.::::::::  ....  .: ::::::: :.:. : : .:  .::          
+SP:Q07 GMDSCEVMCCGRGYDTSHVTRMIKCGCKFHWCCAVRCQDCLEALDVHTCKAPKNADWTSP
+     300       310       320       330       340       350         
+
+SP:Q07 T
+     360
+
+>>SP:A0M8T2 WNT2_FELCA Protein Wnt-2 OS=Felis catus OX=9685
+GN=WNT2 PE=3 SV=1 (360 aa)
+ initn: 946 init1: 457 opt: 1032  Z-score: 1836.8  bits: 348.5 E(694687): 1.2e-94
+Smith-Waterman score: 1032; 52.7% identity (77.6% similar) in 317 aa overlap (68-380:40-349)
+
+        40        50        60        70        80        90       
+sp|P41 QVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGA
+                                     .:... :: . :..::: . : :. :: :.
+SP:A0M PWLPLLLTWLTPEVSSSWWYMRATGGSSRVMCDNVPGLVSRQRQLCHRHPDVMRAIGLGV
+      10        20        30        40        50        60         
+
+       100       110        120       130       140       150      
+sp|P41 KTGIKECQYQFRHRRWNCSTVD-NTSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACRE
+            :::.:::..::::.:.: . :.::::.  .:::.::.::::.:::: :..::: .
+SP:A0M AEWTAECQHQFRQHRWNCNTLDRDHSLFGRVLLRSSRESAFVYAVSSAGVVFAITRACSQ
+      70        80        90       100       110       120         
+
+        160         170       180       190       200       210    
+sp|P41 GELSTCGCS--RAARPKDLPRDWLWGGCGDNIDYGYRFAKEFVDARERERIHAKGSYESA
+       :::..:.:.  . .  ::   .. ::::.:::::: .::. ::::.::.        ..:
+SP:A0M GELKSCSCDPKKKGTAKDSKGNFDWGGCSDNIDYGIKFARAFVDAKERKG-------KDA
+     130       140       150       160       170              180  
+
+          220       230       240       250       260       270    
+sp|P41 RILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAA
+       : :::::::.:::..:  .    ::::::::::.:.:::: .:::::.:: : .::..: 
+SP:A0M RALMNLHNNRAGRKAVKRFLKQECKCHGVSGSCTLRTCWLAMADFRKTGDYLWRKYNGAI
+            190       200       210       220       230       240  
+
+          280        290       300       310       320       330   
+sp|P41 AMRLNSRGKLVQV-NSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMD
+        . .:. :    : :.::..:: .::::.. :::::.:....::::: ::.:: ::.:::
+SP:A0M QVVMNQDGTGFTVANKRFKKPTKNDLVYFENSPDYCIRDRDAGSLGTAGRVCNLTSRGMD
+            250       260       270       280       290       300  
+
+           340       350       360       370       380           
+sp|P41 GCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK           
+       .::.::::::::  ....  .:.::::::: :.:. : : .:  .::           
+SP:A0M SCEVMCCGRGYDTSHVTRMTKCECKFHWCCAVRCQDCLEALDVHTCKAPKSVDWAAPT
+            310       320       330       340       350       360
+
+>>SP:Q09YK7 WNT2_ATEGE Protein Wnt-2 OS=Ateles geoffroyi
+OX=9509 GN=WNT2 PE=3 SV=1 (360 aa)
+ initn: 931 init1: 455 opt: 1032  Z-score: 1836.8  bits: 348.5 E(694687): 1.2e-94
+Smith-Waterman score: 1032; 53.0% identity (76.7% similar) in 317 aa overlap (68-380:40-349)
+
+        40        50        60        70        80        90       
+sp|P41 QVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGA
+                                     .:... :: ..:..::: . : :. :: :.
+SP:Q09 LWLPLLLTWLTPEVSSSWWYMGATGGSSRVMCDNVPGLVSSQRQLCHRHPDVMRAIGLGV
+      10        20        30        40        50        60         
+
+       100       110        120       130       140       150      
+sp|P41 KTGIKECQYQFRHRRWNCSTVD-NTSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACRE
+            :::::::..::::.:.: . :.::::.  .:::.::.::.:.:::: :..::: .
+SP:Q09 TEWTAECQYQFRQHRWNCNTLDRDHSLFGRVLLRSSRESAFVYAISSAGVVFAITRACSQ
+      70        80        90       100       110       120         
+
+        160         170       180       190       200       210    
+sp|P41 GELSTCGCS--RAARPKDLPRDWLWGGCGDNIDYGYRFAKEFVDARERERIHAKGSYESA
+       ::...:.:.  . .  ::    . ::::.:::::: .::. ::::.::.        ..:
+SP:Q09 GEVKSCSCDPKKMGSGKDSKGVFDWGGCSDNIDYGIKFARAFVDAKERKG-------KDA
+     130       140       150       160       170              180  
+
+          220       230       240       250       260       270    
+sp|P41 RILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAA
+       : :::::::.:::..:  .    ::::::::::::.:::: .:::::.:: : .::..: 
+SP:Q09 RALMNLHNNRAGRKSVKRFLKQECKCHGVSGSCSLRTCWLAMADFRKTGDYLWRKYNGAI
+            190       200       210       220       230       240  
+
+          280        290       300       310       320       330   
+sp|P41 AMRLNSRGKLVQV-NSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMD
+        . .:. :    : : ::..:: .::::.. :::::.:.. :::::: ::.:: ::.:::
+SP:Q09 QVVMNQDGTGFTVANERFKKPTKNDLVYFENSPDYCIRDRETGSLGTAGRVCNLTSRGMD
+            250       260       270       280       290       300  
+
+           340       350       360       370       380           
+sp|P41 GCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK           
+       .::.::::::::  ....  .: ::::::: :.:. : : .:  .::           
+SP:Q09 SCEVMCCGRGYDTSHVTRMIKCGCKFHWCCAVRCQDCLEALDVHTCKAPKNADWTTPT
+            310       320       330       340       350       360
+
+>>SP:Q07E31 WNT2_NEONE Protein Wnt-2 OS=Neofelis nebulosa
+OX=61452 GN=WNT2 PE=3 SV=1 (360 aa)
+ initn: 946 init1: 457 opt: 1032  Z-score: 1836.8  bits: 348.5 E(694687): 1.2e-94
+Smith-Waterman score: 1032; 52.7% identity (77.6% similar) in 317 aa overlap (68-380:40-349)
+
+        40        50        60        70        80        90       
+sp|P41 QVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGA
+                                     .:... :: . :..::: . : :. :: :.
+SP:Q07 PWLPLLLTWLTPEVSSSWWYMRATGGSSRVMCDNVPGLVSRQRQLCHRHPDVMRAIGLGV
+      10        20        30        40        50        60         
+
+       100       110        120       130       140       150      
+sp|P41 KTGIKECQYQFRHRRWNCSTVD-NTSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACRE
+            :::.:::..::::.:.: . :.::::.  .:::.::.::::.:::: :..::: .
+SP:Q07 AEWTAECQHQFRQHRWNCNTLDRDHSLFGRVLLRSSRESAFVYAVSSAGVVFAITRACSQ
+      70        80        90       100       110       120         
+
+        160         170       180       190       200       210    
+sp|P41 GELSTCGCS--RAARPKDLPRDWLWGGCGDNIDYGYRFAKEFVDARERERIHAKGSYESA
+       :::..:.:.  . .  ::   .. ::::.:::::: .::. ::::.::.        ..:
+SP:Q07 GELKSCSCDPKKKGTAKDSKGNFDWGGCSDNIDYGIKFARAFVDAKERKG-------KDA
+     130       140       150       160       170              180  
+
+          220       230       240       250       260       270    
+sp|P41 RILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAA
+       : :::::::.:::..:  .    ::::::::::.:.:::: .:::::.:: : .::..: 
+SP:Q07 RALMNLHNNRAGRKAVKRFLKQECKCHGVSGSCTLRTCWLAMADFRKTGDYLWRKYNGAI
+            190       200       210       220       230       240  
+
+          280        290       300       310       320       330   
+sp|P41 AMRLNSRGKLVQV-NSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMD
+        . .:. :    : :.::..:: .::::.. :::::.:....::::: ::.:: ::.:::
+SP:Q07 QVVMNQDGTGFTVANKRFKKPTKNDLVYFENSPDYCIRDRDAGSLGTAGRVCNLTSRGMD
+            250       260       270       280       290       300  
+
+           340       350       360       370       380           
+sp|P41 GCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK           
+       .::.::::::::  ....  .:.::::::: :.:. : : .:  .::           
+SP:Q07 SCEVMCCGRGYDTSHVTRMTKCECKFHWCCAVRCQDCLEALDVHTCKAPKSVDWAAPT
+            310       320       330       340       350       360
+
+>>SP:Q2QLG1 WNT2_CALJA Protein Wnt-2 OS=Callithrix jacchus
+OX=9483 GN=WNT2 PE=3 SV=1 (360 aa)
+ initn: 930 init1: 455 opt: 1032  Z-score: 1836.8  bits: 348.5 E(694687): 1.2e-94
+Smith-Waterman score: 1032; 53.0% identity (77.0% similar) in 317 aa overlap (68-380:40-349)
+
+        40        50        60        70        80        90       
+sp|P41 QVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGA
+                                     .:... :: ..:..::: . : :. :: :.
+SP:Q2Q LWLPLLLTWLTPEVSSSWWYMGATGGSSRVMCDNVPGLVSSQRQLCHRHPDVMRAIGLGV
+      10        20        30        40        50        60         
+
+       100       110        120       130       140       150      
+sp|P41 KTGIKECQYQFRHRRWNCSTVD-NTSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACRE
+           .:::::::..::::.:.: . :.::::.  .:::.::.::.:.:::: :..::: .
+SP:Q2Q TEWTSECQYQFRQHRWNCNTLDRDHSLFGRVLLRSSRESAFVYAISSAGVVFAVTRACSQ
+      70        80        90       100       110       120         
+
+        160         170       180       190       200       210    
+sp|P41 GELSTCGCS--RAARPKDLPRDWLWGGCGDNIDYGYRFAKEFVDARERERIHAKGSYESA
+       ::...:.:.  . .  ::    . ::::.:::::: .::. ::::.::.        ..:
+SP:Q2Q GEVKSCSCDPKKMGSGKDSKGVFDWGGCSDNIDYGIKFARAFVDAKERKG-------KDA
+     130       140       150       160       170              180  
+
+          220       230       240       250       260       270    
+sp|P41 RILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAA
+       : :::::::.:::..:  .    ::::::::::::.:::: .:::::.:: : .::..: 
+SP:Q2Q RALMNLHNNRAGRKSVKRFLKQECKCHGVSGSCSLRTCWLAMADFRKTGDYLWRKYNGAI
+            190       200       210       220       230       240  
+
+          280        290       300       310       320       330   
+sp|P41 AMRLNSRGKLVQV-NSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMD
+        . .:. :    : : ::..:: .::::.. :::::.:.. :::::: ::.:: ::.:::
+SP:Q2Q QVVMNQDGTGFTVANERFKKPTKNDLVYFENSPDYCIRDRETGSLGTAGRVCNLTSRGMD
+            250       260       270       280       290       300  
+
+           340       350       360       370       380           
+sp|P41 GCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK           
+       .::.::::::::  ....  .: ::::::: :.:. : : .:  .::           
+SP:Q2Q SCEVMCCGRGYDTSHVTRMIKCGCKFHWCCAVRCQDCLEALDVHTCKAPKNADWKSPT
+            310       320       330       340       350       360
+
+>>SP:Q2QLB6 WNT2_PLEMO Protein Wnt-2 OS=Plecturocebus moloch
+OX=9523 GN=WNT2 PE=3 SV=1 (360 aa)
+ initn: 928 init1: 455 opt: 1030  Z-score: 1833.2  bits: 347.8 E(694687): 1.9e-94
+Smith-Waterman score: 1030; 52.7% identity (77.0% similar) in 317 aa overlap (68-380:40-349)
+
+        40        50        60        70        80        90       
+sp|P41 QVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGA
+                                     .:... :: ..:..::: . : :. :: :.
+SP:Q2Q LWLPLLLTWRAPEVSSSWWYMGATGGSSRVMCDNVPGLVSSQRQLCHRHPDVMRAIGLGV
+      10        20        30        40        50        60         
+
+       100       110        120       130       140       150      
+sp|P41 KTGIKECQYQFRHRRWNCSTVD-NTSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACRE
+           .:::::::..::::.:.: . :.::::.  .:::.::.::.:.:::: :..::: .
+SP:Q2Q TEWTSECQYQFRQHRWNCNTLDRDHSLFGRVLLRSSRESAFVYAISSAGVVFAITRACSQ
+      70        80        90       100       110       120         
+
+        160         170       180       190       200       210    
+sp|P41 GELSTCGCS--RAARPKDLPRDWLWGGCGDNIDYGYRFAKEFVDARERERIHAKGSYESA
+       ::...:.:.  . .  ::    . ::::.:::::: .::. ::::.::.        ..:
+SP:Q2Q GEVKSCSCDPKKMGSGKDSKGVFDWGGCSDNIDYGIKFARAFVDAKERKG-------KDA
+     130       140       150       160       170              180  
+
+          220       230       240       250       260       270    
+sp|P41 RILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAA
+       : :::::::.:::..:  .    ::::::::::::.:::: .::::..:: : .::..: 
+SP:Q2Q RALMNLHNNRAGRKSVKRFLKQECKCHGVSGSCSLRTCWLAMADFRRTGDYLWRKYNGAI
+            190       200       210       220       230       240  
+
+          280        290       300       310       320       330   
+sp|P41 AMRLNSRGKLVQV-NSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMD
+        . .:. :    : : ::..:: .::::.. :::::.:.. :::::: ::.:: ::.:::
+SP:Q2Q QVVMNQDGTGFTVANERFKKPTKNDLVYFENSPDYCIRDRETGSLGTAGRVCNLTSRGMD
+            250       260       270       280       290       300  
+
+           340       350       360       370       380           
+sp|P41 GCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK           
+       .::.::::::::  ....  .: ::::::: :.:. : : .:  .::           
+SP:Q2Q SCEVMCCGRGYDTSHVTRMIKCGCKFHWCCAVRCQDCLEALDVHTCKAPKNADWTTPT
+            310       320       330       340       350       360
+
+>>SP:P21552 WNT2_MOUSE Protein Wnt-2 OS=Mus musculus OX=10090
+GN=Wnt2 PE=2 SV=2 (360 aa)
+ initn: 941 init1: 456 opt: 1027  Z-score: 1827.7  bits: 346.8 E(694687): 3.7e-94
+Smith-Waterman score: 1027; 52.4% identity (77.0% similar) in 317 aa overlap (68-380:40-349)
+
+        40        50        60        70        80        90       
+sp|P41 QVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGA
+                                     .:... :: . :..::: . : :. :: :.
+SP:P21 LWLPLLLTWLTPEVSSSWWYMRATGGSSRVMCDNVPGLVSRQRQLCHRHPDVMRAIGLGV
+      10        20        30        40        50        60         
+
+       100       110        120       130       140       150      
+sp|P41 KTGIKECQYQFRHRRWNCSTVD-NTSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACRE
+            :::.:::..::::.:.: . :.::::.  .:::.::.::.:.:::: :..::: .
+SP:P21 AEWTAECQHQFRQHRWNCNTLDRDHSLFGRVLLRSSRESAFVYAISSAGVVFAITRACSQ
+      70        80        90       100       110       120         
+
+        160         170       180       190       200       210    
+sp|P41 GELSTCGCS--RAARPKDLPRDWLWGGCGDNIDYGYRFAKEFVDARERERIHAKGSYESA
+       :::..:.:.  . .  ::    . ::::.:::::: .::. ::::.::.        ..:
+SP:P21 GELKSCSCDPKKKGSAKDSKGTFDWGGCSDNIDYGIKFARAFVDAKERKG-------KDA
+     130       140       150       160       170              180  
+
+          220       230       240       250       260       270    
+sp|P41 RILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAA
+       : :::::::.:::..:  .    ::::::::::.:.:::: .:::::.:: : .::..: 
+SP:P21 RALMNLHNNRAGRKAVKRFLKQECKCHGVSGSCTLRTCWLAMADFRKTGDYLWRKYNGAI
+            190       200       210       220       230       240  
+
+          280        290       300       310       320       330   
+sp|P41 AMRLNSRGKLVQV-NSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMD
+        . .:. :    : :.::..:: .::::.. :::::.:.. .::::: ::.:: ::.:::
+SP:P21 QVVMNQDGTGFTVANKRFKKPTKNDLVYFENSPDYCIRDREAGSLGTAGRVCNLTSRGMD
+            250       260       270       280       290       300  
+
+           340       350       360       370       380           
+sp|P41 GCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK           
+       .::.::::::::  ....  .:.::::::: :.:. : : .:  .::           
+SP:P21 SCEVMCCGRGYDTSHVTRMTKCECKFHWCCAVRCQDCLEALDVHTCKAPKSADWATPT
+            310       320       330       340       350       360
+
+>>SP:Q2QLA5 WNT2_HORSE Protein Wnt-2 OS=Equus caballus OX=9796
+GN=WNT2 PE=3 SV=1 (360 aa)
+ initn: 940 init1: 456 opt: 1026  Z-score: 1825.9  bits: 346.5 E(694687): 4.7e-94
+Smith-Waterman score: 1026; 52.1% identity (77.0% similar) in 317 aa overlap (68-380:40-349)
+
+        40        50        60        70        80        90       
+sp|P41 QVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGA
+                                     .:... :: . :..::: . : :. :: :.
+SP:Q2Q LWLPLLLTWLTPEVSSSWWYMRATGGASRVMCDNVPGLVSRQRQLCHRHPDVMRAIGLGV
+      10        20        30        40        50        60         
+
+       100       110        120       130       140       150      
+sp|P41 KTGIKECQYQFRHRRWNCSTVD-NTSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACRE
+            :::.:::..::::.:.: . :.::::.  .:::.::.::.:.:::: :..::: .
+SP:Q2Q AEWTAECQHQFRQHRWNCNTLDRDHSLFGRVLLRSSRESAFVYAISSAGVVFAITRACSQ
+      70        80        90       100       110       120         
+
+        160         170       180       190       200       210    
+sp|P41 GELSTCGCS--RAARPKDLPRDWLWGGCGDNIDYGYRFAKEFVDARERERIHAKGSYESA
+       ::: .:.:.  . .  ::    . ::::.:::::: .::. ::::.::.        ..:
+SP:Q2Q GELRSCSCDPKKKGTAKDSKGTFDWGGCSDNIDYGIKFARAFVDAKERKG-------KDA
+     130       140       150       160       170              180  
+
+          220       230       240       250       260       270    
+sp|P41 RILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAA
+       : :::::::.:::..:  .    ::::::::::.:.:::: .:::::.:: : .::..: 
+SP:Q2Q RALMNLHNNRAGRKAVKRFLKQECKCHGVSGSCTLRTCWLAMADFRKTGDYLWRKYNGAI
+            190       200       210       220       230       240  
+
+          280        290       300       310       320       330   
+sp|P41 AMRLNSRGKLVQV-NSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMD
+        . .:. :    : :..:..:: .::::.. :::::.:....::::: ::.:: ::.:::
+SP:Q2Q QVVMNQDGTGFTVANKKFKKPTKNDLVYFENSPDYCIRDRDAGSLGTAGRVCNLTSRGMD
+            250       260       270       280       290       300  
+
+           340       350       360       370       380           
+sp|P41 GCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK           
+       .::.::::::::  ....  .:.::::::: :.:. : : .:  .::           
+SP:Q2Q SCEVMCCGRGYDTSRVTRMTKCECKFHWCCAVRCQDCLEALDVHTCKAPKSADWASPT
+            310       320       330       340       350       360
+
+>>SP:Q108U2 WNT2_LOXAF Protein Wnt-2 OS=Loxodonta africana
+OX=9785 GN=WNT2 PE=3 SV=1 (360 aa)
+ initn: 939 init1: 450 opt: 1025  Z-score: 1824.1  bits: 346.2 E(694687): 5.9e-94
+Smith-Waterman score: 1025; 52.4% identity (76.7% similar) in 317 aa overlap (68-380:40-349)
+
+        40        50        60        70        80        90       
+sp|P41 QVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGA
+                                     .:... :: . :..::: . : :. :: :.
+SP:Q10 PWLPLLLTWLAPEVSSSWWYMRATGGSSRVMCDNVPGLVSRQRQLCHRHPDVMRAIGLGV
+      10        20        30        40        50        60         
+
+       100       110        120       130       140       150      
+sp|P41 KTGIKECQYQFRHRRWNCSTVD-NTSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACRE
+            :::.:::..::::.:.: . :.::::.  .:::.::.::.:.:::: :..::: .
+SP:Q10 AEWTAECQHQFRQHRWNCNTLDRDHSLFGRVLLRSSRESAFVYAISSAGVVFAITRACSQ
+      70        80        90       100       110       120         
+
+        160         170       180       190       200       210    
+sp|P41 GELSTCGCS--RAARPKDLPRDWLWGGCGDNIDYGYRFAKEFVDARERERIHAKGSYESA
+       :::..:.:.  . .  ::    . ::::.:::::: :::. ::::.::.        ..:
+SP:Q10 GELKSCSCDPKKKGTAKDSKGTFDWGGCSDNIDYGIRFARAFVDAKERKG-------KDA
+     130       140       150       160       170              180  
+
+          220       230       240       250       260       270    
+sp|P41 RILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAA
+       : :::::::.:::..:  .    ::::::::::.:.:::: .:::::.:: : .::..: 
+SP:Q10 RALMNLHNNRAGRKAVKRFLKQECKCHGVSGSCTLRTCWLAMADFRKTGDYLWRKYNGAI
+            190       200       210       220       230       240  
+
+          280        290       300       310       320       330   
+sp|P41 AMRLNSRGKLVQV-NSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMD
+        . .:. :    : :.::..:: .::::.. :::::.:....:: :: ::.:: ::.:::
+SP:Q10 QVVMNQDGTGFTVANKRFKKPTKNDLVYFENSPDYCIRDRDAGSPGTAGRVCNLTSRGMD
+            250       260       270       280       290       300  
+
+           340       350       360       370       380           
+sp|P41 GCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK           
+       .::.::::::::  . ..  .:.::::::: :.:. : : .:  .::           
+SP:Q10 SCEVMCCGRGYDTSRITRMTKCECKFHWCCAVRCQDCLEALDVHTCKAPKSADWAAPT
+            310       320       330       340       350       360
+
+>>SP:Q07DX7 WNT2_NOMLE Protein Wnt-2 OS=Nomascus leucogenys
+OX=61853 GN=WNT2 PE=3 SV=1 (360 aa)
+ initn: 931 init1: 453 opt: 1024  Z-score: 1822.3  bits: 345.8 E(694687): 7.4e-94
+Smith-Waterman score: 1024; 49.1% identity (75.3% similar) in 340 aa overlap (45-380:17-349)
+
+           20        30        40        50        60        70    
+sp|P41 GMAGSAMSSKFFLVALAIFFSFAQVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAG
+                                     .: .  .:.   . ..   ... .:... :
+SP:Q07               MNAPLGGIWLWLPLLLTWLTPEVNSSWWYMRATGGSSRVMCDNVPG
+                             10        20        30        40      
+
+           80        90       100       110        120       130   
+sp|P41 LSQGQKKLCHLYQDHMQYIGEGAKTGIKECQYQFRHRRWNCSTVD-NTSVFGRVMQIGSR
+       : ..:..::: . : :. :..:.     :::::::..::::.:.: . :.::::.  .::
+SP:Q07 LVSSQRQLCHRHPDVMRAISQGVAEWTAECQYQFRQHRWNCNTLDRDHSLFGRVLLRSSR
+         50        60        70        80        90       100      
+
+           140       150       160         170       180       190 
+sp|P41 ETAFTYAVSAAGVVNAMSRACREGELSTCGCS--RAARPKDLPRDWLWGGCGDNIDYGYR
+       :.::.::.:.:::: :..::: .::...:.:.  . .  ::    . ::::.:::::: .
+SP:Q07 ESAFVYAISSAGVVFAITRACSQGEVKSCSCDPKKMGSAKDSKGIFDWGGCSDNIDYGIK
+        110       120       130       140       150       160      
+
+             200       210       220       230       240       250 
+sp|P41 FAKEFVDARERERIHAKGSYESARILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKT
+       ::. ::::.::.        ..:: :::::::.:::..:  .    ::::::::::.:.:
+SP:Q07 FARAFVDAKERKG-------KDARALMNLHNNRAGRKAVKRFLKQECKCHGVSGSCTLRT
+        170              180       190       200       210         
+
+             260       270       280        290       300       310
+sp|P41 CWLQLADFRKVGDALKEKYDSAAAMRLNSRGKLVQV-NSRFNSPTTQDLVYIDPSPDYCV
+       ::: .:::::.:: : .::..:  . .:. :    : : ::..:: .::::.. :::::.
+SP:Q07 CWLAMADFRKTGDYLWRKYNGAIQVVMNQDGTGFTVANERFKKPTKNDLVYFENSPDYCI
+     220       230       240       250       260       270         
+
+              320       330       340       350       360       370
+sp|P41 RNESTGSLGTQGRLCNKTSEGMDGCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKC
+       :.. .::::: ::.:: ::.:::.::.::::::::  ....  .: ::::::: :.:. :
+SP:Q07 RDREAGSLGTAGRVCNLTSRGMDSCEVMCCGRGYDTSHVTRMTKCGCKFHWCCAVRCQDC
+     280       290       300       310       320       330         
+
+              380           
+sp|P41 TEIVDQFVCK           
+        : .:  .::           
+SP:Q07 LEALDVHTCKAPKNADWTTPT
+     340       350       360
+
+>>SP:Q2QL76 WNT2_DIDVI Protein Wnt-2 OS=Didelphis virginiana
+OX=9267 GN=WNT2 PE=3 SV=1 (360 aa)
+ initn: 931 init1: 469 opt: 1023  Z-score: 1820.5  bits: 345.5 E(694687): 9.4e-94
+Smith-Waterman score: 1023; 51.7% identity (77.3% similar) in 317 aa overlap (68-380:40-349)
+
+        40        50        60        70        80        90       
+sp|P41 QVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGA
+                                     .:... :: . :..::: . . :. :: :.
+SP:Q2Q WLSVPLILSWVTPQVSSSWWYMRAVGSSRVMCDNVPGLVSRQRQLCHRHPEVMRSIGLGV
+      10        20        30        40        50        60         
+
+       100       110        120       130       140       150      
+sp|P41 KTGIKECQYQFRHRRWNCSTVD-NTSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACRE
+            :::.:::..:::: :.: . ..::.:.  .:::.::.::.:.:::: :..::: .
+SP:Q2Q AEWTAECQHQFRQHRWNCHTLDRDHNLFGKVLLRSSREAAFVYAISSAGVVFAITRACSQ
+      70        80        90       100       110       120         
+
+        160         170       180       190       200       210    
+sp|P41 GELSTCGCS--RAARPKDLPRDWLWGGCGDNIDYGYRFAKEFVDARERERIHAKGSYESA
+       :::..:.:.  . .  ::    . ::::.:::::: .::. ::::.::.        ..:
+SP:Q2Q GELKSCSCDPKKKGTSKDSKGTFDWGGCSDNIDYGIKFARAFVDAKERKG-------KDA
+     130       140       150       160       170              180  
+
+          220       230       240       250       260       270    
+sp|P41 RILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAA
+       : :::::::.:::..:  .    ::::::::::.:.:::: .:::::.:: : .::..: 
+SP:Q2Q RALMNLHNNRAGRKAVKRFLKQECKCHGVSGSCTLRTCWLAMADFRKTGDYLWKKYNGAI
+            190       200       210       220       230       240  
+
+          280        290       300       310       320       330   
+sp|P41 AMRLNSRGKLVQV-NSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMD
+        . .:. :    : :.::..:: .::::.. :::::.:....::::: ::.:: ::.:::
+SP:Q2Q QVVMNQDGTGFTVANKRFKKPTKNDLVYFENSPDYCIRDRDAGSLGTAGRVCNLTSRGMD
+            250       260       270       280       290       300  
+
+           340       350       360       370       380           
+sp|P41 GCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK           
+       .::.::::::::  ....  .:.::::::: :.:. : :.::  .::           
+SP:Q2Q SCEVMCCGRGYDTSRVTRMTKCECKFHWCCAVRCQDCLEVVDVHTCKAPKSPDWVAPT
+            310       320       330       340       350       360
+
+>>SP:Q2QLC7 WNT2_CARPS Protein Wnt-2 OS=Carollia perspicillata
+OX=40233 GN=WNT2 PE=3 SV=1 (360 aa)
+ initn: 942 init1: 460 opt: 1023  Z-score: 1820.5  bits: 345.5 E(694687): 9.4e-94
+Smith-Waterman score: 1023; 52.1% identity (77.0% similar) in 317 aa overlap (68-380:40-349)
+
+        40        50        60        70        80        90       
+sp|P41 QVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGA
+                                     .:... :: . :..:::   : :. :: :.
+SP:Q2Q LWLPLLLTWLSPEVSSSWWYMRATGGSSRVMCDNVPGLVSRQRQLCHRNPDVMRAIGLGV
+      10        20        30        40        50        60         
+
+       100       110        120       130       140       150      
+sp|P41 KTGIKECQYQFRHRRWNCSTVD-NTSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACRE
+            :::.:::..::::.:.: . :.::::.  .:::.::.::.:.:::: :..::: .
+SP:Q2Q AEWTAECQHQFRQHRWNCNTLDRDHSLFGRVLLRSSRESAFVYAISSAGVVFAITRACSQ
+      70        80        90       100       110       120         
+
+        160         170       180       190       200       210    
+sp|P41 GELSTCGCS--RAARPKDLPRDWLWGGCGDNIDYGYRFAKEFVDARERERIHAKGSYESA
+       :::..:.:.  . .  .:    . ::::.:::::: .::. ::::.::.        ..:
+SP:Q2Q GELKSCSCDPKKKGSSRDNKGTFDWGGCSDNIDYGIKFARAFVDAKERQG-------KDA
+     130       140       150       160       170              180  
+
+          220       230       240       250       260       270    
+sp|P41 RILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAA
+       : :::::::.:::..:  .    ::::::::::.:.:::: .:::::.:: : .::..: 
+SP:Q2Q RALMNLHNNRAGRKAVKRFLKQECKCHGVSGSCTLRTCWLAMADFRKTGDYLWKKYSGAI
+            190       200       210       220       230       240  
+
+          280        290       300       310       320       330   
+sp|P41 AMRLNSRGKLVQV-NSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMD
+        . .:. :    : :.::..:: .::::.. :::::.:....::::: ::.:: ::.:::
+SP:Q2Q QVVMNQDGTGFTVANKRFKKPTKNDLVYFENSPDYCIRDRDAGSLGTAGRVCNLTSRGMD
+            250       260       270       280       290       300  
+
+           340       350       360       370       380           
+sp|P41 GCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK           
+       .::.::::::::  ....  .:.::::::: :.:. : : .:  .::           
+SP:Q2Q SCEVMCCGRGYDTSRVTRMTKCECKFHWCCAVRCQDCLEALDVHTCKAPKSADWAAPT
+            310       320       330       340       350       360
+
+>>SP:Q07E18 WNT2_MUSPF Protein Wnt-2 OS=Mustela putorius furo
+OX=9669 GN=WNT2 PE=3 SV=1 (360 aa)
+ initn: 937 init1: 451 opt: 1023  Z-score: 1820.5  bits: 345.5 E(694687): 9.4e-94
+Smith-Waterman score: 1023; 52.1% identity (77.3% similar) in 317 aa overlap (68-380:40-349)
+
+        40        50        60        70        80        90       
+sp|P41 QVVIEANSWWSLGMNNPVQMSEVYIIGAQPLCSQLAGLSQGQKKLCHLYQDHMQYIGEGA
+                                     .:... :: . :..::: . : :. :: :.
+SP:Q07 LWLPLLLTWLTPEVSSSWWYMRATGGSSRVMCDNVPGLVSRQRQLCHRHPDVMRAIGLGV
+      10        20        30        40        50        60         
+
+       100       110        120       130       140       150      
+sp|P41 KTGIKECQYQFRHRRWNCSTVD-NTSVFGRVMQIGSRETAFTYAVSAAGVVNAMSRACRE
+            :::.:::..::::.:.: . :.::::.  .:::.::.::::.:::: :..::: .
+SP:Q07 AEWTAECQHQFRQHRWNCNTLDRDHSLFGRVLLRSSRESAFVYAVSSAGVVFAITRACSQ
+      70        80        90       100       110       120         
+
+        160         170       180       190       200       210    
+sp|P41 GELSTCGCS--RAARPKDLPRDWLWGGCGDNIDYGYRFAKEFVDARERERIHAKGSYESA
+       :::..:.:.  . .  ::   .. ::::.:::::: .::. ::::.::.        ..:
+SP:Q07 GELKSCSCDPKKKGTAKDSKGNFDWGGCSDNIDYGIKFARAFVDAKERKG-------KDA
+     130       140       150       160       170              180  
+
+          220       230       240       250       260       270    
+sp|P41 RILMNLHNNEAGRRTVYNLADVACKCHGVSGSCSLKTCWLQLADFRKVGDALKEKYDSAA
+       : :::::::.:::..:  .    ::::::::::.:.:::: .::::..:: : .::..: 
+SP:Q07 RALMNLHNNRAGRKAVKRFLKQECKCHGVSGSCTLRTCWLAMADFRRTGDYLWRKYNGAI
+            190       200       210       220       230       240  
+
+          280        290       300       310       320       330   
+sp|P41 AMRLNSRGKLVQV-NSRFNSPTTQDLVYIDPSPDYCVRNESTGSLGTQGRLCNKTSEGMD
+        . .:. :    : :.::..:: .::::.. :::::.:....:: :: ::.:: ::.:::
+SP:Q07 QVVMNQDGTGFTVANKRFKKPTKNDLVYFENSPDYCIRDRDAGSPGTAGRVCNLTSRGMD
+            250       260       270       280       290       300  
+
+           340       350       360       370       380           
+sp|P41 GCELMCCGRGYDQFKTVQTERCHCKFHWCCYVKCKKCTEIVDQFVCK           
+       .::.::::::::  ....  .:.::::::: :.:. : : .:  .::           
+SP:Q07 SCEVMCCGRGYDTSRVTRMTKCECKFHWCCAVRCQDCLEALDVHTCKAPKSADWAAPT
+            310       320       330       340       350       360
+
+
+
+380 residues in 1 query   sequences
+280951894 residues in 694687 library sequences
+ Tcomplib [36.3.8h May, 2020] (32 proc in memory [0G])
+ start: Wed Apr 17 09:33:14 2024 done: Wed Apr 17 09:33:45 2024
+ Total Scan time: 28.540 Total Display time:  0.190
+
+Function used was FASTA [36.3.8h May, 2020]
