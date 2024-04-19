@@ -1,0 +1,2841 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.15.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>pdb</BlastOutput_db>
+  <BlastOutput_query-ID>Query_3761486</BlastOutput_query-ID>
+  <BlastOutput_query-def>NP_477249.3 death related ced-3/Nedd2-like caspase, isoform E [Drosophila melanogaster]</BlastOutput_query-def>
+  <BlastOutput_query-len>494</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>0.05</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_3761486</Iteration_query-ID>
+  <Iteration_query-def>NP_477249.3 death related ced-3/Nedd2-like caspase, isoform E [Drosophila melanogaster]</Iteration_query-def>
+  <Iteration_query-len>494</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>pdb|6WI4|A</Hit_id>
+  <Hit_def>Chain A, Caspase-3 [Porites astreoides] &gt;pdb|6WI4|B Chain B, Caspase-3 [Porites astreoides]</Hit_def>
+  <Hit_accession>6WI4_A</Hit_accession>
+  <Hit_len>233</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.0561</Hsp_bit-score>
+      <Hsp_score>240</Hsp_score>
+      <Hsp_evalue>2.5383e-22</Hsp_evalue>
+      <Hsp_query-from>252</Hsp_query-from>
+      <Hsp_query-to>492</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>230</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>KLTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIRS--ACDRSLVRDSLVVFILSHGFEEAVYASNSIAMKITDIEDLLCSYDTLYYKPKLLIIQACQEKLVHKKKPNELFRIDVTTVSPDQHIDMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKRG------SNDESMVPNVKSTFRQHVYFPP</Hsp_qseq>
+      <Hsp_hseq>KMNKSTRGIAVIINNKDFLRSSGMDRYP---------RNGTDVDRDALAKLFRALKFDVRIYNNQTR-AEIRRITKEMAITNHTPYDAFIFSILTHGEEGVIYGTDG-TMAIKDLTAIFKDCTTLVGKPKMFFFQACQG---HEY---------MDGVSVPAEADFVYAYSTVPGYYSWRNSVNGSWFIQSLTKVFEENAERMDILRMLTRVNAMVSTYKSRTGDYYSDSKRQVSSVVSMLRKELYFFP</Hsp_hseq>
+      <Hsp_midline>K+ +   GIA+IIN + F R+   D            R+GTDVD++ L ++F ++ ++V  Y+N      I RI    A       D+ +  IL+HG E  +Y ++   M I D+  +     TL  KPK+   QACQ    H+          +  VS     D + A STV GY + R++  GSWFI SL    +  +    I  +LT V   VS  +       S+ +  V +V S  R+ +YF P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>pdb|5JFT|A</Hit_id>
+  <Hit_def>Chain A, Caspase 3, apoptosis-related cysteine protease a [Danio rerio] &gt;pdb|5JFT|B Chain B, Caspase 3, apoptosis-related cysteine protease a [Danio rerio]</Hit_def>
+  <Hit_accession>5JFT_A</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.0561</Hsp_bit-score>
+      <Hsp_score>240</Hsp_score>
+      <Hsp_evalue>3.72258e-22</Hsp_evalue>
+      <Hsp_query-from>253</Hsp_query-from>
+      <Hsp_query-to>492</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>LTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIRSACDRSLVR-DSLVVFILSHGFEEAVYASNSIAMKITDIEDLL----CSYDTLYYKPKLLIIQACQ----------EKLVHKKKPNELFRIDVTTVSPDQHIDMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEV-------SKKRGSNDESMVPNVKSTFRQHVYFPP</Hsp_qseq>
+      <Hsp_hseq>LNYPNIGHCIIINNKNFDRRTG-----------MNPRNGTDVDAGNVMNVFRKLGYIVKVYNDQTVAQIMQVLTTVAHDDHSRCASLVCVLLSHG-DEGVFFGTDTSVDLKSLTSLFRGDRCP--SLVGKPKLFFIQACRGTELDPGVETDHTDHPDIPDGRERIPV-------EADFLYAYSTVPGYYSWRNTMTGSWFIQSLCEMMTKYGSELELLQIMTRVNHKVALDFESTSNMPGFDAKKQIPCIVSMLTKEMYFTP</Hsp_hseq>
+      <Hsp_midline>L   N G  +IIN + F R              +  R+GTDVD   ++ VF  +GY V+ Y++     I++ + +       R  SLV  +LSHG +E V+     ++ +  +  L     C   +L  KPKL  IQAC+          +   H   P+   RI V         D L A STV GY + R+T TGSWFI SLC+ + +  +   +  I+T V ++V       S   G + +  +P + S   + +YF P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>pdb|1SHL|A</Hit_id>
+  <Hit_def>Chain A, Caspase-7 [Homo sapiens] &gt;pdb|1SHL|B Chain B, Caspase-7 [Homo sapiens]</Hit_def>
+  <Hit_accession>1SHL_A</Hit_accession>
+  <Hit_len>245</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.0485</Hsp_bit-score>
+      <Hsp_score>227</Hsp_score>
+      <Hsp_evalue>1.71364e-20</Hsp_evalue>
+      <Hsp_query-from>264</Hsp_query-from>
+      <Hsp_query-to>494</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>239</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>INQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIRSACDRSLVRDS-LVVFILSHGFEEAVYASNSIAMKITDIEDLLCSY-----DTLYYKPKLLIIQACQ-EKLVHKKKPNELFRIDVTTVSPDQHIDMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKRGS-------NDESMVPNVKSTFRQHVYFPPRL</Hsp_qseq>
+      <Hsp_hseq>MNFEKLGKCIIINNKNFDKVTGMGVRNGTDKDAEALFKCFRSLGFDVIVYNDCSCAKMQDLLKKASEEDHTNAACFACILLSHGEENVIYGKDGV----TPIKDLTAHFRGDRCKTLLEKPKLFFIQACRGTELADGIQADSRYKIPVEA-------DFLFAYSTVPGYYSWRSPGRGSWFVQALCSILEEHGKDLEIMQILTRVNDRVARHFESQSDDPHFHEKKQIPCVVSMLTKELYFSQQL</Hsp_hseq>
+      <Hsp_midline>+N +K  + +  +N  F     +  R+GTD D E L + F S+G++V  Y++     + + ++ A +      +     +LSHG E  +Y  + +    T I+DL   +      TL  KPKL  IQAC+  +L    + +  ++I V         D L A STV GY + R    GSWF+ +LC  ++       I  ILT V + V++   S       +++  +P V S   + +YF  +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>pdb|4JJ8|A</Hit_id>
+  <Hit_def>Chain A, Caspase-7 [Homo sapiens] &gt;pdb|4JJ8|B Chain B, Caspase-7 [Homo sapiens]</Hit_def>
+  <Hit_accession>4JJ8_A</Hit_accession>
+  <Hit_len>255</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.0485</Hsp_bit-score>
+      <Hsp_score>227</Hsp_score>
+      <Hsp_evalue>2.44764e-20</Hsp_evalue>
+      <Hsp_query-from>264</Hsp_query-from>
+      <Hsp_query-to>494</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>249</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>248</Hsp_align-len>
+      <Hsp_qseq>INQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIRSACDRSLVRDS-LVVFILSHGFEEAVYASNSIAMKITDIEDLLCSY-----DTLYYKPKLLIIQACQEKLVHKKKPNELFRIDVTTVSPDQHI----DMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKRGS-------NDESMVPNVKSTFRQHVYFPPRL</Hsp_qseq>
+      <Hsp_hseq>MNFEKLGKCIIINNKNFDKVTGMGVRNGTDKDAEALFKCFRSLGFDVIVYNDCSCAKMQDLLKKASEEDHTNAACFACILLSHGEENVIYGKDGV----TPIKDLTAHFRGDRCKTLLEKPKLFFIQACRGTELDDGIQADSGPINDTDANPRYKIPVEADFLFAYSTVPGYYSWRSPGRGSWFVQALCSILEEHGKDLEIMQILTRVNDRVARHFESQSDDPHFHEKKQIPCVVSMLTKELYFSQQL</Hsp_hseq>
+      <Hsp_midline>+N +K  + +  +N  F     +  R+GTD D E L + F S+G++V  Y++     + + ++ A +      +     +LSHG E  +Y  + +    T I+DL   +      TL  KPKL  IQAC+   +      +   I+ T  +P   I    D L A STV GY + R    GSWF+ +LC  ++       I  ILT V + V++   S       +++  +P V S   + +YF  +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>pdb|1SHJ|A</Hit_id>
+  <Hit_def>Chain A, Caspase-7 [Homo sapiens] &gt;pdb|1SHJ|B Chain B, Caspase-7 [Homo sapiens]</Hit_def>
+  <Hit_accession>1SHJ_A</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.6633</Hsp_bit-score>
+      <Hsp_score>226</Hsp_score>
+      <Hsp_evalue>3.15863e-20</Hsp_evalue>
+      <Hsp_query-from>264</Hsp_query-from>
+      <Hsp_query-to>494</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>256</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>248</Hsp_align-len>
+      <Hsp_qseq>INQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIRSACDRSLVRDS-LVVFILSHGFEEAVYASNSIAMKITDIEDLLCSY-----DTLYYKPKLLIIQACQEKLVHKKKPNELFRIDVTTVSPDQHI----DMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKRGS-------NDESMVPNVKSTFRQHVYFPPRL</Hsp_qseq>
+      <Hsp_hseq>MNFEKLGKCIIINNKNFDKVTGMGVRNGTDKDAEALFKCFRSLGFDVIVYNDCSCAKMQDLLKKASEEDHTNAACFACILLSHGEENVIYGKDGV----TPIKDLTAHFRGARCKTLLEKPKLFFIQACRGTELDDGIQADSGPINDTDANPRYKIPVEADFLFAYSTVPGYYSWRSPGRGSWFVQALCSILEEHGKDLEIMQILTRVNDRVARHFESQSDDPHFHEKKQIPCVVSMLTKELYFSQQL</Hsp_hseq>
+      <Hsp_midline>+N +K  + +  +N  F     +  R+GTD D E L + F S+G++V  Y++     + + ++ A +      +     +LSHG E  +Y  + +    T I+DL   +      TL  KPKL  IQAC+   +      +   I+ T  +P   I    D L A STV GY + R    GSWF+ +LC  ++       I  ILT V + V++   S       +++  +P V S   + +YF  +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>pdb|4JR1|A</Hit_id>
+  <Hit_def>Chain A, Procaspase-7 [Homo sapiens] &gt;pdb|4JR1|B Chain B, Procaspase-7 [Homo sapiens] &gt;pdb|4JR2|A Chain A, Procaspase-7 [Homo sapiens] &gt;pdb|4JR2|B Chain B, Procaspase-7 [Homo sapiens]</Hit_def>
+  <Hit_accession>4JR1_A</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.8929</Hsp_bit-score>
+      <Hsp_score>224</Hsp_score>
+      <Hsp_evalue>4.44962e-20</Hsp_evalue>
+      <Hsp_query-from>257</Hsp_query-from>
+      <Hsp_query-to>490</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>248</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>251</Hsp_align-len>
+      <Hsp_qseq>NAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIRSACDRSLVRDS-LVVFILSHGFEEAVYASNSIAMKITDIEDLLCSY-----DTLYYKPKLLIIQACQEKLVHKKKPNELFRIDVTTVSPDQHI----DMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKRGS-------NDESMVPNVKSTFRQHVYF</Hsp_qseq>
+      <Hsp_hseq>NATYQYNMNFEKLGKCIIINNKNFDKVTGMGVRNGTDKDAEALFKCFRSLGFDVIVYNDCSCAKMQDLLKKASEEDHTNAACFACILLSHGEENVIYGKDGV----TPIKDLTAHFRGDRCKTLLEKPKLFFIQACRGTELDDGIQAASGPINDTDANPRYKIPVEADFLFAYSTVPGYYSWRSPGRGSWFVQALCSILEEHGKDLEIMQILTRVNDRVARHFESQSDDPHFHEKKQIPCVVSMLTKELYF</Hsp_hseq>
+      <Hsp_midline>NA     +N +K  + +  +N  F     +  R+GTD D E L + F S+G++V  Y++     + + ++ A +      +     +LSHG E  +Y  + +    T I+DL   +      TL  KPKL  IQAC+   +          I+ T  +P   I    D L A STV GY + R    GSWF+ +LC  ++       I  ILT V + V++   S       +++  +P V S   + +YF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>pdb|4FEA|A</Hit_id>
+  <Hit_def>Chain A, Caspase-7 [Homo sapiens] &gt;pdb|4FEA|B Chain B, Caspase-7 [Homo sapiens]</Hit_def>
+  <Hit_accession>4FEA_A</Hit_accession>
+  <Hit_len>247</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.8929</Hsp_bit-score>
+      <Hsp_score>224</Hsp_score>
+      <Hsp_evalue>5.04346e-20</Hsp_evalue>
+      <Hsp_query-from>264</Hsp_query-from>
+      <Hsp_query-to>490</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>INQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIRSACDRSLVRDS-LVVFILSHGFEEAVYASNSIAMKITDIEDLLCSY-----DTLYYKPKLLIIQACQEKLVHKKKPNELFRIDVTTVSPDQHI----DMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKRGS-------NDESMVPNVKSTFRQHVYF</Hsp_qseq>
+      <Hsp_hseq>MNFEKLGKCIIINNKNFDKVTGMGVRNGTDKDAEALFKCFRSLGFDVIVYNDCSCAKMQDLLKKASEEDHTNAACFACILLSHGEENVIYGKDGV----TPIKDLTAHFRGDRCKTLLEKPKLFFIQACRGTELDDGIQADSGPINDTDANPRYKIPVEADFLFAYSTVPGYYSWRSPGRGSWFVQALCSILEEHGKDLEIMQILTRVNDRVARHFESQSDDPHFHEKKQIPCVVSMLTKELYF</Hsp_hseq>
+      <Hsp_midline>+N +K  + +  +N  F     +  R+GTD D E L + F S+G++V  Y++     + + ++ A +      +     +LSHG E  +Y  + +    T I+DL   +      TL  KPKL  IQAC+   +      +   I+ T  +P   I    D L A STV GY + R    GSWF+ +LC  ++       I  ILT V + V++   S       +++  +P V S   + +YF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>pdb|1K86|A</Hit_id>
+  <Hit_def>Chain A, caspase-7 [Homo sapiens] &gt;pdb|1K86|B Chain B, caspase-7 [Homo sapiens]</Hit_def>
+  <Hit_accession>1K86_A</Hit_accession>
+  <Hit_len>253</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.5077</Hsp_bit-score>
+      <Hsp_score>223</Hsp_score>
+      <Hsp_evalue>6.28388e-20</Hsp_evalue>
+      <Hsp_query-from>264</Hsp_query-from>
+      <Hsp_query-to>490</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>INQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIRSACDRSLVRDS-LVVFILSHGFEEAVYASNSIAMKITDIEDLLCSY-----DTLYYKPKLLIIQACQEKLVHKKKPNELFRIDVTTVSPDQHI----DMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKRGS-------NDESMVPNVKSTFRQHVYF</Hsp_qseq>
+      <Hsp_hseq>MNFEKLGKCIIINNKNFDKVTGMGVRNGTDKDAEALFKCFRSLGFDVIVYNDCSCAKMQDLLKKASEEDHTNAACFACILLSHGEENVIYGKDGV----TPIKDLTAHFRGARCKTLLEKPKLFFIQACRGTELDDGIQADSGPINDTDANPRYKIPVEADFLFAYSTVPGYYSWRSPGRGSWFVQALCSILEEHGKDLEIMQILTRVNDRVARHFESQSDDPHFHEKKQIPCVVSMLTKELYF</Hsp_hseq>
+      <Hsp_midline>+N +K  + +  +N  F     +  R+GTD D E L + F S+G++V  Y++     + + ++ A +      +     +LSHG E  +Y  + +    T I+DL   +      TL  KPKL  IQAC+   +      +   I+ T  +P   I    D L A STV GY + R    GSWF+ +LC  ++       I  ILT V + V++   S       +++  +P V S   + +YF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>pdb|1I4O|A</Hit_id>
+  <Hit_def>Chain A, CASPASE-7 [Homo sapiens] &gt;pdb|1I4O|B Chain B, CASPASE-7 [Homo sapiens]</Hit_def>
+  <Hit_accession>1I4O_A</Hit_accession>
+  <Hit_len>280</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.1225</Hsp_bit-score>
+      <Hsp_score>222</Hsp_score>
+      <Hsp_evalue>1.6336e-19</Hsp_evalue>
+      <Hsp_query-from>256</Hsp_query-from>
+      <Hsp_query-to>490</Hsp_query-to>
+      <Hsp_hit-from>42</Hsp_hit-from>
+      <Hsp_hit-to>278</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>252</Hsp_align-len>
+      <Hsp_qseq>ENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIRSACDRSLVRDS-LVVFILSHGFEEAVYASNSIAMKITDIEDLLCSY-----DTLYYKPKLLIIQACQEKLVHKKKPNELFRIDVTTVSPDQHI----DMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKRGS-------NDESMVPNVKSTFRQHVYF</Hsp_qseq>
+      <Hsp_hseq>EKLGKCIIINNKNFDKVTG-----------MGVRNGTDKDAEALFKCFRSLGFDVIVYNDCSCAKMQDLLKKASEEDHTNAACFACILLSHGEENVIYGKDGV----TPIKDLTAHFRGDRCKTLLEKPKLFFIQACRGTELDDGIQADSGPINDTDANPRYKIPVEADFLFAYSTVPGYYSWRSPGRGSWFVQALCSILEEHGKDLEIMQILTRVNDRVARHFESQSDDPHFHEKKQIPCVVSMLTKELYF</Hsp_hseq>
+      <Hsp_midline>E  G  +IIN + F +              +  R+GTD D E L + F S+G++V  Y++     + + ++ A +      +     +LSHG E  +Y  + +    T I+DL   +      TL  KPKL  IQAC+   +      +   I+ T  +P   I    D L A STV GY + R    GSWF+ +LC  ++       I  ILT V + V++   S       +++  +P V S   + +YF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>pdb|4HQ0|A</Hit_id>
+  <Hit_def>Chain A, Caspase-7 [Homo sapiens] &gt;pdb|4HQ0|B Chain B, Caspase-7 [Homo sapiens] &gt;pdb|4HQR|A Chain A, Caspase-7 [Homo sapiens] &gt;pdb|4HQR|B Chain B, Caspase-7 [Homo sapiens]</Hit_def>
+  <Hit_accession>4HQ0_A</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>89.3521</Hsp_bit-score>
+      <Hsp_score>220</Hsp_score>
+      <Hsp_evalue>2.50679e-19</Hsp_evalue>
+      <Hsp_query-from>264</Hsp_query-from>
+      <Hsp_query-to>490</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>INQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIRSACDRSLVRDS-LVVFILSHGFEEAVYASNSIAMKITDIEDLLCSY-----DTLYYKPKLLIIQACQ-----EKLVHKKKP-NELFRIDVTTVSPDQHI----DMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKRGS-------NDESMVPNVKSTFRQHVYF</Hsp_qseq>
+      <Hsp_hseq>MNFEKLGKCIIINNKNFDKVTGMGVRNGTDKDAEALFKCFRSLGFDVIVYNDCSCAKMQDLLKKASEEDHTNAACFACILLSHGEENVIYGKDGV----TPIKDLTAHFRGDRCKTLLEKPKLFFIQACRGTELDDGIQAASGPINDLVPRGSTDANPRYKIPVEADFLFAYSTVPGYYSWRSPGRGSWFVQALCSILEEHGKDLEIMQILTRVNDRVARHFESQSDDPHFHEKKQIPCVVSMLTKELYF</Hsp_hseq>
+      <Hsp_midline>+N +K  + +  +N  F     +  R+GTD D E L + F S+G++V  Y++     + + ++ A +      +     +LSHG E  +Y  + +    T I+DL   +      TL  KPKL  IQAC+     + +     P N+L     T  +P   I    D L A STV GY + R    GSWF+ +LC  ++       I  ILT V + V++   S       +++  +P V S   + +YF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>pdb|5V6U|A</Hit_id>
+  <Hit_def>Chain A, Caspase-7 [Homo sapiens] &gt;pdb|5V6U|B Chain B, Caspase-7 [Homo sapiens] &gt;pdb|5V6Z|A Chain A, Caspase-7 [Homo sapiens] &gt;pdb|5V6Z|B Chain B, Caspase-7 [Homo sapiens]</Hit_def>
+  <Hit_accession>5V6U_A</Hit_accession>
+  <Hit_len>303</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>89.7373</Hsp_bit-score>
+      <Hsp_score>221</Hsp_score>
+      <Hsp_evalue>3.11221e-19</Hsp_evalue>
+      <Hsp_query-from>256</Hsp_query-from>
+      <Hsp_query-to>490</Hsp_query-to>
+      <Hsp_hit-from>65</Hsp_hit-from>
+      <Hsp_hit-to>301</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>252</Hsp_align-len>
+      <Hsp_qseq>ENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIRSACDRSLVRDS-LVVFILSHGFEEAVYASNSIAMKITDIEDLLCSY-----DTLYYKPKLLIIQACQEKLVHKKKPNELFRIDVTTVSPDQHI----DMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKRGS-------NDESMVPNVKSTFRQHVYF</Hsp_qseq>
+      <Hsp_hseq>EKLGKCIIINNKNFDKVTG-----------MGVRNGTDKDAEALFKCFRSLGFDVIVYNDCSCAKMQDLLKKASEEDHTNAACFACILLSHGEENVIYGKDGV----TPIKDLTAHFRGDRCKTLLEKPKLFFIQACRGTELDDGIQADSGPINDTDANPRYKIPVEADFLFAYSTVPGYYSWRSPGRGSWFVQALCSILEEHGKDLEIMQILTRVNDRVARHFESQSDDPHFHEKKQIPCVVSMLTKELYF</Hsp_hseq>
+      <Hsp_midline>E  G  +IIN + F +              +  R+GTD D E L + F S+G++V  Y++     + + ++ A +      +     +LSHG E  +Y  + +    T I+DL   +      TL  KPKL  IQAC+   +      +   I+ T  +P   I    D L A STV GY + R    GSWF+ +LC  ++       I  ILT V + V++   S       +++  +P V S   + +YF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>pdb|1F1J|A</Hit_id>
+  <Hit_def>Chain A, Caspase-7 Protease [Homo sapiens] &gt;pdb|1F1J|B Chain B, Caspase-7 Protease [Homo sapiens]</Hit_def>
+  <Hit_accession>1F1J_A</Hit_accession>
+  <Hit_len>305</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>89.7373</Hsp_bit-score>
+      <Hsp_score>221</Hsp_score>
+      <Hsp_evalue>3.23521e-19</Hsp_evalue>
+      <Hsp_query-from>256</Hsp_query-from>
+      <Hsp_query-to>490</Hsp_query-to>
+      <Hsp_hit-from>67</Hsp_hit-from>
+      <Hsp_hit-to>303</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>252</Hsp_align-len>
+      <Hsp_qseq>ENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIRSACDRSLVRDS-LVVFILSHGFEEAVYASNSIAMKITDIEDLLCSY-----DTLYYKPKLLIIQACQEKLVHKKKPNELFRIDVTTVSPDQHI----DMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKRGS-------NDESMVPNVKSTFRQHVYF</Hsp_qseq>
+      <Hsp_hseq>EKLGKCIIINNKNFDKVTG-----------MGVRNGTDKDAEALFKCFRSLGFDVIVYNDCSCAKMQDLLKKASEEDHTNAACFACILLSHGEENVIYGKDGV----TPIKDLTAHFRGDRSKTLLEKPKLFFIQACRGTELDDGIQADSGPINDTDANPRYKIPVEADFLFAYSTVPGYYSWRSPGRGSWFVQALCSILEEHGKDLEIMQILTRVNDRVARHFESQSDDPHFHEKKQIPCVVSMLTKELYF</Hsp_hseq>
+      <Hsp_midline>E  G  +IIN + F +              +  R+GTD D E L + F S+G++V  Y++     + + ++ A +      +     +LSHG E  +Y  + +    T I+DL   +      TL  KPKL  IQAC+   +      +   I+ T  +P   I    D L A STV GY + R    GSWF+ +LC  ++       I  ILT V + V++   S       +++  +P V S   + +YF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>pdb|4FDL|A</Hit_id>
+  <Hit_def>Chain A, Caspase-7 [Homo sapiens] &gt;pdb|4FDL|B Chain B, Caspase-7 [Homo sapiens] &gt;pdb|8DGZ|A Chain A, Caspase-7 [Homo sapiens] &gt;pdb|8DGZ|B Chain B, Caspase-7 [Homo sapiens] &gt;pdb|8DJ3|A Chain A, Caspase-7 [Homo sapiens] &gt;pdb|8DJ3|B Chain B, Caspase-7 [Homo sapiens]</Hit_def>
+  <Hit_accession>4FDL_A</Hit_accession>
+  <Hit_len>305</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>89.7373</Hsp_bit-score>
+      <Hsp_score>221</Hsp_score>
+      <Hsp_evalue>3.35992e-19</Hsp_evalue>
+      <Hsp_query-from>256</Hsp_query-from>
+      <Hsp_query-to>490</Hsp_query-to>
+      <Hsp_hit-from>67</Hsp_hit-from>
+      <Hsp_hit-to>303</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>252</Hsp_align-len>
+      <Hsp_qseq>ENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIRSACDRSLVRDS-LVVFILSHGFEEAVYASNSIAMKITDIEDLLCSY-----DTLYYKPKLLIIQACQEKLVHKKKPNELFRIDVTTVSPDQHI----DMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKRGS-------NDESMVPNVKSTFRQHVYF</Hsp_qseq>
+      <Hsp_hseq>EKLGKCIIINNKNFDKVTG-----------MGVRNGTDKDAEALFKCFRSLGFDVIVYNDCSCAKMQDLLKKASEEDHTNAACFACILLSHGEENVIYGKDGV----TPIKDLTAHFRGDRCKTLLEKPKLFFIQACRGTELDDGIQADSGPINDTDANPRYKIPVEADFLFAYSTVPGYYSWRSPGRGSWFVQALCSILEEHGKDLEIMQILTRVNDRVARHFESQSDDPHFHEKKQIPCVVSMLTKELYF</Hsp_hseq>
+      <Hsp_midline>E  G  +IIN + F +              +  R+GTD D E L + F S+G++V  Y++     + + ++ A +      +     +LSHG E  +Y  + +    T I+DL   +      TL  KPKL  IQAC+   +      +   I+ T  +P   I    D L A STV GY + R    GSWF+ +LC  ++       I  ILT V + V++   S       +++  +P V S   + +YF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>pdb|3H1P|A</Hit_id>
+  <Hit_def>Chain A, Caspase-7 [Homo sapiens] &gt;pdb|3H1P|B Chain B, Caspase-7 [Homo sapiens]</Hit_def>
+  <Hit_accession>3H1P_A</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.5817</Hsp_bit-score>
+      <Hsp_score>218</Hsp_score>
+      <Hsp_evalue>3.74829e-19</Hsp_evalue>
+      <Hsp_query-from>256</Hsp_query-from>
+      <Hsp_query-to>490</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>252</Hsp_align-len>
+      <Hsp_qseq>ENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIRSACDRSLVRDS-LVVFILSHGFEEAVYASNSIAMKITDIEDLLCSY-----DTLYYKPKLLIIQACQEKLVHKKKPNELFRIDVTTVSPDQ----HIDMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKRGS-------NDESMVPNVKSTFRQHVYF</Hsp_qseq>
+      <Hsp_hseq>EKLGKCIIINNKNFDKVTG-----------MGVRNGTDKDAEALFKCFRSLGFDVIVYNDCSCAKMQDLLKKASEEDHTNAACFACILLSHGEENVIYGKDGV----TPIKDLTAHFRGDRSKTLLEKPKLFFIQACRGTELDDGIQADSGPINDTDANPRYKAPVEADFLFAYSTVPGYYSWRSPGRGSWFVQALCSILEEHGKDLEIMQILTRVNDRVARHFESQSDDPHFHEKKQIPCVVSMLTKELYF</Hsp_hseq>
+      <Hsp_midline>E  G  +IIN + F +              +  R+GTD D E L + F S+G++V  Y++     + + ++ A +      +     +LSHG E  +Y  + +    T I+DL   +      TL  KPKL  IQAC+   +      +   I+ T  +P        D L A STV GY + R    GSWF+ +LC  ++       I  ILT V + V++   S       +++  +P V S   + +YF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>pdb|5IBR|A</Hit_id>
+  <Hit_def>Chain A, Caspase-3 [Homo sapiens] &gt;pdb|5IBR|C Chain C, Caspase-3 [Homo sapiens]</Hit_def>
+  <Hit_accession>5IBR_A</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.5817</Hsp_bit-score>
+      <Hsp_score>218</Hsp_score>
+      <Hsp_evalue>5.01521e-19</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>490</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>DALKLTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIR--SACDRSLVRDSLVVFILSHGFEEAVYASNSIA--MKITDI-EDLLCSYDTLYYKPKLLIIQACQ-EKLVHKKKPNELFRIDVTTVSPDQHIDMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKRGS-------NDESMVPNVKSTFRQHVYF</Hsp_qseq>
+      <Hsp_hseq>NSYKMDYPEMGLCIIINNKNFHKSTG-----------MTSRSGTDVDAANLRETFRNLKYEVRNKNDLTREEIVELMRDVSKEDHS-KRSSFVCVLLSHGEEGIIFGTNGPVDLKKITNFFRGDRCR--SLTGKPKLFIIQACRGTELDCGIETDSGVDDDMACHKIPVEADFLYAYSTAPGYYSWRNSKDGSWFIQSLCAMLKQYADKLEFMHILTRVNRKVATEFESFSFDATFHAKKQIPCIKSMLTKELYF</Hsp_hseq>
+      <Hsp_midline>++ K+     G+ +IIN + FH++             +  R GTDVD   L E F ++ Y V   +++    I+E +R  S  D S  R S V  +LSHG E  ++ +N      KIT+      C   +L  KPKL IIQAC+  +L    + +     D+         D L A ST  GY + R+++ GSWFI SLC  + + +       ILT V  +V+ +  S       + +  +P +KS   + +YF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>pdb|3ITN|A</Hit_id>
+  <Hit_def>Chain A, Caspase-3 [Homo sapiens]</Hit_def>
+  <Hit_accession>3ITN_A</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.4261</Hsp_bit-score>
+      <Hsp_score>215</Hsp_score>
+      <Hsp_evalue>7.98815e-19</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>490</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>DALKLTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIR--SACDRSLVRDSLVVFILSHGFEEAVYASNSIA--MKITDI-EDLLCSYDTLYYKPKLLIIQACQ-EKLVHKKKPNELFRIDVTTVSPDQHIDMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKRGS-------NDESMVPNVKSTFRQHVYF</Hsp_qseq>
+      <Hsp_hseq>NSYKMDYPEMGLCIIINNKNFHKSTG-----------MTSRSGTDVDAANLRETFRNLKYEVRNKNDLTREEIVELMRDVSKEDHS-KRSSFVCVLLSHGEEGIIFGTNGPVDLKKITNFFRGDRCR--SLTGKPKLFIIQACRGTELDCGIETDSGVDDDMACHKIPVEADFLYAYSTAPGYYSWRNSKDGSWFIQSLCAMLKQYADKLEFMHILTRVNRKVATEFESFSFDATFHAKKQIPCIESMLTKELYF</Hsp_hseq>
+      <Hsp_midline>++ K+     G+ +IIN + FH++             +  R GTDVD   L E F ++ Y V   +++    I+E +R  S  D S  R S V  +LSHG E  ++ +N      KIT+      C   +L  KPKL IIQAC+  +L    + +     D+         D L A ST  GY + R+++ GSWFI SLC  + + +       ILT V  +V+ +  S       + +  +P ++S   + +YF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>pdb|5IAG|A</Hit_id>
+  <Hit_def>Chain A, Caspase-3 [Homo sapiens]</Hit_def>
+  <Hit_accession>5IAG_A</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.0409</Hsp_bit-score>
+      <Hsp_score>214</Hsp_score>
+      <Hsp_evalue>1.70903e-18</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>490</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>DALKLTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIR--SACDRSLVRDSLVVFILSHGFEEAVYASNSIA--MKITDI-EDLLCSYDTLYYKPKLLIIQACQ-EKLVHKKKPNELFRIDVTTVSPDQHIDMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKRGS-------NDESMVPNVKSTFRQHVYF</Hsp_qseq>
+      <Hsp_hseq>NSYKMDYPEMGLCIIINNKNFHKSTG-----------MTSRSGTDVDAANLRETFRNLKYEVRNKNDLTREEIVELMRDVSKEDHS-KRSSFVCVLLSHGEEGIIFGTNGPVDLKKITNFFRGDRCR--SLTGKPKLFIIQACRGTELDCGIETDSGVDDDMACHKIPVEADFLYAYSTAPGYYSWRNSKDGSWFIQSLCAMLKQYADKLEFMHILTRVNRKVATEFESFSFDATFHAKKQIPCIQSMLTKELYF</Hsp_hseq>
+      <Hsp_midline>++ K+     G+ +IIN + FH++             +  R GTDVD   L E F ++ Y V   +++    I+E +R  S  D S  R S V  +LSHG E  ++ +N      KIT+      C   +L  KPKL IIQAC+  +L    + +     D+         D L A ST  GY + R+++ GSWFI SLC  + + +       ILT V  +V+ +  S       + +  +P ++S   + +YF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>pdb|5IAN|A</Hit_id>
+  <Hit_def>Chain A, Caspase-3 [Homo sapiens]</Hit_def>
+  <Hit_accession>5IAN_A</Hit_accession>
+  <Hit_len>278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>86.6557</Hsp_bit-score>
+      <Hsp_score>213</Hsp_score>
+      <Hsp_evalue>2.18087e-18</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>490</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>DALKLTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIR--SACDRSLVRDSLVVFILSHGFEEAVYASNSIA--MKITDI-EDLLCSYDTLYYKPKLLIIQACQ-EKLVHKKKPNELFRIDVTTVSPDQHIDMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKRGS-------NDESMVPNVKSTFRQHVYF</Hsp_qseq>
+      <Hsp_hseq>NSYKMDYPEMGLCIIINNKNFHKSTG-----------MTSRSGTDVDAANLRETFRNLKYEVRNKNDLTREEIVELMRDVSKEDHS-KRSSFVCVLLSHGEEGIIFGTNGPVDLKKITNFFRGDRCR--SLTGKPKLFIIQACRGTELDCGIETDSGVDDDMACHKIPVEADFLYAYSTAPGYYSWRNSKDGSWFIQSLCAMLKQYADKLEFMHILTRVNRKVATEFESFSFDATFHAKKQIPCINSMLTKELYF</Hsp_hseq>
+      <Hsp_midline>++ K+     G+ +IIN + FH++             +  R GTDVD   L E F ++ Y V   +++    I+E +R  S  D S  R S V  +LSHG E  ++ +N      KIT+      C   +L  KPKL IIQAC+  +L    + +     D+         D L A ST  GY + R+++ GSWFI SLC  + + +       ILT V  +V+ +  S       + +  +P + S   + +YF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>pdb|4JJE|A</Hit_id>
+  <Hit_def>Chain A, Caspase-3 [Homo sapiens]</Hit_def>
+  <Hit_accession>4JJE_A</Hit_accession>
+  <Hit_len>257</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>86.2705</Hsp_bit-score>
+      <Hsp_score>212</Hsp_score>
+      <Hsp_evalue>2.18105e-18</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>494</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>259</Hsp_align-len>
+      <Hsp_qseq>DALKLTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIR--SACDRSLVRDSLVVFILSHGFEEAVYASNSIA--MKITDI-EDLLCSYDTLYYKPKLLIIQACQ-EKLVHKKKPNELFRIDVTTVSPDQHIDMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKRGS-------NDESMVPNVKSTFRQHVYFPPRL</Hsp_qseq>
+      <Hsp_hseq>NSYKMDYPEMGLCIIINNKNFHKSTG-----------MTSRSGTDVDAANLRETFRNLKYEVRNKNDLTREEIVELMRDVSKEDHS-KRSSFVCVLLSHGEEGIIFGTNGPVDLKKITNFFRGDRCR--SLTGKPKLFIIQACRGTELDCGIETDSGVDDDMACHKIPVEADFLYAYSTAPGYYSWRNSKDGSWFIQSLCAMLKQYADKLEFMHILTRVNRKVATEFESFSFDATFHAKKQIPCIVSMLTKELYFYHQL</Hsp_hseq>
+      <Hsp_midline>++ K+     G+ +IIN + FH++             +  R GTDVD   L E F ++ Y V   +++    I+E +R  S  D S  R S V  +LSHG E  ++ +N      KIT+      C   +L  KPKL IIQAC+  +L    + +     D+         D L A ST  GY + R+++ GSWFI SLC  + + +       ILT V  +V+ +  S       + +  +P + S   + +YF  +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>pdb|5I9B|A</Hit_id>
+  <Hit_def>Chain A, Caspase-3 [Homo sapiens]</Hit_def>
+  <Hit_accession>5I9B_A</Hit_accession>
+  <Hit_len>278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>86.6557</Hsp_bit-score>
+      <Hsp_score>213</Hsp_score>
+      <Hsp_evalue>2.56246e-18</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>490</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>DALKLTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIR--SACDRSLVRDSLVVFILSHGFEEAVYASNSIA--MKITDI-EDLLCSYDTLYYKPKLLIIQACQ-EKLVHKKKPNELFRIDVTTVSPDQHIDMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKRGS-------NDESMVPNVKSTFRQHVYF</Hsp_qseq>
+      <Hsp_hseq>NSYKMDYPEMGLCIIINNKNFHKSTG-----------MTSRSGTDVDAANLRETFRNLKYEVRNKNDLTREEIVELMRDVSKEDHS-KRSSFVCVLLSHGEEGIIFGTNGPVDLKKITNFFRGDRCR--SLTGKPKLFIIQACRGTELDCGIETDSGVDDDMACHKIPVEADFLYAYSTAPGYYSWRNSKDGSWFIQSLCAMLKQYADKLEFMHILTRVNRKVATEFESFSFDATFHAKKQIPCIASMLTKELYF</Hsp_hseq>
+      <Hsp_midline>++ K+     G+ +IIN + FH++             +  R GTDVD   L E F ++ Y V   +++    I+E +R  S  D S  R S V  +LSHG E  ++ +N      KIT+      C   +L  KPKL IIQAC+  +L    + +     D+         D L A ST  GY + R+++ GSWFI SLC  + + +       ILT V  +V+ +  S       + +  +P + S   + +YF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>pdb|2J30|A</Hit_id>
+  <Hit_def>Chain A, CASPASE-3 [Homo sapiens]</Hit_def>
+  <Hit_accession>2J30_A</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.8853</Hsp_bit-score>
+      <Hsp_score>211</Hsp_score>
+      <Hsp_evalue>2.61359e-18</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>490</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>DALKLTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIR--SACDRSLVRDSLVVFILSHGFEEAVYASNSIA--MKITDI-EDLLCSYDTLYYKPKLLIIQACQ-EKLVHKKKPNELFRIDVTTVSPDQHIDMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKRGS-------NDESMVPNVKSTFRQHVYF</Hsp_qseq>
+      <Hsp_hseq>NSYKMDYPEMGLCIIINNKNFHKSTG-----------MTSRSGTDVDAANLRETFRNLKYEVRNKNDLTREEIVELMRDVSKEDHS-KRSSFVCVLLSHGEEGIIFGTNGPVDLKKITNFFRGDRCR--SLTGKPKLFIIQACRGTELDCGIETDSGVDDDMACHKIPVEADFLYAYSTAPGYYSWRNSKDGSWFIQSLCAMLKQYADKLEFMHILTRVNRKVATEFESFSFDATFHAKKQIPCIVSMLTKELYF</Hsp_hseq>
+      <Hsp_midline>++ K+     G+ +IIN + FH++             +  R GTDVD   L E F ++ Y V   +++    I+E +R  S  D S  R S V  +LSHG E  ++ +N      KIT+      C   +L  KPKL IIQAC+  +L    + +     D+         D L A ST  GY + R+++ GSWFI SLC  + + +       ILT V  +V+ +  S       + +  +P + S   + +YF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>pdb|4QUI|A</Hit_id>
+  <Hit_def>Chain A, Caspase-3 [Homo sapiens] &gt;pdb|4QUI|B Chain B, Caspase-3 [Homo sapiens]</Hit_def>
+  <Hit_accession>4QUI_A</Hit_accession>
+  <Hit_len>278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>86.6557</Hsp_bit-score>
+      <Hsp_score>213</Hsp_score>
+      <Hsp_evalue>2.66153e-18</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>490</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>256</Hsp_align-len>
+      <Hsp_qseq>DALKLTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIR--SACDRSLVRDSLVVFILSHGFEEAVYASNSIAMKITDIEDLL----CSYDTLYYKPKLLIIQACQ-EKLVHKKKPNELFRIDVTTVSPDQHIDMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKRGS-------NDESMVPNVKSTFRQHVYF</Hsp_qseq>
+      <Hsp_hseq>NSYKMDYPEMGLCIIINNKNFHKSTG-----------MTSRSGTDVDAANLRETFRNLKYEVRNKNDLTREEIVELMRDVSKEDHS-KRSSFVCVLLSHG-EEGIIAGTNGPVDLKKITNFFRGDRCR--SLTGKPKLFIIQACRGTELDCGIETDSGVDDDMACHKIPVEADFLYAYSTAPGYYSWRNSKDGSWFIQSLCAMLKQYADKLEFMHILTRVNRKVATEFESFSFDATFHAKKQIPCIHSMLTKELYF</Hsp_hseq>
+      <Hsp_midline>++ K+     G+ +IIN + FH++             +  R GTDVD   L E F ++ Y V   +++    I+E +R  S  D S  R S V  +LSHG EE + A  +  + +  I +      C   +L  KPKL IIQAC+  +L    + +     D+         D L A ST  GY + R+++ GSWFI SLC  + + +       ILT V  +V+ +  S       + +  +P + S   + +YF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>pdb|5IAK|A</Hit_id>
+  <Hit_def>Chain A, Caspase-3 [Homo sapiens]</Hit_def>
+  <Hit_accession>5IAK_A</Hit_accession>
+  <Hit_len>278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>86.2705</Hsp_bit-score>
+      <Hsp_score>212</Hsp_score>
+      <Hsp_evalue>2.73833e-18</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>490</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>DALKLTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIR--SACDRSLVRDSLVVFILSHGFEEAVYASNSIA--MKITDI-EDLLCSYDTLYYKPKLLIIQACQ-EKLVHKKKPNELFRIDVTTVSPDQHIDMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKRGS-------NDESMVPNVKSTFRQHVYF</Hsp_qseq>
+      <Hsp_hseq>NSYKMDYPEMGLCIIINNKNFHKSTG-----------MTSRSGTDVDAANLRETFRNLKYEVRNKNDLTREEIVELMRDVSKEDHS-KRSSFVCVLLSHGEEGIIFGTNGPVDLKKITNFFRGDRCR--SLTGKPKLFIIQACRGTELDCGIETDSGVDDDMACHKIPVEADFLYAYSTAPGYYSWRNSKDGSWFIQSLCAMLKQYADKLEFMHILTRVNRKVATEFESFSFDATFHAKKQIPCISSMLTKELYF</Hsp_hseq>
+      <Hsp_midline>++ K+     G+ +IIN + FH++             +  R GTDVD   L E F ++ Y V   +++    I+E +R  S  D S  R S V  +LSHG E  ++ +N      KIT+      C   +L  KPKL IIQAC+  +L    + +     D+         D L A ST  GY + R+++ GSWFI SLC  + + +       ILT V  +V+ +  S       + +  +P + S   + +YF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>pdb|3PD0|A</Hit_id>
+  <Hit_def>Chain A, Caspase-3 [Homo sapiens]</Hit_def>
+  <Hit_accession>3PD0_A</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.8853</Hsp_bit-score>
+      <Hsp_score>211</Hsp_score>
+      <Hsp_evalue>2.7414e-18</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>490</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>DALKLTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIR--SACDRSLVRDSLVVFILSHGFEEAVYASNSIA--MKITDI-EDLLCSYDTLYYKPKLLIIQACQ-EKLVHKKKPNELFRIDVTTVSPDQHIDMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKRGS-------NDESMVPNVKSTFRQHVYF</Hsp_qseq>
+      <Hsp_hseq>NSYKMDYPEMGLCIIINNKNFHKSTG-----------MTSRSGTDVDAANLRETFRNLKYEVRNKNDLTREEIVELMRDVSKEDHS-KRSSFVCVLLSHGEEGIIFGTNGPVDLKKITNFFRGDRCR--SLTGKPKLFIIQACRGTELDSGIETDSGVDDDMACHKIPVEADFLYAYSTAPGYYSWRNSKDGSWFIQSLCAMLKQYADKLEFMHILTRVNRKVATAFESFSFDATFHAKKQIPCIVSMLTKELYF</Hsp_hseq>
+      <Hsp_midline>++ K+     G+ +IIN + FH++             +  R GTDVD   L E F ++ Y V   +++    I+E +R  S  D S  R S V  +LSHG E  ++ +N      KIT+      C   +L  KPKL IIQAC+  +L    + +     D+         D L A ST  GY + R+++ GSWFI SLC  + + +       ILT V  +V+    S       + +  +P + S   + +YF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>pdb|3H0E|A</Hit_id>
+  <Hit_def>Chain A, Caspase-3 [Homo sapiens] &gt;pdb|3H0E|B Chain B, Caspase-3 [Homo sapiens]</Hit_def>
+  <Hit_accession>3H0E_A</Hit_accession>
+  <Hit_len>255</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.8853</Hsp_bit-score>
+      <Hsp_score>211</Hsp_score>
+      <Hsp_evalue>2.77654e-18</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>490</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>DALKLTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIR--SACDRSLVRDSLVVFILSHGFEEAVYASNSIA--MKITDI-EDLLCSYDTLYYKPKLLIIQACQ-EKLVHKKKPNELFRIDVTTVSPDQHIDMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKRGS-------NDESMVPNVKSTFRQHVYF</Hsp_qseq>
+      <Hsp_hseq>NSYKMDYPEMGLCIIINNKNFHKSTG-----------MTSRSGTDVDAANLRETFRNLKYEVRNKNDLTREEIVELMRDVSKEDHS-KRSSFVCVLLSHGEEGIIFGTNGPVDLKKITNFFRGDRCR--SLTGKPKLFIIQACRGTELDCGIETDSGVDDDMACHKIPVEADFLYAYSTAPGYYSWRNSKDGSWFIQSLCAMLKQYADKLEFMHILTRVNRKVATEFESFSFDATFHAKKQIPCIVSMLTKELYF</Hsp_hseq>
+      <Hsp_midline>++ K+     G+ +IIN + FH++             +  R GTDVD   L E F ++ Y V   +++    I+E +R  S  D S  R S V  +LSHG E  ++ +N      KIT+      C   +L  KPKL IIQAC+  +L    + +     D+         D L A ST  GY + R+++ GSWFI SLC  + + +       ILT V  +V+ +  S       + +  +P + S   + +YF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>pdb|8JOL|C</Hit_id>
+  <Hit_def>Chain C, Cell death protein 3 [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>8JOL_C</Hit_accession>
+  <Hit_len>503</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.9669</Hsp_bit-score>
+      <Hsp_score>219</Hsp_score>
+      <Hsp_evalue>2.78366e-18</Hsp_evalue>
+      <Hsp_query-from>259</Hsp_query-from>
+      <Hsp_query-to>492</Hsp_query-to>
+      <Hsp_hit-from>243</Hsp_hit-from>
+      <Hsp_hit-to>496</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>50</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>GIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIRSACDRSLVRDSLVVFILSHGFEEAVYASNSIAMKITDIEDLLCSYDT--LYYKPKLLIIQACQEKLVHKKKP--------------------NELF------RIDVTTV---SPDQHIDMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVS----KKRGSNDESMVPNVKSTFRQHVYFPP</Hsp_qseq>
+      <Hsp_hseq>GMCLIINNEHFEQ--------------MPTRNGTKADKDNLTNLFRCMGYTVICKDNLTGRGMLLTIRDFAKHESHGDSAILVILSHGEENVIIGVDDIPISTHEIYDLLNAANAPRLANKPKIVFVQACRGERRDNGFPVLDSVDGVPAFLRRGWDNRDGPLFNFLGCVRPQVQQVWRKKPSQ-ADILIAYATTAQYVSWRNSARGSWFIQAVCEVFSTHAKDMDVVELLTEVNKKVACGFQTSQGSNILKQMPEMTSRLLKKFYFWP</Hsp_hseq>
+      <Hsp_midline>G+ LIIN + F +              +  R+GT  DK+ L  +F  MGY V   DN+   G++  IR         DS ++ ILSHG E  +   + I +   +I DLL + +   L  KPK++ +QAC+ +      P                      LF      R  V  V    P Q  D+L A +T   Y + R++  GSWFI ++C+     +    + ++LT V  +V+      +GSN    +P + S   +  YF P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>pdb|4QU0|A</Hit_id>
+  <Hit_def>Chain A, Caspase-3 [Homo sapiens]</Hit_def>
+  <Hit_accession>4QU0_A</Hit_accession>
+  <Hit_len>278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>86.2705</Hsp_bit-score>
+      <Hsp_score>212</Hsp_score>
+      <Hsp_evalue>3.31004e-18</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>490</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>DALKLTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIR--SACDRSLVRDSLVVFILSHGFEEAVYASNSIA--MKITDI-EDLLCSYDTLYYKPKLLIIQACQ-EKLVHKKKPNELFRIDVTTVSPDQHIDMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKRGS-------NDESMVPNVKSTFRQHVYF</Hsp_qseq>
+      <Hsp_hseq>NSYKMDYPEMGLCIIINNKNFHKSTG-----------MTSRSGTDVDAANLRETFRNLKYEVRNKNDLTREEIVELMRDVSKEDHS-KRSSFVCVLLSHGEEGIIFGTNGPVDLKKITNFFRGDRCR--SLTGKPKLFIIQACRGTELDCGIETDSGVDDDMACHKIPVEADFLAAYSTAPGYYSWRNSKDGSWFIQSLCAMLKQYADKLEFMHILTRVNRKVATEFESFSFDATFHAKKQIPCIHSMLTKELYF</Hsp_hseq>
+      <Hsp_midline>++ K+     G+ +IIN + FH++             +  R GTDVD   L E F ++ Y V   +++    I+E +R  S  D S  R S V  +LSHG E  ++ +N      KIT+      C   +L  KPKL IIQAC+  +L    + +     D+         D L A ST  GY + R+++ GSWFI SLC  + + +       ILT V  +V+ +  S       + +  +P + S   + +YF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>pdb|5IAB|A</Hit_id>
+  <Hit_def>Chain A, Caspase-3 [Homo sapiens] &gt;pdb|5IAB|C Chain C, Caspase-3 [Homo sapiens]</Hit_def>
+  <Hit_accession>5IAB_A</Hit_accession>
+  <Hit_len>278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>86.2705</Hsp_bit-score>
+      <Hsp_score>212</Hsp_score>
+      <Hsp_evalue>3.34156e-18</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>490</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>DALKLTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIR--SACDRSLVRDSLVVFILSHGFEEAVYASNSIA--MKITDI-EDLLCSYDTLYYKPKLLIIQACQ-EKLVHKKKPNELFRIDVTTVSPDQHIDMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKRGS-------NDESMVPNVKSTFRQHVYF</Hsp_qseq>
+      <Hsp_hseq>NSYKMDYPEMGLCIIINNKNFHKSTG-----------MTSRSGTDVDAANLRETFRNLKYEVRNKNDLTREEIVELMRDVSKEDHS-KRSSFVCVLLSHGEEGIIFGTNGPVDLKKITNFFRGDRCR--SLTGKPKLFIIQACRGTELDCGIETDSGVDDDMACHKIPVEADFLYAYSTAPGYYSWRNSKDGSWFIQSLCAMLKQYADKLEFMHILTRVNRKVATEFESFSFDATFHAKKQIPCIDSMLTKELYF</Hsp_hseq>
+      <Hsp_midline>++ K+     G+ +IIN + FH++             +  R GTDVD   L E F ++ Y V   +++    I+E +R  S  D S  R S V  +LSHG E  ++ +N      KIT+      C   +L  KPKL IIQAC+  +L    + +     D+         D L A ST  GY + R+++ GSWFI SLC  + + +       ILT V  +V+ +  S       + +  +P + S   + +YF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>pdb|4EHF|A</Hit_id>
+  <Hit_def>Chain A, Caspase-3 [Homo sapiens]</Hit_def>
+  <Hit_accession>4EHF_A</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>86.2705</Hsp_bit-score>
+      <Hsp_score>212</Hsp_score>
+      <Hsp_evalue>3.44854e-18</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>490</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>DALKLTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIR--SACDRSLVRDSLVVFILSHGFEEAVYASNSIA--MKITDI-EDLLCSYDTLYYKPKLLIIQACQ-EKLVHKKKPNELFRIDVTTVSPDQHIDMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKRGS-------NDESMVPNVKSTFRQHVYF</Hsp_qseq>
+      <Hsp_hseq>NSYKMDYPEMGLCIIINNKNFHKSTG-----------MTSRSGTDVDAANLRETFRNLKYEVRNKNDLTREEIVELMRDVSKEDHS-KRSSFVCVLLSHGEEGIIFGTNGPVDLKKITNFFRGDRCR--SLTGKPKLFIIQACRGTELDCGIETDSGVDDDMACHKIPVEADFLYACSTAPGYYSWRNSKDGSWFIQSLCAMLKQYADKLEFMHILTRVNRKVATEFESFSFDATFHAKKQIPCIHSMLTKELYF</Hsp_hseq>
+      <Hsp_midline>++ K+     G+ +IIN + FH++             +  R GTDVD   L E F ++ Y V   +++    I+E +R  S  D S  R S V  +LSHG E  ++ +N      KIT+      C   +L  KPKL IIQAC+  +L    + +     D+         D L A ST  GY + R+++ GSWFI SLC  + + +       ILT V  +V+ +  S       + +  +P + S   + +YF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>pdb|1QX3|A</Hit_id>
+  <Hit_def>Chain A, Apopain [Homo sapiens]</Hit_def>
+  <Hit_accession>1QX3_A</Hit_accession>
+  <Hit_len>257</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.5001</Hsp_bit-score>
+      <Hsp_score>210</Hsp_score>
+      <Hsp_evalue>3.51284e-18</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>490</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>DALKLTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIR--SACDRSLVRDSLVVFILSHGFEEAVYASNSIA--MKITDI-EDLLCSYDTLYYKPKLLIIQACQ-EKLVHKKKPNELFRIDVTTVSPDQHIDMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKRGS-------NDESMVPNVKSTFRQHVYF</Hsp_qseq>
+      <Hsp_hseq>NSYKMDYPEMGLCIIINNKNFHKSTG-----------MTSRSGTDVDAANLRETFRNLKYEVRNKNDLTREEIVELMRDVSKEDHS-KRSSFVCVLLSHGEEGIIFGTNGPVDLKKITNFFRGDRCR--SLTGKPKLFIIQACRGTELDCGIETDSGVDDDMACHKIPVDADFLYAYSTAPGYYSWRNSKDGSWFIQSLCAMLKQYADKLEFMHILTRVNRKVATEFESFSFDATFHAKKQIPCIVSMLTKELYF</Hsp_hseq>
+      <Hsp_midline>++ K+     G+ +IIN + FH++             +  R GTDVD   L E F ++ Y V   +++    I+E +R  S  D S  R S V  +LSHG E  ++ +N      KIT+      C   +L  KPKL IIQAC+  +L    + +     D+         D L A ST  GY + R+++ GSWFI SLC  + + +       ILT V  +V+ +  S       + +  +P + S   + +YF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>pdb|4EHA|A</Hit_id>
+  <Hit_def>Chain A, Caspase-3 [Homo sapiens] &gt;pdb|4EHA|C Chain C, Caspase-3 [Homo sapiens] &gt;pdb|4QTX|A Chain A, Caspase-3 [Homo sapiens]</Hit_def>
+  <Hit_accession>4EHA_A</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>86.2705</Hsp_bit-score>
+      <Hsp_score>212</Hsp_score>
+      <Hsp_evalue>3.54803e-18</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>490</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>DALKLTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIR--SACDRSLVRDSLVVFILSHGFEEAVYASNSIA--MKITDI-EDLLCSYDTLYYKPKLLIIQACQ-EKLVHKKKPNELFRIDVTTVSPDQHIDMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKRGS-------NDESMVPNVKSTFRQHVYF</Hsp_qseq>
+      <Hsp_hseq>NSYKMDYPEMGLCIIINNKNFHKSTG-----------MTSRSGTDVDAANLRETFRNLKYEVRNKNDLTREEIVELMRDVSKEDHS-KRSSFVCVLLSHGEEGIIFGTNGPVDLKKITNFFRGDRCR--SLTGKPKLFIIQACRGTELDCGIETDSGVDDDMACHKIPVEADFLYAYSTAPGYYSWRNSKDGSWFIQSLCAMLKQYADKLEFMHILTRVNRKVATEFESFSFDATFHAKKQIPCIHSMLTKELYF</Hsp_hseq>
+      <Hsp_midline>++ K+     G+ +IIN + FH++             +  R GTDVD   L E F ++ Y V   +++    I+E +R  S  D S  R S V  +LSHG E  ++ +N      KIT+      C   +L  KPKL IIQAC+  +L    + +     D+         D L A ST  GY + R+++ GSWFI SLC  + + +       ILT V  +V+ +  S       + +  +P + S   + +YF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>pdb|1NMQ|A</Hit_id>
+  <Hit_def>Chain A, Caspase-3 [Homo sapiens] &gt;pdb|1NMQ|B Chain B, Caspase-3 [Homo sapiens] &gt;pdb|1NMS|A Chain A, Caspase-3 [Homo sapiens] &gt;pdb|1NMS|B Chain B, Caspase-3 [Homo sapiens]</Hit_def>
+  <Hit_accession>1NMQ_A</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.5001</Hsp_bit-score>
+      <Hsp_score>210</Hsp_score>
+      <Hsp_evalue>3.55141e-18</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>490</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>DALKLTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIR--SACDRSLVRDSLVVFILSHGFEEAVYASNSIA--MKITDI-EDLLCSYDTLYYKPKLLIIQACQ-EKLVHKKKPNELFRIDVTTVSPDQHIDMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKRGS-------NDESMVPNVKSTFRQHVYF</Hsp_qseq>
+      <Hsp_hseq>NSYKMDYPEMGLCIIINNKNFHKSTG-----------MTSRSGTDVDAANLRETFRNLKYEVRNKNDLTREEIVELMRDVSKEDHS-KRSSFVCVLLSHGEEGIIFGTNGPVDLKKITNFFRGDRCR--SLTGKPKLFIIQACRGTELDCGIETDSGVDDDMACHKIPVDADFLYAYSTAPGYYSWRNSKDGSWFIQSLCAMLKQYADKLEFMHILTRVNRKVATEFESFSFDATFHAKKQIPCIVSMLTKELYF</Hsp_hseq>
+      <Hsp_midline>++ K+     G+ +IIN + FH++             +  R GTDVD   L E F ++ Y V   +++    I+E +R  S  D S  R S V  +LSHG E  ++ +N      KIT+      C   +L  KPKL IIQAC+  +L    + +     D+         D L A ST  GY + R+++ GSWFI SLC  + + +       ILT V  +V+ +  S       + +  +P + S   + +YF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>pdb|4HVA|A</Hit_id>
+  <Hit_def>Chain A, Caspase-6 [Homo sapiens] &gt;pdb|4HVA|B Chain B, Caspase-6 [Homo sapiens]</Hit_def>
+  <Hit_accession>4HVA_A</Hit_accession>
+  <Hit_len>265</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.8853</Hsp_bit-score>
+      <Hsp_score>211</Hsp_score>
+      <Hsp_evalue>3.80413e-18</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>493</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>254</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>258</Hsp_align-len>
+      <Hsp_qseq>DALKLTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIRSACDRSLV-RDSLVVFILSHGFEEAVYASNSIAMKITDIEDLL----CSYDTLYYKPKLLIIQACQEKLVHKKKPNELFRIDVTTV-SPDQHIDMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKR-------GSNDESMVPNVKSTFRQHVYFPPR</Hsp_qseq>
+      <Hsp_hseq>EKYKMDHRRRGIALIFNHERFFWHLT-----------LPERRGTCADRDNLTRRFSDLGFEVKCFNDLKAEELLLKIHEVSTVSHADADCFVCVFLSHGEGNHIYAYDA-KIEIQTLTGLFKGDKCH--SLVGKPKIFIIQACRGNQ-HDVPVIPLDVVDAASVYTLPAGADFLMCYSVAEGYYSHRETVNGSWYIQDLCEMLGKYGSSLEFTELLTLVNRKVSQRRVDFCKDPSAIGKKQVPCFASMLTKKLHFFPK</Hsp_hseq>
+      <Hsp_midline>+  K+     GIALI N ++F  +++           L  R GT  D++ L   FS +G+ V+ ++++    ++ +I      S    D  V   LSHG    +YA ++  ++I  +  L     C   +L  KPK+ IIQAC+    H      L  +D  +V +     D L   S   GY + R T  GSW+I  LC+ + +  +S    ++LT+V  +VS++R        +  +  VP   S   + ++F P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>pdb|5IAS|A</Hit_id>
+  <Hit_def>Chain A, Caspase-3 [Homo sapiens]</Hit_def>
+  <Hit_accession>5IAS_A</Hit_accession>
+  <Hit_len>278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.8853</Hsp_bit-score>
+      <Hsp_score>211</Hsp_score>
+      <Hsp_evalue>3.8887e-18</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>490</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>DALKLTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIR--SACDRSLVRDSLVVFILSHGFEEAVYASNSIA--MKITDI-EDLLCSYDTLYYKPKLLIIQACQ-EKLVHKKKPNELFRIDVTTVSPDQHIDMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKRGS-------NDESMVPNVKSTFRQHVYF</Hsp_qseq>
+      <Hsp_hseq>NSYKMDYPEMGLCIIINNKNFHKSTG-----------MTSRSGTDVDAANLRETFRNLKYEVRNKNDLTREEIVELMRDVSKEDHS-KRSSFVCVLLSHGEEGIIFGTNGPVDLKKITNFFRGDRCR--SLTGKPKLFIIQACRGTELDCGIETDSGVDDDMACHKIPVEADFLYAYSTAPGYYSWRNSKDGSWFIQSLCAMLKQYADKLEFMHILTRVNRKVATEFESFSFDATFHAKKQIPCIYSMLTKELYF</Hsp_hseq>
+      <Hsp_midline>++ K+     G+ +IIN + FH++             +  R GTDVD   L E F ++ Y V   +++    I+E +R  S  D S  R S V  +LSHG E  ++ +N      KIT+      C   +L  KPKL IIQAC+  +L    + +     D+         D L A ST  GY + R+++ GSWFI SLC  + + +       ILT V  +V+ +  S       + +  +P + S   + +YF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>pdb|5IBP|A</Hit_id>
+  <Hit_def>Chain A, Caspase-3 [Homo sapiens]</Hit_def>
+  <Hit_accession>5IBP_A</Hit_accession>
+  <Hit_len>278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.8853</Hsp_bit-score>
+      <Hsp_score>211</Hsp_score>
+      <Hsp_evalue>4.03893e-18</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>490</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>DALKLTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIR--SACDRSLVRDSLVVFILSHGFEEAVYASNSIA--MKITDI-EDLLCSYDTLYYKPKLLIIQACQ-EKLVHKKKPNELFRIDVTTVSPDQHIDMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKRGS-------NDESMVPNVKSTFRQHVYF</Hsp_qseq>
+      <Hsp_hseq>NSYKMDYPEMGLCIIINNKNFHKSTG-----------MTSRSGTDVDAANLRETFRNLKYEVRNKNDLTREEIVELMRDVSKEDHS-KRSSFVCVLLSHGEEGIIFGTNGPVDLKKITNFFRGDRCR--SLTGKPKLFIIQACRGTELDCGIETDSGVDDDMACHKIPVEADFLYAYSTAPGYYSWRNSKDGSWFIQSLCAMLKQYADKLEFMHILTRVNRKVATEFESFSFDATFHAKKQIPCIMSMLTKELYF</Hsp_hseq>
+      <Hsp_midline>++ K+     G+ +IIN + FH++             +  R GTDVD   L E F ++ Y V   +++    I+E +R  S  D S  R S V  +LSHG E  ++ +N      KIT+      C   +L  KPKL IIQAC+  +L    + +     D+         D L A ST  GY + R+++ GSWFI SLC  + + +       ILT V  +V+ +  S       + +  +P + S   + +YF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>pdb|4QTY|A</Hit_id>
+  <Hit_def>Chain A, Caspase-3 [Homo sapiens]</Hit_def>
+  <Hit_accession>4QTY_A</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.1149</Hsp_bit-score>
+      <Hsp_score>209</Hsp_score>
+      <Hsp_evalue>4.37616e-18</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>490</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>DALKLTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIR--SACDRSLVRDSLVVFILSHGFEEAVYASNSIA--MKITDI-EDLLCSYDTLYYKPKLLIIQACQ-EKLVHKKKPNELFRIDVTTVSPDQHIDMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKRGS-------NDESMVPNVKSTFRQHVYF</Hsp_qseq>
+      <Hsp_hseq>NSYKMDYPEMGLCIIINNKNFHKSTG-----------MTSRSGTDVDAANLRETFRNLKYEVRNKNDLTREEIVELMRDVSKEDHS-KRSSFVCVLLSHGEEGIIFGTNGPVDLKKITNFFRGDRCR--SLTGKPKLFIIQACRGTELDCGIETDSGVDDDMACHKIPVAADFLYAYSTAPGYYSWRNSKDGSWFIQSLCAMLKQYADKLEFMHILTRVNRKVATEFESFSFDATFHAKKQIPCIVSMLTKELYF</Hsp_hseq>
+      <Hsp_midline>++ K+     G+ +IIN + FH++             +  R GTDVD   L E F ++ Y V   +++    I+E +R  S  D S  R S V  +LSHG E  ++ +N      KIT+      C   +L  KPKL IIQAC+  +L    + +     D+         D L A ST  GY + R+++ GSWFI SLC  + + +       ILT V  +V+ +  S       + +  +P + S   + +YF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>pdb|2J32|A</Hit_id>
+  <Hit_def>Chain A, CASPASE-3 [Homo sapiens]</Hit_def>
+  <Hit_accession>2J32_A</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.1149</Hsp_bit-score>
+      <Hsp_score>209</Hsp_score>
+      <Hsp_evalue>4.37616e-18</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>490</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>DALKLTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIR--SACDRSLVRDSLVVFILSHGFEEAVYASNSIA--MKITDI-EDLLCSYDTLYYKPKLLIIQACQ-EKLVHKKKPNELFRIDVTTVSPDQHIDMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKRGS-------NDESMVPNVKSTFRQHVYF</Hsp_qseq>
+      <Hsp_hseq>NSYKMDYPEMGLCIIINNKNFHKSTG-----------MTSRSGTDVDAANLRETFRNLKYEVRNKNDLTREEIVELMRDVSKEDHS-KRSSFVCVLLSHGEEGIIFGTNGPVDLKKITNFFRGDRCR--SLTGKPKLFIIQACRGTELDCGIATDSGVDDDMACHKIPVEADFLYAYSTAPGYYSWRNSKDGSWFIQSLCAMLKQYADKLEFMHILTRVNRKVATEFESFSFDATFHAKKQIPCIVSMLTKELYF</Hsp_hseq>
+      <Hsp_midline>++ K+     G+ +IIN + FH++             +  R GTDVD   L E F ++ Y V   +++    I+E +R  S  D S  R S V  +LSHG E  ++ +N      KIT+      C   +L  KPKL IIQAC+  +L      +     D+         D L A ST  GY + R+++ GSWFI SLC  + + +       ILT V  +V+ +  S       + +  +P + S   + +YF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>pdb|2J31|A</Hit_id>
+  <Hit_def>Chain A, CASPASE-3 [Homo sapiens]</Hit_def>
+  <Hit_accession>2J31_A</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.1149</Hsp_bit-score>
+      <Hsp_score>209</Hsp_score>
+      <Hsp_evalue>4.37616e-18</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>490</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>DALKLTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIR--SACDRSLVRDSLVVFILSHGFEEAVYASNSIA--MKITDI-EDLLCSYDTLYYKPKLLIIQACQ-EKLVHKKKPNELFRIDVTTVSPDQHIDMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKRGS-------NDESMVPNVKSTFRQHVYF</Hsp_qseq>
+      <Hsp_hseq>NSYKMDYPEMGLCIIINNKNFHKSTG-----------MTSRSGTDVDAANLRETFRNLKYEVRNKNDLTREEIVELMRDVSKEDHS-KRSSFVCVLLSHGEEGIIFGTNGPVDLKKITNFFRGDRCR--SLTGKPKLFIIQACRGTALDCGIETDSGVDDDMACHKIPVEADFLYAYSTAPGYYSWRNSKDGSWFIQSLCAMLKQYADKLEFMHILTRVNRKVATEFESFSFDATFHAKKQIPCIVSMLTKELYF</Hsp_hseq>
+      <Hsp_midline>++ K+     G+ +IIN + FH++             +  R GTDVD   L E F ++ Y V   +++    I+E +R  S  D S  R S V  +LSHG E  ++ +N      KIT+      C   +L  KPKL IIQAC+   L    + +     D+         D L A ST  GY + R+++ GSWFI SLC  + + +       ILT V  +V+ +  S       + +  +P + S   + +YF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>pdb|4QU9|A</Hit_id>
+  <Hit_def>Chain A, Caspase-3 [Homo sapiens]</Hit_def>
+  <Hit_accession>4QU9_A</Hit_accession>
+  <Hit_len>279</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.8853</Hsp_bit-score>
+      <Hsp_score>211</Hsp_score>
+      <Hsp_evalue>4.55363e-18</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>490</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>256</Hsp_align-len>
+      <Hsp_qseq>DALKLTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIR--SACDRSLVRDSLVVFILSHGFEEAVYASNSIAMKITDIEDLL----CSYDTLYYKPKLLIIQACQ-EKLVHKKKPNELFRIDVTTVSPDQHIDMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKRGS-------NDESMVPNVKSTFRQHVYF</Hsp_qseq>
+      <Hsp_hseq>NSYKMDYPEMGLCIIINNKNFHKSTG-----------MTSRSGTDVDAANLRETFRNLKYEVRNKNDLTREEIVELMRDVSKEDHS-KRSSFVCVLLSHG-EEGIIAGTNGPVDLKKITNFFRGDRCR--SLTGKPKLFIIQACRGTELDCGIETDSGVDDDMACHKIPVEADFLYAYSTAPGYYSWRNSKDGSWFIQSLCAMLKQYADKLEFMHILTRVNRKVATEFESFSFDATFHAKKQIPCIVSMLTKELYF</Hsp_hseq>
+      <Hsp_midline>++ K+     G+ +IIN + FH++             +  R GTDVD   L E F ++ Y V   +++    I+E +R  S  D S  R S V  +LSHG EE + A  +  + +  I +      C   +L  KPKL IIQAC+  +L    + +     D+         D L A ST  GY + R+++ GSWFI SLC  + + +       ILT V  +V+ +  S       + +  +P + S   + +YF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>pdb|5IAR|A</Hit_id>
+  <Hit_def>Chain A, Caspase-3 [Homo sapiens]</Hit_def>
+  <Hit_accession>5IAR_A</Hit_accession>
+  <Hit_len>278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.8853</Hsp_bit-score>
+      <Hsp_score>211</Hsp_score>
+      <Hsp_evalue>4.56832e-18</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>490</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>DALKLTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIR--SACDRSLVRDSLVVFILSHGFEEAVYASNSIA--MKITDI-EDLLCSYDTLYYKPKLLIIQACQ-EKLVHKKKPNELFRIDVTTVSPDQHIDMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKRGS-------NDESMVPNVKSTFRQHVYF</Hsp_qseq>
+      <Hsp_hseq>NSYKMDYPEMGLCIIINNKNFHKSTG-----------MTSRSGTDVDAANLRETFRNLKYEVRNKNDLTREEIVELMRDVSKEDHS-KRSSFVCVLLSHGEEGIIFGTNGPVDLKKITNFFRGDRCR--SLTGKPKLFIIQACRGTELDCGIETDSGVDDDMACHKIPVEADFLYAYSTAPGYYSWRNSKDGSWFIQSLCAMLKQYADKLEFMHILTRVNRKVATEFESFSFDATFHAKKQIPCIWSMLTKELYF</Hsp_hseq>
+      <Hsp_midline>++ K+     G+ +IIN + FH++             +  R GTDVD   L E F ++ Y V   +++    I+E +R  S  D S  R S V  +LSHG E  ++ +N      KIT+      C   +L  KPKL IIQAC+  +L    + +     D+         D L A ST  GY + R+++ GSWFI SLC  + + +       ILT V  +V+ +  S       + +  +P + S   + +YF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>pdb|3PD1|A</Hit_id>
+  <Hit_def>Chain A, Caspase-3 [Homo sapiens]</Hit_def>
+  <Hit_accession>3PD1_A</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.1149</Hsp_bit-score>
+      <Hsp_score>209</Hsp_score>
+      <Hsp_evalue>4.72324e-18</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>490</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>DALKLTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIR--SACDRSLVRDSLVVFILSHGFEEAVYASNSIA--MKITDI-EDLLCSYDTLYYKPKLLIIQACQ-EKLVHKKKPNELFRIDVTTVSPDQHIDMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKRGS-------NDESMVPNVKSTFRQHVYF</Hsp_qseq>
+      <Hsp_hseq>NSYKMDYPEMGLCIIINNKNFHKSTG-----------MTSRSGTDVDAANLRETFRNLKYEVRNKNDLTREEIVELMRDVSKEDHS-KRSSFVCVLLSHGEEGIIFGTNGPVDLKKITNFFRGDRCR--SLTGKPKLFIIQACRGTELDCGIETDSGVDDDMACHKIPVEADFLYAYSTAPGYYSWRNSKDGSWFIQSLCAMLKQYADKLEFMHILTRVNRAVATEFESFSFDATFHAKKQIPCIVSMLTKELYF</Hsp_hseq>
+      <Hsp_midline>++ K+     G+ +IIN + FH++             +  R GTDVD   L E F ++ Y V   +++    I+E +R  S  D S  R S V  +LSHG E  ++ +N      KIT+      C   +L  KPKL IIQAC+  +L    + +     D+         D L A ST  GY + R+++ GSWFI SLC  + + +       ILT V   V+ +  S       + +  +P + S   + +YF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>pdb|5I9T|A</Hit_id>
+  <Hit_def>Chain A, Caspase-3 [Homo sapiens] &gt;pdb|5I9T|C Chain C, Caspase-3 [Homo sapiens]</Hit_def>
+  <Hit_accession>5I9T_A</Hit_accession>
+  <Hit_len>278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.8853</Hsp_bit-score>
+      <Hsp_score>211</Hsp_score>
+      <Hsp_evalue>4.74474e-18</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>490</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>DALKLTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIR--SACDRSLVRDSLVVFILSHGFEEAVYASNSIA--MKITDI-EDLLCSYDTLYYKPKLLIIQACQ-EKLVHKKKPNELFRIDVTTVSPDQHIDMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKRGS-------NDESMVPNVKSTFRQHVYF</Hsp_qseq>
+      <Hsp_hseq>NSYKMDYPEMGLCIIINNKNFHKSTG-----------MTSRSGTDVDAANLRETFRNLKYEVRNKNDLTREEIVELMRDVSKEDHS-KRSSFVCVLLSHGEEGIIFGTNGPVDLKKITNFFRGDRCR--SLTGKPKLFIIQACRGTELDCGIETDSGVDDDMACHKIPVEADFLYAYSTAPGYYSWRNSKDGSWFIQSLCAMLKQYADKLEFMHILTRVNRKVATEFESFSFDATFHAKKQIPCICSMLTKELYF</Hsp_hseq>
+      <Hsp_midline>++ K+     G+ +IIN + FH++             +  R GTDVD   L E F ++ Y V   +++    I+E +R  S  D S  R S V  +LSHG E  ++ +N      KIT+      C   +L  KPKL IIQAC+  +L    + +     D+         D L A ST  GY + R+++ GSWFI SLC  + + +       ILT V  +V+ +  S       + +  +P + S   + +YF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>pdb|4QUE|A</Hit_id>
+  <Hit_def>Chain A, Caspase-3 [Homo sapiens] &gt;pdb|4QUE|C Chain C, Caspase-3 [Homo sapiens]</Hit_def>
+  <Hit_accession>4QUE_A</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.8853</Hsp_bit-score>
+      <Hsp_score>211</Hsp_score>
+      <Hsp_evalue>4.80507e-18</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>490</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>DALKLTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIR--SACDRSLVRDSLVVFILSHGFEEAVYASNSIA--MKITDI-EDLLCSYDTLYYKPKLLIIQACQ-EKLVHKKKPNELFRIDVTTVSPDQHIDMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKRGS-------NDESMVPNVKSTFRQHVYF</Hsp_qseq>
+      <Hsp_hseq>NSYKMDYPEMGLCIIINNKNFHKSTG-----------MTSRSGTDVDAANLRETFRNLKYEVRNKNDLTREEIVELMRDVSKEDHS-KRSSFVCVLLSHGEEGIIFGTNGPVDLKKITNFFRGDRCR--SLTGKPKLFIIQACRGTELDCGIETDSGVDDDMACHKIPVEADFLFAYSTAPGYYSWRNSKDGSWFIQSLCAMLKQYADKLEFMHILTRVNRKVATEFESFSFDATFHAKKQIPCIHSMLTKELYF</Hsp_hseq>
+      <Hsp_midline>++ K+     G+ +IIN + FH++             +  R GTDVD   L E F ++ Y V   +++    I+E +R  S  D S  R S V  +LSHG E  ++ +N      KIT+      C   +L  KPKL IIQAC+  +L    + +     D+         D L A ST  GY + R+++ GSWFI SLC  + + +       ILT V  +V+ +  S       + +  +P + S   + +YF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>pdb|4QUJ|A</Hit_id>
+  <Hit_def>Chain A, Caspase-3 [Homo sapiens]</Hit_def>
+  <Hit_accession>4QUJ_A</Hit_accession>
+  <Hit_len>278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.5001</Hsp_bit-score>
+      <Hsp_score>210</Hsp_score>
+      <Hsp_evalue>5.02221e-18</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>490</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>256</Hsp_align-len>
+      <Hsp_qseq>DALKLTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIR--SACDRSLVRDSLVVFILSHGFEEAVYASNSIAMKITDIEDLL----CSYDTLYYKPKLLIIQACQ-EKLVHKKKPNELFRIDVTTVSPDQHIDMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKRGS-------NDESMVPNVKSTFRQHVYF</Hsp_qseq>
+      <Hsp_hseq>NSYKMDYPEMGLCIIINNKNFHKSTG-----------MTSRSGTDVDAANLRETFRNLKYEVRNKNDLTREEIVELMRDVSKEDHS-KRSSFVCVLLSHGEEGIIFGTNG-PVDLKKIGNFFRGDRCR--SLTGKPKLFIIQACRGTELDCGIETDSGVDDDMACHKIPVEADFLYAYSTAPGYYSWRNSKDGSWFIQSLCAMLKQYADKLEFMHILTRVNRKVATEFESFSFDATFHAKKQIPCIHSMLTKELYF</Hsp_hseq>
+      <Hsp_midline>++ K+     G+ +IIN + FH++             +  R GTDVD   L E F ++ Y V   +++    I+E +R  S  D S  R S V  +LSHG E  ++ +N   + +  I +      C   +L  KPKL IIQAC+  +L    + +     D+         D L A ST  GY + R+++ GSWFI SLC  + + +       ILT V  +V+ +  S       + +  +P + S   + +YF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>pdb|4PRY|A</Hit_id>
+  <Hit_def>Chain A, Caspase-3 [Homo sapiens] &gt;pdb|4PS0|A Chain A, Caspase-3 [Homo sapiens] &gt;pdb|4PS0|B Chain B, Caspase-3 [Homo sapiens]</Hit_def>
+  <Hit_accession>4PRY_A</Hit_accession>
+  <Hit_len>285</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.8853</Hsp_bit-score>
+      <Hsp_score>211</Hsp_score>
+      <Hsp_evalue>5.09138e-18</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>494</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>259</Hsp_align-len>
+      <Hsp_qseq>DALKLTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIR--SACDRSLVRDSLVVFILSHGFEEAVYASNSIA--MKITDI-EDLLCSYDTLYYKPKLLIIQACQ-EKLVHKKKPNELFRIDVTTVSPDQHIDMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKRGS-------NDESMVPNVKSTFRQHVYFPPRL</Hsp_qseq>
+      <Hsp_hseq>NSYKMDYPEMGLCIIINNKNFHKSTG-----------MTSRSGTDVDAANLRETFRNLKYEVRNKNDLTREEIVELMRDVSKEDHS-KRSSFVCVLLSHGEEGIIFGTNGPVDLKKITNFFRGDRCR--SLTGKPKLFIIQACRGTELDCGIETDSGVDDDMACHKIPVEADFLYAYSTAPGYYSWRNSKDGSWFIQSLCAMLKQYADKLEFMHILTRVNRKVATEFESFSFDATFHAKKQIPCIVSMLTKELYFYHQL</Hsp_hseq>
+      <Hsp_midline>++ K+     G+ +IIN + FH++             +  R GTDVD   L E F ++ Y V   +++    I+E +R  S  D S  R S V  +LSHG E  ++ +N      KIT+      C   +L  KPKL IIQAC+  +L    + +     D+         D L A ST  GY + R+++ GSWFI SLC  + + +       ILT V  +V+ +  S       + +  +P + S   + +YF  +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>pdb|5IAJ|A</Hit_id>
+  <Hit_def>Chain A, Caspase-3 [Homo sapiens]</Hit_def>
+  <Hit_accession>5IAJ_A</Hit_accession>
+  <Hit_len>278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.5001</Hsp_bit-score>
+      <Hsp_score>210</Hsp_score>
+      <Hsp_evalue>5.31586e-18</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>490</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>DALKLTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIR--SACDRSLVRDSLVVFILSHGFEEAVYASNSIA--MKITDI-EDLLCSYDTLYYKPKLLIIQACQ-EKLVHKKKPNELFRIDVTTVSPDQHIDMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKRGS-------NDESMVPNVKSTFRQHVYF</Hsp_qseq>
+      <Hsp_hseq>NSYKMDYPEMGLCIIINNKNFHKSTG-----------MTSRSGTDVDAANLRETFRNLKYEVRNKNDLTREEIVELMRDVSKEDHS-KRSSFVCVLLSHGEEGIIFGTNGPVDLKKITNFFRGDRCR--SLTGKPKLFIIQACRGTELDCGIETDSGVDDDMACHKIPVEADFLYAYSTAPGYYSWRNSKDGSWFIQSLCAMLKQYADKLEFMHILTRVNRKVATEFESFSFDATFHAKKQIPCILSMLTKELYF</Hsp_hseq>
+      <Hsp_midline>++ K+     G+ +IIN + FH++             +  R GTDVD   L E F ++ Y V   +++    I+E +R  S  D S  R S V  +LSHG E  ++ +N      KIT+      C   +L  KPKL IIQAC+  +L    + +     D+         D L A ST  GY + R+++ GSWFI SLC  + + +       ILT V  +V+ +  S       + +  +P + S   + +YF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>pdb|7XN4|A</Hit_id>
+  <Hit_def>Chain A, Caspase-3 [Homo sapiens] &gt;pdb|7XN4|C Chain C, Caspase-3 [Homo sapiens] &gt;pdb|7XN5|A Chain A, Caspase-3 [Homo sapiens] &gt;pdb|7XN5|C Chain C, Caspase-3 [Homo sapiens] &gt;pdb|7XN6|A Chain A, Caspase-3 [Homo sapiens] &gt;pdb|7XN6|C Chain C, Caspase-3 [Homo sapiens]</Hit_def>
+  <Hit_accession>7XN4_A</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.5001</Hsp_bit-score>
+      <Hsp_score>210</Hsp_score>
+      <Hsp_evalue>5.33285e-18</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>490</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>DALKLTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIR--SACDRSLVRDSLVVFILSHGFEEAVYASNSIA--MKITDI-EDLLCSYDTLYYKPKLLIIQACQ-EKLVHKKKPNELFRIDVTTVSPDQHIDMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKRGS-------NDESMVPNVKSTFRQHVYF</Hsp_qseq>
+      <Hsp_hseq>NSYKMDYPEMGLCIIINNKNFHKSTG-----------MTSRSGTDVDAANLRETFRNLKYEVRNKNDLTREEIVELMRDVSKEDHS-KRSSFVCVLLSHGEEGIIFGTNGPVDLKKITNFFRGDRCR--SLTGKPKLFIIQACRGTELDCGIETDSGVDDDMACHKIPVEADFLYAYSTAPGYYSWRNSKDGSWFIQSLCAMLKQYADKLEFMHILTRVNRKVATEFESFSFDATFHAKKQIPCIVSMLTKELYF</Hsp_hseq>
+      <Hsp_midline>++ K+     G+ +IIN + FH++             +  R GTDVD   L E F ++ Y V   +++    I+E +R  S  D S  R S V  +LSHG E  ++ +N      KIT+      C   +L  KPKL IIQAC+  +L    + +     D+         D L A ST  GY + R+++ GSWFI SLC  + + +       ILT V  +V+ +  S       + +  +P + S   + +YF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>pdb|5IAE|A</Hit_id>
+  <Hit_def>Chain A, Caspase-3 [Homo sapiens] &gt;pdb|5IAE|C Chain C, Caspase-3 [Homo sapiens]</Hit_def>
+  <Hit_accession>5IAE_A</Hit_accession>
+  <Hit_len>279</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.5001</Hsp_bit-score>
+      <Hsp_score>210</Hsp_score>
+      <Hsp_evalue>5.55543e-18</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>490</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>DALKLTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIR--SACDRSLVRDSLVVFILSHGFEEAVYASNSIA--MKITDI-EDLLCSYDTLYYKPKLLIIQACQ-EKLVHKKKPNELFRIDVTTVSPDQHIDMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKRGS-------NDESMVPNVKSTFRQHVYF</Hsp_qseq>
+      <Hsp_hseq>NSYKMDYPEMGLCIIINNKNFHKSTG-----------MTSRSGTDVDAANLRETFRNLKYEVRNKNDLTREEIVELMRDVSKEDHS-KRSSFVCVLLSHGEEGIIFGTNGPVDLKKITNFFRGDRCR--SLTGKPKLFIIQACRGTELDCGIETDSGVDDDMACHKIPVEADFLYAYSTAPGYYSWRNSKDGSWFIQSLCAMLKQYADKLEFMHILTRVNRKVATEFESFSFDATFHAKKQIPCIFSMLTKELYF</Hsp_hseq>
+      <Hsp_midline>++ K+     G+ +IIN + FH++             +  R GTDVD   L E F ++ Y V   +++    I+E +R  S  D S  R S V  +LSHG E  ++ +N      KIT+      C   +L  KPKL IIQAC+  +L    + +     D+         D L A ST  GY + R+++ GSWFI SLC  + + +       ILT V  +V+ +  S       + +  +P + S   + +YF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>pdb|4EHD|A</Hit_id>
+  <Hit_def>Chain A, Caspase-3 [Homo sapiens]</Hit_def>
+  <Hit_accession>4EHD_A</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.5001</Hsp_bit-score>
+      <Hsp_score>210</Hsp_score>
+      <Hsp_evalue>5.64472e-18</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>490</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>DALKLTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIR--SACDRSLVRDSLVVFILSHGFEEAVYASNSIA--MKITDI-EDLLCSYDTLYYKPKLLIIQACQ-EKLVHKKKPNELFRIDVTTVSPDQHIDMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKRGS-------NDESMVPNVKSTFRQHVYF</Hsp_qseq>
+      <Hsp_hseq>NSYKMDYPEMGLCIIINNKNFHKSTG-----------MTSRSGTDVDAANLRETFRNLKYEVRNKNDLTREEIVELMRDVSKEDHS-KRSSFVCVLLSHGEEGIIFGTNGPVDLKKITNFFRGDRCR--SLTGKPKLFIIQACRGTELDCGIETDSGVDDDMACHKIPVEADFLYACSTAPGYYSWRNSKDGSWFIQSLCAMLKQYADKLEFMHILTRVNRKVATEFESFSFDATFHAKKQIPCIVSMLTKELYF</Hsp_hseq>
+      <Hsp_midline>++ K+     G+ +IIN + FH++             +  R GTDVD   L E F ++ Y V   +++    I+E +R  S  D S  R S V  +LSHG E  ++ +N      KIT+      C   +L  KPKL IIQAC+  +L    + +     D+         D L A ST  GY + R+++ GSWFI SLC  + + +       ILT V  +V+ +  S       + +  +P + S   + +YF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>pdb|4JR0|A</Hit_id>
+  <Hit_def>Chain A, Procaspase-3 [Homo sapiens] &gt;pdb|4JR0|B Chain B, Procaspase-3 [Homo sapiens]</Hit_def>
+  <Hit_accession>4JR0_A</Hit_accession>
+  <Hit_len>247</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>84.7297</Hsp_bit-score>
+      <Hsp_score>208</Hsp_score>
+      <Hsp_evalue>5.68142e-18</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>490</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>DALKLTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIR--SACDRSLVRDSLVVFILSHGFEEAVYASNSIA--MKITDI-EDLLCSYDTLYYKPKLLIIQACQ-EKLVHKKKPNELFRIDVTTVSPDQHIDMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKRGS-------NDESMVPNVKSTFRQHVYF</Hsp_qseq>
+      <Hsp_hseq>NSYKMDYPEMGLCIIINNKNFHKSTG-----------MTSRSGTDVDAANLRETFRNLKYEVRNKNDLTREEIVELMRDVSKEDHS-KRSSFVCVLLSHGEEGIIFGTNGPVDLKKITNFFRGDRCR--SLTGKPKLFIIQACRGTELDCGIETASGVDDDMACHKIPVEADFLYAYSTAPGYYSWRNSKDGSWFIQSLCAMLKQYADKLEFMHILTRVNRKVATEFESFSFDATFHAKKQIPCIVSMLTKELYF</Hsp_hseq>
+      <Hsp_midline>++ K+     G+ +IIN + FH++             +  R GTDVD   L E F ++ Y V   +++    I+E +R  S  D S  R S V  +LSHG E  ++ +N      KIT+      C   +L  KPKL IIQAC+  +L    +       D+         D L A ST  GY + R+++ GSWFI SLC  + + +       ILT V  +V+ +  S       + +  +P + S   + +YF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>51</Hit_num>
+  <Hit_id>pdb|4QUB|A</Hit_id>
+  <Hit_def>Chain A, Caspase-3 [Homo sapiens]</Hit_def>
+  <Hit_accession>4QUB_A</Hit_accession>
+  <Hit_len>279</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.5001</Hsp_bit-score>
+      <Hsp_score>210</Hsp_score>
+      <Hsp_evalue>5.93605e-18</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>490</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>DALKLTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIR--SACDRSLVRDSLVVFILSHGFEEAVYASNSIA--MKITDI-EDLLCSYDTLYYKPKLLIIQACQ-EKLVHKKKPNELFRIDVTTVSPDQHIDMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKRGS-------NDESMVPNVKSTFRQHVYF</Hsp_qseq>
+      <Hsp_hseq>NSYKMDYPEMGLCIIINNKNFHKSTG-----------MTSRSGTDVDAANLRETFRNLKYEVRNKNDLTREEIVELMRDVSKEDHS-KRSSFVCVLLSHGEEGIIFGTNGPVDLAKITNFFRGDRCR--SLTGKPKLFIIQACRGTELDCGIETDSGVDDDMACHKIPVEADFLYAYSTAPGYYSWRNSKDGSWFIQSLCAMLKQYADKLEFMHILTRVNRKVATEFESFSFDATFHAKKQIPCIVSMLTKELYF</Hsp_hseq>
+      <Hsp_midline>++ K+     G+ +IIN + FH++             +  R GTDVD   L E F ++ Y V   +++    I+E +R  S  D S  R S V  +LSHG E  ++ +N      KIT+      C   +L  KPKL IIQAC+  +L    + +     D+         D L A ST  GY + R+++ GSWFI SLC  + + +       ILT V  +V+ +  S       + +  +P + S   + +YF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>52</Hit_num>
+  <Hit_id>pdb|4M9R|A</Hit_id>
+  <Hit_def>Chain A, Cell death protein 3 [Caenorhabditis elegans] &gt;pdb|4M9R|B Chain B, Cell death protein 3 [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>4M9R_A</Hit_accession>
+  <Hit_len>306</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.8853</Hsp_bit-score>
+      <Hsp_score>211</Hsp_score>
+      <Hsp_evalue>6.213e-18</Hsp_evalue>
+      <Hsp_query-from>259</Hsp_query-from>
+      <Hsp_query-to>492</Hsp_query-to>
+      <Hsp_hit-from>46</Hsp_hit-from>
+      <Hsp_hit-to>299</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>50</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>GIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIRSACDRSLVRDSLVVFILSHGFEEAVYASNSIAMKITDIEDLLCSYDT--LYYKPKLLIIQACQEKLVHKKKP--------------------NELFRI---------DVTTVSPDQHIDMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVS----KKRGSNDESMVPNVKSTFRQHVYFPP</Hsp_qseq>
+      <Hsp_hseq>GMCLIINNEHFEQ--------------MPTRNGTKADKDNLTNLFRCMGYTVICKDNLTGRGMLLTIRDFAKHESHGDSAILVILSHGEENVIIGVDDIPISTHEIYDLLNAANAPRLANKPKIVFVQASRGERRDNGFPVLDSVDGVPAFLRRGWDNRDGPLFNFLGCVRPQVQQVWRKKPSQ-ADILIAYATTAQYVSWRNSARGSWFIQAVCEVFSTHAKDMDVVELLTEVNKKVACGFQTSQGSNILKQMPEMTSRLLKKFYFWP</Hsp_hseq>
+      <Hsp_midline>G+ LIIN + F +              +  R+GT  DK+ L  +F  MGY V   DN+   G++  IR         DS ++ ILSHG E  +   + I +   +I DLL + +   L  KPK++ +QA + +      P                      LF            V    P Q  D+L A +T   Y + R++  GSWFI ++C+     +    + ++LT V  +V+      +GSN    +P + S   +  YF P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>53</Hit_num>
+  <Hit_id>pdb|5IBC|A</Hit_id>
+  <Hit_def>Chain A, Caspase-3 [Homo sapiens]</Hit_def>
+  <Hit_accession>5IBC_A</Hit_accession>
+  <Hit_len>279</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.5001</Hsp_bit-score>
+      <Hsp_score>210</Hsp_score>
+      <Hsp_evalue>6.40301e-18</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>490</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>DALKLTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIR--SACDRSLVRDSLVVFILSHGFEEAVYASNSIA--MKITDI-EDLLCSYDTLYYKPKLLIIQACQ-EKLVHKKKPNELFRIDVTTVSPDQHIDMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKRGS-------NDESMVPNVKSTFRQHVYF</Hsp_qseq>
+      <Hsp_hseq>NSYKMDYPEMGLCIIINNKNFHKSTG-----------MTSRSGTDVDAANLRETFRNLKYEVRNKNDLTREEIVELMRDVSKEDHS-KRSSFVCVLLSHGEEGIIFGTNGPVDLKKITNFFRGDRCR--SLTGKPKLFIIQACRGTELDCGIETDSGVDDDMACHKIPVEADFLYAYSTAPGYYSWRNSKDGSWFIQSLCAMLKQYADKLEFMHILTRVNRKVATEFESFSFDATFHAKKQIPCIISMLTKELYF</Hsp_hseq>
+      <Hsp_midline>++ K+     G+ +IIN + FH++             +  R GTDVD   L E F ++ Y V   +++    I+E +R  S  D S  R S V  +LSHG E  ++ +N      KIT+      C   +L  KPKL IIQAC+  +L    + +     D+         D L A ST  GY + R+++ GSWFI SLC  + + +       ILT V  +V+ +  S       + +  +P + S   + +YF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>54</Hit_num>
+  <Hit_id>pdb|4QUA|A</Hit_id>
+  <Hit_def>Chain A, Caspase-3 [Homo sapiens]</Hit_def>
+  <Hit_accession>4QUA_A</Hit_accession>
+  <Hit_len>278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.1149</Hsp_bit-score>
+      <Hsp_score>209</Hsp_score>
+      <Hsp_evalue>7.19704e-18</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>490</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>DALKLTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIR--SACDRSLVRDSLVVFILSHGFEEAVYASNSIA--MKITDI-EDLLCSYDTLYYKPKLLIIQACQ-EKLVHKKKPNELFRIDVTTVSPDQHIDMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKRGS-------NDESMVPNVKSTFRQHVYF</Hsp_qseq>
+      <Hsp_hseq>NSYKMDYPEMGLCIIINNKNFHKSTG-----------MTSRSGTDVDAANLRETFRNLKYEVRNKNDLTREEIVELMRDVSKEDHS-KRSSFVCVLLSHGEEGIIFGTNGPVDLKKITNFFRGDRCR--SLTGKPKLFIIQACRGTELDCGIETDSGVDDDMACHKIPVEADFLFAYSTAPGYYSWRNSKDGSWFIQSLCAMLKQYADKLEFMHILTRVNRKVATEFESFSFDATFHAKKQIPCIVSMLTKELYF</Hsp_hseq>
+      <Hsp_midline>++ K+     G+ +IIN + FH++             +  R GTDVD   L E F ++ Y V   +++    I+E +R  S  D S  R S V  +LSHG E  ++ +N      KIT+      C   +L  KPKL IIQAC+  +L    + +     D+         D L A ST  GY + R+++ GSWFI SLC  + + +       ILT V  +V+ +  S       + +  +P + S   + +YF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>55</Hit_num>
+  <Hit_id>pdb|2J33|A</Hit_id>
+  <Hit_def>Chain A, CASPASE-3 [Homo sapiens]</Hit_def>
+  <Hit_accession>2J33_A</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>84.7297</Hsp_bit-score>
+      <Hsp_score>208</Hsp_score>
+      <Hsp_evalue>7.60877e-18</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>490</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>DALKLTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIR--SACDRSLVRDSLVVFILSHGFEEAVYASNSIA--MKITDI-EDLLCSYDTLYYKPKLLIIQACQ-EKLVHKKKPNELFRIDVTTVSPDQHIDMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKRGS-------NDESMVPNVKSTFRQHVYF</Hsp_qseq>
+      <Hsp_hseq>NSYKMDYPEMGLCIIINNKNFHKSTG-----------MTSRSGTDVDAANLRETFRNLKYEVRNKNDLTREEIVELMRDVSKEDHS-KRSSFVCVLLSHGEEGIIFGTNGPVDLKKITNFFRGDRCR--SLTGKPKLFIIQACRGTELDCGIETDSGVDDDMACHKIPVEADFLYAYSTAPGFYSWRNSKDGSWFIQSLCAMLKQYADKLEFMHILTRVNRKVATEFESFSFDATFHAKKQIPCIVSMLTKELYF</Hsp_hseq>
+      <Hsp_midline>++ K+     G+ +IIN + FH++             +  R GTDVD   L E F ++ Y V   +++    I+E +R  S  D S  R S V  +LSHG E  ++ +N      KIT+      C   +L  KPKL IIQAC+  +L    + +     D+         D L A ST  G+ + R+++ GSWFI SLC  + + +       ILT V  +V+ +  S       + +  +P + S   + +YF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>56</Hit_num>
+  <Hit_id>pdb|3PCX|A</Hit_id>
+  <Hit_def>Chain A, Caspase-3 [Homo sapiens]</Hit_def>
+  <Hit_accession>3PCX_A</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>84.3445</Hsp_bit-score>
+      <Hsp_score>207</Hsp_score>
+      <Hsp_evalue>7.75521e-18</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>490</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>116</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>DALKLTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIR--SACDRSLVRDSLVVFILSHGFEEAVYASNSIA--MKITDI-EDLLCSYDTLYYKPKLLIIQACQ-EKLVHKKKPNELFRIDVTTVSPDQHIDMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKRGS-------NDESMVPNVKSTFRQHVYF</Hsp_qseq>
+      <Hsp_hseq>NSYKMDYPEMGLCIIINNKNFHKSTG-----------MTSRSGTDVDAANLRETFRNLKYEVRNKNDLTREEIVELMRDVSKEDHS-KRSSFVCVLLSHGEEGIIFGTNGPVDLKKITNFFRGDRCR--SLTGKPKLFIIQACRGTELDCGIETDSGVDDDMACHKIPVEADFLYAYSTAPGYYSWRNSKDGSWFIQSLCAMLKQYADKLEFMHILTRVNRAVATAFESFSFDATFHAKKQIPCIVSMLTKELYF</Hsp_hseq>
+      <Hsp_midline>++ K+     G+ +IIN + FH++             +  R GTDVD   L E F ++ Y V   +++    I+E +R  S  D S  R S V  +LSHG E  ++ +N      KIT+      C   +L  KPKL IIQAC+  +L    + +     D+         D L A ST  GY + R+++ GSWFI SLC  + + +       ILT V   V+    S       + +  +P + S   + +YF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>57</Hit_num>
+  <Hit_id>pdb|4QUH|A</Hit_id>
+  <Hit_def>Chain A, Caspase-3 [Homo sapiens] &gt;pdb|4QUH|C Chain C, Caspase-3 [Homo sapiens]</Hit_def>
+  <Hit_accession>4QUH_A</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.1149</Hsp_bit-score>
+      <Hsp_score>209</Hsp_score>
+      <Hsp_evalue>7.7887e-18</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>490</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>256</Hsp_align-len>
+      <Hsp_qseq>DALKLTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIR--SACDRSLVRDSLVVFILSHGFEEAVYASNSIAMKITDIEDLL----CSYDTLYYKPKLLIIQACQ-EKLVHKKKPNELFRIDVTTVSPDQHIDMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKRGS-------NDESMVPNVKSTFRQHVYF</Hsp_qseq>
+      <Hsp_hseq>NSYKMDYPEMGLCIIINNKNFHKSTG-----------MTSRSGTDVDAANLRETFRNLKYEVRNKNDLTREEIVELMRDVSKEDHS-KRSSFVCVLLSHGEEGIIFGTNG-PVDLKKIGNFFRGDRCR--SLTGKPKLFIIQACRGTELDCGIETDSGVDDDMACHKIPVEADFLYAYSTAPGYYSWRNSKDGSWFIQSLCAMLKQYADKLEFMHILTRVNRKVATEFESFSFDATFHAKKQIPCIVSMLTKELYF</Hsp_hseq>
+      <Hsp_midline>++ K+     G+ +IIN + FH++             +  R GTDVD   L E F ++ Y V   +++    I+E +R  S  D S  R S V  +LSHG E  ++ +N   + +  I +      C   +L  KPKL IIQAC+  +L    + +     D+         D L A ST  GY + R+++ GSWFI SLC  + + +       ILT V  +V+ +  S       + +  +P + S   + +YF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>58</Hit_num>
+  <Hit_id>pdb|4QU8|A</Hit_id>
+  <Hit_def>Chain A, Caspase-3 [Homo sapiens]</Hit_def>
+  <Hit_accession>4QU8_A</Hit_accession>
+  <Hit_len>278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>84.7297</Hsp_bit-score>
+      <Hsp_score>208</Hsp_score>
+      <Hsp_evalue>9.118e-18</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>490</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>DALKLTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIR--SACDRSLVRDSLVVFILSHGFEEAVYASNSIA--MKITDI-EDLLCSYDTLYYKPKLLIIQACQ-EKLVHKKKPNELFRIDVTTVSPDQHIDMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKRGS-------NDESMVPNVKSTFRQHVYF</Hsp_qseq>
+      <Hsp_hseq>NSYKMDYPEMGLCIIINNKNFHKSTGATS-----------RSGTDVDAANLRETFRNLKYEVRNKNDLTREEIVELMRDVSKEDHS-KRSSFVCVLLSHGEEGIIFGTNGPVDLKKITNFFRGDRCR--SLTGKPKLFIIQACRGTELDCGIETDSGVDDDMACHKIPVEADFLYAYSTAPGYYSWRNSKDGSWFIQSLCAMLKQYADKLEFMHILTRVNRKVATEFESFSFDATFHAKKQIPCIHSMLTKELYF</Hsp_hseq>
+      <Hsp_midline>++ K+     G+ +IIN + FH++    +           R GTDVD   L E F ++ Y V   +++    I+E +R  S  D S  R S V  +LSHG E  ++ +N      KIT+      C   +L  KPKL IIQAC+  +L    + +     D+         D L A ST  GY + R+++ GSWFI SLC  + + +       ILT V  +V+ +  S       + +  +P + S   + +YF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>59</Hit_num>
+  <Hit_id>pdb|1CP3|A</Hit_id>
+  <Hit_def>Chain A, APOPAIN [Homo sapiens] &gt;pdb|1CP3|B Chain B, APOPAIN [Homo sapiens]</Hit_def>
+  <Hit_accession>1CP3_A</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>84.7297</Hsp_bit-score>
+      <Hsp_score>208</Hsp_score>
+      <Hsp_evalue>9.41184e-18</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>490</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>DALKLTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIR--SACDRSLVRDSLVVFILSHGFEEAVYASNSIA--MKITDI-EDLLCSYDTLYYKPKLLIIQACQ-EKLVHKKKPNELFRIDVTTVSPDQHIDMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKRGS-------NDESMVPNVKSTFRQHVYF</Hsp_qseq>
+      <Hsp_hseq>NSYKMDYPEMGLCIIINNKNFHKSTG-----------MTSRSGTDVDAANLRETFRNLKYEVRNKNDLTREEIVELMRDVSKEDHS-KRSSFVCVLLSHGEEGIIFGTNGPVDLKKITNFFRGDRCR--SLTGKPKLFIIQACRGTELDCGIETDSGVDDDMACHKIPVDADFLYAYSTAPGYYSWRNSKDGSWFIQSLCAMLKQYADKLEFMHILTRVNRKVATEFESFSFDATFHAKKQIPCIVSMLTKELYF</Hsp_hseq>
+      <Hsp_midline>++ K+     G+ +IIN + FH++             +  R GTDVD   L E F ++ Y V   +++    I+E +R  S  D S  R S V  +LSHG E  ++ +N      KIT+      C   +L  KPKL IIQAC+  +L    + +     D+         D L A ST  GY + R+++ GSWFI SLC  + + +       ILT V  +V+ +  S       + +  +P + S   + +YF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>60</Hit_num>
+  <Hit_id>pdb|4QU5|A</Hit_id>
+  <Hit_def>Chain A, Caspase-3 [Homo sapiens]</Hit_def>
+  <Hit_accession>4QU5_A</Hit_accession>
+  <Hit_len>278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>84.7297</Hsp_bit-score>
+      <Hsp_score>208</Hsp_score>
+      <Hsp_evalue>1.0118e-17</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>490</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>256</Hsp_align-len>
+      <Hsp_qseq>DALKLTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIR--SACDRSLVRDSLVVFILSHGFEEAVYASNSIAMKITDIEDLL----CSYDTLYYKPKLLIIQACQ-EKLVHKKKPNELFRIDVTTVSPDQHIDMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKRGS-------NDESMVPNVKSTFRQHVYF</Hsp_qseq>
+      <Hsp_hseq>NSYKMDYPEMGLCIIINNKNFHKSTG-----------MTSRSGTDVDAANLRETFRNLKYEVRNKNDLTREEIVELMRDVSKEDHS-KRSSFVCVLLSHGEEGIIFGTNG-PVDLKKIVNFFRGDRCR--SLTGKPKLFIIQACRGTELDCGIETDSGVDDDMACHKIPVEADFLYAYSTAPGYYSWRNSKDGSWFIQSLCAMLKQYADKLEFMHILTRVNRKVATEFESFSFDATFHAKKQIPCIVSMLTKELYF</Hsp_hseq>
+      <Hsp_midline>++ K+     G+ +IIN + FH++             +  R GTDVD   L E F ++ Y V   +++    I+E +R  S  D S  R S V  +LSHG E  ++ +N   + +  I +      C   +L  KPKL IIQAC+  +L    + +     D+         D L A ST  GY + R+++ GSWFI SLC  + + +       ILT V  +V+ +  S       + +  +P + S   + +YF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>61</Hit_num>
+  <Hit_id>pdb|4QUD|A</Hit_id>
+  <Hit_def>Chain A, Caspase-3 [Homo sapiens] &gt;pdb|4QUD|B Chain B, Caspase-3 [Homo sapiens]</Hit_def>
+  <Hit_accession>4QUD_A</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>84.7297</Hsp_bit-score>
+      <Hsp_score>208</Hsp_score>
+      <Hsp_evalue>1.04443e-17</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>490</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>257</Hsp_align-len>
+      <Hsp_qseq>DALKLTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIR--SACDRSLVRDSLVVFILSHGFEEAVYASNSIAMKITDIEDLLCSYD-----TLYYKPKLLIIQACQ-EKLVHKKKPNELFRIDVTTVSPDQHIDMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKRGS-------NDESMVPNVKSTFRQHVYF</Hsp_qseq>
+      <Hsp_hseq>NSYKMDYPEMGLCIIINNKNFHKSTG-----------MTSRSGTDVDAANLRETFRNLKYEVRNKNDLTREEIVELMRDVSKEDHS-KRSSFVCVLLSHGEEGIIFGTNGPV----DLKKIFNFFRGDRCRSLTGKPKLFIIQACRGTELDCGIETDSGVDDDMACHKIPVEADFLYAYSTAPGYYSWRNSKDGSWFIQSLCAMLKQYADKLEFMHILTRVNRKVATEFESFSFDATFHAKKQIPCIVSMLTKELYF</Hsp_hseq>
+      <Hsp_midline>++ K+     G+ +IIN + FH++             +  R GTDVD   L E F ++ Y V   +++    I+E +R  S  D S  R S V  +LSHG E  ++ +N       D++ +   +      +L  KPKL IIQAC+  +L    + +     D+         D L A ST  GY + R+++ GSWFI SLC  + + +       ILT V  +V+ +  S       + +  +P + S   + +YF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>62</Hit_num>
+  <Hit_id>pdb|3SIR|A</Hit_id>
+  <Hit_def>Chain A, Caspase [Drosophila melanogaster] &gt;pdb|3SIR|B Chain B, Caspase [Drosophila melanogaster] &gt;pdb|3SIR|C Chain C, Caspase [Drosophila melanogaster] &gt;pdb|3SIR|D Chain D, Caspase [Drosophila melanogaster]</Hit_def>
+  <Hit_accession>3SIR_A</Hit_accession>
+  <Hit_len>259</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.9593</Hsp_bit-score>
+      <Hsp_score>206</Hsp_score>
+      <Hsp_evalue>1.52913e-17</Hsp_evalue>
+      <Hsp_query-from>253</Hsp_query-from>
+      <Hsp_query-to>486</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>239</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>242</Hsp_align-len>
+      <Hsp_qseq>LTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIR-SACDRSLVRDSLVVFILSHGFEEAVYASNSIAMKITDIEDLLCS--YDTLYYKPKLLIIQACQ-----EKLVHKKKPNELFRIDVTTVSPDQHIDMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKRGSNDESMVPNVKSTFRQ</Hsp_qseq>
+      <Hsp_hseq>MRHKNRGMALIFNHEHFEVPT------------LKSRAGTNVDCENLTRVLKQLDFEVTVYKDCRYKDILRTIEYSASQNHSDSDCILVAILSHGEMGYIYAKDT-QYKLDNIWSFFTANHCPSLAGKPKLFFIQACQGDRLDGGVTMQRSQTETDGDSSMSYKIPVHADFLIAYSTVPGFYSWRNTTRGSWFMQSLCAEL---AANGKRLDILTLLTF-VCQRVAVDFESCTPDTPEMHQQ</Hsp_hseq>
+      <Hsp_midline>+  +N G+ALI N + F                L+ R GT+VD E L  V   + + V  Y +  +  I+  I  SA       D ++V ILSHG    +YA ++   K+ +I     +    +L  KPKL  IQACQ       +  ++   E       +     H D L A STV G+ + R+T  GSWF+ SLC  +   +A+    DILT++T  V ++   + ES  P+     +Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>63</Hit_num>
+  <Hit_id>pdb|4QUG|A</Hit_id>
+  <Hit_def>Chain A, Caspase-3 [Homo sapiens] &gt;pdb|4QUG|C Chain C, Caspase-3 [Homo sapiens]</Hit_def>
+  <Hit_accession>4QUG_A</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>84.3445</Hsp_bit-score>
+      <Hsp_score>207</Hsp_score>
+      <Hsp_evalue>1.58346e-17</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>490</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>DALKLTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIR--SACDRSLVRDSLVVFILSHGFEEAVYASNSIA--MKITDI-EDLLCSYDTLYYKPKLLIIQACQ-EKLVHKKKPNELFRIDVTTVSPDQHIDMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKRGS-------NDESMVPNVKSTFRQHVYF</Hsp_qseq>
+      <Hsp_hseq>NSYKMDYPEMGLCIIINNKNFHKSTGATS-----------RSGTDVDAANLRETFRNLKYEVRNKNDLTREEIVELMRDVSKEDHS-KRSSFVCVLLSHGEEGIIFGTNGPVDLKKITNFFRGDRCR--SLTGKPKLFIIQACRGTELDCGIETDSGVDDDMACHKIPVEADFLYAYSTAPGYYSWRNSKDGSWFIQSLCAMLKQYADKLEFMHILTRVNRKVATEFESFSFDATFHAKKQIPCIVSMLTKELYF</Hsp_hseq>
+      <Hsp_midline>++ K+     G+ +IIN + FH++    +           R GTDVD   L E F ++ Y V   +++    I+E +R  S  D S  R S V  +LSHG E  ++ +N      KIT+      C   +L  KPKL IIQAC+  +L    + +     D+         D L A ST  GY + R+++ GSWFI SLC  + + +       ILT V  +V+ +  S       + +  +P + S   + +YF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>64</Hit_num>
+  <Hit_id>pdb|4EHN|A</Hit_id>
+  <Hit_def>Chain A, Caspase-3 [Homo sapiens]</Hit_def>
+  <Hit_accession>4EHN_A</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.9593</Hsp_bit-score>
+      <Hsp_score>206</Hsp_score>
+      <Hsp_evalue>1.94949e-17</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>490</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>DALKLTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIR--SACDRSLVRDSLVVFILSHGFEEAVYASNSIA--MKITDI-EDLLCSYDTLYYKPKLLIIQACQ-EKLVHKKKPNELFRIDVTTVSPDQHIDMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKRGS-------NDESMVPNVKSTFRQHVYF</Hsp_qseq>
+      <Hsp_hseq>NSYKMDYPEMGLCIIINNKNFHKSTG-----------MTSRSGTDVDAANLRETFRNLKYEVRNKNDLTREEIVELMRDVSKEDHS-KRSSFVCVLLSHGEAGIIFGTNGPVDLKKITNFFRGDRCR--SLTGKPKLFIIQACRGTELDCGIETDSGVDDDMACHKIPVEADFLYACSTAPGYYSWRNSKDGSWFIQSLCAMLKQYADKLEFMHILTRVNRKVATEFESFSFDATFHAKKQIPCIHSMLTKELYF</Hsp_hseq>
+      <Hsp_midline>++ K+     G+ +IIN + FH++             +  R GTDVD   L E F ++ Y V   +++    I+E +R  S  D S  R S V  +LSHG    ++ +N      KIT+      C   +L  KPKL IIQAC+  +L    + +     D+         D L A ST  GY + R+++ GSWFI SLC  + + +       ILT V  +V+ +  S       + +  +P + S   + +YF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>65</Hit_num>
+  <Hit_id>pdb|4EHL|A</Hit_id>
+  <Hit_def>Chain A, Caspase-3 [Homo sapiens] &gt;pdb|4EHL|C Chain C, Caspase-3 [Homo sapiens]</Hit_def>
+  <Hit_accession>4EHL_A</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.9593</Hsp_bit-score>
+      <Hsp_score>206</Hsp_score>
+      <Hsp_evalue>2.10258e-17</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>490</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>DALKLTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIR--SACDRSLVRDSLVVFILSHGFEEAVYASNSIA--MKITDI-EDLLCSYDTLYYKPKLLIIQACQ-EKLVHKKKPNELFRIDVTTVSPDQHIDMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKRGS-------NDESMVPNVKSTFRQHVYF</Hsp_qseq>
+      <Hsp_hseq>NSYKMDYPEMGLCIIINNKNFHKSTG-----------MTSRSGTDVDAANLRETFRNLKYEVRNKNDLTREEIVELMRDVSKEDHS-KRSSFVCVLLSHGEAGIIFGTNGPVDLKKITNFFRGDRCR--SLTGKPKLFIIQACRGTELDCGIETDSGVDDDMACHKIPVEADFLYAYSTAPGYYSWRNSKDGSWFIQSLCAMLKQYADKLEFMHILTRVNRKVATEFESFSFDATFHAKKQIPCIHSMLTKELYF</Hsp_hseq>
+      <Hsp_midline>++ K+     G+ +IIN + FH++             +  R GTDVD   L E F ++ Y V   +++    I+E +R  S  D S  R S V  +LSHG    ++ +N      KIT+      C   +L  KPKL IIQAC+  +L    + +     D+         D L A ST  GY + R+++ GSWFI SLC  + + +       ILT V  +V+ +  S       + +  +P + S   + +YF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>66</Hit_num>
+  <Hit_id>pdb|4QUL|A</Hit_id>
+  <Hit_def>Chain A, Caspase-3 [Homo sapiens] &gt;pdb|4QUL|C Chain C, Caspase-3 [Homo sapiens]</Hit_def>
+  <Hit_accession>4QUL_A</Hit_accession>
+  <Hit_len>278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.5741</Hsp_bit-score>
+      <Hsp_score>205</Hsp_score>
+      <Hsp_evalue>2.3027e-17</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>490</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>DALKLTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIR--SACDRSLVRDSLVVFILSHGFEEAVYASNSIA--MKITDI-EDLLCSYDTLYYKPKLLIIQACQ-EKLVHKKKPNELFRIDVTTVSPDQHIDMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKRGS-------NDESMVPNVKSTFRQHVYF</Hsp_qseq>
+      <Hsp_hseq>NSYKMDYPEMGLCIIINNKNWHKSTG-----------MTSRSGTDVDAANLRETFRNLKYEVRNKNDLTREEIVELMRDVSKEDHS-KRSSFVCVLLSHGEEGIIFGTNGPVDLKKITNFFRGDRCR--SLTGKPKLFIIQACRGTELDCGIETDSGVDDDMACHKIPVEADFLYAYSTAPGYYSWRNSKDGSWFIQSLCAMLKQYADKLEFMHILTRVNRKVATEFESFSFDATFHAKKQIPCIVSMLTKELYF</Hsp_hseq>
+      <Hsp_midline>++ K+     G+ +IIN + +H++             +  R GTDVD   L E F ++ Y V   +++    I+E +R  S  D S  R S V  +LSHG E  ++ +N      KIT+      C   +L  KPKL IIQAC+  +L    + +     D+         D L A ST  GY + R+++ GSWFI SLC  + + +       ILT V  +V+ +  S       + +  +P + S   + +YF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>67</Hit_num>
+  <Hit_id>pdb|4EHH|A</Hit_id>
+  <Hit_def>Chain A, Caspase-3 [Homo sapiens]</Hit_def>
+  <Hit_accession>4EHH_A</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.1889</Hsp_bit-score>
+      <Hsp_score>204</Hsp_score>
+      <Hsp_evalue>3.46864e-17</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>490</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>DALKLTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIR--SACDRSLVRDSLVVFILSHGFEEAVYASNSIA--MKITDI-EDLLCSYDTLYYKPKLLIIQACQ-EKLVHKKKPNELFRIDVTTVSPDQHIDMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKRGS-------NDESMVPNVKSTFRQHVYF</Hsp_qseq>
+      <Hsp_hseq>NSYKMDYPEMGLCIIINNKNFHKSTG-----------MTSRSGTDVDAANLRETFRNLKYEVRNKNDLTREEIVELMRDVSKEDHS-KRSSFVCVLLSHGEAGIIFGTNGPVDLKKITNFFRGDRCR--SLTGKPKLFIIQACRGTELDCGIETDSGVDDDMACHKIPVEADFLYAYSTAPGYYSWRNSKDGSWFIQSLCAMLKQYADKLEFMHILTRVNRKVATEFESFSFDATFHAKKQIPCIVSMLTKELYF</Hsp_hseq>
+      <Hsp_midline>++ K+     G+ +IIN + FH++             +  R GTDVD   L E F ++ Y V   +++    I+E +R  S  D S  R S V  +LSHG    ++ +N      KIT+      C   +L  KPKL IIQAC+  +L    + +     D+         D L A ST  GY + R+++ GSWFI SLC  + + +       ILT V  +V+ +  S       + +  +P + S   + +YF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>68</Hit_num>
+  <Hit_id>pdb|4EHK|A</Hit_id>
+  <Hit_def>Chain A, Caspase-3 [Homo sapiens] &gt;pdb|4EHK|C Chain C, Caspase-3 [Homo sapiens]</Hit_def>
+  <Hit_accession>4EHK_A</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.1889</Hsp_bit-score>
+      <Hsp_score>204</Hsp_score>
+      <Hsp_evalue>3.56828e-17</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>490</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>DALKLTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIR--SACDRSLVRDSLVVFILSHGFEEAVYASNSIA--MKITDI-EDLLCSYDTLYYKPKLLIIQACQ-EKLVHKKKPNELFRIDVTTVSPDQHIDMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKRGS-------NDESMVPNVKSTFRQHVYF</Hsp_qseq>
+      <Hsp_hseq>NSYKMDYPEMGLCIIINNKNFHKSTG-----------MTSRSGTDVDAANLRETFRNLKYEVRNKNDLTREEIVELMRDVSKEDHS-KRSSFVCVLLSHGEAGIIFGTNGPVDLKKITNFFRGDRCR--SLTGKPKLFIIQACRGTELDCGIETDSGVDDDMACHKIPVEADFLYACSTAPGYYSWRNSKDGSWFIQSLCAMLKQYADKLEFMHILTRVNRKVATEFESFSFDATFHAKKQIPCIVSMLTKELYF</Hsp_hseq>
+      <Hsp_midline>++ K+     G+ +IIN + FH++             +  R GTDVD   L E F ++ Y V   +++    I+E +R  S  D S  R S V  +LSHG    ++ +N      KIT+      C   +L  KPKL IIQAC+  +L    + +     D+         D L A ST  GY + R+++ GSWFI SLC  + + +       ILT V  +V+ +  S       + +  +P + S   + +YF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>69</Hit_num>
+  <Hit_id>pdb|1M72|A</Hit_id>
+  <Hit_def>Chain A, Caspase-1 [Spodoptera frugiperda] &gt;pdb|1M72|B Chain B, Caspase-1 [Spodoptera frugiperda] &gt;pdb|1M72|C Chain C, Caspase-1 [Spodoptera frugiperda]</Hit_def>
+  <Hit_accession>1M72_A</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.8037</Hsp_bit-score>
+      <Hsp_score>203</Hsp_score>
+      <Hsp_evalue>5.00674e-17</Hsp_evalue>
+      <Hsp_query-from>253</Hsp_query-from>
+      <Hsp_query-to>477</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>LTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIRSACDRSLV-RDSLVVFILSHGFEEAVYASNSIAMKITDIEDLLCSY------DTLYYKPKLLIIQACQ----------EKLVHKKKPNELFRIDVTTVSPDQHIDMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKRGSN--DESMV</Hsp_qseq>
+      <Hsp_hseq>MNHKHRGMAIIFNHEHFDIH------------SLKSRTGTNVDSDNLSKVLKTLGFKVTVFPNLKSEEINKFIQQTAEMDHSDADCLLVAVLTHGELGMLYAKDTHYK-----PDNLWYYFTADKCPTLAGKPKLFFIQACQGDRLDGGITLSRTETDGSPSTSYRIPV-------HADFLIAFSTVPGYFSWRNTTRGSWFMQALCEELRYAGTERDILTLLTFVCQKVALDFESNAPDSAMM</Hsp_hseq>
+      <Hsp_midline>+  ++ G+A+I N + F  +             L+ R GT+VD + L +V  ++G+ V  + N+    I + I+   +      D L+V +L+HG    +YA ++         D L  Y       TL  KPKL  IQACQ           +      P+  +RI V       H D L A STV GY + R+T  GSWF+ +LC+ +        I  +LT V  +V+    SN  D +M+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>70</Hit_num>
+  <Hit_id>pdb|3NKF|A</Hit_id>
+  <Hit_def>Chain A, Caspase-6 [synthetic construct] &gt;pdb|3NKF|B Chain B, Caspase-6 [synthetic construct] &gt;pdb|3NKF|C Chain C, Caspase-6 [synthetic construct] &gt;pdb|3NKF|D Chain D, Caspase-6 [synthetic construct]</Hit_def>
+  <Hit_accession>3NKF_A</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.8037</Hsp_bit-score>
+      <Hsp_score>203</Hsp_score>
+      <Hsp_evalue>5.05955e-17</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>493</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>DALKLTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIRSACDRSLV-RDSLVVFILSHGFEEAVYASNSIAMKITDIEDLL----CSYDTLYYKPKLLIIQACQEKLVHKKKPNELFRIDVTTVSPDQHI---------------DMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKR-------GSNDESMVPNVKSTFRQHVYFPPR</Hsp_qseq>
+      <Hsp_hseq>EKYKMDHRRRGIALIFNHERFFWHLT-----------LPERRGTCADRDNLTRRFSDLGFEVKCFNDLKAEELLLKIHEVSTVSHADADCFVCVFLSHGEGNHIYAYDA-KIEIQTLTGLFKGDKCH--SLVGKPKIFIIQACRGNQ-HDVPVIPLDVVDNQTEKLDTNITEVDAASVYTLPAGADFLMCYSVAEGYYSHRETVNGSWYIQDLCEMLGKYGSSLEFTELLTLVNRKVSQRRVDFCKDPSAIGKKQVPCFASMLTKKLHFFPK</Hsp_hseq>
+      <Hsp_midline>+  K+     GIALI N ++F  +++           L  R GT  D++ L   FS +G+ V+ ++++    ++ +I      S    D  V   LSHG    +YA ++  ++I  +  L     C   +L  KPK+ IIQAC+    H      L  +D  T   D +I               D L   S   GY + R T  GSW+I  LC+ + +  +S    ++LT+V  +VS++R        +  +  VP   S   + ++F P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>71</Hit_num>
+  <Hit_id>pdb|3K7E|A</Hit_id>
+  <Hit_def>Chain A, Caspase-6 [Homo sapiens] &gt;pdb|3K7E|B Chain B, Caspase-6 [Homo sapiens] &gt;pdb|3K7E|C Chain C, Caspase-6 [Homo sapiens] &gt;pdb|3K7E|D Chain D, Caspase-6 [Homo sapiens] &gt;pdb|3OD5|A Chain A, Caspase-6 [Homo sapiens] &gt;pdb|3OD5|B Chain B, Caspase-6 [Homo sapiens] &gt;pdb|3S70|A Chain A, Caspase-6 [Homo sapiens] &gt;pdb|3S70|C Chain C, Caspase-6 [Homo sapiens]</Hit_def>
+  <Hit_accession>3K7E_A</Hit_accession>
+  <Hit_len>278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.8037</Hsp_bit-score>
+      <Hsp_score>203</Hsp_score>
+      <Hsp_evalue>5.23426e-17</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>493</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>DALKLTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIRSACDRSLV-RDSLVVFILSHGFEEAVYASNSIAMKITDIEDLL----CSYDTLYYKPKLLIIQACQEKLVHKKKPNELFRIDVTTVSPDQHI---------------DMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKR-------GSNDESMVPNVKSTFRQHVYFPPR</Hsp_qseq>
+      <Hsp_hseq>EKYKMDHRRRGIALIFNHERFFWHLT-----------LPERRGTCADRDNLTRRFSDLGFEVKCFNDLKAEELLLKIHEVSTVSHADADCFVCVFLSHGEGNHIYAYDA-KIEIQTLTGLFKGDKCH--SLVGKPKIFIIQACRGNQ-HDVPVIPLDVVDNQTEKLDTNITEVDAASVYTLPAGADFLMCYSVAEGYYSHRETVNGSWYIQDLCEMLGKYGSSLEFTELLTLVNRKVSQRRVDFCKDPSAIGKKQVPCFASMLTKKLHFFPK</Hsp_hseq>
+      <Hsp_midline>+  K+     GIALI N ++F  +++           L  R GT  D++ L   FS +G+ V+ ++++    ++ +I      S    D  V   LSHG    +YA ++  ++I  +  L     C   +L  KPK+ IIQAC+    H      L  +D  T   D +I               D L   S   GY + R T  GSW+I  LC+ + +  +S    ++LT+V  +VS++R        +  +  VP   S   + ++F P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>72</Hit_num>
+  <Hit_id>pdb|3R5K|A</Hit_id>
+  <Hit_def>Chain A, Caspase-7 [Homo sapiens] &gt;pdb|3R5K|B Chain B, Caspase-7 [Homo sapiens]</Hit_def>
+  <Hit_accession>3R5K_A</Hit_accession>
+  <Hit_len>312</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.1889</Hsp_bit-score>
+      <Hsp_score>204</Hsp_score>
+      <Hsp_evalue>5.53243e-17</Hsp_evalue>
+      <Hsp_query-from>256</Hsp_query-from>
+      <Hsp_query-to>490</Hsp_query-to>
+      <Hsp_hit-from>65</Hsp_hit-from>
+      <Hsp_hit-to>302</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>253</Hsp_align-len>
+      <Hsp_qseq>ENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIRSACDRSLVRDS-LVVFILSHGFEEAVYASNSIAMKITDIEDLLCSY-----DTLYYKPKLLIIQACQ-EKLVHKKKPNELFRIDVTTVSPDQHI----DMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKRGS-------NDESMVPNVKSTFRQHVYF</Hsp_qseq>
+      <Hsp_hseq>EKLGKCIIINNKNFDKVTG-----------MGVRNGTDKDAEALFKCFRSLGFDVIVYNDCSCAKMQDLLKKASEEDHTNAACFACILLSHGEENVIYGKDGV----TPIKDLTAHFRGDRCKTLLEKPKLFFIQACRGTELDDGIQADMSGPINDTDANPCYKIPVEADFLFAYSTVPGYYSWRSPGRGSWFVQALSSILEEHGKDLEIMQILTRVNDRVARHFESQSDDPHFHEKKQIPCVVSMLTKELYF</Hsp_hseq>
+      <Hsp_midline>E  G  +IIN + F +              +  R+GTD D E L + F S+G++V  Y++     + + ++ A +      +     +LSHG E  +Y  + +    T I+DL   +      TL  KPKL  IQAC+  +L    + +    I+ T  +P   I    D L A STV GY + R    GSWF+ +L   ++       I  ILT V + V++   S       +++  +P V S   + +YF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>73</Hit_num>
+  <Hit_id>pdb|6DEU|A</Hit_id>
+  <Hit_def>Chain A, Caspase-6 [Homo sapiens] &gt;pdb|6DEU|B Chain B, Caspase-6 [Homo sapiens]</Hit_def>
+  <Hit_accession>6DEU_A</Hit_accession>
+  <Hit_len>302</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.4185</Hsp_bit-score>
+      <Hsp_score>202</Hsp_score>
+      <Hsp_evalue>9.8132e-17</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>493</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>292</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>DALKLTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIRSACDRSLV-RDSLVVFILSHGFEEAVYASNSIAMKITDIEDLL----CSYDTLYYKPKLLIIQACQEKLVHKKKPNELFRIDVTTVSPDQHI---------------DMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKR-------GSNDESMVPNVKSTFRQHVYFPPR</Hsp_qseq>
+      <Hsp_hseq>EKYKMDHRRRGIALIFNHERFFWHLT-----------LPERRGTCADRDNLTRRFSDLGFEVKCFNDLKAEELLLKIHEVSTVSHTDADCFVCVFLSHGEGNHIYAYDA-KIEIQTLTGLFKGDKCH--SLVGKPKIFIIQACRGNQ-HDVPVIPLDVVDNQTEKLDTNITEVDAASVYTLPAGADFLMCYSVAEGYYSHRETVNGSWYIQDLCEMLGKYGSSLEFTELLTLVNRKVSQRRVDFCKDPSAIGKKQVPCFASMLTKKLHFFPK</Hsp_hseq>
+      <Hsp_midline>+  K+     GIALI N ++F  +++           L  R GT  D++ L   FS +G+ V+ ++++    ++ +I      S    D  V   LSHG    +YA ++  ++I  +  L     C   +L  KPK+ IIQAC+    H      L  +D  T   D +I               D L   S   GY + R T  GSW+I  LC+ + +  +S    ++LT+V  +VS++R        +  +  VP   S   + ++F P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>74</Hit_num>
+  <Hit_id>pdb|2WDP|A</Hit_id>
+  <Hit_def>Chain A, CASPASE-6 [Homo sapiens] &gt;pdb|2WDP|B Chain B, CASPASE-6 [Homo sapiens] &gt;pdb|2WDP|C Chain C, CASPASE-6 [Homo sapiens] &gt;pdb|2WDP|D Chain D, CASPASE-6 [Homo sapiens]</Hit_def>
+  <Hit_accession>2WDP_A</Hit_accession>
+  <Hit_len>293</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.0333</Hsp_bit-score>
+      <Hsp_score>201</Hsp_score>
+      <Hsp_evalue>9.82458e-17</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>493</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>291</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>DALKLTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIRSACDRSLV-RDSLVVFILSHGFEEAVYASNSIAMKITDIEDLL----CSYDTLYYKPKLLIIQACQEKLVHKKKPNELFRIDVTTVSPDQHI---------------DMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKR-------GSNDESMVPNVKSTFRQHVYFPPR</Hsp_qseq>
+      <Hsp_hseq>EKYKMDHRRRGIALIFNHERFFWHLT-----------LPERRGTCADRDNLTRRFSDLGFEVKCFNDLKAEELLLKIHEVSTVSHADADCFVCVFLSHGEGNHIYAYDA-KIEIQTLTGLFKGDKCH--SLVGKPKIFIIQACRGNQ-HDVPVIPLDVVDNQTEKLDTNITEVDAASVYTLPAGADFLMCYSVAEGYYSHRETVNGSWYIQDLCEMLGKYGSSLEFTELLTLVNRKVSQRRVDFCKDPSAIGKKQVPCFASMLTKKLHFFPK</Hsp_hseq>
+      <Hsp_midline>+  K+     GIALI N ++F  +++           L  R GT  D++ L   FS +G+ V+ ++++    ++ +I      S    D  V   LSHG    +YA ++  ++I  +  L     C   +L  KPK+ IIQAC+    H      L  +D  T   D +I               D L   S   GY + R T  GSW+I  LC+ + +  +S    ++LT+V  +VS++R        +  +  VP   S   + ++F P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>75</Hit_num>
+  <Hit_id>pdb|4FXO|A</Hit_id>
+  <Hit_def>Chain A, Caspase-6 [Homo sapiens] &gt;pdb|4FXO|B Chain B, Caspase-6 [Homo sapiens] &gt;pdb|4FXO|C Chain C, Caspase-6 [Homo sapiens] &gt;pdb|4FXO|D Chain D, Caspase-6 [Homo sapiens]</Hit_def>
+  <Hit_accession>4FXO_A</Hit_accession>
+  <Hit_len>299</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.0333</Hsp_bit-score>
+      <Hsp_score>201</Hsp_score>
+      <Hsp_evalue>1.06536e-16</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>493</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>291</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>DALKLTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIRSACDRSLV-RDSLVVFILSHGFEEAVYASNSIAMKITDIEDLL----CSYDTLYYKPKLLIIQACQEKLVHKKKPNELFRIDVTTVSPDQHI---------------DMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKR-------GSNDESMVPNVKSTFRQHVYFPPR</Hsp_qseq>
+      <Hsp_hseq>EKYKMDHRRRGIALIFNHERFFWHLT-----------LPERRGTCADRDNLTRRFSDLGFEVKCFNDLKAEELLLKIHEVSTVSHADADCFVCVFLSHGEGNHIYAYDA-KIEIQTLTGLFKGDKCH--SLVGKPKIFIIQACRGNQ-HDVPVIPLDVVDNQTEKLDTNITEVDAASVYTLPAGADFLMCYSVAEGYYSHRETVNGSWYIQDLCEMLGKYGSSLEFTELLTLVNRKVSQRRVDFCKDPSAIGKKQVPCFASMLTKKLHFFPK</Hsp_hseq>
+      <Hsp_midline>+  K+     GIALI N ++F  +++           L  R GT  D++ L   FS +G+ V+ ++++    ++ +I      S    D  V   LSHG    +YA ++  ++I  +  L     C   +L  KPK+ IIQAC+    H      L  +D  T   D +I               D L   S   GY + R T  GSW+I  LC+ + +  +S    ++LT+V  +VS++R        +  +  VP   S   + ++F P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>76</Hit_num>
+  <Hit_id>pdb|6DEV|A</Hit_id>
+  <Hit_def>Chain A, Caspase-6 [Homo sapiens] &gt;pdb|6DEV|B Chain B, Caspase-6 [Homo sapiens] &gt;pdb|6DEV|C Chain C, Caspase-6 [Homo sapiens] &gt;pdb|6DEV|D Chain D, Caspase-6 [Homo sapiens]</Hit_def>
+  <Hit_accession>6DEV_A</Hit_accession>
+  <Hit_len>302</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.0333</Hsp_bit-score>
+      <Hsp_score>201</Hsp_score>
+      <Hsp_evalue>1.09793e-16</Hsp_evalue>
+      <Hsp_query-from>252</Hsp_query-from>
+      <Hsp_query-to>493</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>292</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>KLTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIRSACDRSLV-RDSLVVFILSHGFEEAVYASNSIAMKITDIEDLL----CSYDTLYYKPKLLIIQACQEKLVHKKKPNELFRIDVTTVSPDQHI---------------DMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKR-------GSNDESMVPNVKSTFRQHVYFPPR</Hsp_qseq>
+      <Hsp_hseq>KMDHRRRGIALIFNHERFFWHLT-----------LPERRGTCADRDNLTRRFSDLGFEVKCFNDLKAEELLLKIHEVSTVSHADADCFVCVFLSHGEGNHIYAYDA-KIEIQTLTGLFKGDKCH--SLVGKPKIFIIQACRGNQ-HDVPVIPLDVVDNQTEKLDTNITEVDAASVYTLPAGADFLMCYSVAEGYYSHRETVNGSWYIQDLCEMLGKYGSSLEFTELLTLVNRKVSQRRVDFCKDPSAIGKKQVPCFASMLTKKLHFFPK</Hsp_hseq>
+      <Hsp_midline>K+     GIALI N ++F  +++           L  R GT  D++ L   FS +G+ V+ ++++    ++ +I      S    D  V   LSHG    +YA ++  ++I  +  L     C   +L  KPK+ IIQAC+    H      L  +D  T   D +I               D L   S   GY + R T  GSW+I  LC+ + +  +S    ++LT+V  +VS++R        +  +  VP   S   + ++F P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>77</Hit_num>
+  <Hit_id>pdb|3V6M|A</Hit_id>
+  <Hit_def>Chain A, Caspase-6 [Homo sapiens] &gt;pdb|3V6M|B Chain B, Caspase-6 [Homo sapiens] &gt;pdb|3V6M|C Chain C, Caspase-6 [Homo sapiens] &gt;pdb|3V6M|D Chain D, Caspase-6 [Homo sapiens] &gt;pdb|3V6M|F Chain F, Caspase-6 [Homo sapiens] &gt;pdb|3V6M|G Chain G, Caspase-6 [Homo sapiens] &gt;pdb|3V6M|I Chain I, Caspase-6 [Homo sapiens] &gt;pdb|3V6M|J Chain J, Caspase-6 [Homo sapiens]</Hit_def>
+  <Hit_accession>3V6M_A</Hit_accession>
+  <Hit_len>279</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.8777</Hsp_bit-score>
+      <Hsp_score>198</Hsp_score>
+      <Hsp_evalue>1.87705e-16</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>493</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>DALKLTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIRSACDRSLV-RDSLVVFILSHGFEEAVYASNSIAMKITDIEDLL----CSYDTLYYKPKLLIIQACQEKLVHKKKPNELFRIDVTTVSPDQHI---------------DMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKR-------GSNDESMVPNVKSTFRQHVYFPPR</Hsp_qseq>
+      <Hsp_hseq>EKYKMDHRRRGIALIFNHERFFWHLT-----------LPERRGTCADRDNLTRRFSDLGFEVKCFNDLKAEELLLKIHEVSTVSHADADCFVCVFLSHGEGNHIYAYDA-KIEIQTLTGLFKGDKCH--SLVGKPKIFIIQACRGNQ-HDVPVIPLDVVDNQTEKLDTNITEVDAASVYTLPAGADFLMCYSVAEGYYSHRETVNGSWYIQDLCEMLGKYGSSLEFTELLTLVNRKVEQRRVDFCKDPSAIGKKQVPCFASMLTKKLHFFPK</Hsp_hseq>
+      <Hsp_midline>+  K+     GIALI N ++F  +++           L  R GT  D++ L   FS +G+ V+ ++++    ++ +I      S    D  V   LSHG    +YA ++  ++I  +  L     C   +L  KPK+ IIQAC+    H      L  +D  T   D +I               D L   S   GY + R T  GSW+I  LC+ + +  +S    ++LT+V  +V ++R        +  +  VP   S   + ++F P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>78</Hit_num>
+  <Hit_id>pdb|3S8E|A</Hit_id>
+  <Hit_def>Chain A, Caspase-6 [Homo sapiens] &gt;pdb|3S8E|B Chain B, Caspase-6 [Homo sapiens] &gt;pdb|3S8E|C Chain C, Caspase-6 [Homo sapiens] &gt;pdb|3S8E|D Chain D, Caspase-6 [Homo sapiens] &gt;pdb|3S8E|E Chain E, Caspase-6 [Homo sapiens] &gt;pdb|3S8E|F Chain F, Caspase-6 [Homo sapiens] &gt;pdb|3S8E|G Chain G, Caspase-6 [Homo sapiens] &gt;pdb|3S8E|H Chain H, Caspase-6 [Homo sapiens]</Hit_def>
+  <Hit_accession>3S8E_A</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.8777</Hsp_bit-score>
+      <Hsp_score>198</Hsp_score>
+      <Hsp_evalue>2.15936e-16</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>493</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>DALKLTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIRSACDRSLV-RDSLVVFILSHGFEEAVYASNSIAMKITDIEDLL----CSYDTLYYKPKLLIIQACQEKLVHKKKPNELFRIDVTTVSPDQHI---------------DMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKR-------GSNDESMVPNVKSTFRQHVYFPPR</Hsp_qseq>
+      <Hsp_hseq>EKYKMDHRRRGIALIFNHERFFWHLT-----------LPERRGTCADRDNLTRRFSDLGFEVKCFNDLKAEELLLKIHEVSTVSHADADCFVCVFLSHGEGNHIYAYDA-KIEIQTLTGLFKGDKCH--SLVGKPKIFIIQACRGNQ-HDVPVIPLDVVDNQTEKLDTNITEVDAASVYTLPAGADFLMCYSVAEGYYSHRETVNGSWYIQDLCEMLGKYGSSLEFTELLTLVNRKVDQRRVDFCKDPSAIGKKQVPCFASMLTKKLHFFPK</Hsp_hseq>
+      <Hsp_midline>+  K+     GIALI N ++F  +++           L  R GT  D++ L   FS +G+ V+ ++++    ++ +I      S    D  V   LSHG    +YA ++  ++I  +  L     C   +L  KPK+ IIQAC+    H      L  +D  T   D +I               D L   S   GY + R T  GSW+I  LC+ + +  +S    ++LT+V  +V ++R        +  +  VP   S   + ++F P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>79</Hit_num>
+  <Hit_id>pdb|3V6L|A</Hit_id>
+  <Hit_def>Chain A, Caspase-6 [Homo sapiens] &gt;pdb|3V6L|B Chain B, Caspase-6 [Homo sapiens]</Hit_def>
+  <Hit_accession>3V6L_A</Hit_accession>
+  <Hit_len>282</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.8777</Hsp_bit-score>
+      <Hsp_score>198</Hsp_score>
+      <Hsp_evalue>2.43322e-16</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>493</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>DALKLTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIRSACDRSLV-RDSLVVFILSHGFEEAVYASNSIAMKITDIEDLL----CSYDTLYYKPKLLIIQACQEKLVHKKKPNELFRIDVTTVSPDQHI---------------DMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKR-------GSNDESMVPNVKSTFRQHVYFPPR</Hsp_qseq>
+      <Hsp_hseq>EKYKMDHRRRGIALIFNHERFFWHLT-----------LPERRGTCADRDNLTRRFSDLGFEVKCFNDLKAEELLLKIHEVSTVSHADADCFVCVFLSHGEGNHIYAYDA-KIEIQTLTGLFKGDKCH--SLVGKPKIFIIQACRGNQ-HDVPVIPLDVVDNQTEKLDTNITEVDAASVYTLPAGADFLMCYSVAEGYYSHRETVNGSWYIQDLCEMLGKYGSSLEFTELLTLVNRKVEQRRVDFCKDPSAIGKKQVPCFASMLTKKLHFFPK</Hsp_hseq>
+      <Hsp_midline>+  K+     GIALI N ++F  +++           L  R GT  D++ L   FS +G+ V+ ++++    ++ +I      S    D  V   LSHG    +YA ++  ++I  +  L     C   +L  KPK+ IIQAC+    H      L  +D  T   D +I               D L   S   GY + R T  GSW+I  LC+ + +  +S    ++LT+V  +V ++R        +  +  VP   S   + ++F P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>80</Hit_num>
+  <Hit_id>pdb|3NR2|A</Hit_id>
+  <Hit_def>Chain A, Caspase-6 [Homo sapiens] &gt;pdb|3NR2|B Chain B, Caspase-6 [Homo sapiens]</Hit_def>
+  <Hit_accession>3NR2_A</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.1073</Hsp_bit-score>
+      <Hsp_score>196</Hsp_score>
+      <Hsp_evalue>5.03366e-16</Hsp_evalue>
+      <Hsp_query-from>227</Hsp_query-from>
+      <Hsp_query-to>493</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>46</Hsp_gaps>
+      <Hsp_align-len>298</Hsp_align-len>
+      <Hsp_qseq>AAMAVKQEIESDNQQSYCSTQI----DALKLTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIRSACDRSLV-RDSLVVFILSHGFEEAVYASNSIAMKITDIEDLL----CSYDTLYYKPKLLIIQACQEKLVHKKKPNELFRIDVTTVSPDQHI---------------DMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKR-------GSNDESMVPNVKSTFRQHVYFPPR</Hsp_qseq>
+      <Hsp_hseq>ASMTGGQQMGRDPNSAFYKREMFDPAEKYKMDHRRRGIALIFNHERFFWHLT-----------LPERRGTCADRDNLTRRFSDLGFEVKCFNDLKVEELLLKIHEVSTVSHADADCFVCVFLSHGEGNHIYAYDA-KIEIQTLTGLFKGDKCH--SLVGKPKIFIIQAARGNQ-HDVPVIPLDVVDNQTEKLDTNITEVDAASVYTLPAGADFLMCYSVAEGYYSHRETVNGSWYIQDLCEMLGKYGSSLEFTELLTLVNRKVSQRRVDFCKDPSAIGKKQVPCFASMLTKKLHFFPK</Hsp_hseq>
+      <Hsp_midline>A+M   Q++  D   ++   ++    +  K+     GIALI N ++F  +++           L  R GT  D++ L   FS +G+ V+ ++++    ++ +I      S    D  V   LSHG    +YA ++  ++I  +  L     C   +L  KPK+ IIQA +    H      L  +D  T   D +I               D L   S   GY + R T  GSW+I  LC+ + +  +S    ++LT+V  +VS++R        +  +  VP   S   + ++F P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>81</Hit_num>
+  <Hit_id>pdb|4EJF|A</Hit_id>
+  <Hit_def>Chain A, Caspase-6 [Homo sapiens] &gt;pdb|4EJF|B Chain B, Caspase-6 [Homo sapiens] &gt;pdb|4EJF|C Chain C, Caspase-6 [Homo sapiens] &gt;pdb|4EJF|D Chain D, Caspase-6 [Homo sapiens]</Hit_def>
+  <Hit_accession>4EJF_A</Hit_accession>
+  <Hit_len>279</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.5666</Hsp_bit-score>
+      <Hsp_score>192</Hsp_score>
+      <Hsp_evalue>1.34921e-15</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>493</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>271</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>DALKLTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIRSACDRSLV-RDSLVVFILSHGFEEAVYASNSIAMKITDIEDLL----CSYDTLYYKPKLLIIQACQEKLVHKKKPNELFRIDVTTVSPDQHI---------------DMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKR-------GSNDESMVPNVKSTFRQHVYFPPR</Hsp_qseq>
+      <Hsp_hseq>EKYKMDHRRRGIALIFNHERFFWHLT-----------LPERRGTCADRDNLTRRFSDLGFEVKCFNDLKAEELLLKIHEVSTVSHADADCFVCVFLSHGEGNHIYAYDA-KIEIQTLTGLFKGDKCH--SLVGKPKIFIIQAARGNQ-HDVPVIPLDVVDNQTEKLDTNITEVDAASVYTLPAGADFLMCYSVAEGYYSHRETVNGSWYIQDLCEMLGKYGSSLEFTELLTLVNRKVSQRRVDFCKDPSAIGKKQVPCFASMLTKKLHFFPK</Hsp_hseq>
+      <Hsp_midline>+  K+     GIALI N ++F  +++           L  R GT  D++ L   FS +G+ V+ ++++    ++ +I      S    D  V   LSHG    +YA ++  ++I  +  L     C   +L  KPK+ IIQA +    H      L  +D  T   D +I               D L   S   GY + R T  GSW+I  LC+ + +  +S    ++LT+V  +VS++R        +  +  VP   S   + ++F P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>82</Hit_num>
+  <Hit_id>pdb|4N5D|A</Hit_id>
+  <Hit_def>Chain A, Caspase-6 [Homo sapiens] &gt;pdb|4N5D|B Chain B, Caspase-6 [Homo sapiens] &gt;pdb|4N6G|A Chain A, Caspase-6 [Homo sapiens] &gt;pdb|4N6G|B Chain B, Caspase-6 [Homo sapiens] &gt;pdb|4N7J|A Chain A, Caspase-6 [Homo sapiens] &gt;pdb|4N7J|B Chain B, Caspase-6 [Homo sapiens] &gt;pdb|4N7M|A Chain A, Caspase-6 [Homo sapiens] &gt;pdb|4N7M|B Chain B, Caspase-6 [Homo sapiens] &gt;pdb|4NBK|A Chain A, Caspase-6 [Homo sapiens] &gt;pdb|4NBK|B Chain B, Caspase-6 [Homo sapiens] &gt;pdb|4NBL|A Chain A, Caspase-6 [Homo sapiens] &gt;pdb|4NBL|B Chain B, Caspase-6 [Homo sapiens] &gt;pdb|4NBN|A Chain A, Caspase-6 [Homo sapiens] &gt;pdb|4NBN|B Chain B, Caspase-6 [Homo sapiens]</Hit_def>
+  <Hit_accession>4N5D_A</Hit_accession>
+  <Hit_len>282</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.1814</Hsp_bit-score>
+      <Hsp_score>191</Hsp_score>
+      <Hsp_evalue>1.76092e-15</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>493</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>271</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>DALKLTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIRSACDRSLV-RDSLVVFILSHGFEEAVYASNSIAMKITDIEDLL----CSYDTLYYKPKLLIIQACQEKLVHKKKPNELFRIDVTTVSPDQHI---------------DMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKR-------GSNDESMVPNVKSTFRQHVYFPPR</Hsp_qseq>
+      <Hsp_hseq>EKYKMDHRRRGIALIFNHERFFWHLT-----------LPERRGTCADRDNLTRRFSDLGFEVKCFNDLKAEELLLKIHEVSTVSHADADCFVCVFLSHGEGNHIYAYDA-KIEIQTLTGLFKGDKCH--SLVGKPKIFIIQAARGNQ-HDVPVIPLDVVDNQTEKLDTNITEVDAASVYTLPAGADFLMCYSVAEGYYSHRETVNGSWYIQDLCEMLGKYGSSLEFTELLTLVNRKVSQRRVDFCKDPSAIGKKQVPCFASMLTKKLHFFPK</Hsp_hseq>
+      <Hsp_midline>+  K+     GIALI N ++F  +++           L  R GT  D++ L   FS +G+ V+ ++++    ++ +I      S    D  V   LSHG    +YA ++  ++I  +  L     C   +L  KPK+ IIQA +    H      L  +D  T   D +I               D L   S   GY + R T  GSW+I  LC+ + +  +S    ++LT+V  +VS++R        +  +  VP   S   + ++F P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>83</Hit_num>
+  <Hit_id>pdb|4IYR|A</Hit_id>
+  <Hit_def>Chain A, Caspase-6 [Homo sapiens] &gt;pdb|4IYR|B Chain B, Caspase-6 [Homo sapiens]</Hit_def>
+  <Hit_accession>4IYR_A</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.1814</Hsp_bit-score>
+      <Hsp_score>191</Hsp_score>
+      <Hsp_evalue>2.1257e-15</Hsp_evalue>
+      <Hsp_query-from>252</Hsp_query-from>
+      <Hsp_query-to>493</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>294</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>KLTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIRSACDRSLV-RDSLVVFILSHGFEEAVYASNSIAMKITDIEDLL----CSYDTLYYKPKLLIIQACQEKLVHKKKPNELFRIDVTTVSPDQHI---------------DMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKR-------GSNDESMVPNVKSTFRQHVYFPPR</Hsp_qseq>
+      <Hsp_hseq>KMDHRRRGIALIFNHERFFWHLT-----------LPERRGTCADRDNLTRRFSDLGFEVKCFNDLKAEELLLKIHEVSTVSHADADCFVCVFLSAGEGNHIYAYDA-KIEIQTLTGLFKGDKCH--SLVGKPKIFIIQACRGNQ-HDVPVIPLDVVDNQTEKLDTNITEVDAASVYTLPAGADFLMCYSVAEGYYSHRETVNGSWYIQDLCEMLGKYGSSLEFTELLTLVNRKVSQRRVDFCKDPSAIGKKQVPCFASMLTKKLHFFPK</Hsp_hseq>
+      <Hsp_midline>K+     GIALI N ++F  +++           L  R GT  D++ L   FS +G+ V+ ++++    ++ +I      S    D  V   LS G    +YA ++  ++I  +  L     C   +L  KPK+ IIQAC+    H      L  +D  T   D +I               D L   S   GY + R T  GSW+I  LC+ + +  +S    ++LT+V  +VS++R        +  +  VP   S   + ++F P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>84</Hit_num>
+  <Hit_id>pdb|8F78|A</Hit_id>
+  <Hit_def>Chain A, Procaspase-6 [Homo sapiens] &gt;pdb|8F78|B Chain B, Procaspase-6 [Homo sapiens] &gt;pdb|8F78|C Chain C, Procaspase-6 [Homo sapiens] &gt;pdb|8F78|D Chain D, Procaspase-6 [Homo sapiens] &gt;pdb|8F96|A Chain A, Procaspase-6 [Homo sapiens] &gt;pdb|8F96|B Chain B, Procaspase-6 [Homo sapiens] &gt;pdb|8F96|C Chain C, Procaspase-6 [Homo sapiens] &gt;pdb|8F96|D Chain D, Procaspase-6 [Homo sapiens] &gt;pdb|8F97|A Chain A, Procaspase-6 [Homo sapiens] &gt;pdb|8F97|B Chain B, Procaspase-6 [Homo sapiens] &gt;pdb|8F97|C Chain C, Procaspase-6 [Homo sapiens] &gt;pdb|8F97|D Chain D, Procaspase-6 [Homo sapiens] &gt;pdb|8F98|A Chain A, Procaspase-6 [Homo sapiens] &gt;pdb|8F98|B Chain B, Procaspase-6 [Homo sapiens] &gt;pdb|8F98|C Chain C, Procaspase-6 [Homo sapiens] &gt;pdb|8F98|D Chain D, Procaspase-6 [Homo sapiens] &gt;pdb|8F99|A Chain A, Procaspase-6 [Homo sapiens] &gt;pdb|8F99|B Chain B, Procaspase-6 [Homo sapiens] &gt;pdb|8F99|C Chain C, Procaspase-6 [Homo sapiens] &gt;pdb|8F99|D Chain D, Procaspase-6 [Homo sapiens] &gt;pdb|8F9A|A Chain A, Procaspase-6 [Homo sapiens] &gt;pdb|8F9A|B Chain B, Procaspase-6 [Homo sapiens] &gt;pdb|8F9A|C Chain C, Procaspase-6 [Homo sapiens] &gt;pdb|8F9A|D Chain D, Procaspase-6 [Homo sapiens] &gt;pdb|8F9B|A Chain A, Procaspase-6 [Homo sapiens] &gt;pdb|8F9B|B Chain B, Procaspase-6 [Homo sapiens] &gt;pdb|8F9B|C Chain C, Procaspase-6 [Homo sapiens] &gt;pdb|8F9B|D Chain D, Procaspase-6 [Homo sapiens] &gt;pdb|8F9C|A Chain A, Procaspase-6 [Homo sapiens] &gt;pdb|8F9C|B Chain B, Procaspase-6 [Homo sapiens] &gt;pdb|8F9C|C Chain C, Procaspase-6 [Homo sapiens] &gt;pdb|8F9C|D Chain D, Procaspase-6 [Homo sapiens] &gt;pdb|8F9D|A Chain A, Procaspase-6 [Homo sapiens] &gt;pdb|8F9D|B Chain B, Procaspase-6 [Homo sapiens] &gt;pdb|8F9D|C Chain C, Procaspase-6 [Homo sapiens] &gt;pdb|8F9D|D Chain D, Procaspase-6 [Homo sapiens] &gt;pdb|8FBV|A Chain A, Procaspase-6 [Homo sapiens] &gt;pdb|8FBV|B Chain B, Procaspase-6 [Homo sapiens] &gt;pdb|8FBV|C Chain C, Procaspase-6 [Homo sapiens] &gt;pdb|8FBV|D Chain D, Procaspase-6 [Homo sapiens]</Hit_def>
+  <Hit_accession>8F78_A</Hit_accession>
+  <Hit_len>299</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.1814</Hsp_bit-score>
+      <Hsp_score>191</Hsp_score>
+      <Hsp_evalue>2.32179e-15</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>493</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>291</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>DALKLTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIRSACDRSLV-RDSLVVFILSHGFEEAVYASNSIAMKITDIEDLL----CSYDTLYYKPKLLIIQACQEKLVHKKKPNELFRIDVTTVSPDQHI---------------DMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKR-------GSNDESMVPNVKSTFRQHVYFPPR</Hsp_qseq>
+      <Hsp_hseq>EKYKMDHRRRGIALIFNHERFFWHLT-----------LPERRGTCADRDNLTRRFSDLGFEVKCFNDLKAEELLLKIHEVSTVSHADADCFVCVFLSHGEGNHIYAYDA-KIEIQTLTGLFKGDKCH--SLVGKPKIFIIQAARGNQ-HDVPVIPLDVVDNQTEKLDTNITEVDAASVYTLPAGADFLMCYSVAEGYYSHRETVNGSWYIQDLCEMLGKYGSSLEFTELLTLVNRKVSQRRVDFCKDPSAIGKKQVPCFASMLTKKLHFFPK</Hsp_hseq>
+      <Hsp_midline>+  K+     GIALI N ++F  +++           L  R GT  D++ L   FS +G+ V+ ++++    ++ +I      S    D  V   LSHG    +YA ++  ++I  +  L     C   +L  KPK+ IIQA +    H      L  +D  T   D +I               D L   S   GY + R T  GSW+I  LC+ + +  +S    ++LT+V  +VS++R        +  +  VP   S   + ++F P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>85</Hit_num>
+  <Hit_id>pdb|2NN3|C</Hit_id>
+  <Hit_def>Chain C, Caspase-1 [Spodoptera frugiperda] &gt;pdb|2NN3|D Chain D, Caspase-1 [Spodoptera frugiperda]</Hit_def>
+  <Hit_accession>2NN3_C</Hit_accession>
+  <Hit_len>310</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.7962</Hsp_bit-score>
+      <Hsp_score>190</Hsp_score>
+      <Hsp_evalue>3.15615e-15</Hsp_evalue>
+      <Hsp_query-from>253</Hsp_query-from>
+      <Hsp_query-to>479</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>270</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>45</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>LTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIRSACDRSLV-RDSLVVFILSHGFEEAVYASNSIAMKITDIEDLLCSY------DTLYYKPKLLIIQACQ----------EKLVHKKKPNELFRIDVTTVSPDQHIDMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKRGSNDESMVPN</Hsp_qseq>
+      <Hsp_hseq>MNHKHRGMAIIFNHEHFDIH------------SLKSRTGTNVDSDNLSKVLKTLGFKVTVFPNLKSEEINKFIQQTAEMDHSDADCLLVAVLTAGELGMLYAKDTHYK-----PDNLWYYFTADKCPTLAGKPKLFFIQACQGDRLDGGITLSRTETDGSPSTSYRIPV-------HADFLIAFSTVPGYFSWRNTTRGSWFMQALCEEL-RYAGTER--DILTLLT-FVCQKVALDFESNAPD</Hsp_hseq>
+      <Hsp_midline>+  ++ G+A+I N + F  +             L+ R GT+VD + L +V  ++G+ V  + N+    I + I+   +      D L+V +L+ G    +YA ++         D L  Y       TL  KPKL  IQACQ           +      P+  +RI V       H D L A STV GY + R+T  GSWF+ +LC+ + R + +E   DILT++T  V +K   + ES  P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>86</Hit_num>
+  <Hit_id>pdb|1JXQ|A</Hit_id>
+  <Hit_def>Chain A, Caspase-9 [Homo sapiens] &gt;pdb|1JXQ|B Chain B, Caspase-9 [Homo sapiens] &gt;pdb|1JXQ|C Chain C, Caspase-9 [Homo sapiens] &gt;pdb|1JXQ|D Chain D, Caspase-9 [Homo sapiens]</Hit_def>
+  <Hit_accession>1JXQ_A</Hit_accession>
+  <Hit_len>284</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.411</Hsp_bit-score>
+      <Hsp_score>189</Hsp_score>
+      <Hsp_evalue>3.54811e-15</Hsp_evalue>
+      <Hsp_query-from>248</Hsp_query-from>
+      <Hsp_query-to>490</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>46</Hsp_gaps>
+      <Hsp_align-len>282</Hsp_align-len>
+      <Hsp_qseq>IDALKLTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDH----MGIIERIRSACDRSLVRDSLVVFILSHG-------FEEAVYASNSIAMKITDIEDLL--CSYDTLYYKPKLLIIQAC-----------------QEKLVHKKKPN-----ELFR----IDVTTVSPDQHIDMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKRGSNDESMVPNVKSTFRQHVYF</Hsp_qseq>
+      <Hsp_hseq>MGALESLRGNADLAYILSMEPCGHCLIINNVNFCRESGLRTRTGSNIDCEKLRRRFSSLHFMVEVKGDLTAKKMVLALLELARQ--DHGAL-DCCVVVILSHGCQASHLQFPGAVYGTDGCPVSVEKIVNIFNGTSCPSLGGKPKLFFIQACGGEQKDHGFEVASTSPEDESPGSNPEPDATPFQEGLRTFDQLDAISSLPTPS-DIFVSYSTFPGFVSWRDPKSGSWYVETLDDIFEQWAHSEDLQSLLLRVANAVSVK---GIYKQMPGCFNFLRKKLFF</Hsp_hseq>
+      <Hsp_midline>+ AL+  R NA +A I++ +     +  +N+ F     LR R G+++D E+L   FSS+ + VE   ++      + ++E  R   D   + D  VV ILSHG       F  AVY ++   + +  I ++    S  +L  KPKL  IQAC                  E      +P+     E  R    +D  +  P    D+  + ST  G+ + R  ++GSW++ +L D  ++ + SE +  +L  V N VS K        +P   +  R+ ++F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>87</Hit_num>
+  <Hit_id>pdb|1NW9|B</Hit_id>
+  <Hit_def>Chain B, caspase 9, apoptosis-related cysteine protease [Homo sapiens]</Hit_def>
+  <Hit_accession>1NW9_B</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.0258</Hsp_bit-score>
+      <Hsp_score>188</Hsp_score>
+      <Hsp_evalue>4.04051e-15</Hsp_evalue>
+      <Hsp_query-from>250</Hsp_query-from>
+      <Hsp_query-to>490</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>274</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>46</Hsp_gaps>
+      <Hsp_align-len>280</Hsp_align-len>
+      <Hsp_qseq>ALKLTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDH----MGIIERIRSACDRSLVRDSLVVFILSHG-------FEEAVYASNSIAMKITDIEDLL--CSYDTLYYKPKLLIIQAC-----------------QEKLVHKKKPN-----ELFR----IDVTTVSPDQHIDMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKRGSNDESMVPNVKSTFRQHVYF</Hsp_qseq>
+      <Hsp_hseq>ALESLRGNADLAYILSMEPCGHCLIINNVNFCRESGLRTRTGSNIDCEKLRRRFSSLHFMVEVKGDLTAKKMVLALLELARQ--DHGAL-DCCVVVILSHGCQASHLQFPGAVYGTDGCPVSVEKIVNIFNGTSCPSLGGKPKLFFIQACGGEQKDHGFEVASTSPEDESPGSNPEPDATPFQEGLRTFDQLDAISSLPTPS-DIFVSYSTFPGFVSWRDPKSGSWYVETLDDIFEQWAHSEDLQSLLLRVANAVSVK---GIYKQMPGCFNFLRKKLFF</Hsp_hseq>
+      <Hsp_midline>AL+  R NA +A I++ +     +  +N+ F     LR R G+++D E+L   FSS+ + VE   ++      + ++E  R   D   + D  VV ILSHG       F  AVY ++   + +  I ++    S  +L  KPKL  IQAC                  E      +P+     E  R    +D  +  P    D+  + ST  G+ + R  ++GSW++ +L D  ++ + SE +  +L  V N VS K        +P   +  R+ ++F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>88</Hit_num>
+  <Hit_id>pdb|3V3K|A</Hit_id>
+  <Hit_def>Chain A, Caspase-9 [Homo sapiens] &gt;pdb|3V3K|C Chain C, Caspase-9 [Homo sapiens] &gt;pdb|3V3K|E Chain E, Caspase-9 [Homo sapiens] &gt;pdb|3V3K|G Chain G, Caspase-9 [Homo sapiens] &gt;pdb|3V3K|I Chain I, Caspase-9 [Homo sapiens] &gt;pdb|3V3K|K Chain K, Caspase-9 [Homo sapiens] &gt;pdb|3V3K|M Chain M, Caspase-9 [Homo sapiens] &gt;pdb|3V3K|O Chain O, Caspase-9 [Homo sapiens]</Hit_def>
+  <Hit_accession>3V3K_A</Hit_accession>
+  <Hit_len>276</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.0258</Hsp_bit-score>
+      <Hsp_score>188</Hsp_score>
+      <Hsp_evalue>4.25522e-15</Hsp_evalue>
+      <Hsp_query-from>250</Hsp_query-from>
+      <Hsp_query-to>490</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>46</Hsp_gaps>
+      <Hsp_align-len>280</Hsp_align-len>
+      <Hsp_qseq>ALKLTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDH----MGIIERIRSACDRSLVRDSLVVFILSHG-------FEEAVYASNSIAMKITDIEDLL--CSYDTLYYKPKLLIIQAC-----------------QEKLVHKKKPN-----ELFR----IDVTTVSPDQHIDMLRAMSTVNGYAALRHTQTGSWFIGSLCDAIDRRSASEHIADILTIVTNEVSKKRGSNDESMVPNVKSTFRQHVYF</Hsp_qseq>
+      <Hsp_hseq>ALESLRGNADLAYILSMEPCGHCLIINNVNFCRESGLRTRTGSNIDCEKLRRRFSSLHFMVEVKGDLTAKKMVLALLELARQ--DHGAL-DCCVVVILSHGCQASHLQFPGAVYGTDGCPVSVEKIVNIFNGTSCPSLGGKPKLFFIQACGGEQKDHGFEVASTSPEDESPGSNPEPDATPFQEGLRTFDQLDAISSLPTPS-DIFVSYSTFPGFVSWRDPKSGSWYVETLDDIFEQWAHSEDLQSLLLRVANAVSVK---GIYKQMPGCFNFLRKKLFF</Hsp_hseq>
+      <Hsp_midline>AL+  R NA +A I++ +     +  +N+ F     LR R G+++D E+L   FSS+ + VE   ++      + ++E  R   D   + D  VV ILSHG       F  AVY ++   + +  I ++    S  +L  KPKL  IQAC                  E      +P+     E  R    +D  +  P    D+  + ST  G+ + R  ++GSW++ +L D  ++ + SE +  +L  V N VS K        +P   +  R+ ++F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>89</Hit_num>
+  <Hit_id>pdb|6PPM|A</Hit_id>
+  <Hit_def>Chain A, Ancestral Caspase-6 Large Subunit [Homo sapiens] &gt;pdb|6PPM|C Chain C, Ancestral Caspase-6 Large Subunit [Homo sapiens] &gt;pdb|6PPM|G Chain G, Ancestral Caspase-6 Large Subunit [Homo sapiens] &gt;pdb|6PPM|J Chain J, Ancestral Caspase-6 Large Subunit [Homo sapiens]</Hit_def>
+  <Hit_accession>6PPM_A</Hit_accession>
+  <Hit_len>151</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.5514</Hsp_bit-score>
+      <Hsp_score>166</Hsp_score>
+      <Hsp_evalue>3.04427e-13</Hsp_evalue>
+      <Hsp_query-from>252</Hsp_query-from>
+      <Hsp_query-to>387</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>KLTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIRSA--CDRSLVRDSLVVFILSHGFEEAVYASNSIAMKITDIEDLL----CSYDTLYYKPKLLIIQACQ</Hsp_qseq>
+      <Hsp_hseq>KMNHKRRGLALIFNQKRFDWKLG-----------LKTRNGTDKDRDNLERRFQELGFEVKAYNDLSAEEVLEKIQEASTADHSDA-DCFVCVFLSHGEDGHVYA-NDAKIEIQELTNLFKGDKCQ--SLVGKPKIFIIQACR</Hsp_hseq>
+      <Hsp_midline>K+  +  G+ALI NQ++F   +            L+ R+GTD D++ L   F  +G+ V+AY+++    ++E+I+ A   D S   D  V   LSHG +  VYA N   ++I ++ +L     C   +L  KPK+ IIQAC+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>90</Hit_num>
+  <Hit_id>pdb|6BGS|A</Hit_id>
+  <Hit_def>Chain A, Caspase-3 [Homo sapiens]</Hit_def>
+  <Hit_accession>6BGS_A</Hit_accession>
+  <Hit_len>175</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.3882</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>7.93255e-11</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>387</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>164</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>DALKLTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIR--SACDRSLVRDSLVVFILSHGFEEAVYASNSIA--MKITDI-EDLLCSYDTLYYKPKLLIIQACQ</Hsp_qseq>
+      <Hsp_hseq>NSYKMDYPEMGLCIIINNKNFHKSTG-----------MTSRSGTDVDAANLRETFRNLKYEVRNKNDLTREEIVELMRDVSKEDHS-KRSSFVCVLLSHGEEGIIFGTNGPVDLKKITNFFRGDRCRY--LTGKPKLFIIQACR</Hsp_hseq>
+      <Hsp_midline>++ K+     G+ +IIN + FH++             +  R GTDVD   L E F ++ Y V   +++    I+E +R  S  D S  R S V  +LSHG E  ++ +N      KIT+      C Y  L  KPKL IIQAC+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>91</Hit_num>
+  <Hit_id>pdb|6PDQ|A</Hit_id>
+  <Hit_def>Chain A, Ancestral Effector Caspase-3/6/7 [Homo sapiens] &gt;pdb|6PDQ|D Chain D, Ancestral Effector Caspase-3/6/7 [Homo sapiens]</Hit_def>
+  <Hit_accession>6PDQ_A</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.8474</Hsp_bit-score>
+      <Hsp_score>146</Hsp_score>
+      <Hsp_evalue>1.49189e-10</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>387</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>132</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>DALKLTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIR--SACDRSLVRDSLVVFILSHGFEEAVYASNSIAMKITDIEDLL----CSYDTLYYKPKLLIIQACQ</Hsp_qseq>
+      <Hsp_hseq>NSYKMNHKRRGLCLIINNKNFDRKTG-----------MKTRNGTDKDAENLEKTFKSLGFEVKVYNDLTAEEMQETLQEVSKEDHS-DSDCFVCVLLSHGEEGLVYGTDG-KIEIQELTSLFKGDKCQ--SLVGKPKLFFIQACR</Hsp_hseq>
+      <Hsp_midline>++ K+  +  G+ LIIN + F R              ++ R+GTD D E L + F S+G+ V+ Y+++    + E ++  S  D S   D  V  +LSHG E  VY ++   ++I ++  L     C   +L  KPKL  IQAC+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>92</Hit_num>
+  <Hit_id>pdb|4DCP|A</Hit_id>
+  <Hit_def>Chain A, Caspase-3 subunit p17 [Homo sapiens] &gt;pdb|4DCP|D Chain D, Caspase-3 subunit p17 [Homo sapiens]</Hit_def>
+  <Hit_accession>4DCP_A</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.077</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>2.61855e-10</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>387</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>DALKLTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIR--SACDRSLVRDSLVVFILSHGFEEAVYASNSIAMKITDIEDLL----CSYDTLYYKPKLLIIQACQ</Hsp_qseq>
+      <Hsp_hseq>NSYKMDYPEMGLCIIINNKNFHKSTG-----------MTSRSGTDVDAANLRETFRNLKYEVRNKNDLTREEIVELMRDVSKEDHS-KRSSFVCVLLSHGEEGIIFGTNG-PVDLKKITNFFRGDRCR--SLTGKPKLFIIQACR</Hsp_hseq>
+      <Hsp_midline>++ K+     G+ +IIN + FH++             +  R GTDVD   L E F ++ Y V   +++    I+E +R  S  D S  R S V  +LSHG E  ++ +N   + +  I +      C   +L  KPKL IIQAC+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>93</Hit_num>
+  <Hit_id>pdb|1NME|A</Hit_id>
+  <Hit_def>Chain A, Caspase-3 [Homo sapiens] &gt;pdb|2DKO|A Chain A, Caspase-3 [Homo sapiens] &gt;pdb|2H5I|A Chain A, caspase-3, p17 subunit [Homo sapiens] &gt;pdb|2H5J|A Chain A, caspase-3, p17 subunit [Homo sapiens] &gt;pdb|2H5J|C Chain C, caspase-3, p17 subunit [Homo sapiens] &gt;pdb|2H65|A Chain A, caspase-3, p17 subunit [Homo sapiens] &gt;pdb|2H65|C Chain C, caspase-3, p17 subunit [Homo sapiens] &gt;pdb|2XYG|A Chain A, Caspase-3 Subunit P17 [Homo sapiens] &gt;pdb|2XYH|A Chain A, Caspase-3 Subunit P17 [Homo sapiens] &gt;pdb|2XYP|A Chain A, Caspase-3 Subunit P17 [Homo sapiens] &gt;pdb|7SEO|A Chain A, Caspase-3 subunit p17 [Homo sapiens] &gt;pdb|7SEO|C Chain C, Caspase-3 subunit p17 [Homo sapiens]</Hit_def>
+  <Hit_accession>1NME_A</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.077</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>2.63773e-10</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>387</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>DALKLTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIR--SACDRSLVRDSLVVFILSHGFEEAVYASNSIAMKITDIEDLL----CSYDTLYYKPKLLIIQACQ</Hsp_qseq>
+      <Hsp_hseq>NSYKMDYPEMGLCIIINNKNFHKSTG-----------MTSRSGTDVDAANLRETFRNLKYEVRNKNDLTREEIVELMRDVSKEDHS-KRSSFVCVLLSHGEEGIIFGTNG-PVDLKKITNFFRGDRCR--SLTGKPKLFIIQACR</Hsp_hseq>
+      <Hsp_midline>++ K+     G+ +IIN + FH++             +  R GTDVD   L E F ++ Y V   +++    I+E +R  S  D S  R S V  +LSHG E  ++ +N   + +  I +      C   +L  KPKL IIQAC+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>94</Hit_num>
+  <Hit_id>pdb|7RN7|A</Hit_id>
+  <Hit_def>Chain A, Caspase-3 subunit p17 [Homo sapiens] &gt;pdb|7RN7|C Chain C, Caspase-3 subunit p17 [Homo sapiens] &gt;pdb|7RN8|A Chain A, Caspase-3 subunit p17 [Homo sapiens] &gt;pdb|7RN8|C Chain C, Caspase-3 subunit p17 [Homo sapiens] &gt;pdb|7RN9|A Chain A, Caspase-3 subunit p17 [Homo sapiens] &gt;pdb|7RN9|C Chain C, Caspase-3 subunit p17 [Homo sapiens] &gt;pdb|7RNA|A Chain A, Caspase-3 subunit p17 [Homo sapiens] &gt;pdb|7RNA|C Chain C, Caspase-3 subunit p17 [Homo sapiens] &gt;pdb|7RNB|A Chain A, Caspase-3 subunit p17 [Homo sapiens] &gt;pdb|7RNB|C Chain C, Caspase-3 subunit p17 [Homo sapiens] &gt;pdb|7RNC|A Chain A, Caspase-3 subunit p17 [Homo sapiens] &gt;pdb|7RNC|C Chain C, Caspase-3 subunit p17 [Homo sapiens] &gt;pdb|7RND|A Chain A, Caspase-3 subunit p17 [Homo sapiens] &gt;pdb|7RND|C Chain C, Caspase-3 subunit p17 [Homo sapiens] &gt;pdb|7RNE|A Chain A, Caspase-3 subunit p17 [Homo sapiens] &gt;pdb|7RNE|C Chain C, Caspase-3 subunit p17 [Homo sapiens] &gt;pdb|7RNF|A Chain A, Caspase-3 subunit p17 [Homo sapiens] &gt;pdb|7RNF|C Chain C, Caspase-3 subunit p17 [Homo sapiens] &gt;pdb|7RNG|A Chain A, Caspase-3 subunit p17 [Homo sapiens] &gt;pdb|7RNG|C Chain C, Caspase-3 subunit p17 [Homo sapiens]</Hit_def>
+  <Hit_accession>7RN7_A</Hit_accession>
+  <Hit_len>141</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.077</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>2.65434e-10</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>387</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>DALKLTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIR--SACDRSLVRDSLVVFILSHGFEEAVYASNSIAMKITDIEDLL----CSYDTLYYKPKLLIIQACQ</Hsp_qseq>
+      <Hsp_hseq>NSYKMDYPEMGLCIIINNKNFHKSTG-----------MTSRSGTDVDAANLRETFRNLKYEVRNKNDLTREEIVELMRDVSKEDHS-KRSSFVCVLLSHGEEGIIFGTNG-PVDLKKITNFFRGDRCR--SLTGKPKLFIIQACR</Hsp_hseq>
+      <Hsp_midline>++ K+     G+ +IIN + FH++             +  R GTDVD   L E F ++ Y V   +++    I+E +R  S  D S  R S V  +LSHG E  ++ +N   + +  I +      C   +L  KPKL IIQAC+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>95</Hit_num>
+  <Hit_id>pdb|4DCO|A</Hit_id>
+  <Hit_def>Chain A, Caspase-3 subunit p17 [Homo sapiens] &gt;pdb|4DCO|D Chain D, Caspase-3 subunit p17 [Homo sapiens]</Hit_def>
+  <Hit_accession>4DCO_A</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.077</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>3.02568e-10</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>387</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>DALKLTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIR--SACDRSLVRDSLVVFILSHGFEEAVYASNSIAMKITDIEDLL----CSYDTLYYKPKLLIIQACQ</Hsp_qseq>
+      <Hsp_hseq>NSYKMDYPEMGLCIIINNKNFHKSTG-----------MTSRSGTDVDAANLRETFRNLKYEVRNKNDLTREEIVELMRDVSKEDHS-KRSSFVCVLLSHGEEGIIFGTNG-PVDLKKITNFFRGDRCR--SLTGKPKLFIIQACR</Hsp_hseq>
+      <Hsp_midline>++ K+     G+ +IIN + FH++             +  R GTDVD   L E F ++ Y V   +++    I+E +R  S  D S  R S V  +LSHG E  ++ +N   + +  I +      C   +L  KPKL IIQAC+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>96</Hit_num>
+  <Hit_id>pdb|1GFW|A</Hit_id>
+  <Hit_def>Chain A, CASPASE-3 (APOPAIN, P20) [Homo sapiens] &gt;pdb|1PAU|A Chain A, APOPAIN [Homo sapiens] &gt;pdb|1RE1|A Chain A, Caspase-3 [Homo sapiens] &gt;pdb|1RHJ|A Chain A, Caspase-3 [Homo sapiens] &gt;pdb|1RHJ|C Chain C, Caspase-3 [Homo sapiens] &gt;pdb|1RHK|A Chain A, Caspase-3 [Homo sapiens] &gt;pdb|1RHM|A Chain A, CASP-3 [Homo sapiens] &gt;pdb|1RHM|C Chain C, CASP-3 [Homo sapiens] &gt;pdb|1RHQ|A Chain A, Caspase-3 [Homo sapiens] &gt;pdb|1RHQ|D Chain D, Caspase-3 [Homo sapiens] &gt;pdb|1RHR|A Chain A, Caspase-3 [Homo sapiens] &gt;pdb|1RHU|A Chain A, Caspase-3 [Homo sapiens] &gt;pdb|2C1E|A Chain A, CASPASE-3 SUBUNIT P17 [Homo sapiens] &gt;pdb|2C2K|A Chain A, CASPASE-3 SUBUNIT P17 [Homo sapiens] &gt;pdb|2C2M|A Chain A, CASPASE-3 SUBUNIT P17 [Homo sapiens] &gt;pdb|2C2O|A Chain A, CASPASE-3 SUBUNIT P17 [Homo sapiens] &gt;pdb|2CDR|A Chain A, CASPASE-3 SUBUNIT P17 [Homo sapiens] &gt;pdb|2CJX|A Chain A, Caspase-3 [Homo sapiens] &gt;pdb|2CJY|A Chain A, Caspase-3 [Homo sapiens] &gt;pdb|2CNK|A Chain A, CASPASE-3 P17 SUBUNIT [Homo sapiens] &gt;pdb|2CNL|A Chain A, CASPASE-3 SUBUNIT P17 [Homo sapiens] &gt;pdb|2CNN|A Chain A, Caspase-3 [Homo sapiens] &gt;pdb|2CNO|A Chain A, Caspase-3 [Homo sapiens] &gt;pdb|3EDQ|A Chain A, Caspase-3 [Homo sapiens] &gt;pdb|3EDQ|C Chain C, Caspase-3 [Homo sapiens] &gt;pdb|3GJQ|A Chain A, Caspase-3 subunit p17 [Homo sapiens] &gt;pdb|3GJQ|C Chain C, Caspase-3 subunit p17 [Homo sapiens] &gt;pdb|3GJR|A Chain A, Caspase-3 subunit p17 [Homo sapiens] &gt;pdb|3GJR|C Chain C, Caspase-3 subunit p17 [Homo sapiens] &gt;pdb|3GJS|A Chain A, Caspase-3 subunit p17 [Homo sapiens] &gt;pdb|3GJS|C Chain C, Caspase-3 subunit p17 [Homo sapiens] &gt;pdb|3GJT|A Chain A, Caspase-3 subunit p17 [Homo sapiens] &gt;pdb|3GJT|C Chain C, Caspase-3 subunit p17 [Homo sapiens] &gt;pdb|3KJF|A Chain A, Caspase-3 [Homo sapiens] &gt;pdb|7USO|A Chain A, Caspase-3 subunit p17 [Homo sapiens] &gt;pdb|7USO|C Chain C, Caspase-3 subunit p17 [Homo sapiens] &gt;pdb|7USP|A Chain A, Caspase-3 subunit p17 [Homo sapiens] &gt;pdb|7USP|C Chain C, Caspase-3 subunit p17 [Homo sapiens] &gt;pdb|7USQ|A Chain A, Caspase-3 subunit p17 [Homo sapiens] &gt;pdb|7USQ|C Chain C, Caspase-3 subunit p17 [Homo sapiens]</Hit_def>
+  <Hit_accession>1GFW_A</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.6918</Hsp_bit-score>
+      <Hsp_score>143</Hsp_score>
+      <Hsp_evalue>3.73995e-10</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>387</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>DALKLTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIR--SACDRSLVRDSLVVFILSHGFEEAVYASNSIAMKITDIEDLL----CSYDTLYYKPKLLIIQACQ</Hsp_qseq>
+      <Hsp_hseq>NSYKMDYPEMGLCIIINNKNFHKSTG-----------MTSRSGTDVDAANLRETFRNLKYEVRNKNDLTREEIVELMRDVSKEDHS-KRSSFVCVLLSHGEEGIIFGTNG-PVDLKKITNFFRGDRCR--SLTGKPKLFIIQACR</Hsp_hseq>
+      <Hsp_midline>++ K+     G+ +IIN + FH++             +  R GTDVD   L E F ++ Y V   +++    I+E +R  S  D S  R S V  +LSHG E  ++ +N   + +  I +      C   +L  KPKL IIQAC+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>97</Hit_num>
+  <Hit_id>pdb|4DCJ|A</Hit_id>
+  <Hit_def>Chain A, Caspase-3 subunit p17 [Homo sapiens] &gt;pdb|4DCJ|D Chain D, Caspase-3 subunit p17 [Homo sapiens]</Hit_def>
+  <Hit_accession>4DCJ_A</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.6918</Hsp_bit-score>
+      <Hsp_score>143</Hsp_score>
+      <Hsp_evalue>4.00084e-10</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>387</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>DALKLTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIR--SACDRSLVRDSLVVFILSHGFEEAVYASNSIA--MKITDI-EDLLCSYDTLYYKPKLLIIQACQ</Hsp_qseq>
+      <Hsp_hseq>NSYKMDYPEMGLCIIINNKNFHKSTG-----------MTSRSGTDVDAANLRETFRNLKYEVRNKNDLTREEIVELMRDVSKEDHS-KRSSFVCVLLSHGEEGIIFGTNGPVDLKKITNFFRGDRCR--SLTGKPKLFIIQACR</Hsp_hseq>
+      <Hsp_midline>++ K+     G+ +IIN + FH++             +  R GTDVD   L E F ++ Y V   +++    I+E +R  S  D S  R S V  +LSHG E  ++ +N      KIT+      C   +L  KPKL IIQAC+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>98</Hit_num>
+  <Hit_id>pdb|6BFL|A</Hit_id>
+  <Hit_def>Chain A, Caspase-3 [Homo sapiens]</Hit_def>
+  <Hit_accession>6BFL_A</Hit_accession>
+  <Hit_len>175</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.077</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>4.30427e-10</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>387</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>164</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>DALKLTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIR--SACDRSLVRDSLVVFILSHGFEEAVYASNSIA--MKITDI-EDLLCSYDTLYYKPKLLIIQACQ</Hsp_qseq>
+      <Hsp_hseq>NSYKMDYPEMGLCIIINNKNFHKSTG-----------MTSRSGTDVDAANLRETFRNLKYEVRNKNDLTREEIVELMRDVSKEDHS-KRSSFVCVLLSHGEEGIIFGTNGPVDLKKITNFFRGDRCR--SLTGKPKLFIIQACR</Hsp_hseq>
+      <Hsp_midline>++ K+     G+ +IIN + FH++             +  R GTDVD   L E F ++ Y V   +++    I+E +R  S  D S  R S V  +LSHG E  ++ +N      KIT+      C   +L  KPKL IIQAC+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>99</Hit_num>
+  <Hit_id>pdb|5IC4|A</Hit_id>
+  <Hit_def>Chain A, Caspase-3 subunit p17 [Homo sapiens] &gt;pdb|5IC4|C Chain C, Caspase-3 subunit p17 [Homo sapiens] &gt;pdb|5IC4|E Chain E, Caspase-3 subunit p17 [Homo sapiens] &gt;pdb|5IC4|G Chain G, Caspase-3 subunit p17 [Homo sapiens] &gt;pdb|6BFJ|A Chain A, Caspase-3 [Homo sapiens] &gt;pdb|6BFK|A Chain A, Caspase-3 [Homo sapiens] &gt;pdb|6BFK|B Chain B, Caspase-3 [Homo sapiens] &gt;pdb|6BFO|A Chain A, Caspase-3 [Homo sapiens] &gt;pdb|6CKZ|A Chain A, Caspase-3 subunit p17 [Homo sapiens] &gt;pdb|6CL0|A Chain A, Caspase-3 subunit p17 [Homo sapiens] &gt;pdb|6X8I|A Chain A, Caspase-3 [Homo sapiens] &gt;pdb|6X8I|B Chain B, Caspase-3 [Homo sapiens] &gt;pdb|6X8K|A Chain A, Caspase-3 [Homo sapiens] &gt;pdb|6X8K|B Chain B, Caspase-3 [Homo sapiens]</Hit_def>
+  <Hit_accession>5IC4_A</Hit_accession>
+  <Hit_len>175</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.077</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>5.06285e-10</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>387</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>164</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>DALKLTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIR--SACDRSLVRDSLVVFILSHGFEEAVYASNSIA--MKITDI-EDLLCSYDTLYYKPKLLIIQACQ</Hsp_qseq>
+      <Hsp_hseq>NSYKMDYPEMGLCIIINNKNFHKSTG-----------MTSRSGTDVDAANLRETFRNLKYEVRNKNDLTREEIVELMRDVSKEDHS-KRSSFVCVLLSHGEEGIIFGTNGPVDLKKITNFFRGDRCR--SLTGKPKLFIIQACR</Hsp_hseq>
+      <Hsp_midline>++ K+     G+ +IIN + FH++             +  R GTDVD   L E F ++ Y V   +++    I+E +R  S  D S  R S V  +LSHG E  ++ +N      KIT+      C   +L  KPKL IIQAC+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>100</Hit_num>
+  <Hit_id>pdb|6BHA|A</Hit_id>
+  <Hit_def>Chain A, Caspase-3 [Homo sapiens]</Hit_def>
+  <Hit_accession>6BHA_A</Hit_accession>
+  <Hit_len>175</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.077</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>5.20997e-10</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>387</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>164</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>DALKLTRENAGIALIINQQKFHRNVSRDNMKFLSPDPLRRRDGTDVDKERLIEVFSSMGYNVEAYDNVDHMGIIERIR--SACDRSLVRDSLVVFILSHGFEEAVYASNSIA--MKITDI-EDLLCSYDTLYYKPKLLIIQACQ</Hsp_qseq>
+      <Hsp_hseq>NSYKMDYPEMGLCIIINNKNFHKSTG-----------MTSRSGTDVDAANLRETFRNLKYEVRNKNDLTREEIVELMRDVSKEDHS-KRSSFVCVLLSHGEEGIIFGTNGPVDLKKITNFFRGDRCR--SLVGKPKLFIIQACR</Hsp_hseq>
+      <Hsp_midline>++ K+     G+ +IIN + FH++             +  R GTDVD   L E F ++ Y V   +++    I+E +R  S  D S  R S V  +LSHG E  ++ +N      KIT+      C   +L  KPKL IIQAC+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>159102</Statistics_db-num>
+      <Statistics_db-len>44425614</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
