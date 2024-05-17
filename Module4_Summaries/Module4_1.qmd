@@ -1,0 +1,49 @@
+---
+title: "Module 4 - Statisitical Computing"
+format: html
+editor: visual
+number-sections: true
+toc: true
+---
+
+# Setting up R projects
+
+It makes sense to always follow the same structure, as this makes it a lot easier to reuse scripts:
+
+-   Have the project in a folder. Inside this folder have *at least* these two subfolders: **R_scripts** and **Data** where the scripts and the data respectively are stored.
+
+A new project can be created through the Project Button at the top right corner. Or through the Project Button at the top left. There it is also possible to switch between different projects. Take care not to create a Project inside another Project...
+
+![](images/clipboard-61778583.png)
+
+It is possible to choose an exiting folder as the project folder or set up a new one or download a project from git.
+
+![](images/clipboard-624743721.png)
+
+### Rprofile file
+
+Options for the Project can be set in the `.RProfile` file:
+
+-   Open a Textfile in the project
+
+-   Save it as `.RProfile` which will turn it into an R script that runs automatically when my Project is started
+
+-   Things that can be changed include e.g. the appearance of the prompt `>` in the Console. or the prompt `+` which tells me code is missing, into something more descriptive
+
+    `options(prompt='Course_R_Exercises: ')options(continue='tell me more: ')`
+
+# Package managers
+
+One good Package manager is `pacman`.
+
+For installing packages through the script:
+
+`install.packages("package_name")`
+
+Try and remember to check ca. once a week whether all packages are still up to date, otherwise update via the `Update` button in the Package manager.
+
+![](images/clipboard-3038655708.png)
+
+pacman allows to check whether required packages are installed. If not, it attempts to install and then load them. If they are installed they will simply be loaded
+
+`pacman::p_load(wrappedtools, tidyverse)`
